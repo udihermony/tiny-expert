@@ -102,7 +102,7 @@ body {
 
 .search-input {
   width: 100%;
-  padding: 12px 16px 12px 40px;
+  padding: 12px 70px 12px 40px;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: var(--radius);
@@ -151,6 +151,48 @@ body {
 }
 
 .clear-btn.visible { display: flex; }
+
+/* ── Send Button ── */
+.send-btn {
+  position: absolute;
+  right: 38px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: var(--accent-dim);
+  border: none;
+  color: var(--text);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 14px;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s;
+}
+
+.send-btn.visible { display: flex; }
+.send-btn:active { background: var(--accent); }
+
+/* ── Eject Button ── */
+.ai-eject-btn {
+  font-size: 10px;
+  color: var(--text-muted);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 2px 8px;
+  cursor: pointer;
+  margin-left: auto;
+  font-family: var(--font-mono);
+  transition: all 0.2s;
+}
+
+.ai-eject-btn:active {
+  border-color: var(--warning);
+  color: var(--warning);
+}
 
 /* ── Category Tabs ── */
 .categories {
@@ -392,6 +434,157 @@ body {
   margin: 0 auto;
 }
 
+/* ── AI Toggle ── */
+.ai-toggle-wrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.ai-toggle-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.ai-toggle {
+  position: relative;
+  width: 40px;
+  height: 22px;
+  background: var(--surface-3);
+  border-radius: 11px;
+  cursor: pointer;
+  transition: background 0.2s;
+  border: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.ai-toggle.active {
+  background: var(--accent-dim);
+  border-color: var(--accent);
+}
+
+.ai-toggle::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  background: var(--text-dim);
+  border-radius: 50%;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.ai-toggle.active::after {
+  transform: translateX(18px);
+  background: var(--accent);
+}
+
+/* ── AI Status ── */
+.ai-status {
+  font-size: 11px;
+  color: var(--text-muted);
+  padding: 6px 20px;
+  border-bottom: 1px solid var(--border);
+  display: none;
+}
+
+.ai-status.visible { display: block; }
+
+.ai-status-progress {
+  height: 2px;
+  background: var(--surface-3);
+  border-radius: 1px;
+  margin-top: 4px;
+  overflow: hidden;
+}
+
+.ai-status-progress-bar {
+  height: 100%;
+  background: var(--accent);
+  border-radius: 1px;
+  transition: width 0.3s;
+  width: 0%;
+}
+
+/* ── AI Answer Panel ── */
+.ai-answer-panel {
+  background: var(--surface);
+  border: 1px solid var(--accent-dim);
+  border-radius: var(--radius);
+  margin: 0 16px 10px;
+  overflow: hidden;
+  display: none;
+}
+
+.ai-answer-panel.visible { display: block; }
+
+.ai-answer-header {
+  padding: 10px 14px;
+  font-size: 11px;
+  color: var(--accent);
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.ai-generating-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--accent);
+  border-radius: 50%;
+  animation: pulse 1s infinite;
+  display: none;
+}
+
+.ai-generating-dot.active { display: inline-block; }
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
+.ai-answer-body {
+  padding: 14px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--text);
+  white-space: pre-wrap;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.ai-answer-body .ai-warning {
+  margin-top: 10px;
+  padding: 8px 10px;
+  background: var(--warning-bg);
+  border-left: 3px solid var(--warning);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  font-size: 12px;
+  color: var(--warning);
+}
+
+.ai-debug {
+  padding: 6px 14px 10px;
+  font-size: 10px;
+  color: var(--text-muted);
+  cursor: pointer;
+  border-top: 1px solid var(--border);
+}
+
+.ai-debug-details {
+  display: none;
+  margin-top: 4px;
+}
+
+.ai-debug.open .ai-debug-details { display: block; }
+
 /* ── Offline Badge ── */
 .offline-badge {
   position: fixed;
@@ -442,15 +635,24 @@ body {
   <div class="header-top">
     <div class="logo">🧭</div>
     <div class="app-title">Tiny Expert</div>
-    <div class="app-subtitle">Offline Survival</div>
+    <div class="ai-toggle-wrap">
+      <span class="ai-toggle-label">AI Answer</span>
+      <div class="ai-toggle" id="aiToggle"></div>
+    </div>
   </div>
   <div class="search-wrap">
     <span class="search-icon">⌕</span>
     <input type="text" class="search-input" id="searchInput" placeholder="Ask a survival question..." autocomplete="off" />
-    <button class="clear-btn" id="clearBtn" onclick="clearSearch()">✕</button>
+    <button class="send-btn" id="sendBtn" title="Send to AI">▶</button>
+    <button class="clear-btn" id="clearBtn">✕</button>
   </div>
 </div>
 
+<div class="ai-status" id="aiStatus">
+  <span id="aiStatusText">Loading model...</span>
+  <button class="ai-eject-btn" id="aiEjectBtn" style="display:none">eject</button>
+  <div class="ai-status-progress"><div class="ai-status-progress-bar" id="aiProgressBar"></div></div>
+</div>
 <div class="categories" id="categories"></div>
 <div class="results" id="results"></div>
 
@@ -459,7 +661,7 @@ body {
   Works offline · 20 cards loaded
 </div>
 
-<script>
+<script type="module">
 // ─────────────────────────────────────────
 // KNOWLEDGE CARDS DATABASE
 // ─────────────────────────────────────────
@@ -916,8 +1118,11 @@ let expandedCard = null;
 function renderCategories() {
   const el = document.getElementById('categories');
   el.innerHTML = CATEGORIES.map(c =>
-    `<button class="cat-btn ${c.id === activeCategory ? 'active' : ''}" onclick="setCategory('${c.id}')">${c.icon} ${c.label}</button>`
+    `<button class="cat-btn ${c.id === activeCategory ? 'active' : ''}" data-cat="${c.id}">${c.icon} ${c.label}</button>`
   ).join('');
+  el.querySelectorAll('.cat-btn').forEach(btn => {
+    btn.addEventListener('click', () => setCategory(btn.dataset.cat));
+  });
 }
 
 function renderResults(cards) {
@@ -937,8 +1142,8 @@ function renderResults(cards) {
   const info = query ? `${cards.length} result${cards.length !== 1 ? 's' : ''}` : `${cards.length} cards`;
 
   el.innerHTML = `<div class="results-info">${info}</div>` + cards.map(card => `
-    <div class="card ${expandedCard === card.id ? 'expanded' : ''}" id="card-${card.id}">
-      <div class="card-header" onclick="toggleCard('${card.id}')">
+    <div class="card ${expandedCard === card.id ? 'expanded' : ''}" id="card-${card.id}" data-card-id="${card.id}">
+      <div class="card-header">
         <div class="card-icon">${card.icon}</div>
         <div class="card-meta">
           <div class="card-title">${card.title}</div>
@@ -962,6 +1167,13 @@ function renderResults(cards) {
       </div>
     </div>
   `).join('');
+
+  el.querySelectorAll('.card-header').forEach(header => {
+    header.addEventListener('click', () => {
+      const id = header.closest('.card').dataset.cardId;
+      toggleCard(id);
+    });
+  });
 }
 
 function toggleCard(id) {
@@ -991,15 +1203,237 @@ function refresh() {
 function clearSearch() {
   document.getElementById('searchInput').value = '';
   expandedCard = null;
+  hideAIAnswer();
   refresh();
   document.getElementById('searchInput').focus();
 }
 
-// ── Init ──
-document.getElementById('searchInput').addEventListener('input', () => {
+// ─────────────────────────────────────────
+// AI / WebLLM INTEGRATION
+// ─────────────────────────────────────────
+let aiEnabled = false;
+let aiEngine = null;
+let aiLoading = false;
+let aiReady = false;
+let aiAbort = false;
+
+const AI_MODEL = 'SmolLM2-360M-Instruct-q4f16_1-MLC';
+
+function updateSendBtn() {
+  const query = document.getElementById('searchInput').value.trim();
+  document.getElementById('sendBtn').classList.toggle('visible', aiEnabled && aiReady && query.length > 0);
+}
+
+function toggleAI() {
+  aiEnabled = !aiEnabled;
+  document.getElementById('aiToggle').classList.toggle('active', aiEnabled);
+
+  if (aiEnabled && !aiEngine && !aiLoading) {
+    loadModel();
+  }
+
+  if (!aiEnabled) {
+    hideAIAnswer();
+  }
+  updateSendBtn();
+}
+
+async function loadModel() {
+  aiLoading = true;
+  const statusEl = document.getElementById('aiStatus');
+  const statusText = document.getElementById('aiStatusText');
+  const progressBar = document.getElementById('aiProgressBar');
+  statusEl.classList.add('visible');
+  statusText.textContent = 'Loading AI model...';
+  progressBar.style.width = '0%';
+
+  const loadStart = performance.now();
+
+  try {
+    const { CreateMLCEngine } = await import('https://esm.run/@mlc-ai/web-llm');
+
+    aiEngine = await CreateMLCEngine(AI_MODEL, {
+      initProgressCallback: (report) => {
+        statusText.textContent = report.text || 'Loading AI model...';
+        if (report.progress !== undefined) {
+          progressBar.style.width = (report.progress * 100) + '%';
+        }
+      }
+    });
+
+    const loadTime = ((performance.now() - loadStart) / 1000).toFixed(1);
+    aiReady = true;
+    aiLoading = false;
+    statusText.textContent = `Model ready (${loadTime}s)`;
+    progressBar.style.width = '100%';
+    document.getElementById('aiEjectBtn').style.display = '';
+    updateSendBtn();
+  } catch (err) {
+    aiLoading = false;
+    statusText.textContent = 'Failed to load model: ' + err.message;
+    console.error('WebLLM load error:', err);
+  }
+}
+
+async function ejectModel() {
+  hideAIAnswer();
+  if (aiEngine) {
+    try { await aiEngine.unload(); } catch (e) {}
+    aiEngine = null;
+  }
+  aiReady = false;
+  aiLoading = false;
+  aiEnabled = false;
+  document.getElementById('aiToggle').classList.remove('active');
+  document.getElementById('aiEjectBtn').style.display = 'none';
+  const statusEl = document.getElementById('aiStatus');
+  const statusText = document.getElementById('aiStatusText');
+  statusText.textContent = 'Model ejected — memory freed';
+  document.getElementById('aiProgressBar').style.width = '0%';
+  setTimeout(() => { statusEl.classList.remove('visible'); }, 2000);
+  updateSendBtn();
+}
+
+function buildPrompt(query, cards) {
+  const cardsText = cards.slice(0, 3).map((card, i) => {
+    return `REFERENCE CARD ${i + 1}: ${card.title}\n${card.steps.join('\n')}\nWARNINGS: ${card.warnings.join(' ')}`;
+  }).join('\n\n');
+
+  return [
+    {
+      role: 'system',
+      content: 'You are a survival assistant. Answer the user\'s question using ONLY the information in the provided reference cards. Do not add any information not present in the cards. Be concise and direct. If the cards don\'t fully answer the question, say what you can and note what\'s missing. Always mention relevant warnings.'
+    },
+    {
+      role: 'user',
+      content: `QUESTION: ${query}\n\n${cardsText}\n\nGive a clear, concise answer based on these cards.`
+    }
+  ];
+}
+
+function showAIAnswer() {
+  let panel = document.getElementById('aiAnswerPanel');
+  if (!panel) {
+    const results = document.getElementById('results');
+    panel = document.createElement('div');
+    panel.id = 'aiAnswerPanel';
+    panel.className = 'ai-answer-panel';
+    panel.innerHTML = `
+      <div class="ai-answer-header">
+        <span>AI Answer</span>
+        <span class="ai-generating-dot" id="aiDot"></span>
+        <span id="aiHeaderStatus"></span>
+      </div>
+      <div class="ai-answer-body" id="aiAnswerBody"></div>
+      <div class="ai-debug" id="aiDebug" style="display:none">
+        <span>performance metrics ▸</span>
+        <div class="ai-debug-details" id="aiDebugDetails"></div>
+      </div>
+    `;
+    results.parentNode.insertBefore(panel, results);
+    document.getElementById('aiDebug').addEventListener('click', (e) => {
+      e.currentTarget.classList.toggle('open');
+    });
+  }
+  panel.classList.add('visible');
+  document.getElementById('aiAnswerBody').textContent = '';
+  document.getElementById('aiDot').classList.add('active');
+  document.getElementById('aiHeaderStatus').textContent = 'generating...';
+  document.getElementById('aiDebug').style.display = 'none';
+  return panel;
+}
+
+function hideAIAnswer() {
+  const panel = document.getElementById('aiAnswerPanel');
+  if (panel) panel.classList.remove('visible');
+  aiAbort = true;
+}
+
+async function generateAIAnswer(query, cards) {
+  if (!aiReady || !aiEnabled) return;
+  if (cards.length === 0) return;
+
+  aiAbort = false;
+  showAIAnswer();
+
+  const bodyEl = document.getElementById('aiAnswerBody');
+  const dotEl = document.getElementById('aiDot');
+  const headerStatus = document.getElementById('aiHeaderStatus');
+  const debugEl = document.getElementById('aiDebug');
+  const debugDetails = document.getElementById('aiDebugDetails');
+
+  const messages = buildPrompt(query, cards);
+  const genStart = performance.now();
+  let firstTokenTime = null;
+  let tokenCount = 0;
+  let fullResponse = '';
+
+  try {
+    const chunks = await aiEngine.chat.completions.create({
+      messages,
+      stream: true,
+      max_tokens: 300,
+      temperature: 0.3,
+    });
+
+    for await (const chunk of chunks) {
+      if (aiAbort) break;
+      const delta = chunk.choices[0]?.delta?.content || '';
+      if (delta) {
+        if (!firstTokenTime) firstTokenTime = performance.now();
+        tokenCount++;
+        fullResponse += delta;
+        bodyEl.textContent = fullResponse;
+      }
+    }
+  } catch (err) {
+    bodyEl.textContent = 'Error generating response: ' + err.message;
+    console.error('WebLLM generation error:', err);
+  }
+
+  const genEnd = performance.now();
+  dotEl.classList.remove('active');
+  headerStatus.textContent = '';
+
+  // Show debug metrics
+  if (tokenCount > 0) {
+    const ttft = firstTokenTime ? ((firstTokenTime - genStart) / 1000).toFixed(2) : '?';
+    const totalTime = ((genEnd - genStart) / 1000).toFixed(2);
+    const tps = (tokenCount / ((genEnd - genStart) / 1000)).toFixed(1);
+    debugDetails.textContent = `TTFT: ${ttft}s | Total: ${totalTime}s | Tokens: ${tokenCount} | Speed: ${tps} tok/s`;
+    debugEl.style.display = 'block';
+  }
+}
+
+// ─────────────────────────────────────────
+// SEARCH INPUT HANDLER
+// ─────────────────────────────────────────
+function handleSearch() {
   expandedCard = null;
   refresh();
+  updateSendBtn();
+}
+
+function sendToAI() {
+  const query = document.getElementById('searchInput').value.trim();
+  if (!query || !aiReady || !aiEnabled) return;
+  const cards = search(query, activeCategory);
+  if (cards.length > 0) {
+    generateAIAnswer(query, cards);
+  } else {
+    hideAIAnswer();
+  }
+}
+
+// ── Init ──
+document.getElementById('searchInput').addEventListener('input', handleSearch);
+document.getElementById('searchInput').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && aiEnabled && aiReady) sendToAI();
 });
+document.getElementById('clearBtn').addEventListener('click', clearSearch);
+document.getElementById('aiToggle').addEventListener('click', toggleAI);
+document.getElementById('sendBtn').addEventListener('click', sendToAI);
+document.getElementById('aiEjectBtn').addEventListener('click', ejectModel);
 
 renderCategories();
 refresh();
