@@ -1,0 +1,31 @@
+{
+  "id": "tools-improvised-fishhooks",
+  "title": "Making Improvised Fishhooks",
+  "icon": "🪝",
+  "category": "tools",
+  "brief": "Construct functional fishhooks from various available materials when commercial hooks aren't available.",
+  "tags": [
+    "fishing",
+    "hooks",
+    "improvised",
+    "metal",
+    "wood",
+    "bone"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Source materials: pins, needles, wire, small nails, metal pieces, wood, bone, thorns, or shells.",
+    "Step 2: For wooden hooks: cut hardwood piece 2.5 cm long, 6 mm diameter for the shank.",
+    "Step 3: Cut a notch in one end of the wooden shank to hold the point material.",
+    "Step 4: Insert point material (bone, wire, nail) into the notch securely.",
+    "Step 5: Tie the point firmly in place so it cannot move or fall out of position.",
+    "Step 6: For smaller hooks, scale down all materials proportionally.",
+    "Step 7: Alternative: make a gorge - sharp double-pointed stick notched in middle where line attaches."
+  ],
+  "warnings": [
+    "Ensure point is secure - losing the point means losing the entire hook and potentially fish.",
+    "Test hook strength before using with valuable bait or in critical fishing situations.",
+    "Gorge hooks are swallowed completely and work by lodging crosswise in fish's throat."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

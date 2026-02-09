@@ -1,0 +1,29 @@
+{
+  "id": "arctic-water-procurement",
+  "title": "Obtain and Prepare Water in Arctic Conditions",
+  "icon": "🧊",
+  "category": "water",
+  "brief": "Safely melt ice and snow for drinking water while conserving body heat and fuel.",
+  "tags": [
+    "water-procurement",
+    "ice-melting",
+    "snow-melting",
+    "arctic"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Use old sea ice (rounded corners, bluish color) as it has lost salinity over time.",
+    "Step 2: Melt ice rather than snow when possible - one cup ice yields more water than one cup snow.",
+    "Step 3: Completely melt ice or snow before putting in mouth - prevents internal cold injury.",
+    "Step 4: Start with small amount in container near fire, add more as it melts.",
+    "Step 5: Use body heat method: place snow in water bag between clothing layers for slow melting on the move.",
+    "Step 6: Keep melted water next to body to prevent refreezing.",
+    "Step 7: Don't fill canteen completely - allow sloshing to prevent freezing."
+  ],
+  "warnings": [
+    "Never try to melt ice or snow in your mouth - removes body heat and causes internal cold injuries.",
+    "Don't waste fuel melting ice/snow when other drinkable water sources available.",
+    "Avoid drinking lots of liquid before bed - reduces sleep and increases cold exposure."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

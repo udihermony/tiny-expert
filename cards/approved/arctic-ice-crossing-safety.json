@@ -1,0 +1,25 @@
+{
+  "id": "arctic-ice-crossing-safety",
+  "title": "Safe Crossing of Thin Ice",
+  "icon": "🧊",
+  "category": "navigation",
+  "brief": "How to safely cross thin ice by distributing your weight to prevent breaking through.",
+  "tags": [
+    "arctic",
+    "ice",
+    "winter",
+    "cold-weather"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Test ice thickness ahead of you with a pole or stick before putting full weight on it.",
+    "Step 2: Lie flat on your stomach to distribute your weight across the largest possible area.",
+    "Step 3: Crawl forward slowly, keeping your body spread out and movements deliberate.",
+    "Step 4: If ice begins to crack, immediately spread arms and legs wider and move backwards to thicker ice."
+  ],
+  "warnings": [
+    "Never walk upright on thin ice - concentrated weight will cause breakthrough.",
+    "Falling through ice in arctic conditions can be fatal within minutes due to cold shock and hypothermia."
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

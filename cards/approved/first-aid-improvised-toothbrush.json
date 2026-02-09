@@ -1,0 +1,26 @@
+{
+  "id": "first-aid-improvised-toothbrush",
+  "title": "Make a Chewing Stick Toothbrush",
+  "icon": "🦷",
+  "category": "first-aid",
+  "brief": "Create a toothbrush from natural materials to maintain oral hygiene.",
+  "tags": [
+    "dental-care",
+    "improvised-tools",
+    "hygiene"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Find a twig about 20 centimeters long and 1 centimeter wide.",
+    "Step 2: Chew one end of the stick to separate the fibers into brush-like texture.",
+    "Step 3: Brush teeth thoroughly with the frayed end.",
+    "Step 4: Use small amounts of sand, baking soda, salt, or soap as toothpaste substitute.",
+    "Step 5: Rinse mouth with water, salt water, or willow bark tea.",
+    "Step 6: Floss teeth with string or plant fiber."
+  ],
+  "warnings": [
+    "Choose non-toxic wood - avoid unknown plants that might be poisonous.",
+    "Be gentle to avoid damaging gums with rough materials."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 4)"
+}

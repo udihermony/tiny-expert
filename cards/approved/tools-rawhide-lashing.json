@@ -1,0 +1,30 @@
+{
+  "id": "tools-rawhide-lashing",
+  "title": "Make Rawhide Lashing",
+  "icon": "🐄",
+  "category": "tools",
+  "brief": "Create strong rawhide strips from animal skins for large lashing jobs.",
+  "tags": [
+    "lashing",
+    "animal-skins",
+    "rawhide",
+    "cutting-technique"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: After skinning animal, remove all excess fat and meat pieces from the skin.",
+    "Step 2: Dry the skin completely without stretching, ensuring no moisture-trapping folds.",
+    "Step 3: Hair removal is not necessary for lashing purposes.",
+    "Step 4: While skin is dry, cut strips about 6 millimeters wide.",
+    "Step 5: Start from center of hide and make one continuous circular cut, working clockwise to outer edge.",
+    "Step 6: Soak the rawhide strips for 2 to 4 hours until soft.",
+    "Step 7: Use while wet, stretching as much as possible during application.",
+    "Step 8: Allow to dry completely - it will shrink and become very strong."
+  ],
+  "warnings": [
+    "Ensure skin is completely dry before cutting to prevent spoilage.",
+    "Work quickly once soaked as rawhide becomes harder to work as it dries.",
+    "Stretch rawhide to maximum during application for strongest bond when dry."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

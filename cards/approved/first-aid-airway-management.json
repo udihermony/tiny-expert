@@ -1,0 +1,30 @@
+{
+  "id": "first-aid-airway-management",
+  "title": "Open and Maintain Airway",
+  "icon": "🫁",
+  "category": "first-aid",
+  "brief": "Restore breathing by clearing airway obstructions and positioning the victim properly.",
+  "tags": [
+    "emergency",
+    "breathing",
+    "unconscious-victim",
+    "life-saving"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Check for partial or complete airway obstruction - if victim can cough/speak, let them clear naturally.",
+    "Step 2: If completely obstructed, perform abdominal thrusts until obstruction clears.",
+    "Step 3: Use finger to quickly sweep victim's mouth clear of foreign objects, teeth, sand.",
+    "Step 4: Use jaw thrust method - grasp angles of lower jaw with both hands and lift forward.",
+    "Step 5: Rest elbows on surface for stability, open lower lip gently with thumb.",
+    "Step 6: Pinch nose closed and blow two complete breaths into victim's lungs.",
+    "Step 7: Check for chest rise/fall, listen for escaping air, feel air flow on cheek.",
+    "Step 8: If no spontaneous breathing, continue mouth-to-mouth resuscitation.",
+    "Step 9: Check mouth periodically for vomit and clear as needed."
+  ],
+  "warnings": [
+    "Never perform CPR until major bleeding is controlled first.",
+    "Victim may vomit during resuscitation - be prepared to clear airway immediately."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 4)"
+}

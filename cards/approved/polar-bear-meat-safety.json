@@ -1,0 +1,27 @@
+{
+  "id": "polar-bear-meat-safety",
+  "title": "Handle Polar Bear Meat Safely",
+  "icon": "🐻‍❄️",
+  "category": "food",
+  "brief": "Process polar bear meat safely while avoiding toxic liver and dangerous hunting situations.",
+  "tags": [
+    "polar-bear",
+    "meat-processing",
+    "liver-toxicity",
+    "dangerous-game"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: If hunting polar bear, aim for brain - bullets elsewhere rarely kill them.",
+    "Step 2: Always cook polar bear meat thoroughly before eating.",
+    "Step 3: Remove and discard liver immediately - never eat polar bear liver.",
+    "Step 4: Process meat while still warm if possible."
+  ],
+  "warnings": [
+    "Polar bears are extremely dangerous - most dangerous of all bears with tireless hunting ability, good sight, and extraordinary sense of smell.",
+    "Polar bear liver contains toxic concentration of vitamin A that can be fatal.",
+    "Avoid polar bears whenever possible - approach only if absolutely necessary for survival.",
+    "Where there are seals, there are usually polar bears - they have stalked and killed seal hunters."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

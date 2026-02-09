@@ -1,0 +1,29 @@
+{
+  "id": "biological-water-procurement",
+  "title": "Water Procurement in Biological Contaminated Areas",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Priority order and methods for obtaining safe water when biological agents are present.",
+  "tags": [
+    "biological",
+    "water",
+    "decontamination",
+    "boiling",
+    "emergency"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: First choice - water in sealed containers. Wash container with soap and water or boil 10 minutes before opening.",
+    "Step 2: Second choice (emergency only) - spring water. Boil for at least 10 minutes before drinking.",
+    "Step 3: Last choice (extreme emergency) - standing water. Boil as long as practical to kill organisms.",
+    "Step 4: Keep water covered while boiling to prevent airborne pathogen contamination.",
+    "Step 5: Filter boiled standing water through cloth to remove dead vectors.",
+    "Step 6: Use water purification tablets in all cases as additional safety measure."
+  ],
+  "warnings": [
+    "Standing water allows easy survival of vectors and germs",
+    "No guarantee that any treatment makes contaminated water completely safe",
+    "Vectors in standing water can survive and transmit disease even after some treatment"
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

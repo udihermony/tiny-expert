@@ -1,0 +1,29 @@
+{
+  "id": "chemical-water-safety-signs",
+  "title": "Identifying Contaminated Water Sources in Chemical Areas",
+  "icon": "⚠️",
+  "category": "water",
+  "brief": "How to recognize signs of chemical contamination in water sources before use.",
+  "tags": [
+    "chemical",
+    "water",
+    "contamination",
+    "detection",
+    "safety"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Check for foreign odors: garlic, mustard, geranium, or bitter almond smells.",
+    "Step 2: Look for oily spots on water surface or nearby ground areas.",
+    "Step 3: Observe for presence of dead fish or animals in or near water source.",
+    "Step 4: If any contamination signs are present, do not use the water under any circumstances.",
+    "Step 5: Prefer sealed containers, then closed sources like underground pipes.",
+    "Step 6: Use rainwater or snow only if no evidence of contamination exists."
+  ],
+  "warnings": [
+    "If contamination signs are present, water is unsafe regardless of treatment",
+    "Chemical agents can make water lethal even in small amounts",
+    "Slow-moving streams may still be contaminated - always check for signs first"
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

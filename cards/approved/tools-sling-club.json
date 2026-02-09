@@ -1,0 +1,26 @@
+{
+  "id": "tools-sling-club",
+  "title": "Make a Sling Club",
+  "icon": "🪃",
+  "category": "tools",
+  "brief": "Create a sling club with a weight hanging 8-10cm from the handle for extended reach and multiplied force.",
+  "tags": [
+    "improvised-weapons",
+    "flexible-lashing",
+    "extended-reach"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find a suitable handle and a weight (stone or other heavy object).",
+    "Step 2: Create strong, flexible lashing material from available cordage or plant fibers.",
+    "Step 3: Attach the weight so it hangs 8 to 10 centimeters from the handle end.",
+    "Step 4: Ensure the lashing is strong enough to withstand the force of swinging.",
+    "Step 5: Practice the swinging motion to get comfortable with the extended reach."
+  ],
+  "warnings": [
+    "The flexible weight can strike you if not handled properly - practice carefully.",
+    "Ensure lashing is extremely strong as the weight will experience high forces.",
+    "Be aware of the extended reach - you need more space to use this effectively."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

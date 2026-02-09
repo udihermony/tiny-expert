@@ -1,0 +1,29 @@
+{
+  "id": "first-aid-heat-exhaustion",
+  "title": "Treat Heat Exhaustion",
+  "icon": "🥵",
+  "category": "first-aid",
+  "brief": "Treat heat exhaustion caused by large loss of body water and salt.",
+  "tags": [
+    "heat-injury",
+    "desert",
+    "dehydration",
+    "cooling"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Recognize symptoms: headache, mental confusion, irritability, excessive sweating, weakness, dizziness, cramps, pale/moist/cold skin.",
+    "Step 2: Immediately move patient to shade.",
+    "Step 3: Have patient lie on stretcher or elevated surface about 45 centimeters off the ground.",
+    "Step 4: Loosen the patient's clothing.",
+    "Step 5: Sprinkle patient with water and fan to increase cooling.",
+    "Step 6: Give patient small amounts of water every 3 minutes.",
+    "Step 7: Ensure patient stays quiet and rests completely."
+  ],
+  "warnings": [
+    "Heat exhaustion can progress to life-threatening heat stroke if not treated promptly.",
+    "Do not give large amounts of water at once - small frequent sips are better.",
+    "Monitor patient closely for worsening symptoms."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

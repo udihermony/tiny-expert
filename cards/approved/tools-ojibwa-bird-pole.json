@@ -1,0 +1,29 @@
+{
+  "id": "tools-ojibwa-bird-pole",
+  "title": "Building an Ojibwa Bird Pole Snare",
+  "icon": "🪶",
+  "category": "tools",
+  "brief": "Construct a traditional Native American bird trap using a weighted perch system.",
+  "tags": [
+    "birds",
+    "native-american",
+    "perch-trap",
+    "traditional"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Cut a pole 1.8-2.1 meters long, removing all limbs and foliage (avoid resinous wood like pine).",
+    "Step 2: Sharpen the upper end to a point and drill a small hole 5-7.5 cm from the top.",
+    "Step 3: Cut a perch stick 10-15 cm long, shaping one end to almost fit in the hole.",
+    "Step 4: Plant the pole in the ground with pointed end up, in open area near feeding/watering sites.",
+    "Step 5: Tie a weight equal to target bird species weight to cordage, pass free end through hole.",
+    "Step 6: Tie slip noose covering the perch, tie overhand knot in cordage, position perch against hole.",
+    "Step 7: Adjust tension so overhand knot holds perch in position, spread noose over perch on both sides."
+  ],
+  "warnings": [
+    "Weight must match bird species - too heavy will cut off bird's feet allowing escape.",
+    "Place away from tall trees in relatively open areas for best results.",
+    "Requires precise adjustment of weight and tension to function properly."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

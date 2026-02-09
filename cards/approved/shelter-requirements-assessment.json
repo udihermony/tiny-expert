@@ -1,0 +1,29 @@
+{
+  "id": "shelter-requirements-assessment",
+  "title": "Essential Shelter Site Requirements",
+  "icon": "🏠",
+  "category": "shelter",
+  "brief": "Key factors to evaluate when selecting a survival shelter location.",
+  "tags": [
+    "site-assessment",
+    "materials",
+    "safety",
+    "tactical"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Ensure site contains materials needed for your shelter type.",
+    "Verify area is large enough and level enough to lie down comfortably.",
+    "Check that location provides concealment from enemy observation.",
+    "Confirm site has camouflaged escape routes available.",
+    "Assess if location is suitable for signaling if necessary.",
+    "Ensure protection from wild animals and falling rocks/trees.",
+    "Verify area is free from insects, reptiles, and poisonous plants."
+  ],
+  "warnings": [
+    "Never ignore tactical situation or safety for comfort",
+    "Shelter must be small enough to contain body heat in cold climates",
+    "Most common error is making shelter too large"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 5)"
+}

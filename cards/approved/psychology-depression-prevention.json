@@ -1,0 +1,28 @@
+{
+  "id": "psychology-depression-prevention",
+  "title": "Combat Depression and Maintain Will to Survive",
+  "icon": "🌅",
+  "category": "psychology",
+  "brief": "Prevent the shift from productive action to helplessness by maintaining hope and forward momentum.",
+  "tags": [
+    "depression-prevention",
+    "motivation",
+    "mental-health"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Allow brief moments of sadness when thinking of home, but set time limits (5-10 minutes).",
+    "Shift focus from 'there is nothing I can do' to 'what can I do right now.'",
+    "Set small, achievable daily goals like collecting 10 pieces of tinder.",
+    "Use thoughts of loved ones as motivation to try harder and survive another day.",
+    "Maintain physical activity even when feeling hopeless - movement combats depression.",
+    "Talk to team members about positive memories or future plans.",
+    "Celebrate small victories like successfully starting a fire or finding clean water."
+  ],
+  "warnings": [
+    "Depression can sap all energy and destroy the will to survive.",
+    "The cycle of frustration-anger-depression can be self-reinforcing if not broken.",
+    "Giving up mentally often precedes physical death in survival situations."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — US Department of the Army (Chapter 2)"
+}

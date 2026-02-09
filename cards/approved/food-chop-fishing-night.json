@@ -1,0 +1,25 @@
+{
+  "id": "food-chop-fishing-night",
+  "title": "Night Chop Fishing with Light",
+  "icon": "🎣",
+  "category": "food",
+  "brief": "Use artificial light to attract fish at night, then stun them with the back of a machete blade.",
+  "tags": [
+    "night-fishing",
+    "no-hooks",
+    "dense-fish-areas",
+    "machete"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find an area with good fish density at night.",
+    "Step 2: Use any available light source to attract fish to the surface.",
+    "Step 3: Strike fish with the back side (dull edge) of a machete or similar blade.",
+    "Step 4: Gather stunned fish immediately before they sink or float away."
+  ],
+  "warnings": [
+    "Never use the sharp edge of the blade as it will cut fish in half and you'll lose portions.",
+    "This method works best in areas with high fish concentration."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

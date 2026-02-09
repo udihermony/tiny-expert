@@ -1,0 +1,32 @@
+{
+  "id": "arctic-travel-safety",
+  "title": "Travel Safely in Arctic Conditions",
+  "icon": "🏔️",
+  "category": "navigation",
+  "brief": "Navigate arctic hazards including thin ice, whiteout conditions, and avalanche zones.",
+  "tags": [
+    "arctic-travel",
+    "ice-crossing",
+    "avalanche",
+    "whiteout",
+    "snow-bridge"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Never travel during blizzards or whiteout conditions - impossible to judge terrain.",
+    "Step 2: Cross thin ice by lying flat and crawling to distribute weight.",
+    "Step 3: Cross snow bridges at right angles, probe ahead with pole or ice axe for strength.",
+    "Step 4: Cross streams when water level is lowest - levels can vary 2-2.5 meters daily.",
+    "Step 5: Use snowshoes when snow is 30+ centimeters deep.",
+    "Step 6: Travel in early morning in avalanche-prone areas.",
+    "Step 7: Make camp early to allow time for proper shelter construction.",
+    "Step 8: Be aware that clear arctic air makes distance estimation difficult - you usually underestimate."
+  ],
+  "warnings": [
+    "Avoid snow-covered streams - snow insulates and may prevent ice formation over water.",
+    "Avoid cornices (overhanging snow piles on lee side of ridges) - they can break if stepped on.",
+    "Traveling on foot in deep snow without snowshoes/skis leaves obvious trail for pursuers.",
+    "Some frozen rivers may have soft, open areas making travel difficult or impossible."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

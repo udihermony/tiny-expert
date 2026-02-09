@@ -1,0 +1,29 @@
+{
+  "id": "first-aid-infected-wound-treatment",
+  "title": "Treating Infected Wounds",
+  "icon": "🦠",
+  "category": "first-aid",
+  "brief": "How to treat wound infections when antibiotics are not available.",
+  "tags": [
+    "infection",
+    "wound-care",
+    "drainage",
+    "compresses"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Place warm, moist compress directly on infected wound.",
+    "Change compress when it cools, maintaining warmth for total of 30 minutes.",
+    "Apply compresses 3-4 times daily.",
+    "Drain the wound by opening and gently probing with sterile instrument.",
+    "Dress and bandage the wound after drainage.",
+    "Drink large amounts of water to help fight infection.",
+    "Continue daily treatment until all signs of infection disappear."
+  ],
+  "warnings": [
+    "Signs of infection include pain, swelling, redness, increased temperature, and pus",
+    "Severe infections may require maggot therapy as last resort",
+    "Use only sterile instruments for probing infected wounds"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 4)"
+}

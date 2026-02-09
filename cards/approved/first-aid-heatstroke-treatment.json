@@ -1,0 +1,32 @@
+{
+  "id": "first-aid-heatstroke-treatment",
+  "title": "Emergency Heatstroke Treatment",
+  "icon": "🌡️",
+  "category": "first-aid",
+  "brief": "How to rapidly cool and treat heatstroke victims when body temperature exceeds 40.5°C (105°F).",
+  "tags": [
+    "heatstroke",
+    "cooling",
+    "emergency",
+    "heat-injury"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Cool victim as rapidly as possible by dipping in cool stream if available.",
+    "If no stream available, douse with urine, water, or apply cool wet compresses to neck, armpits, and crotch.",
+    "Wet the victim's head thoroughly for maximum heat loss through scalp.",
+    "Administer IV fluids and provide drinking fluids if conscious.",
+    "Fan the individual to increase cooling effect.",
+    "Be prepared for vomiting, diarrhea, struggling, shivering, and shouting during cooling.",
+    "Monitor for prolonged unconsciousness and potential cardiac arrest.",
+    "Be ready to perform CPR if needed.",
+    "Watch for rebound heatstroke within 48 hours."
+  ],
+  "warnings": [
+    "Heatstroke is life-threatening emergency requiring immediate cooling",
+    "Signs include swollen red face, red eyes, no sweating, unconsciousness",
+    "Victim may go into severe shock during treatment",
+    "Rebound heatstroke can occur within 48 hours"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 4)"
+}

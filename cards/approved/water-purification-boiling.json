@@ -1,0 +1,26 @@
+{
+  "id": "water-purification-boiling",
+  "title": "Purifying Water by Boiling",
+  "icon": "🔥",
+  "category": "water",
+  "brief": "Kill harmful organisms in water through proper boiling techniques.",
+  "tags": [
+    "water-purification",
+    "boiling",
+    "fire-required",
+    "altitude-considerations"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Bring water to a rolling boil.",
+    "Step 2: At sea level: boil for 1 minute minimum.",
+    "Step 3: At altitude: add 1 minute of boiling time for each additional 300 meters above sea level.",
+    "Step 4: Alternative method: boil for 10 minutes regardless of altitude."
+  ],
+  "warnings": [
+    "Ensure water reaches a full rolling boil, not just simmering.",
+    "Allow water to cool before drinking to prevent burns.",
+    "Boiling only kills organisms - it does not remove chemical contamination."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

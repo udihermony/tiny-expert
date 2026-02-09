@@ -1,0 +1,27 @@
+{
+  "id": "food-game-butchering-large",
+  "title": "Butchering Large Game Animals",
+  "icon": "🦌",
+  "category": "food",
+  "brief": "Systematically break down large game into manageable pieces for cooking and storage.",
+  "tags": [
+    "large-game",
+    "butchering",
+    "meat-processing"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Remove front legs by slicing muscle tissue connecting them to body - no bones connect front legs to body.",
+    "Step 2: Cut hindquarters at hip joint by cutting around the large leg bone and through the ball-and-socket joint.",
+    "Step 3: Cut ligaments around hip joint and bend back to separate.",
+    "Step 4: Remove tenderloins - large muscles lying on either side of the spine.",
+    "Step 5: Separate ribs from backbone by breaking ribs first, then cutting through breaks.",
+    "Step 6: Cut remaining meat into manageable cooking portions."
+  ],
+  "warnings": [
+    "Use sharp knife and work carefully to avoid injury.",
+    "Breaking ribs before cutting reduces knife wear and effort.",
+    "Keep meat clean and cool during processing."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

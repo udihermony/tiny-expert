@@ -1,0 +1,29 @@
+{
+  "id": "food-mammal-safety-precautions",
+  "title": "Safe Mammal Hunting Precautions",
+  "icon": "🐰",
+  "category": "food",
+  "brief": "Understand the risks and precautions when hunting mammals for food.",
+  "tags": [
+    "mammals",
+    "safety",
+    "hunting",
+    "toxic-organs"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Remember that all mammals have teeth and will bite in self-defense - even squirrels can inflict serious wounds.",
+    "Step 2: Avoid polar bear and bearded seal livers completely - they contain toxic levels of vitamin A.",
+    "Step 3: Stay away from platypus (Australia/Tasmania) - they have poisonous glands.",
+    "Step 4: Exercise caution with scavenging mammals like opossums as they may carry diseases.",
+    "Step 5: Be extremely careful around mother animals defending their young.",
+    "Step 6: Never corner an animal with no escape route - they will fight viciously when trapped."
+  ],
+  "warnings": [
+    "Any mammal bite presents serious risk of infection.",
+    "Mother animals are extremely aggressive when protecting young.",
+    "Polar bear and bearded seal liver toxicity can be fatal.",
+    "Cornered animals fight with maximum desperation and strength."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

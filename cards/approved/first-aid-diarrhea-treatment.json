@@ -1,0 +1,28 @@
+{
+  "id": "first-aid-diarrhea-treatment",
+  "title": "Treating Diarrhea with Natural Remedies",
+  "icon": "🍵",
+  "category": "first-aid",
+  "brief": "How to treat diarrhea using available natural materials when medications aren't available.",
+  "tags": [
+    "diarrhea",
+    "natural-remedies",
+    "tannic-acid",
+    "dehydration"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Limit fluid intake for 24 hours initially.",
+    "Make strong tea solution and drink 1 cup every 2 hours until diarrhea slows.",
+    "Alternative: boil inner bark of hardwood tree for 2+ hours to release tannic acid.",
+    "Or make solution of 1 handful ground chalk, charcoal, or dried bones in treated water.",
+    "Add equal portion apple pomace or citrus rinds to mixture for better effectiveness.",
+    "Take 2 tablespoons of chalk/charcoal solution every 2 hours until symptoms improve."
+  ],
+  "warnings": [
+    "Prevent diarrhea by practicing good hygiene and avoiding contaminated food/water",
+    "Monitor for dehydration and replace lost fluids gradually",
+    "Tannic acid from tea or hardwood bark is the active ingredient"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 4)"
+}

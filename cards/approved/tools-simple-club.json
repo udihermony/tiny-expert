@@ -1,0 +1,25 @@
+{
+  "id": "tools-simple-club",
+  "title": "Make a Simple Club",
+  "icon": "🏏",
+  "category": "tools",
+  "brief": "Create a basic field-expedient club for defense and extending your reach.",
+  "tags": [
+    "improvised-weapons",
+    "self-defense",
+    "hardwood"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Find a staff or branch that is short enough to swing easily but long enough to damage your target.",
+    "Step 2: Ensure the diameter fits comfortably in your palm but isn't so thin it will break on impact.",
+    "Step 3: Look for straight-grained hardwood if available for maximum durability.",
+    "Step 4: Test the club's weight and balance by swinging it a few times."
+  ],
+  "warnings": [
+    "Do not use clubs against armed enemies - they only extend your reach beyond fingertips.",
+    "Avoid wood that is too thin as it will break upon impact.",
+    "Clubs are for holding and swinging, not throwing."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "first-aid-sprain-treatment",
+  "title": "RICE Method for Treating Sprains",
+  "icon": "🧊",
+  "category": "first-aid",
+  "brief": "The RICE protocol for treating sprains: Rest, Ice, Compression, and Elevation.",
+  "tags": [
+    "sprain",
+    "rice-method",
+    "injury",
+    "ankle",
+    "joints"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Rest the injured area completely.",
+    "Apply ice for first 24 hours, then switch to heat after that.",
+    "Apply compression wrapping and/or splinting to help stabilize the injury.",
+    "If possible, leave boot on sprained ankle unless circulation is compromised.",
+    "Elevate the affected area above heart level when possible."
+  ],
+  "warnings": [
+    "Remove boot only if circulation is compromised",
+    "Do not apply heat for first 24 hours",
+    "Watch for signs of circulation problems"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 4)"
+}

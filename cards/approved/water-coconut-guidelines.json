@@ -1,0 +1,25 @@
+{
+  "id": "water-coconut-guidelines",
+  "title": "Safe Coconut Water Consumption",
+  "icon": "🥥",
+  "category": "water",
+  "brief": "Know the difference between green and mature coconut water for safe hydration.",
+  "tags": [
+    "tropical",
+    "coconut",
+    "hydration",
+    "natural-source"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Identify green (unripe) coconuts - these have clear, sweet water inside.",
+    "Step 2: Drink green coconut milk freely as an excellent thirst quencher.",
+    "Step 3: Identify mature coconuts - these are brown and have thicker shells.",
+    "Step 4: If consuming mature coconut milk, drink in moderation only."
+  ],
+  "warnings": [
+    "Mature coconut milk contains oil that acts as a laxative - excessive consumption will cause diarrhea.",
+    "Do not rely solely on mature coconut water for hydration due to its laxative effects."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

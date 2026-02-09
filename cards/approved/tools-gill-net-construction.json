@@ -1,0 +1,30 @@
+{
+  "id": "tools-gill-net-construction",
+  "title": "Making a Gill Net from Parachute Cord",
+  "icon": "🕸️",
+  "category": "tools",
+  "brief": "Construct a fishing net using parachute suspension line when commercial nets aren't available.",
+  "tags": [
+    "fishing",
+    "net",
+    "parachute-cord",
+    "mesh",
+    "construction"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Remove core lines from parachute suspension line, tie outer casing between two trees.",
+    "Step 2: Attach multiple core lines to the casing using prusik knots or girth hitches, spacing them evenly.",
+    "Step 3: Starting at one end, tie second and third core lines together with overhand knots.",
+    "Step 4: Continue tying fourth to fifth, sixth to seventh, until reaching the end with single lines at each end.",
+    "Step 5: Start second row with first core line, tie it to second, third to fourth, and continue the pattern.",
+    "Step 6: Use a moveable guideline positioned opposite your working side to keep rows even and regulate mesh size.",
+    "Step 7: Continue tying rows until net reaches desired width, thread suspension line along bottom for strength."
+  ],
+  "warnings": [
+    "Requires significant time and patience to construct properly.",
+    "Mesh size must match target fish species - too large and small fish escape, too small and net clogs.",
+    "Keep consistent tension throughout construction for even mesh pattern."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

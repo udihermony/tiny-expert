@@ -1,0 +1,29 @@
+{
+  "id": "food-poisonous-saltwater-fish",
+  "title": "Identifying Poisonous Saltwater Fish",
+  "icon": "🐡",
+  "category": "food",
+  "brief": "Recognize dangerous saltwater fish species that have poisonous flesh or transmit toxins.",
+  "tags": [
+    "saltwater",
+    "poisonous-fish",
+    "identification",
+    "ciguatera",
+    "reef-fish"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: AVOID porcupine fish, triggerfish, cowfish, thorn fish, oilfish, red snapper, jack, and puffer fish.",
+    "Step 2: Be cautious with barracuda - while not poisonous itself, it may transmit ciguatera if eaten raw.",
+    "Step 3: Cook saltwater fish caught within reefs or near freshwater sources as a precaution.",
+    "Step 4: Fish caught in open ocean farther from shore can be eaten raw due to saltwater environment.",
+    "Step 5: Learn to identify the distinctive shapes and features of poisonous species."
+  ],
+  "warnings": [
+    "Some saltwater fish have permanent poison in their flesh, others only seasonally.",
+    "Cooking does not destroy the toxins in poisonous fish species.",
+    "Ciguatera poisoning from barracuda can cause severe illness even if fish is cooked.",
+    "When in doubt about fish identification, do not eat it."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army (Chapter 8)"
+}

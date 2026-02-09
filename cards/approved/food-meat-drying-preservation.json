@@ -1,0 +1,28 @@
+{
+  "id": "food-meat-drying-preservation",
+  "title": "Drying Meat for Long-Term Storage",
+  "icon": "☀️",
+  "category": "food",
+  "brief": "Air-dry meat into jerky using sun and airflow for preservation without fire.",
+  "tags": [
+    "meat-drying",
+    "jerky",
+    "sun-drying",
+    "no-fire"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Cut meat into 6-millimeter strips along the grain direction.",
+    "Step 2: Hang meat strips on a rack in direct sunlight with good air circulation.",
+    "Step 3: Keep strips out of reach of animals and insects.",
+    "Step 4: Cover meat to protect from flies while allowing airflow.",
+    "Step 5: Allow meat to dry thoroughly - properly dried meat will be dry and crisp.",
+    "Step 6: Test by touch - dried meat should not feel cool to the touch."
+  ],
+  "warnings": [
+    "Protect from flies and insects which can contaminate or lay eggs in meat.",
+    "Ensure complete drying - partially dried meat will spoil quickly.",
+    "Choose sunny location with good airflow for best results."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

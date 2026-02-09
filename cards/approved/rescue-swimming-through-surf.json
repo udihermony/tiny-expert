@@ -1,0 +1,28 @@
+{
+  "id": "rescue-swimming-through-surf",
+  "title": "Swimming Through High Surf to Shore",
+  "icon": "🌊",
+  "category": "rescue",
+  "brief": "Technique for safely swimming through large waves and surf to reach shore.",
+  "tags": [
+    "ocean",
+    "surf",
+    "swimming",
+    "waves",
+    "shore-landing"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Swim toward shore in the trough (low area) between waves, not on wave crests.",
+    "Step 2: When a seaward wave approaches, face it directly and submerge underwater.",
+    "Step 3: After the wave passes over you, surface and continue swimming toward shore in the next trough.",
+    "Step 4: If caught in undertow, push off the bottom or swim to surface, then proceed shoreward as above.",
+    "Step 5: Repeat this pattern of diving under approaching waves and swimming in troughs until you reach shallow water."
+  ],
+  "warnings": [
+    "Never try to swim over or through breaking waves - they can drive you underwater and cause drowning.",
+    "Do not fight against strong undertow - work with the water's movement instead.",
+    "Conserve energy by timing your movements with wave patterns rather than fighting them."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}

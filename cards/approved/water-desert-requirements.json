@@ -1,0 +1,28 @@
+{
+  "id": "water-desert-requirements",
+  "title": "Calculate Desert Water Requirements",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Determine daily water needs based on temperature and activity level in desert conditions.",
+  "tags": [
+    "desert",
+    "water-needs",
+    "temperature",
+    "activity-level"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Understand that at 43°C (110°F) doing hard work in sun requires 19 liters of water daily.",
+    "Step 2: For temperatures below 38°C (100°F), drink 0.5 liters of water every hour.",
+    "Step 3: For temperatures above 38°C (100°F), drink 1 liter of water every hour.",
+    "Step 4: Adjust intake based on activity level - more work requires more water.",
+    "Step 5: Do not wait for thirst - it only indicates 2/3 of actual water needs.",
+    "Step 6: Drink at regular intervals even with limited water supply."
+  ],
+  "warnings": [
+    "Do not ration water - this leads to heat casualties.",
+    "Thirst is not a reliable indicator of water needs.",
+    "A person performing hard work at 43°C without adequate water will quickly become incapacitated."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "food-nuclear-plant-decontamination",
+  "title": "Plant Food Decontamination in Fallout Areas",
+  "icon": "🥔",
+  "category": "food",
+  "brief": "How to safely select and prepare plant foods in radioactive environments.",
+  "tags": [
+    "nuclear",
+    "fallout",
+    "plants",
+    "decontamination",
+    "vegetables"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Prioritize underground vegetables: potatoes, turnips, carrots - scrub and remove skins completely.",
+    "Step 2: Second choice: fruits/vegetables you can wash and peel - bananas, apples, tomatoes.",
+    "Step 3: Third choice: smooth-skinned plants that cannot be easily peeled.",
+    "Step 4: Scrub all plant foods thoroughly - smooth surfaces lose 90% contamination when washed.",
+    "Step 5: Avoid rough-surfaced plants like lettuce - washing removes only 50% contamination.",
+    "Step 6: Avoid dried fruits and beans as last resort - difficult to decontaminate effectively.",
+    "Step 7: Avoid growing plants if possible - they absorb radioactivity through leaves and roots."
+  ],
+  "warnings": [
+    "Rough-surfaced plants cannot be effectively decontaminated and should only be eaten as last resort.",
+    "Growing plants absorb radioactive materials through leaves and soil, especially after rain.",
+    "The rougher the surface, the less effective washing becomes for decontamination."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 23 - Survival in Man-Made Hazards)"
+}

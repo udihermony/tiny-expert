@@ -1,0 +1,29 @@
+{
+  "id": "navigation-improvised-compass-elaborate",
+  "title": "Making Elaborate Improvised Compass with Pivot",
+  "icon": "🧭",
+  "category": "navigation",
+  "brief": "Construct a more sophisticated improvised compass using a needle, container, and pivot system.",
+  "tags": [
+    "improvised",
+    "needle",
+    "container",
+    "pivot",
+    "advanced"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Break a sewing needle in half - one half for pointer, one half for pivot.",
+    "Step 2: Push the pivot half through the bottom center of a nonmetallic container, flush with bottom.",
+    "Step 3: Attach the center of the pointer half to a pen's silver tip using glue, tree sap, or melted plastic.",
+    "Step 4: Magnetize one end of the pointer needle using silk, hair, or magnet stroking.",
+    "Step 5: Cut center out of container lid and waterproof it.",
+    "Step 6: Rest the pointer on the pivot point inside the container."
+  ],
+  "warnings": [
+    "Pivot must not interfere with container lid.",
+    "Pointer must be perfectly balanced on pivot point.",
+    "Container must be nonmetallic to avoid magnetic interference."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

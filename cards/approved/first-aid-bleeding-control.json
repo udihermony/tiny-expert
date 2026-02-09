@@ -1,0 +1,30 @@
+{
+  "id": "first-aid-bleeding-control",
+  "title": "Control Severe Bleeding",
+  "icon": "🩸",
+  "category": "first-aid",
+  "brief": "Stop life-threatening bleeding using direct pressure and pressure dressings.",
+  "tags": [
+    "emergency",
+    "trauma",
+    "life-saving",
+    "wound-care"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Apply firm direct pressure over the wound immediately.",
+    "Step 2: Maintain pressure for at least 30 minutes to seal damaged surfaces.",
+    "Step 3: If bleeding continues after 30 minutes, apply a pressure dressing.",
+    "Step 4: Place thick gauze dressing directly over wound.",
+    "Step 5: Wrap tightly with bandage - tighter than normal compression but not cutting circulation.",
+    "Step 6: Do not remove blood-soaked dressing - add more layers on top.",
+    "Step 7: Leave pressure dressing in place for 1-2 days.",
+    "Step 8: After 1-2 days, remove and replace with smaller dressing.",
+    "Step 9: Make daily dressing changes and inspect for infection signs."
+  ],
+  "warnings": [
+    "Loss of 1 liter of blood causes shock; 2 liters causes severe shock; 3 liters is usually fatal.",
+    "Arterial bleeding (bright red, spurting) is most dangerous and can be fatal within minutes."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 4)"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "water-purification-iodine",
+  "title": "Purifying Water with Iodine",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Use iodine tincture to kill harmful organisms in questionable water sources.",
+  "tags": [
+    "water-purification",
+    "iodine",
+    "chemical-treatment",
+    "portable"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Use 2 percent tincture of iodine for water treatment.",
+    "Step 2: For clear water: add 5 drops of iodine to a full canteen.",
+    "Step 3: For cloudy or cold water: add 10 drops of iodine to a full canteen.",
+    "Step 4: Mix the water thoroughly after adding iodine.",
+    "Step 5: Let the canteen stand for 30 minutes before drinking."
+  ],
+  "warnings": [
+    "Do not use if allergic to iodine.",
+    "Pregnant women should avoid iodine water treatment if possible.",
+    "Extended use of iodine-treated water may cause thyroid problems."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

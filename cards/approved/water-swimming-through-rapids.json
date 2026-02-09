@@ -1,0 +1,31 @@
+{
+  "id": "water-swimming-through-rapids",
+  "title": "Swimming Safely Through Rapids",
+  "icon": "💨",
+  "category": "water",
+  "brief": "Body positioning and techniques for safely navigating fast-moving water and rapids.",
+  "tags": [
+    "rapids",
+    "swimming",
+    "fast-water",
+    "positioning",
+    "river"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: In fast shallow rapids: Lie on your back with feet pointing downstream.",
+    "Step 2: In fast shallow rapids: Use finning motion with hands alongside hips to increase buoyancy and steer.",
+    "Step 3: In fast shallow rapids: Keep feet up to avoid catching them on rocks.",
+    "Step 4: In deep rapids: Lie on stomach with head pointing downstream.",
+    "Step 5: In deep rapids: Angle toward shore whenever possible while maintaining downstream orientation.",
+    "Step 6: In all rapids: Never fight the current - swim with it while working toward shore.",
+    "Step 7: Watch for obstacles and dangerous backwater eddies and converging currents."
+  ],
+  "warnings": [
+    "Never attempt to stand or fight against swift current - this can lead to drowning.",
+    "Keep body horizontal to water to reduce risk of being pulled under.",
+    "Avoid backwater eddies and converging currents which contain dangerous swirls.",
+    "Do not attempt if water temperature is extremely cold - hypothermia risk is fatal."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}

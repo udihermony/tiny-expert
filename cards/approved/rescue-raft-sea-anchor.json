@@ -1,0 +1,28 @@
+{
+  "id": "rescue-raft-sea-anchor",
+  "title": "Deploy and Adjust Sea Anchor to Control Raft Movement",
+  "icon": "⚓",
+  "category": "rescue",
+  "brief": "Use sea anchor to stay near crash site for rescue or control raft direction and speed with current.",
+  "tags": [
+    "sea-anchor",
+    "raft",
+    "ocean",
+    "rescue"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Throw out sea anchor immediately to stay close to ditching site for easier rescue.",
+    "Step 2: Position sea anchor so when raft is on wave crest, anchor is in wave trough.",
+    "Step 3: Open sea anchor apex to create drag and keep raft in general area.",
+    "Step 4: Close sea anchor apex to form pocket for current to strike and propel raft with current.",
+    "Step 5: Wrap sea anchor rope with cloth to prevent chafing the raft.",
+    "Step 6: Adjust anchor to keep raft headed into wind and waves."
+  ],
+  "warnings": [
+    "Without sea anchor, raft may drift over 160 kilometers in a day, making rescue much harder.",
+    "Always wrap rope with cloth to prevent damage to raft from chafing.",
+    "In stormy water, keep sea anchor away from bow to prevent capsizing."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

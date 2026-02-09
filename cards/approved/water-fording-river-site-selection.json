@@ -1,0 +1,32 @@
+{
+  "id": "water-fording-river-site-selection",
+  "title": "Selecting Safe River Crossing Sites",
+  "icon": "🏞️",
+  "category": "navigation",
+  "brief": "How to identify good and dangerous locations for crossing rivers and streams.",
+  "tags": [
+    "river-crossing",
+    "site-selection",
+    "water",
+    "navigation",
+    "safety"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find high ground or climb a tree to get good view of river or stream.",
+    "Step 2: Look for level stretches where river breaks into 2-3 narrow channels instead of one wide channel.",
+    "Step 3: Identify shallow banks or sandbars for easier crossing.",
+    "Step 4: Select crossing point upstream from sandbar so current carries you to it if you lose footing.",
+    "Step 5: Choose route that crosses current at 45-degree angle downstream.",
+    "Step 6: Avoid rock ledges crossing river (indicates dangerous rapids or canyons).",
+    "Step 7: Avoid areas directly above waterfalls or deep channels.",
+    "Step 8: Avoid river estuaries which have strong currents and tides."
+  ],
+  "warnings": [
+    "Never attempt crossing directly above waterfalls or dangerous rapids.",
+    "Avoid rocky areas where submerged rocks create slipping hazards.",
+    "Stay away from eddies which can create powerful backward pull and drag you under.",
+    "River estuaries can have tidal influences extending many kilometers upstream."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}

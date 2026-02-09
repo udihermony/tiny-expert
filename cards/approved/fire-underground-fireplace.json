@@ -1,0 +1,27 @@
+{
+  "id": "fire-underground-fireplace",
+  "title": "Building a Dakota Fire Hole",
+  "icon": "🕳️",
+  "category": "fire",
+  "brief": "Construct a concealed underground fireplace with proper ventilation for cooking and warmth.",
+  "tags": [
+    "concealed-fire",
+    "cooking",
+    "windy-conditions",
+    "stealth"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Dig a main hole in the ground about 30 centimeters deep and 25 centimeters wide.",
+    "Step 2: On the upwind side, dig a second connecting hole at an angle toward the main hole for ventilation.",
+    "Step 3: Make the ventilation tunnel connect to the bottom of the main fire hole.",
+    "Step 4: Build your fire in the main hole using normal fire-building techniques.",
+    "Step 5: The ventilation tunnel will provide airflow to keep the fire burning efficiently."
+  ],
+  "warnings": [
+    "Ensure adequate ventilation or fire will not burn properly and may produce dangerous carbon monoxide.",
+    "Be careful not to cave in the tunnel while digging.",
+    "Still clear flammable material from around the hole entrance."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army (Chapter 7)"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "first-aid-shock-treatment-2",
+  "title": "Treating and Preventing Shock",
+  "icon": "🆘",
+  "category": "first-aid",
+  "brief": "How to position and treat victims to prevent or manage shock in survival situations.",
+  "tags": [
+    "shock",
+    "trauma",
+    "positioning",
+    "emergency"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "If victim is conscious: place on level surface with lower extremities elevated 15 to 20 centimeters.",
+    "If victim is unconscious: place on side or abdomen with head turned to one side to prevent choking.",
+    "If unsure of best position: place victim perfectly flat.",
+    "Once positioned, do not move the victim.",
+    "Remove wet clothing immediately and replace with dry clothing.",
+    "Insulate victim from surroundings using shelter, sleeping bags, or clothing.",
+    "Provide external warmth using warm liquids, heated rocks wrapped in clothing, or fires on either side.",
+    "If conscious, slowly give small doses of warm salt or sugar solution.",
+    "Have victim rest for at least 24 hours."
+  ],
+  "warnings": [
+    "Do not give fluids to unconscious victims or those with abdominal wounds",
+    "Do not move victim once positioned for shock treatment",
+    "If alone and in shock, lie with head lower than feet in sheltered area"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 4)"
+}

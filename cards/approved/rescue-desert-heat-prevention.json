@@ -1,0 +1,29 @@
+{
+  "id": "rescue-desert-heat-prevention",
+  "title": "Desert Heat Injury Prevention Protocol",
+  "icon": "☀️",
+  "category": "rescue",
+  "brief": "Follow buddy system and specific guidelines to prevent heat injuries in desert survival.",
+  "tags": [
+    "desert",
+    "hot-weather",
+    "prevention",
+    "buddy-system"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Always tell someone your destination and expected return time.",
+    "Step 2: Use buddy system - watch each other for heat injury signs.",
+    "Step 3: Watch for tiredness or anyone wandering from group - these are heat casualty signs.",
+    "Step 4: Rest during day, work during cool evenings and nights.",
+    "Step 5: Drink water at least once per hour.",
+    "Step 6: Rest in shade, never lie directly on ground.",
+    "Step 7: Keep shirt on during day work - do not remove upper body clothing."
+  ],
+  "warnings": [
+    "Someone who complains of tiredness or wanders may be a heat casualty.",
+    "Direct ground contact increases heat absorption.",
+    "Removing shirts during day work leads to sunburn and heat absorption."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Army (Chapter 13)"
+}

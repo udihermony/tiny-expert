@@ -1,0 +1,29 @@
+{
+  "id": "biological-protection-clothing",
+  "title": "Protective Clothing Against Biological Agents",
+  "icon": "🥽",
+  "category": "first-aid",
+  "brief": "How to use clothing and basic materials to protect against biological agent exposure.",
+  "tags": [
+    "biological",
+    "protection",
+    "clothing",
+    "vectors",
+    "hygiene"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Cover face with cloth when no protective mask available to protect against aerosols.",
+    "Step 2: Wear mask when dust is present - dust may contain biological agents.",
+    "Step 3: Button clothing completely and tuck trousers tightly into boots.",
+    "Step 4: Wear chemical protective overgarment if available for better protection.",
+    "Step 5: Keep all skin covered to prevent agent entry through cuts or scratches.",
+    "Step 6: Wash clothing in hot, soapy water or lay in bright sunlight to kill microorganisms."
+  ],
+  "warnings": [
+    "Some toxins can penetrate unbroken skin unlike germs",
+    "Incomplete skin coverage allows vector bites and agent entry",
+    "Without proper covering, vectors can transmit diseases through bites"
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

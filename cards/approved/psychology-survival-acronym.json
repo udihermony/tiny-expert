@@ -1,0 +1,30 @@
+{
+  "id": "psychology-survival-acronym",
+  "title": "Use the SURVIVAL Acronym for Decision Making",
+  "icon": "🧠",
+  "category": "psychology",
+  "brief": "Apply the 8-step SURVIVAL framework to systematically assess and respond to any survival situation.",
+  "tags": [
+    "decision-making",
+    "systematic-approach",
+    "combat",
+    "assessment"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "S - Size up the situation: Assess enemy activity, surroundings, your physical condition, and equipment.",
+    "U - Use all your senses and avoid undue haste: Plan moves carefully, observe sounds, smells, temperature changes.",
+    "R - Remember where you are: Know your location on map, relate to terrain, identify enemy/friendly areas and water sources.",
+    "V - Vanquish fear and panic: Control emotions through training and self-confidence.",
+    "I - Improvise: Use tools for multiple purposes, adapt natural objects for different needs.",
+    "V - Value living: Maintain strong will to survive through stubbornness and refusal to give up.",
+    "A - Act like the natives: Observe local people and animals for food, water, and shelter patterns.",
+    "L - Live by your wits: Apply learned survival skills and continue practicing them."
+  ],
+  "warnings": [
+    "Acting in haste may cause you to lose equipment or become disoriented.",
+    "Animals cannot serve as absolute guides - many eat plants toxic to humans.",
+    "Animal reactions can reveal your presence to enemies."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — US Department of the Army (Chapter 1)"
+}

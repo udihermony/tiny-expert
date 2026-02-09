@@ -1,0 +1,27 @@
+{
+  "id": "rescue-bliss-hide-site-selection",
+  "title": "BLISS Formula for Selecting Hide Sites",
+  "icon": "🫥",
+  "category": "rescue",
+  "brief": "Use the BLISS criteria to select effective hiding locations when evading capture.",
+  "tags": [
+    "evasion",
+    "hide-sites",
+    "enemy-territory",
+    "concealment"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find location that Blends in with natural surroundings - matches local vegetation and terrain colors.",
+    "Step 2: Choose position that is Low in silhouette - doesn't stick up above surrounding terrain features.",
+    "Step 3: Select spot that is Irregular in shape - avoid geometric patterns that look man-made.",
+    "Step 4: Pick area that is Small in size - just big enough for your team, no larger.",
+    "Step 5: Ensure location is Secluded - away from trails, roads, water sources, and human activity."
+  ],
+  "warnings": [
+    "Avoid existing buildings or shelters as they are likely to be searched.",
+    "Do not cut vegetation in the immediate area as this leaves obvious signs.",
+    "Never occupy a hide site for more than 24 hours."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter on Movement and Avoidance)"
+}

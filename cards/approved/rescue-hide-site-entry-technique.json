@@ -1,0 +1,27 @@
+{
+  "id": "rescue-hide-site-entry-technique",
+  "title": "Button Hook Entry to Hide Sites",
+  "icon": "🔄",
+  "category": "rescue",
+  "brief": "Use deceptive movement patterns when entering hide sites to avoid leaving obvious trails.",
+  "tags": [
+    "evasion",
+    "hide-sites",
+    "deception",
+    "tracking-avoidance"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Do not move straight into your selected hide site from your approach direction.",
+    "Step 2: Use a button hook technique - move past the hide site, then circle back from a different angle.",
+    "Step 3: Stop at a position outside the hide site and conduct a listening halt for at least 2-3 minutes.",
+    "Step 4: Move individually into the hide site, being careful not to disturb or cut any vegetation.",
+    "Step 5: Once occupied, restrict all movement to less than 45 centimeters (18 inches) above ground."
+  ],
+  "warnings": [
+    "Direct entry creates obvious trails leading to your position that trackers can follow.",
+    "Any vegetation disturbance around the hide site will reveal your presence.",
+    "Movement above 45cm can be spotted by observers from a distance."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter on Movement and Avoidance)"
+}

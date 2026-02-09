@@ -1,0 +1,25 @@
+{
+  "id": "weather-wind-direction-prediction",
+  "title": "Using Wind Direction to Predict Weather",
+  "icon": "💨",
+  "category": "navigation",
+  "brief": "How to determine wind direction and use it to predict incoming weather changes.",
+  "tags": [
+    "weather",
+    "wind",
+    "prediction",
+    "universal"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Drop a few leaves, grass, or small debris to observe wind direction.",
+    "Step 2: Alternatively, watch treetops to see which direction they're bending.",
+    "Step 3: Note if winds are shifting rapidly, which indicates unsettled atmosphere.",
+    "Step 4: Use established wind direction to predict the type of weather approaching your area."
+  ],
+  "warnings": [
+    "Rapidly shifting winds often indicate severe weather approaching.",
+    "Sudden wind changes can bring dangerous storms quickly."
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

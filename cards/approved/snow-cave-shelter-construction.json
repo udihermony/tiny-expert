@@ -1,0 +1,30 @@
+{
+  "id": "snow-cave-shelter-construction",
+  "title": "Build a Snow Cave Shelter",
+  "icon": "❄️",
+  "category": "shelter",
+  "brief": "Construct an insulated snow cave with proper ventilation and drainage features.",
+  "tags": [
+    "snow-cave",
+    "insulation",
+    "cold-weather-shelter",
+    "digging"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Find a snow drift about 3 meters deep to dig into.",
+    "Step 2: Keep the roof arched for strength and to allow melted snow to drain down sides.",
+    "Step 3: Build sleeping platform higher than the entrance level.",
+    "Step 4: Separate sleeping platform from walls or dig small trench between platform and wall.",
+    "Step 5: Make roof high enough to sit up on sleeping platform.",
+    "Step 6: Ensure walls and ceiling are at least 30 centimeters thick.",
+    "Step 7: Install a ventilation shaft.",
+    "Step 8: Block entrance with snow block, use lower area for cooking."
+  ],
+  "warnings": [
+    "Takes significant time and energy to build and you will get wet during construction.",
+    "If no suitable drift available, pile snow into large mound first, then dig out.",
+    "Always ensure adequate ventilation to prevent carbon monoxide poisoning."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "water-desert-conservation",
+  "title": "Conserve Water in Desert Heat",
+  "icon": "🏜️",
+  "category": "water",
+  "brief": "Use specific techniques to minimize water loss and maximize survival time in desert conditions.",
+  "tags": [
+    "desert",
+    "water-conservation",
+    "shade",
+    "clothing",
+    "sweat"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Find shade immediately - get out of direct sun.",
+    "Step 2: Place something between you and the hot ground (sand can be 16-22°C hotter than air).",
+    "Step 3: Limit all movements to essential activities only.",
+    "Step 4: Wear complete uniform including T-shirt, roll sleeves down, cover head and neck.",
+    "Step 5: Stay fully clothed to absorb sweat and keep it against skin for maximum cooling effect.",
+    "Step 6: Stay quiet, avoid talking, keep mouth closed, breathe through nose.",
+    "Step 7: Do not eat if water is scarce - food digestion requires water."
+  ],
+  "warnings": [
+    "Removing clothing in desert heat increases water loss and heat gain.",
+    "Ground temperature can reach 60°C (140°F) when air is 43°C (110°F).",
+    "Eating food without adequate water will accelerate dehydration."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

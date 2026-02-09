@@ -1,0 +1,31 @@
+{
+  "id": "rescue-shark-protection",
+  "title": "Protect Yourself from Shark Attacks",
+  "icon": "🦈",
+  "category": "rescue",
+  "brief": "Use proven techniques to avoid shark encounters and defend against attacks while in water or raft.",
+  "tags": [
+    "sharks",
+    "ocean",
+    "safety",
+    "defense"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Stay with other swimmers for 360-degree watch and group defense.",
+    "Step 2: Keep all clothing and shoes on - sharks often attack unclothed people first, especially feet.",
+    "Step 3: Avoid urinating except in small amounts, letting it dissipate between discharges.",
+    "Step 4: If shark attack imminent in water, splash and yell just enough to keep shark at bay.",
+    "Step 5: If attacked, kick and strike shark on gills or eyes if possible.",
+    "Step 6: In raft, do not fish when sharks present, keep limbs inside, stay quiet and still.",
+    "Step 7: Hit attacking shark with anything available except hands - use oars carefully to avoid breaking them."
+  ],
+  "warnings": [
+    "Consider any shark longer than 1 meter dangerous.",
+    "Sharks in tropical/subtropical seas are far more aggressive than temperate waters.",
+    "If you hit shark on nose, you may injure your hand on its teeth.",
+    "Do not throw garbage overboard or clean fish in water when sharks are present.",
+    "Bury dead at night if many sharks are in area."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

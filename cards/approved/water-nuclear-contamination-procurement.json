@@ -1,0 +1,31 @@
+{
+  "id": "water-nuclear-contamination-procurement",
+  "title": "Water Procurement in Nuclear Fallout Areas",
+  "icon": "💧",
+  "category": "water",
+  "brief": "How to find and purify safe drinking water in radioactive contaminated areas.",
+  "tags": [
+    "nuclear",
+    "fallout",
+    "contamination",
+    "purification",
+    "safety"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Wait at least 48 hours before drinking any water to allow radioactive decay.",
+    "Step 2: Prioritize underground sources: springs, wells, or water from pipes in abandoned buildings.",
+    "Step 3: Use snow from 15+ centimeters below the surface during fallout.",
+    "Step 4: For streams/rivers, dig sediment holes along the side to create natural filtration.",
+    "Step 5: For standing water, fill container 3/4 full, add 2.5cm dirt per 10cm water, stir well.",
+    "Step 6: Let dirt mixture settle for 6+ hours, then dip out clear water from top.",
+    "Step 7: Filter all water through additional filtration device before drinking.",
+    "Step 8: Treat with purification tablets or boil as additional precaution."
+  ],
+  "warnings": [
+    "Standing water from lakes and ponds will be heavily contaminated.",
+    "Even 'clean' water sources may contain harmful bacteria.",
+    "Seepage basin filtration can remove up to 99% of radioactivity but requires proper covering."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 23 - Survival in Man-Made Hazards)"
+}

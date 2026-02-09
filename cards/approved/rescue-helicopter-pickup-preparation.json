@@ -1,0 +1,32 @@
+{
+  "id": "rescue-helicopter-pickup-preparation",
+  "title": "Preparing for Helicopter Rescue from Water",
+  "icon": "🚁",
+  "category": "rescue",
+  "brief": "Steps to safely prepare for helicopter rescue pickup from a life raft or water.",
+  "tags": [
+    "helicopter",
+    "rescue",
+    "water",
+    "life-raft",
+    "pickup"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Secure all loose equipment in raft, accessory bag, or pockets.",
+    "Step 2: Deploy sea anchor, stability bags, and accessory bag.",
+    "Step 3: Partially deflate the raft and fill it with water.",
+    "Step 4: Unsnap survival kit container from parachute harness.",
+    "Step 5: Grasp raft handhold and roll out of the raft into water.",
+    "Step 6: Allow recovery device or cable to ground out on water surface first.",
+    "Step 7: Maintain handhold on raft until recovery device is in your other hand.",
+    "Step 8: Mount recovery device while avoiding entanglement with raft.",
+    "Step 9: Signal hoist operator when ready for pickup."
+  ],
+  "warnings": [
+    "Never grab helicopter cable before it grounds out on water - risk of electrical shock.",
+    "Ensure you can quickly release equipment to avoid being dragged underwater.",
+    "Keep one hand on raft until rescue device is secure - prevents separation if you lose grip."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}

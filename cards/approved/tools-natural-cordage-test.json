@@ -1,0 +1,27 @@
+{
+  "id": "tools-natural-cordage-test",
+  "title": "Test Natural Materials for Cordage",
+  "icon": "🪢",
+  "category": "tools",
+  "brief": "Perform simple tests to determine if natural materials are suitable for making cordage.",
+  "tags": [
+    "cordage",
+    "natural-materials",
+    "testing",
+    "plant-fibers"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Pull on a length of the material to test its tensile strength.",
+    "Step 2: Twist the material between your fingers and roll the fibers together.",
+    "Step 3: If it withstands handling without snapping apart, proceed to next test.",
+    "Step 4: Tie an overhand knot with the fibers.",
+    "Step 5: Gently tighten the knot - if it doesn't break, the material is suitable for cordage."
+  ],
+  "warnings": [
+    "Test materials thoroughly before depending on them for critical applications.",
+    "Even suitable materials may have weak points - inspect the entire length.",
+    "Different parts of the same plant may have different strength characteristics."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

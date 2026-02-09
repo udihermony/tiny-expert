@@ -1,0 +1,28 @@
+{
+  "id": "navigation-tree-growth-patterns",
+  "title": "Using Tree Growth Patterns for Direction",
+  "icon": "🌳",
+  "category": "navigation",
+  "brief": "Identify north-south direction using tree growth rings and vegetation patterns on tree stumps.",
+  "tags": [
+    "trees",
+    "growth-rings",
+    "vegetation",
+    "forest"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find several felled trees or stumps for comparison.",
+    "Step 2: Examine the tree growth rings on the cut surface.",
+    "Step 3: Look for the side where growth rings are more widely spaced - this faces toward the equator.",
+    "Step 4: The side with closer-together growth rings faces toward the poles.",
+    "Step 5: In Northern Hemisphere: widely spaced rings face south, closely spaced face north.",
+    "Step 6: In Southern Hemisphere: widely spaced rings face north, closely spaced face south."
+  ],
+  "warnings": [
+    "The old saying about moss indicating north is inaccurate - moss grows all around trees.",
+    "Need multiple tree stumps for comparison to be reliable.",
+    "Growth patterns can be affected by local conditions like wind, water, or terrain."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

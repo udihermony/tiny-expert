@@ -1,0 +1,27 @@
+{
+  "id": "tools-bamboo-cooking-container",
+  "title": "Make a Bamboo Cooking Container",
+  "icon": "🎋",
+  "category": "tools",
+  "brief": "Create a cooking pot from bamboo by cutting between sealed joints.",
+  "tags": [
+    "cooking",
+    "bamboo",
+    "container",
+    "water-cooking"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Find a section of bamboo with sealed joints at both ends.",
+    "Step 2: Cut the bamboo between the two sealed joints to create a natural container.",
+    "Step 3: Clean out any debris from inside the bamboo section.",
+    "Step 4: Fill with food and water for cooking.",
+    "Step 5: Add hot rocks to the water to cook food, replacing cooled rocks with newly heated ones."
+  ],
+  "warnings": [
+    "Never heat a sealed bamboo section directly - trapped air and water will cause it to explode.",
+    "Do not use rocks with air pockets (limestone, sandstone) as they may explode when heated.",
+    "Keep the bamboo container moist or keep fire low to prevent burning above waterline."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

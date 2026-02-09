@@ -1,0 +1,30 @@
+{
+  "id": "water-sea-water-rationing",
+  "title": "Ration Water Effectively During Sea Survival",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Conserve limited freshwater supplies and reduce water loss through proper rationing and body cooling techniques.",
+  "tags": [
+    "water-rationing",
+    "dehydration",
+    "ocean",
+    "conservation"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Do not eat if you have no water available.",
+    "Step 2: If water ration is 2+ liters per day, eat normally including any caught food.",
+    "Step 3: Moisten lips, tongue, and throat before swallowing water.",
+    "Step 4: Keep body well-shaded from overhead sun and water reflection.",
+    "Step 5: Soak clothes in seawater and wring out before putting on to reduce perspiration.",
+    "Step 6: Do not exert yourself - relax and sleep when possible.",
+    "Step 7: Set daily water ration based on available water, solar still output, and group size/condition."
+  ],
+  "warnings": [
+    "Do not drink seawater, urine, or alcohol.",
+    "Do not smoke as it increases dehydration.",
+    "Don't overdo seawater cooling on hot days without canopy - can cause saltwater boils and rashes.",
+    "If nauseated, take only water and rest - eating when nauseated causes immediate food loss."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "fire-bow-drill",
+  "title": "Starting Fire with Bow and Drill",
+  "icon": "🏹",
+  "category": "fire",
+  "brief": "Create fire through friction using a bow and drill system with proper technique.",
+  "tags": [
+    "primitive-method",
+    "friction-fire",
+    "no-matches",
+    "bow-drill"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Make a fire board: seasoned softwood, 2.5 cm thick, 10 cm wide, with a 2 cm depression near the edge and V-shaped notch underneath.",
+    "Step 2: Create a drill: straight seasoned hardwood, 2 cm diameter, 25 cm long, with round top and blunt bottom.",
+    "Step 3: Fashion a bow: resilient green stick 2.5 cm diameter with cordage tied from end to end without slack.",
+    "Step 4: Find a socket: stone or hardwood with slight depression to hold drill and apply pressure.",
+    "Step 5: Place tinder bundle under the V-shaped notch in the fire board.",
+    "Step 6: Put one foot on fire board, loop bowstring over drill, place drill in depression.",
+    "Step 7: Hold socket on top of drill with one hand, saw bow back and forth with other hand to spin drill.",
+    "Step 8: Once smooth motion is established, apply more downward pressure and work bow faster.",
+    "Step 9: Continue until hot black powder grinds into tinder and creates a spark.",
+    "Step 10: Blow gently on tinder until it ignites into flame."
+  ],
+  "warnings": [
+    "This method is exhaustive and requires significant practice to master.",
+    "Do not use wood lying on the ground - it lacks sufficient friction properties.",
+    "Ensure all materials are properly prepared before attempting.",
+    "Stop immediately if drill begins to smoke excessively without producing ember."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army (Chapter 7)"
+}

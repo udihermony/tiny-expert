@@ -1,0 +1,27 @@
+{
+  "id": "first-aid-help-position",
+  "title": "Use HELP Position to Prevent Hypothermia in Water",
+  "icon": "🚨",
+  "category": "first-aid",
+  "brief": "Assume Heat Escaping Lessening Posture to retain body heat when floating with life preserver.",
+  "tags": [
+    "hypothermia",
+    "cold-water",
+    "body-heat",
+    "ocean"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Put on life preserver and remain still in water.",
+    "Step 2: Assume fetal position to help retain body heat.",
+    "Step 3: Keep head out of water - you lose about 50% of body heat through your head.",
+    "Step 4: Protect other high heat-loss areas: neck, sides, and groin.",
+    "Step 5: Remain in HELP position until rescue or until reaching shore."
+  ],
+  "warnings": [
+    "Heat exchange rate in water is about 25 times greater than in air of same temperature.",
+    "Hypothermia occurs rapidly in cold water due to decreased insulation of wet clothing.",
+    "Water displaces the layer of still air that normally surrounds your body."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

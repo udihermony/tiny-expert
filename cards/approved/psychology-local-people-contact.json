@@ -1,0 +1,31 @@
+{
+  "id": "psychology-local-people-contact",
+  "title": "Safe Contact with Local Populations",
+  "icon": "👥",
+  "category": "psychology",
+  "brief": "Establish contact with unknown local people using respectful, non-threatening approaches.",
+  "tags": [
+    "local-contact",
+    "cultural-respect",
+    "communication",
+    "safety"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Observe local people carefully to determine if they appear friendly or hostile.",
+    "Step 2: Wait until only one person is present before attempting contact.",
+    "Step 3: Let that person make initial approach if possible.",
+    "Step 4: Approach slowly without sudden movements or visible weapons.",
+    "Step 5: Smile frequently and display non-threatening body language.",
+    "Step 6: Use sign language or act out needs and questions.",
+    "Step 7: Try to learn and use a few words of the local language.",
+    "Step 8: Show respect for their customs, religion, and cultural practices."
+  ],
+  "warnings": [
+    "Displaying fear, weapons, or making threatening movements can provoke hostile response.",
+    "Do not rush contact - many local people are shy and need time.",
+    "Political attitudes or propaganda may change otherwise friendly people's attitudes.",
+    "Some areas may be taboo - learn and follow local rules."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter 22 - Contact with People)"
+}

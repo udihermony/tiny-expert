@@ -1,0 +1,30 @@
+{
+  "id": "rescue-signal-mirror",
+  "title": "Using Signal Mirror for Rescue",
+  "icon": "🪞",
+  "category": "rescue",
+  "brief": "Use mirrors or reflective objects to create long-distance visual signals to aircraft.",
+  "tags": [
+    "mirror",
+    "reflection",
+    "sunny-day",
+    "aircraft"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Use a mirror or polish canteen cup, belt buckle, or similar reflective object.",
+    "Step 2: Get to the highest point in your area when signaling.",
+    "Step 3: Direct flashes in one area secure from enemy observation.",
+    "Step 4: If you can't locate aircraft, flash signal in direction of aircraft noise.",
+    "Step 5: Wear signal mirror on cord around neck with glass against body to prevent unwanted flashes.",
+    "Step 6: Follow MK-3 signal mirror instructions if available."
+  ],
+  "warnings": [
+    "Don't flash rapidly - pilot may mistake for enemy fire.",
+    "Don't direct beam into aircraft cockpit for more than few seconds - may blind pilot.",
+    "Haze, fog, and mirages can make signals hard to spot.",
+    "Enemy can see mirror flashes - use discretely in combat areas.",
+    "Pilots have reported seeing mirror flashes up to 160 kilometers away under ideal conditions."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

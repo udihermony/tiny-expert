@@ -1,0 +1,28 @@
+{
+  "id": "food-organ-meat-preparation",
+  "title": "Preparing and Cooking Organ Meats",
+  "icon": "🫀",
+  "category": "food",
+  "brief": "Safely prepare and cook organ meats to maximize nutritional benefits in survival situations.",
+  "tags": [
+    "organ-meat",
+    "liver-inspection",
+    "brain-preparation"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Save heart, liver, pancreas, spleen, and kidneys during butchering.",
+    "Step 2: Cut organs open and inspect for worms or parasites.",
+    "Step 3: Check liver color - should be smooth, wet, and deep red or purple.",
+    "Step 4: Discard liver if diseased, but muscle meat may still be safe.",
+    "Step 5: Cook organs using same methods as muscle meat.",
+    "Step 6: For tongue: cut out, skin it, boil until tender.",
+    "Step 7: Brain can be cooked and eaten like other organs."
+  ],
+  "warnings": [
+    "Always inspect organs for signs of disease before consuming.",
+    "Diseased liver doesn't necessarily mean muscle meat is unsafe.",
+    "Cook all organ meats thoroughly to kill potential parasites."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

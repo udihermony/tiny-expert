@@ -1,0 +1,27 @@
+{
+  "id": "cold-weather-hygiene-basics",
+  "title": "Maintain Hygiene in Cold Weather",
+  "icon": "🧼",
+  "category": "first-aid",
+  "brief": "Essential hygiene practices to prevent skin problems and infections in cold environments.",
+  "tags": [
+    "cold-weather",
+    "hygiene",
+    "health",
+    "prevention"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Take snow baths when washing is impractical - use a handful of snow to wash areas where sweat accumulates (under arms, between legs), then wipe dry immediately.",
+    "Step 2: Wash your feet daily if possible and put on clean, dry socks.",
+    "Step 3: Change underwear at least twice a week.",
+    "Step 4: If unable to wash underwear, remove it, shake it out, and let it air for 1-2 hours.",
+    "Step 5: Check your body and clothing for lice each night if using a previously occupied shelter.",
+    "Step 6: If you shave, do so before bed to allow skin recovery time before exposure."
+  ],
+  "warnings": [
+    "Neglecting hygiene can lead to skin rashes that develop into serious medical problems.",
+    "If clothing becomes lice-infested and you have no insecticide, hang clothes in cold air, then beat and brush them - this removes lice but not eggs."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "snow-blindness-prevention",
+  "title": "Prevent and Treat Snow Blindness",
+  "icon": "🕶️",
+  "category": "first-aid",
+  "brief": "Protect eyes from UV reflection off snow using sunglasses or improvised eye protection.",
+  "tags": [
+    "snow-blindness",
+    "eye-protection",
+    "UV-protection",
+    "improvised-gear"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Wear sunglasses when in snowy conditions with sun exposure.",
+    "Step 2: If no sunglasses available, cut narrow slits in cardboard, thin wood, or tree bark.",
+    "Step 3: Put soot under your eyes to reduce glare and shine.",
+    "Step 4: If symptoms develop (gritty feeling, eye pain, redness, tearing, headache), bandage eyes until symptoms disappear."
+  ],
+  "warnings": [
+    "Sun's UV rays reflect at all angles from snow, ice, and water.",
+    "Symptoms include grit sensation in eyes, pain increasing with eye movement, red teary eyes, and light-sensitive headache.",
+    "Exposure is worse at high altitudes than low altitudes.",
+    "Prolonged exposure can cause permanent eye damage."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

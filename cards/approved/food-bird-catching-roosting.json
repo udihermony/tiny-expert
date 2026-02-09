@@ -1,0 +1,27 @@
+{
+  "id": "food-bird-catching-roosting",
+  "title": "Catching Birds at Night Roosts",
+  "icon": "🐦",
+  "category": "food",
+  "brief": "Capture roosting birds by hand during nighttime when they are most vulnerable.",
+  "tags": [
+    "birds",
+    "nighttime",
+    "hand-capture",
+    "roosting"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Locate bird roosting sites during daylight hours by observing their flight patterns.",
+    "Step 2: Wait until full darkness when birds are settled and less alert.",
+    "Step 3: Approach roosting sites quietly and slowly to avoid startling the birds.",
+    "Step 4: Grab birds directly by hand - pigeons and some other species can be taken this way.",
+    "Step 5: During nesting season, approach nests directly as some species won't leave even when approached."
+  ],
+  "warnings": [
+    "Move slowly and quietly to avoid spooking entire roost.",
+    "Some birds may bite or scratch in defense.",
+    "Ensure you can safely reach roosting areas without falling."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

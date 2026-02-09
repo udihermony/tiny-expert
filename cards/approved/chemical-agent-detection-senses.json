@@ -1,0 +1,29 @@
+{
+  "id": "chemical-agent-detection-senses",
+  "title": "Using Physical Senses to Detect Chemical Agents",
+  "icon": "👃",
+  "category": "rescue",
+  "brief": "How to use sight, smell, sound, and physical sensations to detect chemical warfare agents.",
+  "tags": [
+    "chemical",
+    "detection",
+    "senses",
+    "warfare",
+    "symptoms"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Smell - detect newly cut grass/hay odor (choking agents) or almond smell (blood agents).",
+    "Step 2: Sight - look for colored liquids/solids, mist or fog after explosions, oily patches on surfaces.",
+    "Step 3: Sound - listen for muffled shell or bomb detonations indicating chemical weapons.",
+    "Step 4: Physical sensation - note nose/eye/skin irritation as urgent warning signal.",
+    "Step 5: Taste - detect strange taste in food, water, or cigarettes indicating contamination.",
+    "Step 6: Observe others for symptoms: tears, difficulty breathing, choking, coughing, dizziness."
+  ],
+  "warnings": [
+    "Most chemical agents are odorless - do not rely on smell alone",
+    "Irritation in nose, eyes, or skin requires immediate protective action",
+    "Dead animals or people displaying abnormal behavior indicate agent presence"
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

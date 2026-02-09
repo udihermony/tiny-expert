@@ -1,0 +1,28 @@
+{
+  "id": "first-aid-heat-cramps",
+  "title": "Recognize and Treat Heat Cramps",
+  "icon": "🌡️",
+  "category": "first-aid",
+  "brief": "Identify and treat heat cramps caused by salt loss from excessive sweating.",
+  "tags": [
+    "heat-injury",
+    "desert",
+    "salt-loss",
+    "muscle-cramps"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Recognize symptoms: moderate to severe muscle cramps in legs, arms, or abdomen, starting as mild discomfort.",
+    "Step 2: Immediately stop all physical activity.",
+    "Step 3: Get into shade as quickly as possible.",
+    "Step 4: Drink water to replace lost fluids.",
+    "Step 5: Rest until symptoms subside completely.",
+    "Step 6: If cramps persist or worsen, treat as heat exhaustion."
+  ],
+  "warnings": [
+    "Do not ignore early mild muscular discomfort - it will progress to severe cramps.",
+    "Continuing activity after symptoms appear will worsen the condition.",
+    "Heat cramps can progress to more serious heat injuries if not treated."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "water-tropical-vines",
+  "title": "Extract Water from Tropical Vines",
+  "icon": "🌿",
+  "category": "water",
+  "brief": "Obtain drinking water from tropical vines using a two-cut method to release stored liquids.",
+  "tags": [
+    "vines",
+    "tropical",
+    "plant-water",
+    "cutting-technique"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Locate suitable tropical vines - avoid any that appear damaged or diseased.",
+    "Step 2: Cut a notch in the vine as high as you can safely reach.",
+    "Step 3: Cut the vine off close to the ground below your first cut.",
+    "Step 4: Position a container under the bottom cut to catch the dropping liquid.",
+    "Step 5: Alternatively, position your mouth directly under the flow to drink.",
+    "Step 6: Allow all liquid to drain from the vine section before discarding."
+  ],
+  "warnings": [
+    "Do not drink liquid if it is sticky, milky, or bitter tasting - these indicate toxicity.",
+    "Test small amounts first before consuming larger quantities.",
+    "Some vine liquids can be poisonous - always check taste and consistency first."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 6 - Water Procurement)"
+}

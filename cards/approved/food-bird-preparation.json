@@ -1,0 +1,26 @@
+{
+  "id": "food-bird-preparation",
+  "title": "Preparing Birds for Cooking",
+  "icon": "🦅",
+  "category": "food",
+  "brief": "Clean and prepare birds while preserving maximum nutritional value.",
+  "tags": [
+    "bird-cleaning",
+    "poultry",
+    "scavenger-birds"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Remove feathers by plucking (preferred) or skinning - skinning removes some food value.",
+    "Step 2: Open the body cavity and remove all entrails.",
+    "Step 3: Save the craw (in seed-eating birds), heart, and liver for additional nutrition.",
+    "Step 4: Cut off the feet at the joints.",
+    "Step 5: For scavenger birds: boil for at least 20 minutes before other cooking to kill parasites."
+  ],
+  "warnings": [
+    "Scavenger birds require extended boiling (20+ minutes) to kill parasites before final cooking.",
+    "Plucking preserves more nutrition than skinning.",
+    "Inspect saved organs for signs of disease before eating."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

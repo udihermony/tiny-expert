@@ -1,0 +1,29 @@
+{
+  "id": "first-aid-coral-cut-treatment",
+  "title": "Treating Coral Cuts and Wounds",
+  "icon": "🩹",
+  "category": "first-aid",
+  "brief": "Proper treatment of coral cuts to prevent infection and complications.",
+  "tags": [
+    "coral",
+    "cuts",
+    "wounds",
+    "infection",
+    "tropical",
+    "ocean"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Clean all coral cuts thoroughly with clean water to remove coral particles.",
+    "Step 2: Flush the wound repeatedly to ensure all debris is removed.",
+    "Step 3: Apply antiseptic other than iodine to disinfect the wound.",
+    "Step 4: Cover with clean bandage and monitor for signs of infection.",
+    "Step 5: Change dressing regularly and keep wound clean and dry."
+  ],
+  "warnings": [
+    "Never use iodine on coral cuts - some coral polyps feed on iodine and may grow inside your flesh.",
+    "Coral cuts are highly prone to infection - thorough cleaning is essential.",
+    "Both dead and living coral can cause serious cuts and puncture wounds."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}

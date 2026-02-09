@@ -1,0 +1,28 @@
+{
+  "id": "psychology-survival-pattern",
+  "title": "Establish Survival Priorities Based on Environment",
+  "icon": "📋",
+  "category": "psychology",
+  "brief": "Create an ordered priority list of survival needs that adapts to your specific environment and conditions.",
+  "tags": [
+    "prioritization",
+    "planning",
+    "environmental-adaptation"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "List core survival needs: food, water, shelter, fire, first aid, and signals.",
+    "Assess your immediate environment and threats (cold, heat, injury, enemy).",
+    "Reorder priorities based on most immediate life threats - first aid always tops the list if injured.",
+    "For cold environments: prioritize fire for warmth, then shelter, then food procurement, then signals.",
+    "For hot environments: prioritize water and shade, then shelter, then food, then signals.",
+    "Continuously reassess and adjust priorities as conditions and environment change.",
+    "Focus resources and energy on top 2-3 priorities before addressing lower-priority needs."
+  ],
+  "warnings": [
+    "First aid must be top priority regardless of climate if you are injured.",
+    "Failing to adapt priorities to changing conditions can be fatal.",
+    "Don't spread effort too thin across all needs simultaneously."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — US Department of the Army (Chapter 1)"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "water-electrolyte-replacement",
+  "title": "Replace Electrolytes with Salt Water",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Make an electrolyte solution to replace body salts lost through sweating and dehydration.",
+  "tags": [
+    "electrolytes",
+    "salt-replacement",
+    "hydration"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Mix 0.25 teaspoon of salt into 1 liter of water.",
+    "Step 2: Stir thoroughly until salt completely dissolves.",
+    "Step 3: Drink this solution when experiencing heavy sweating or extreme conditions.",
+    "Step 4: Use this concentration as it matches what body tissues can readily absorb.",
+    "Step 5: For emergency rationing, use 2 teaspoons sugar per liter in a sugar-water mixture for at least a week."
+  ],
+  "warnings": [
+    "Too much salt can cause nausea and worsen dehydration.",
+    "In extreme situations, additional electrolyte sources beyond normal diet are necessary."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 4)"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "first-aid-temporary-fillings",
+  "title": "Make Temporary Tooth Fillings",
+  "icon": "🦷",
+  "category": "first-aid",
+  "brief": "Fill tooth cavities temporarily using available materials to reduce pain and prevent infection.",
+  "tags": [
+    "dental-emergency",
+    "pain-relief",
+    "improvised-materials"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Clean the cavity thoroughly by rinsing with water or picking out food particles.",
+    "Step 2: Choose filling material: candle wax, tobacco, aspirin, hot pepper, toothpaste/powder, or ginger root portions.",
+    "Step 3: Warm wax slightly if using candle wax to make it pliable.",
+    "Step 4: Pack the chosen material firmly into the clean cavity.",
+    "Step 5: Allow filling to set before eating or drinking.",
+    "Step 6: Replace filling as needed if it falls out."
+  ],
+  "warnings": [
+    "This is temporary only - seek proper dental care when possible.",
+    "Ensure cavity is completely clean before filling to prevent trapping bacteria."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 4)"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tools-sling-club-construction",
+  "title": "Building a Sling Club for Extended Reach",
+  "icon": "🪃",
+  "category": "tools",
+  "brief": "Create a flexible sling club that multiplies striking force and extends reach.",
+  "tags": [
+    "weapons",
+    "sling-club",
+    "flexible",
+    "extended-reach"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Select a suitable handle of comfortable length and grip diameter.",
+    "Step 2: Find or create a weight (stone, heavy wood knot, etc.).",
+    "Step 3: Create strong, flexible lashing material 8-10 centimeters long.",
+    "Step 4: Securely attach one end of lashing to the weight.",
+    "Step 5: Attach other end of lashing to the end of the handle.",
+    "Step 6: Test swing motion to ensure weight moves freely without tangling."
+  ],
+  "warnings": [
+    "Practice swings away from your body and others to avoid accidental strikes.",
+    "Ensure lashing is strong enough to hold weight during violent swinging motions.",
+    "Flexible head increases striking force but requires more skill to control accurately."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army"
+}

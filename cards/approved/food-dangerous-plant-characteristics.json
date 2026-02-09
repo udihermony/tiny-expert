@@ -1,0 +1,29 @@
+{
+  "id": "food-dangerous-plant-characteristics",
+  "title": "Plant Characteristics to Avoid",
+  "icon": "☠️",
+  "category": "food",
+  "brief": "Recognize common plant features that indicate potential toxicity to avoid during food gathering.",
+  "tags": [
+    "plant-safety",
+    "toxic-plants",
+    "plant-identification"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Avoid plants with milky or discolored sap.",
+    "Step 2: Avoid plants with beans, bulbs, or seeds inside pods.",
+    "Step 3: Avoid plants with bitter or soapy taste.",
+    "Step 4: Avoid plants with spines, fine hairs, or thorns.",
+    "Step 5: Avoid plants with dill, carrot, parsnip, or parsley-like foliage.",
+    "Step 6: Avoid plants with 'almond' scent in woody parts and leaves.",
+    "Step 7: Avoid grain heads with pink, purplish, or black spurs.",
+    "Step 8: Avoid plants with three-leaved growth pattern."
+  ],
+  "warnings": [
+    "These criteria will eliminate some edible plants but help avoid potentially deadly ones.",
+    "Almond scent indicates cyanide compounds which can be fatal.",
+    "Three-leaved pattern often indicates poison ivy family plants."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

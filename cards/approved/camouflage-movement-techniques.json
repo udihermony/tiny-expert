@@ -1,0 +1,30 @@
+{
+  "id": "camouflage-movement-techniques",
+  "title": "Camouflaged Movement Principles",
+  "icon": "🚶",
+  "category": "camouflage",
+  "brief": "Move without detection by controlling speed, silhouette, and timing.",
+  "tags": [
+    "movement",
+    "stealth",
+    "silhouette",
+    "concealment"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Move slowly to decrease chance of detection and conserve energy.",
+    "Step 2: Avoid going over obstacles - go around them when possible.",
+    "Step 3: When climbing over obstacles, keep body level with top to avoid silhouetting.",
+    "Step 4: Never silhouette yourself against skyline when crossing hills or ridges.",
+    "Step 5: Stop frequently to listen and look around slowly for hostile movement.",
+    "Step 6: Stay in deepest part of shadows, avoiding lighter shadow edges.",
+    "Step 7: Use background noise (aircraft, wind, rain) to cover movement sounds."
+  ],
+  "warnings": [
+    "Fast movement attracts attention - only move quickly when capture is imminent.",
+    "When moving, you have difficulty detecting others' movement.",
+    "Be aware of casting shadows around buildings or other structures.",
+    "Your silhouette can be seen against light sources from the opposite side."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter 21 - Camouflage)"
+}

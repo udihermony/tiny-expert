@@ -1,0 +1,30 @@
+{
+  "id": "food-reptile-safety",
+  "title": "Safe Reptile Consumption Guidelines",
+  "icon": "🦎",
+  "category": "food",
+  "brief": "Identify safe reptiles for food while avoiding toxic species like box turtles and hawksbills.",
+  "tags": [
+    "reptiles",
+    "turtles",
+    "snakes",
+    "toxicity",
+    "cooking-recommended"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Know that most reptiles are safe protein sources and relatively easy to catch.",
+    "Step 2: AVOID box turtles - they feed on poisonous mushrooms and build up toxic poison in flesh.",
+    "Step 3: AVOID hawksbill turtles found in Atlantic Ocean due to poisonous thorax gland.",
+    "Step 4: Exercise extreme caution with poisonous snakes, alligators, crocodiles, and large sea turtles.",
+    "Step 5: Cook reptiles when possible, though they can be eaten raw in emergencies.",
+    "Step 6: Understand that reptiles don't carry warm-blooded animal diseases due to being cold-blooded."
+  ],
+  "warnings": [
+    "Box turtle toxin is not destroyed by cooking - avoid completely.",
+    "Poisonous snakes and large reptiles present obvious physical dangers.",
+    "While reptiles can be eaten raw, cooking eliminates parasite risk.",
+    "Positive identification is crucial - when in doubt, don't consume."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army (Chapter 8)"
+}

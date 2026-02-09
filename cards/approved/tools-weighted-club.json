@@ -1,0 +1,26 @@
+{
+  "id": "tools-weighted-club",
+  "title": "Make a Weighted Club",
+  "icon": "🔨",
+  "category": "tools",
+  "brief": "Create a weighted club by adding a stone to one end for increased striking force.",
+  "tags": [
+    "improvised-weapons",
+    "stone-tools",
+    "lashing"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find a stone with a slight hourglass shape that can be lashed securely.",
+    "Step 2: If no suitable stone is found, create grooves by repeatedly rapping it with a smaller hard stone (pecking technique).",
+    "Step 3: Select a straight-grained hardwood handle of comfortable length relative to the stone's weight.",
+    "Step 4: Lash the stone to the handle using one of three methods: split handle, forked branch, or wrapped handle.",
+    "Step 5: Test the balance and ensure the stone is securely attached before use."
+  ],
+  "warnings": [
+    "Ensure the stone is properly secured - a loose stone can become a projectile.",
+    "Match handle length to stone weight to prevent the club from being unwieldy.",
+    "Test all lashings before relying on the weapon."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

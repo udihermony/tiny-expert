@@ -1,0 +1,30 @@
+{
+  "id": "food-insect-identification",
+  "title": "Safe Insect Selection for Food",
+  "icon": "🐛",
+  "category": "food",
+  "brief": "Identify which insects are safe to eat and which to avoid for emergency nutrition.",
+  "tags": [
+    "insects",
+    "protein",
+    "emergency-food",
+    "identification"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: AVOID all adults that sting or bite (wasps, bees, hornets).",
+    "Step 2: AVOID hairy insects or brightly colored insects.",
+    "Step 3: AVOID caterpillars and insects with strong, pungent odors.",
+    "Step 4: AVOID spiders and disease carriers like ticks, flies, and mosquitoes.",
+    "Step 5: Look for insects in rotting logs: ants, termites, beetles, and grubs.",
+    "Step 6: Search grassy fields where insects are easily visible.",
+    "Step 7: Check under stones, boards, and materials on the ground for nesting insects.",
+    "Step 8: Remove wings and barbed legs from hard-shelled insects like beetles and grasshoppers before eating."
+  ],
+  "warnings": [
+    "Cook hard-shelled insects (beetles, grasshoppers) before eating as they may have parasites.",
+    "Never eat brightly colored insects as they are often poisonous.",
+    "Avoid insects near contaminated areas or garbage."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army (Chapter 8)"
+}

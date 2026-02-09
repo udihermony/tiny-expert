@@ -1,0 +1,27 @@
+{
+  "id": "water-tree-bleeding",
+  "title": "Making Trees Bleed Water",
+  "icon": "🌴",
+  "category": "water",
+  "brief": "Extract water from specific tree species by bruising fronds or accessing natural water storage.",
+  "tags": [
+    "tropical",
+    "tree-tapping",
+    "palm-trees",
+    "natural-source"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Identify suitable trees: palms (buri, coconut, sugar, rattan, nips), traveler's tree, umbrella tree, or baobab.",
+    "Step 2: For palms: bruise a lower frond and pull it downward to create an injury.",
+    "Step 3: Position a container to catch liquid that 'bleeds' from the injury site.",
+    "Step 4: For traveler's tree: look for water collected in cuplike sheaths at leaf bases.",
+    "Step 5: For baobab: look for clear water stored in the bottle-shaped trunk during dry seasons."
+  ],
+  "warnings": [
+    "Positively identify the tree species before attempting - some trees may have toxic sap.",
+    "Do not consume sap that is sticky, milky, or bitter.",
+    "Baobab water may only be available for weeks after wet season, not year-round."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

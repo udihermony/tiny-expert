@@ -1,0 +1,27 @@
+{
+  "id": "food-mayapple-identification",
+  "title": "Safe Mayapple Fruit Identification",
+  "icon": "🍎",
+  "category": "food",
+  "brief": "Identify and safely consume ripe mayapple fruit while avoiding poisonous parts.",
+  "tags": [
+    "plant-identification",
+    "foraging",
+    "poisonous-plants",
+    "fruit"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Locate mayapple plants - they have large, umbrella-like leaves.",
+    "Step 2: Only harvest fully ripe fruit that has turned yellow or yellowish-green.",
+    "Step 3: Avoid all green (unripe) fruit - these are poisonous.",
+    "Step 4: Do not consume any other parts of the plant (leaves, stems, roots) - all are toxic.",
+    "Step 5: Eat only the ripe fruit flesh, avoiding seeds if possible."
+  ],
+  "warnings": [
+    "All parts of mayapple except ripe fruit are poisonous.",
+    "Green (unripe) fruit is toxic and can cause severe illness.",
+    "Never consume leaves, stems, or roots of mayapple."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army"
+}

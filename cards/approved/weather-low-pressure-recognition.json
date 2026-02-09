@@ -1,0 +1,26 @@
+{
+  "id": "weather-low-pressure-recognition",
+  "title": "Identifying Low-Pressure Weather Fronts",
+  "icon": "🌧️",
+  "category": "navigation",
+  "brief": "How to recognize approaching low-pressure fronts that bring extended bad weather.",
+  "tags": [
+    "weather",
+    "pressure",
+    "storms",
+    "prediction"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Notice slow-moving or nearly imperceptible winds combined with heavy, humid air.",
+    "Step 2: 'Smell' the front - sluggish, humid air makes wilderness odors more pronounced than normal.",
+    "Step 3: 'Hear' the front - sounds become sharper and carry farther in low-pressure conditions.",
+    "Step 4: Prepare for bad weather that will likely persist for several days.",
+    "Step 5: Secure shelter and gather supplies before the front fully arrives."
+  ],
+  "warnings": [
+    "Low-pressure fronts often bring extended periods of bad weather lasting several days.",
+    "The combination of humidity and barometric changes can affect human health and energy levels."
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

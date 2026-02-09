@@ -1,0 +1,33 @@
+{
+  "id": "water-belowground-still",
+  "title": "Building a Belowground Solar Still",
+  "icon": "⛏️",
+  "category": "water",
+  "brief": "Construct an underground solar still to extract moisture from soil and purify contaminated water.",
+  "tags": [
+    "solar-still",
+    "desert",
+    "contaminated-water",
+    "underground"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Select a site with moist soil (dry stream bed or low area) that gets sunlight most of the day.",
+    "Step 2: Dig a bowl-shaped hole 1 meter across and 60 centimeters deep.",
+    "Step 3: Dig a sump in the center sized for your collection container.",
+    "Step 4: Anchor tubing to the container bottom with a loose overhand knot.",
+    "Step 5: Place container upright in the sump and extend tubing up and beyond the hole's lip.",
+    "Step 6: Cover the hole with clear plastic sheet, securing edges with soil.",
+    "Step 7: Place a rock in the center of the plastic to create an inverted cone 40 centimeters below ground.",
+    "Step 8: Ensure the cone's apex is directly over the container and plastic doesn't touch hole sides.",
+    "Step 9: Add more soil around plastic edges and plug the tube when not in use.",
+    "Step 10: For polluted water purification, dig a trough 25 cm from the still's lip, 25 cm deep, 8 cm wide, and pour polluted water into it."
+  ],
+  "warnings": [
+    "Plastic must not touch the hole sides or condensed water will be absorbed by earth.",
+    "Do not spill polluted water around the rim where plastic touches soil.",
+    "You need at least three stills to meet daily water intake needs.",
+    "Takes about 24 hours to produce 0.5 to 1 liter of water."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

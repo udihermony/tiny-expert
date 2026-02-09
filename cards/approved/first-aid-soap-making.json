@@ -1,0 +1,28 @@
+{
+  "id": "first-aid-soap-making",
+  "title": "Make Soap from Animal Fat and Ashes",
+  "icon": "🧼",
+  "category": "first-aid",
+  "brief": "Create soap for hygiene when commercial soap is unavailable using animal fat and wood ashes.",
+  "tags": [
+    "hygiene",
+    "improvised-materials",
+    "infection-prevention"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Cut animal fat into small pieces and cook slowly in a pot, stirring frequently.",
+    "Step 2: Add enough water to prevent fat from sticking as it renders.",
+    "Step 3: Pour the rendered grease into a container to harden.",
+    "Step 4: Place wood ashes in a container with a spout near the bottom.",
+    "Step 5: Pour water over ashes and collect the liquid (lye) that drips from the spout.",
+    "Step 6: Mix 2 parts grease to 1 part lye in a cooking pot.",
+    "Step 7: Boil the mixture over fire until it thickens.",
+    "Step 8: Use immediately as semi-liquid soap or pour into pan to harden for bars."
+  ],
+  "warnings": [
+    "Lye is caustic - avoid getting it on skin or in eyes.",
+    "Test soap on small skin area first to check for irritation."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 4)"
+}

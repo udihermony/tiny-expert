@@ -1,0 +1,28 @@
+{
+  "id": "psychology-cultural-safety",
+  "title": "Cultural Safety and Disease Prevention",
+  "icon": "🏠",
+  "category": "psychology",
+  "brief": "How to interact safely with locals while preventing disease transmission.",
+  "tags": [
+    "disease-prevention",
+    "cultural-respect",
+    "hygiene",
+    "safety"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Build a separate shelter if possible to avoid physical contact with potentially diseased locals.",
+    "Step 2: Personally prepare your own food and drink if possible without giving offense.",
+    "Step 3: Use 'personal or religious custom' as explanation for isolationist behavior - locals usually accept this.",
+    "Step 4: Do not enter houses unless specifically invited.",
+    "Step 5: Respect personal property and local customs even if they seem odd.",
+    "Step 6: Keep any promises you make to maintain trust."
+  ],
+  "warnings": [
+    "Local people may suffer from contagious diseases.",
+    "Avoid giving the impression you are deliberately avoiding contact.",
+    "Never violate privacy or enter homes uninvited."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter on Survivor's Behavior)"
+}

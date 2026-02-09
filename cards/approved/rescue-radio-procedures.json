@@ -1,0 +1,30 @@
+{
+  "id": "rescue-radio-procedures",
+  "title": "Survival Radio Operating Procedures",
+  "icon": "📻",
+  "category": "rescue",
+  "brief": "Maximize radio performance and battery life for emergency communications with rescue aircraft.",
+  "tags": [
+    "radio",
+    "battery",
+    "transmission",
+    "aircraft"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Transmit only in clear, unobstructed terrain - radios are line-of-sight devices.",
+    "Step 2: Keep antenna at right angles to rescuing aircraft - no signal comes from antenna tip.",
+    "Step 3: Never let antenna touch clothing, body, foliage, or ground - greatly reduces signal range.",
+    "Step 4: If radio has tone capability, place upright on flat, elevated surface.",
+    "Step 5: Conserve battery - turn off when not using, don't transmit constantly.",
+    "Step 6: In cold weather, keep battery inside clothing when not in use.",
+    "Step 7: Keep radio and battery dry - water destroys circuitry."
+  ],
+  "warnings": [
+    "Cold quickly drains battery power.",
+    "Extreme heat may cause battery to explode.",
+    "In hostile territory, keep transmissions short to avoid enemy direction finding.",
+    "Any terrain between radio and receiver blocks the signal."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

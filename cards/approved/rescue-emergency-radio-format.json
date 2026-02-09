@@ -1,0 +1,29 @@
+{
+  "id": "rescue-emergency-radio-format",
+  "title": "Standard Emergency Radio Communication Format",
+  "icon": "🎙️",
+  "category": "rescue",
+  "brief": "Use standardized radio format to quickly convey critical rescue information to pilots.",
+  "tags": [
+    "radio",
+    "emergency",
+    "format",
+    "information"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Say 'Mayday, Mayday' to indicate emergency.",
+    "Step 2: Give your call sign if you have one.",
+    "Step 3: State your name clearly.",
+    "Step 4: Provide your location as precisely as possible.",
+    "Step 5: Report number of survivors.",
+    "Step 6: Describe available landing sites in area.",
+    "Step 7: Add any remarks about medical aid or specific immediate help needed."
+  ],
+  "warnings": [
+    "Keep transmissions clear and concise.",
+    "Don't assume rescue is guaranteed just because you made contact.",
+    "Continue survival techniques until actually rescued."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

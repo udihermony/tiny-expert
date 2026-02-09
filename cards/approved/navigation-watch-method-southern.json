@@ -1,0 +1,24 @@
+{
+  "id": "navigation-watch-method-southern",
+  "title": "Watch Method for Direction Finding (Southern Hemisphere)",
+  "icon": "⌚",
+  "category": "navigation",
+  "brief": "Use an analog watch and the sun to determine north-south direction in the southern hemisphere.",
+  "tags": [
+    "daytime",
+    "watch",
+    "southern-hemisphere",
+    "sun"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Hold the watch horizontal and point the 12 o'clock mark toward the sun.",
+    "Step 2: Find the midpoint between 12 o'clock and the hour hand.",
+    "Step 3: This midpoint indicates the north-south line."
+  ],
+  "warnings": [
+    "Method is reversed from northern hemisphere - point 12 o'clock at sun, not hour hand.",
+    "Accuracy decreases closer to the equator."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

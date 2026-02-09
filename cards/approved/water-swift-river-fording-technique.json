@@ -1,0 +1,32 @@
+{
+  "id": "water-swift-river-fording-technique",
+  "title": "Fording Swift Rivers with a Pole",
+  "icon": "🌊",
+  "category": "navigation",
+  "brief": "Safe technique for crossing fast-moving rivers using a support pole.",
+  "tags": [
+    "river-crossing",
+    "swift-water",
+    "pole",
+    "fording",
+    "current"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Remove pants and shirt to reduce water's pull, but keep footgear on for protection and grip.",
+    "Step 2: Tie clothing to top of rucksack so all items stay together if you must release equipment.",
+    "Step 3: Carry pack high on shoulders and ensure you can remove it quickly if needed.",
+    "Step 4: Find strong pole 7.5 centimeters diameter and 2.1-2.4 meters long.",
+    "Step 5: Plant pole firmly on upstream side to break current, keeping it slanted so current holds it against your shoulder.",
+    "Step 6: Move pole forward slightly downstream from previous position but still upstream from you.",
+    "Step 7: Step forward placing foot below the pole position.",
+    "Step 8: Cross at 45-degree angle to downstream current.",
+    "Step 9: Repeat pole placement and stepping until across."
+  ],
+  "warnings": [
+    "Pack weight helps stability - do not discard it unless absolutely necessary for safety.",
+    "Ensure pack can be released quickly to prevent being dragged underwater.",
+    "Keep pole angled properly so current assists rather than fights your balance."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "water-sea-survival-floating",
+  "title": "Float Safely in Ocean Water to Conserve Energy",
+  "icon": "🌊",
+  "category": "water",
+  "brief": "Use proper floating techniques to survive in ocean water while conserving energy and preventing drowning.",
+  "tags": [
+    "ocean",
+    "swimming",
+    "energy-conservation"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Float on your back for least energy - lie back, spread arms and legs, arch your back.",
+    "Step 2: Control breathing in and out to keep face above water.",
+    "Step 3: If rough seas prevent back floating, float face-down and lift head periodically to breathe.",
+    "Step 4: Use dog paddle stroke when clothed or wearing life jacket - slow but requires little energy.",
+    "Step 5: Use breaststroke for swimming underwater, through oil/debris, or in rough seas.",
+    "Step 6: Use sidestroke as relief stroke - only one arm maintains momentum.",
+    "Step 7: Use backstroke to relieve muscles used in other strokes."
+  ],
+  "warnings": [
+    "A person who knows how to relax in ocean water is in very little danger of drowning due to natural buoyancy.",
+    "Your head will be partially submerged when back floating, but your face will remain above water.",
+    "You may sleep for short periods while back floating."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

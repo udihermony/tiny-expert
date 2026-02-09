@@ -1,0 +1,26 @@
+{
+  "id": "food-fish-preparation-basic",
+  "title": "Basic Fish Preparation for Cooking",
+  "icon": "🔪",
+  "category": "food",
+  "brief": "Properly clean and prepare fresh fish to maximize food value and prevent spoilage.",
+  "tags": [
+    "fish-cleaning",
+    "food-preparation",
+    "cooking-prep"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Prepare fish as soon as possible after catching.",
+    "Step 2: Cut out the gills and large blood vessels near the spine.",
+    "Step 3: Gut any fish longer than 10 centimeters by opening the belly and removing internal organs.",
+    "Step 4: Scale the fish by scraping against the grain, or skin it completely.",
+    "Step 5: Rinse the cleaned fish in clean water if available."
+  ],
+  "warnings": [
+    "Fish spoils quickly, especially in hot weather - process immediately.",
+    "Save the juices when boiling fish with skin on for maximum nutrition.",
+    "Remove all blood vessels to prevent rapid spoilage."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "arctic-avalanche-timing",
+  "title": "Avalanche-Safe Travel Timing",
+  "icon": "🏔️",
+  "category": "navigation",
+  "brief": "When to travel in avalanche-prone terrain to minimize risk.",
+  "tags": [
+    "arctic",
+    "avalanche",
+    "mountain",
+    "timing"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Identify hilly terrain where avalanches appear possible before planning your route.",
+    "Step 2: Plan travel through avalanche areas for early morning hours.",
+    "Step 3: Avoid avalanche-prone slopes during warmer parts of the day when snow is more unstable.",
+    "Step 4: Choose alternative routes around avalanche zones when possible."
+  ],
+  "warnings": [
+    "Avalanches can be triggered by the weight and vibration of a person crossing unstable snow.",
+    "Afternoon warming makes snow more likely to slide.",
+    "Even small avalanches can be fatal by burying or carrying you over cliffs."
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

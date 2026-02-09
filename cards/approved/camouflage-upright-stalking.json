@@ -1,0 +1,31 @@
+{
+  "id": "camouflage-upright-stalking",
+  "title": "Upright Stalking Technique",
+  "icon": "🦵",
+  "category": "camouflage",
+  "brief": "Move silently in upright position using controlled foot placement and weight distribution.",
+  "tags": [
+    "stalking",
+    "silent-movement",
+    "foot-placement",
+    "balance"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Take steps about half your normal stride length to maintain balance.",
+    "Step 2: Curl toes up when stepping so outside edge of ball of foot touches ground first.",
+    "Step 3: Feel for sticks and twigs that may snap - lift foot and move it if you detect any.",
+    "Step 4: Roll from outside ball of foot to inside ball, then place heel down, followed by toes.",
+    "Step 5: Gradually shift weight forward to front foot before lifting back foot.",
+    "Step 6: Lift back foot to about knee height and repeat process.",
+    "Step 7: Keep hands and arms close to body - place hands on knees when crouching.",
+    "Step 8: Take approximately 1 minute per step, adjusting for situation."
+  ],
+  "warnings": [
+    "You must be able to stop and hold position at any point during step.",
+    "Waving arms or hitting vegetation will create noise and movement.",
+    "Practice is essential - stalking is ineffective without training.",
+    "One careless step can undo hours of careful movement."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter 21 - Camouflage)"
+}

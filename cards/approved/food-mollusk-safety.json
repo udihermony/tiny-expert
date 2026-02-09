@@ -1,0 +1,31 @@
+{
+  "id": "food-mollusk-safety",
+  "title": "Safe Mollusk Collection and Consumption",
+  "icon": "🐚",
+  "category": "food",
+  "brief": "Safely collect and prepare shellfish, snails, and other mollusks while avoiding toxic varieties.",
+  "tags": [
+    "shellfish",
+    "mollusks",
+    "coastal",
+    "freshwater",
+    "seasonal-danger"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: In fresh water, look for mollusks in shallows with sandy or muddy bottoms.",
+    "Step 2: Look for narrow trails in mud or dark elliptical slits of open valves.",
+    "Step 3: Near the sea, search tidal pools and wet sand areas.",
+    "Step 4: Find shellfish clinging to rocks, reefs, and seaweed from low water mark upward.",
+    "Step 5: Locate mussel colonies in rock pools, on logs, or at base of boulders.",
+    "Step 6: Steam, boil, or bake mollusks in their shells.",
+    "Step 7: Use in stews combined with edible vegetation and tubers."
+  ],
+  "warnings": [
+    "Do NOT eat shellfish that are not covered by water at high tide.",
+    "Mussels may be poisonous in tropical zones during summer months.",
+    "Always cook mollusks thoroughly - never eat them raw.",
+    "Avoid any shellfish with broken shells or foul odor."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army (Chapter 8)"
+}

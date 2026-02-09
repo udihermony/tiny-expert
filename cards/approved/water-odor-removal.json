@@ -1,0 +1,27 @@
+{
+  "id": "water-odor-removal",
+  "title": "Removing Odor from Water with Charcoal",
+  "icon": "🪨",
+  "category": "water",
+  "brief": "Use charcoal from fire to remove unpleasant odors from water sources.",
+  "tags": [
+    "water-treatment",
+    "charcoal",
+    "odor-removal",
+    "fire-required"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Take charcoal pieces from your fire (ensure they are completely extinguished).",
+    "Step 2: Add the charcoal directly to the smelly water.",
+    "Step 3: Let the water stand undisturbed for 45 minutes.",
+    "Step 4: Strain out the charcoal pieces before drinking.",
+    "Step 5: Still purify the water by boiling or chemical treatment after odor removal."
+  ],
+  "warnings": [
+    "This only removes odors - you must still purify the water to kill harmful organisms.",
+    "Use only charcoal from wood fires, not from other burned materials.",
+    "Ensure charcoal is completely cool before adding to water."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

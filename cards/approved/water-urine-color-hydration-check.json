@@ -1,0 +1,26 @@
+{
+  "id": "water-urine-color-hydration-check",
+  "title": "Monitor Hydration Using Urine Color",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Use urine color as a reliable indicator of hydration status.",
+  "tags": [
+    "desert",
+    "hot-weather",
+    "hydration",
+    "health-check"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Urinate into container or observe color during urination.",
+    "Step 2: Compare color to determine hydration status.",
+    "Step 3: If urine is light yellow or clear, hydration is adequate.",
+    "Step 4: If urine is dark yellow or amber, drink more water immediately.",
+    "Step 5: Check urine color at least once every hour during hot weather."
+  ],
+  "warnings": [
+    "Dark urine indicates dangerous dehydration levels.",
+    "This check should be done regularly, not just when thirsty."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Army (Chapter 13)"
+}

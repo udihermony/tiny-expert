@@ -1,0 +1,28 @@
+{
+  "id": "tools-squirrel-pole-trap",
+  "title": "Constructing a Squirrel Pole Trap",
+  "icon": "🐿️",
+  "category": "tools",
+  "brief": "Build a pole trap that can catch multiple squirrels using their natural climbing behavior.",
+  "tags": [
+    "squirrels",
+    "pole-trap",
+    "multiple-catch",
+    "wire-nooses"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Select a long pole and place it against a tree in an area with heavy squirrel activity.",
+    "Step 2: Install several wire nooses (5-6 cm diameter) along the top and sides of the pole.",
+    "Step 3: Position nooses about 2.5 cm off the pole surface.",
+    "Step 4: Place top and bottom nooses exactly 45 cm from the ends of the pole.",
+    "Step 5: Ensure squirrels cannot get their feet on solid surface or they will chew through wire.",
+    "Step 6: Deploy multiple poles in the area to increase catch numbers."
+  ],
+  "warnings": [
+    "If squirrels can brace against solid surfaces, they will chew through the wire and escape.",
+    "Initial caution period - squirrels will investigate before attempting to use the pole.",
+    "Check trap regularly as struggling animals will eventually fall and strangle."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

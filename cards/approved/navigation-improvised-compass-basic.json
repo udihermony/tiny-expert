@@ -1,0 +1,28 @@
+{
+  "id": "navigation-improvised-compass-basic",
+  "title": "Making Basic Improvised Compass",
+  "icon": "🧭",
+  "category": "navigation",
+  "brief": "Create a simple compass using magnetized metal and string or water float.",
+  "tags": [
+    "improvised",
+    "metal",
+    "magnetized",
+    "basic-compass"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find a piece of ferrous metal that can be needle-shaped or a flat razor blade.",
+    "Step 2: Magnetize the metal by slowly stroking it in one direction on silk or through hair using deliberate strokes.",
+    "Step 3: Always stroke in the same direction only - never back and forth.",
+    "Step 4: Suspend the magnetized metal from nonmetallic string or long hair, OR",
+    "Step 5: Float it on a small piece of wood in still water.",
+    "Step 6: The metal will align itself with the north-south line."
+  ],
+  "warnings": [
+    "Metal must be ferrous (iron-containing) to be magnetized.",
+    "Water must be still for floating method to work.",
+    "String or hair must be nonmetallic to avoid interference."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

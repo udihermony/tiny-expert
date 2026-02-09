@@ -1,0 +1,28 @@
+{
+  "id": "navigation-big-dipper-north-star",
+  "title": "Finding North Star Using Big Dipper",
+  "icon": "⭐",
+  "category": "navigation",
+  "brief": "Locate Polaris (North Star) using the Big Dipper constellation for true north direction.",
+  "tags": [
+    "nighttime",
+    "northern-hemisphere",
+    "stars",
+    "clear-sky"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Locate the Big Dipper constellation (7 stars shaped like a dipper).",
+    "Step 2: Identify the two 'pointer stars' that form the outer edge of the dipper's bucket.",
+    "Step 3: Draw an imaginary line from the bottom pointer star to the top pointer star.",
+    "Step 4: Extend this line about 5 times the distance between the pointer stars.",
+    "Step 5: The North Star (Polaris) will be found along this extended line.",
+    "Step 6: Draw an imaginary line from Polaris straight down to the horizon for true north."
+  ],
+  "warnings": [
+    "Only works in northern hemisphere.",
+    "Requires clear night sky with visible stars.",
+    "Don't confuse with Little Dipper - use Cassiopeia to confirm."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

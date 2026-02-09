@@ -1,0 +1,31 @@
+{
+  "id": "water-banana-tree-well",
+  "title": "Create Water Well from Banana Tree",
+  "icon": "🍌",
+  "category": "water",
+  "brief": "Extract water from banana or plantain tree roots by cutting the trunk and creating a collection bowl.",
+  "tags": [
+    "banana",
+    "plantain",
+    "tropical",
+    "root-water",
+    "tree-well"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Locate a banana or plantain tree in good condition.",
+    "Step 2: Cut down the tree, leaving approximately 30-centimeter stump above ground.",
+    "Step 3: Scoop out the center of the stump to create a bowl-shaped hollow.",
+    "Step 4: Allow water from the roots to fill the hollow naturally.",
+    "Step 5: Discard the first three fillings as they will be bitter tasting.",
+    "Step 6: Collect and drink subsequent fillings which will be palatable.",
+    "Step 7: Cover the stump between collections to keep insects out.",
+    "Step 8: Continue collecting for up to four days from the same stump."
+  ],
+  "warnings": [
+    "First three water fillings will be bitter - do not drink these.",
+    "Cover the stump to prevent contamination by insects.",
+    "Water production will cease after approximately four days."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 6 - Water Procurement)"
+}

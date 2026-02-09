@@ -1,0 +1,25 @@
+{
+  "id": "navigation-shadow-stick-accurate",
+  "title": "Shadow Stick Method for Accurate East-West Direction",
+  "icon": "🌞",
+  "category": "navigation",
+  "brief": "Use a shadow stick and string arc to determine an accurate east-west line over the course of a day.",
+  "tags": [
+    "daytime",
+    "shadow",
+    "accurate",
+    "no-tools"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Set up your shadow stick in the morning and mark the first shadow tip.",
+    "Step 2: Use string to draw a clean arc through this mark, centered on the stick.",
+    "Step 3: Wait until afternoon when the shadow lengthens again after midday.",
+    "Step 4: Mark the second point where the afternoon shadow touches the arc.",
+    "Step 5: Draw a straight line through both shadow marks to get an accurate east-west line."
+  ],
+  "warnings": [
+    "This method requires most of a day to complete - not suitable for immediate navigation needs."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "tools-brush-raft-construction",
+  "title": "Building a Brush Raft with Two Ponchos",
+  "icon": "🛶",
+  "category": "tools",
+  "brief": "Step-by-step construction of a brush raft that can support 115 kilograms.",
+  "tags": [
+    "raft",
+    "ponchos",
+    "brush",
+    "water-crossing",
+    "flotation"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Push hood of each poncho to inner side and tie off necks tightly using drawstrings.",
+    "Step 2: Attach ropes or vines at corner and side grommets of each poncho, making them long enough to cross and tie with opposite corners.",
+    "Step 3: Spread first poncho on ground inner side up, pile fresh green brush (no thick branches) 45 centimeters high.",
+    "Step 4: Pull drawstring up through center of brush stack.",
+    "Step 5: Make X-frame from two small saplings and place on top of brush stack, tie securely with drawstring.",
+    "Step 6: Add another 45 centimeters of brush on top of X-frame and compress slightly.",
+    "Step 7: Pull poncho sides up around brush and tie diagonally corner to corner and side to side with attached ropes.",
+    "Step 8: Spread second poncho inner side up next to brush bundle.",
+    "Step 9: Roll brush bundle onto second poncho with tied side down.",
+    "Step 10: Tie second poncho around bundle same as first poncho.",
+    "Step 11: Place in water with tied side of second poncho facing up."
+  ],
+  "warnings": [
+    "Use only fresh green brush - dead or dry brush will not provide adequate buoyancy.",
+    "Test raft in water before loading equipment to ensure it floats properly.",
+    "Do not drag raft on ground as this can puncture or tear the poncho material."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}

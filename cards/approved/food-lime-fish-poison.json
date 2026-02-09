@@ -1,0 +1,27 @@
+{
+  "id": "food-lime-fish-poison",
+  "title": "Using Lime to Stun Fish",
+  "icon": "🐟",
+  "category": "food",
+  "brief": "Use commercial lime or make your own from burned coral/seashells to stun fish in water.",
+  "tags": [
+    "coastal",
+    "agricultural-areas",
+    "lime",
+    "fish-stunning"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Obtain lime from commercial sources in agricultural areas, or make your own.",
+    "Step 2: To make lime: burn coral or seashells until they become powdery.",
+    "Step 3: Throw the lime powder directly into the water where fish are present.",
+    "Step 4: Wait for fish to become stunned and rise to the surface.",
+    "Step 5: Collect stunned fish immediately."
+  ],
+  "warnings": [
+    "Lime is caustic - avoid skin contact and inhalation.",
+    "Collect all affected fish to prevent detection.",
+    "Works best in confined water bodies."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

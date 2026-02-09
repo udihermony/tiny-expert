@@ -1,0 +1,27 @@
+{
+  "id": "arctic-deep-snow-travel",
+  "title": "Traveling in Deep Snow Without Snowshoes",
+  "icon": "🥾",
+  "category": "navigation",
+  "brief": "How to manage travel when snow is 30+ centimeters deep and snowshoes aren't available.",
+  "tags": [
+    "arctic",
+    "snow",
+    "winter",
+    "no-tools"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Recognize that snow 30+ centimeters deep makes normal walking extremely difficult.",
+    "Step 2: If possible, make improvised snowshoes using willow branches, cloth strips, leather, or other materials.",
+    "Step 3: When traveling without snowshoes, follow existing trails or packed snow when available.",
+    "Step 4: Take frequent breaks as travel in deep snow is extremely energy-intensive.",
+    "Step 5: Be aware that foot travel leaves obvious tracks for pursuers to follow."
+  ],
+  "warnings": [
+    "Travel in deep snow without snowshoes is nearly impossible and extremely exhausting.",
+    "Deep snow travel leaves clear trails that compromise stealth and evasion.",
+    "Avoid snow-covered streams as insulating snow may prevent ice formation over water."
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

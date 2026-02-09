@@ -1,0 +1,25 @@
+{
+  "id": "weather-smoke-observation",
+  "title": "Reading Weather Signs from Smoke Behavior",
+  "icon": "💨",
+  "category": "navigation",
+  "brief": "How to predict weather by observing the behavior of smoke from fires.",
+  "tags": [
+    "weather",
+    "smoke",
+    "fire",
+    "prediction"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Light a small fire or observe existing smoke sources.",
+    "Step 2: Watch if smoke rises in a thin, vertical column - this indicates fair weather ahead.",
+    "Step 3: Observe if smoke rises low or flattens out - this indicates stormy weather approaching.",
+    "Step 4: Use this information to plan shelter and activity timing."
+  ],
+  "warnings": [
+    "Smoke behavior can change quickly as weather fronts move in.",
+    "Don't rely solely on smoke - combine with other weather indicators."
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

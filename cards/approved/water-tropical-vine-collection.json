@@ -1,0 +1,28 @@
+{
+  "id": "water-tropical-vine-collection",
+  "title": "Collect Water from Tropical Vines",
+  "icon": "🌿",
+  "category": "water",
+  "brief": "Extract safe drinking water from water-bearing vines using proper technique.",
+  "tags": [
+    "tropical",
+    "vines",
+    "plant-water",
+    "no-tools"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Look for vines with rough bark and shoots about 5 centimeters thick.",
+    "Step 2: Cut the vine and observe the sap - clear fluid is safe, sticky milky sap is poisonous.",
+    "Step 3: Cut a section of vine and hold it above your mouth.",
+    "Step 4: Let the liquid drip into your mouth rather than putting mouth directly on vine.",
+    "Step 5: Use a container to collect liquid if available.",
+    "Step 6: Test small amounts first to check for skin irritation."
+  ],
+  "warnings": [
+    "Some vines have poisonous sap that appears as sticky, milky substance.",
+    "Some vines cause skin irritation on contact.",
+    "Not all thick vines contain drinkable water - learn by careful testing."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Army (Chapter 14)"
+}

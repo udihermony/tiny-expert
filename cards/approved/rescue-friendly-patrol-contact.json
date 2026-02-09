@@ -1,0 +1,30 @@
+{
+  "id": "rescue-friendly-patrol-contact",
+  "title": "Safe Contact with Friendly Patrols",
+  "icon": "🤝",
+  "category": "rescue",
+  "brief": "Make safe contact with friendly forces using proper identification procedures to avoid being shot.",
+  "tags": [
+    "rescue",
+    "friendly-forces",
+    "identification",
+    "contact-procedures"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Remain concealed and allow patrol to move toward your position.",
+    "Step 2: When patrol is 25-50 meters away, signal with white cloth or article of clothing.",
+    "Step 3: Call out a greeting that is clearly and unmistakably of American origin.",
+    "Step 4: Stand up from behind cover with hands overhead and state 'I am an American'.",
+    "Step 5: Follow any instructions given by the patrol members.",
+    "Step 6: Avoid answering tactical questions initially.",
+    "Step 7: Only reveal other team members after verifying friendly identity."
+  ],
+  "warnings": [
+    "Distances less than 25 meters may cause patrol members to fire instantly.",
+    "Distances greater than 50 meters may cause recon patrols to avoid contact.",
+    "You are considered hostile until positive identification is made.",
+    "Contact must be made during daylight when there is enough light for identification."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter on Movement and Avoidance)"
+}

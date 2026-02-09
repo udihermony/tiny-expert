@@ -1,0 +1,30 @@
+{
+  "id": "tools-spearfishing-technique",
+  "title": "Effective Spearfishing Methods",
+  "icon": "🔱",
+  "category": "tools",
+  "brief": "Use improvised spears to catch fish in shallow water with proper technique.",
+  "tags": [
+    "spearfishing",
+    "shallow-water",
+    "technique",
+    "refraction"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Make spear from long straight sapling, sharpen end or attach knife/metal point.",
+    "Step 2: Alternative: split shaft few inches from end, insert wood spreader, sharpen both halves.",
+    "Step 3: Find areas where fish gather or fish runs in waist-deep water with good visibility.",
+    "Step 4: Place spear point into water and move slowly toward fish to avoid startling them.",
+    "Step 5: Account for light refraction - fish appear higher in water than actual position.",
+    "Step 6: With sudden push, impale fish against stream bottom rather than trying to lift with spear.",
+    "Step 7: Hold spear with one hand, grab and secure fish with the other hand."
+  ],
+  "warnings": [
+    "Never throw the spear, especially if point is a knife - you cannot afford to lose it.",
+    "Light refraction makes fish appear in different position than reality.",
+    "Fish will slip off spear if you try to lift them - always grab with free hand.",
+    "Work slowly and patiently to avoid spooking fish in the area."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

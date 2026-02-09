@@ -1,0 +1,28 @@
+{
+  "id": "hypothermia-treatment-rewarming",
+  "title": "Treat Hypothermia Through Controlled Rewarming",
+  "icon": "♨️",
+  "category": "first-aid",
+  "brief": "Safely rewarm a hypothermia victim using proper techniques to avoid cardiac complications.",
+  "tags": [
+    "hypothermia",
+    "treatment",
+    "rewarming",
+    "medical-emergency"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: If warm water available, immerse only the trunk area in water heated to 37.7-43.3°C (100-110°F).",
+    "Step 2: For field treatment, wrap victim in warmed sleeping bag with another warm, naked person (both naked).",
+    "Step 3: If conscious, give hot sweetened fluids - honey or dextrose preferred, sugar or cocoa acceptable.",
+    "Step 4: Focus warming efforts on the core area while stimulating peripheral circulation.",
+    "Step 5: Monitor for 'after drop' - sharp temperature decline when moving victim from warm treatment."
+  ],
+  "warnings": [
+    "Never do total body rewarming in warm water bath outside hospital - increases risk of cardiac arrest.",
+    "Do not force unconscious person to drink fluids.",
+    "Rewarming too rapidly can cause circulatory problems and heart failure.",
+    "The person helping in sleeping bag can also become hypothermic if left too long."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "food-fish-poison-rotenone-2",
+  "title": "Using Rotenone Plants to Poison Fish",
+  "icon": "🐟",
+  "category": "food",
+  "brief": "Use specific plants containing rotenone to stun fish in ponds and streams without harming their edibility.",
+  "tags": [
+    "tropical",
+    "warm-regions",
+    "ponds",
+    "small-streams",
+    "plant-poison"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Identify suitable water - ponds or headwaters of small streams containing fish.",
+    "Step 2: Ensure water temperature is 21°C (70°F) or above for best results.",
+    "Step 3: Crush rotenone-containing plant parts (seeds, roots, bark, or leaves depending on species).",
+    "Step 4: Throw crushed plant material into the water.",
+    "Step 5: Wait for fish to rise helplessly to the surface.",
+    "Step 6: Collect ALL affected fish immediately to avoid arousing suspicion downstream."
+  ],
+  "warnings": [
+    "Works slowly in water 10-21°C (50-70°F) and is ineffective below 10°C (50°F).",
+    "Must collect all dead fish to prevent detection by others downstream.",
+    "Only use plants you can positively identify as rotenone-containing species."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

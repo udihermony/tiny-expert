@@ -1,0 +1,30 @@
+{
+  "id": "first-aid-heat-stroke-treatment",
+  "title": "Treat Heat Stroke Emergency",
+  "icon": "🩹",
+  "category": "first-aid",
+  "brief": "Treat life-threatening heat stroke - patient will die if not cooled immediately.",
+  "tags": [
+    "hot-weather",
+    "desert",
+    "emergency",
+    "life-threatening"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Recognize symptoms - no sweating, hot dry skin, headache, dizziness, fast pulse, nausea, vomiting, mental confusion leading to unconsciousness.",
+    "Step 2: Immediately move patient to shade.",
+    "Step 3: Place patient on stretcher or platform 45 centimeters off ground.",
+    "Step 4: Loosen all clothing completely.",
+    "Step 5: Pour water on patient (any water, even polluted or brackish).",
+    "Step 6: Fan patient vigorously while pouring water.",
+    "Step 7: Massage arms, legs, and body to improve circulation.",
+    "Step 8: If patient regains consciousness, give small amounts of water every 3 minutes."
+  ],
+  "warnings": [
+    "This is a life-threatening emergency - patient may die without immediate cooling.",
+    "Use any available water, even if contaminated.",
+    "Continue cooling until body temperature drops and sweating resumes."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Army (Chapter 13)"
+}

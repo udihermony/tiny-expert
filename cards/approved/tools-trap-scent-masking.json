@@ -1,0 +1,28 @@
+{
+  "id": "tools-trap-scent-masking",
+  "title": "Masking Human Scent on Traps",
+  "icon": "👃",
+  "category": "tools",
+  "brief": "Remove or mask human scent to prevent animals from detecting and avoiding traps.",
+  "tags": [
+    "trapping",
+    "scent-masking",
+    "stealth",
+    "animal-behavior"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Use gall bladder fluid and urine from previous kills to coat hands and trap parts (never use human urine).",
+    "Step 2: Coat hands and trap with mud from areas with rotting vegetation.",
+    "Step 3: Smoke trap parts over a fire - animals associate smoke with natural fires, not human presence.",
+    "Step 4: If time permits, let traps weather outdoors for several days before setting (do not handle during weathering).",
+    "Step 5: Remove all fresh dirt if you must dig - carry it away from the area completely.",
+    "Step 6: Prepare trap parts away from the actual site, then carry them in and assemble quickly."
+  ],
+  "warnings": [
+    "Even slight human scent will cause most mammals to avoid the area entirely.",
+    "Fresh-cut vegetation 'bleeds' sap that creates alarming odors for animals.",
+    "Birds have poor smell but mammals depend on scent more than sight."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

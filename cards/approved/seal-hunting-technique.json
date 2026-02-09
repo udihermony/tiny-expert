@@ -1,0 +1,29 @@
+{
+  "id": "seal-hunting-technique",
+  "title": "Hunt Seals Using Eskimo Stalking Method",
+  "icon": "🦭",
+  "category": "food",
+  "brief": "Approach seals by mimicking their behavior and movement patterns for hunting success.",
+  "tags": [
+    "seal-hunting",
+    "stalking",
+    "eskimo-technique",
+    "breathing-holes"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Stay downwind from seal at all times during approach.",
+    "Step 2: Move closer cautiously while seal sleeps - they raise heads every 30 seconds to watch for polar bears.",
+    "Step 3: When seal moves, stop and imitate by lying flat on ice, raising head up and down, wriggling body slightly.",
+    "Step 4: Approach with body sideways and arms close to body to look like another seal.",
+    "Step 5: Get within 22-45 meters and kill instantly with brain shot.",
+    "Step 6: Reach seal quickly before it slides into water on smooth, inclined ice."
+  ],
+  "warnings": [
+    "Seals are found near polar bears - bears have stalked and killed seal hunters.",
+    "Ice at breathing holes is usually smooth and inclined - seal may slide into water easily.",
+    "In winter, dead seals usually float but are difficult to retrieve from water.",
+    "Keep seal blubber and skin from contacting scratches or broken skin - can cause 'spekk-finger' reaction with severe hand swelling."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

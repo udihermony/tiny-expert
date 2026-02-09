@@ -1,0 +1,28 @@
+{
+  "id": "first-aid-blister-treatment",
+  "title": "Treat Foot Blisters Safely",
+  "icon": "🦶",
+  "category": "first-aid",
+  "brief": "Properly manage foot blisters to prevent infection while maintaining mobility.",
+  "tags": [
+    "foot-care",
+    "wound-care",
+    "infection-prevention"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: For small blisters - do not open them. Leave intact blisters safe from infection.",
+    "Step 2: Apply padding material around small blisters to relieve pressure and reduce friction.",
+    "Step 3: For large blisters - obtain a clean sewing needle and sterilized thread.",
+    "Step 4: Run the needle and thread completely through the large blister.",
+    "Step 5: Remove needle but leave both ends of thread hanging out of the blister.",
+    "Step 6: Allow thread to absorb liquid inside, reducing blister size while keeping hole open.",
+    "Step 7: Pad around the treated blister to prevent further pressure.",
+    "Step 8: If blister bursts naturally, treat as open wound with daily cleaning and dressing."
+  ],
+  "warnings": [
+    "Never completely drain large blisters - this increases infection risk.",
+    "If blister becomes red, swollen, or produces pus, it may be infected."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 4)"
+}

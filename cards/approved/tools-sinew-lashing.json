@@ -1,0 +1,29 @@
+{
+  "id": "tools-sinew-lashing",
+  "title": "Make Sinew Lashing Material",
+  "icon": "🦌",
+  "category": "tools",
+  "brief": "Create strong lashing material from animal tendons for small object binding.",
+  "tags": [
+    "lashing",
+    "animal-parts",
+    "tendons",
+    "natural-adhesive"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Remove tendons from large game such as deer.",
+    "Step 2: Dry the tendons completely in sun or near a fire.",
+    "Step 3: Smash the dried tendons so they separate into individual fibers.",
+    "Step 4: Moisten the fibers slightly to make them workable.",
+    "Step 5: Twist the moistened fibers into a continuous strand.",
+    "Step 6: For stronger lashing, braid multiple strands together.",
+    "Step 7: Use while moist - sinew becomes sticky when wet and hardens when dry."
+  ],
+  "warnings": [
+    "Ensure tendons are completely dry before processing to prevent rot.",
+    "Work quickly once moistened as sinew becomes harder to work as it dries.",
+    "No knots needed for small lashings as dried sinew hardens in place."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

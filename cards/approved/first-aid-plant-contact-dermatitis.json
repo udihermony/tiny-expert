@@ -1,0 +1,29 @@
+{
+  "id": "first-aid-plant-contact-dermatitis",
+  "title": "Treating Plant Contact Dermatitis",
+  "icon": "🧴",
+  "category": "first-aid",
+  "brief": "Remove plant oils and treat skin reactions from poisonous plant contact.",
+  "tags": [
+    "poison-ivy",
+    "contact-dermatitis",
+    "plant-poison",
+    "skin-treatment"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Immediately wash affected skin with soap and cold water to remove plant oils.",
+    "Step 2: If water unavailable, repeatedly wipe skin with dirt or sand to absorb oils.",
+    "Step 3: Stop using dirt if blisters have formed to prevent infection.",
+    "Step 4: After oil removal, thoroughly dry the affected area.",
+    "Step 5: Apply tannic acid solution made from oak bark if available.",
+    "Step 6: Crush and rub jewelweed on the rash if found in the area."
+  ],
+  "warnings": [
+    "Never burn poisonous plants - smoke can be as harmful as direct contact.",
+    "Contaminated equipment can spread the poison - clean all gear.",
+    "Risk increases when overheated and sweating.",
+    "Do not break open blisters as this opens wounds to infection."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army"
+}

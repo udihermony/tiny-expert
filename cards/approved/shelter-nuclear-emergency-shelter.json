@@ -1,0 +1,30 @@
+{
+  "id": "shelter-nuclear-emergency-shelter",
+  "title": "Emergency Nuclear Fallout Shelter Construction",
+  "icon": "☢️",
+  "category": "shelter",
+  "brief": "How to rapidly construct shelter protection against nuclear fallout radiation.",
+  "tags": [
+    "nuclear",
+    "fallout",
+    "radiation",
+    "emergency",
+    "trenches"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Find shelter within 5 minutes - speed is absolutely essential for survival.",
+    "Step 2: Seek natural terrain like ditches, ravines, rocky outcroppings, hills, or river banks.",
+    "Step 3: If no natural shelter exists, dig a fighting position or slit trench immediately.",
+    "Step 4: Work from inside the trench as soon as it's large enough to cover part of your body.",
+    "Step 5: Stack dirt carefully and evenly around the trench for additional shielding.",
+    "Step 6: Dig deep enough for good protection, then enlarge for comfort later.",
+    "Step 7: Cover with 1 meter or more of earth for maximum protection."
+  ],
+  "warnings": [
+    "Without shelter, the dosage in the first few hours exceeds that of an entire week later.",
+    "Do not build a roof unless materials are readily available - extended exposure is more dangerous.",
+    "Keep all body parts covered with clothing while building to prevent beta burns."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 23 - Survival in Man-Made Hazards)"
+}

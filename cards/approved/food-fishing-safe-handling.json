@@ -1,0 +1,28 @@
+{
+  "id": "food-fishing-safe-handling",
+  "title": "Handle Fishing Line and Fish Safely at Sea",
+  "icon": "🎣",
+  "category": "food",
+  "brief": "Avoid injury when fishing and properly prepare fish to prevent spoilage and food poisoning.",
+  "tags": [
+    "fishing",
+    "food-safety",
+    "ocean"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Never handle fishing line with bare hands or wrap it around hands.",
+    "Step 2: Never tie fishing line to life raft.",
+    "Step 3: Wear gloves or use cloth to handle fish and avoid injury from sharp fins and gill covers.",
+    "Step 4: In warm regions, gut and bleed fish immediately after catching.",
+    "Step 5: Cut uneaten fish into thin, narrow strips and hang to dry.",
+    "Step 6: Use leftover fish or fish with dark meat as bait if not eaten immediately."
+  ],
+  "warnings": [
+    "Salt on fishing line makes it sharp and dangerous to raft and hands.",
+    "Fish not cleaned and dried may spoil in half a day.",
+    "Never eat fish with pale/shiny gills, sunken eyes, flabby skin/flesh, or unpleasant odor.",
+    "Do not eat leftover fish with dark meat - very prone to decomposition."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

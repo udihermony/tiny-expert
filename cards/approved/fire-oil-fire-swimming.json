@@ -1,0 +1,28 @@
+{
+  "id": "fire-oil-fire-swimming",
+  "title": "Swim Through Burning Oil on Water Surface",
+  "icon": "🔥",
+  "category": "fire",
+  "brief": "Escape from surface oil fires by swimming underwater and clearing burning areas before surfacing.",
+  "tags": [
+    "oil-fire",
+    "ocean",
+    "emergency-escape",
+    "underwater"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Discard shoes and buoyant life preserver (keep uninflated life preserver if available).",
+    "Step 2: Cover nose, mouth, and eyes and quickly go underwater.",
+    "Step 3: Swim underwater as far as possible before needing to surface for air.",
+    "Step 4: While still underwater, use hands to push burning fluid away from area where you'll surface.",
+    "Step 5: Once area is clear of burning liquid, surface and take a few breaths facing downwind.",
+    "Step 6: Submerge feet first and repeat process until completely clear of flames."
+  ],
+  "warnings": [
+    "Only discard buoyant life preserver in oil fire situations - keep uninflated ones.",
+    "Always face downwind before inhaling when surfacing to avoid smoke inhalation.",
+    "Get clear of fuel-covered water immediately in case fuel ignites."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

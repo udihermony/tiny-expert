@@ -1,0 +1,26 @@
+{
+  "id": "water-dehydration-recognition",
+  "title": "Recognize Dehydration Symptoms",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Identify progressive dehydration symptoms to take action before it becomes life-threatening.",
+  "tags": [
+    "health-monitoring",
+    "early-warning",
+    "body-awareness"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Watch for early signs: dark urine with strong odor, low urine output, fatigue.",
+    "Step 2: Check for moderate symptoms: dark sunken eyes, loss of skin elasticity, emotional instability.",
+    "Step 3: Test skin elasticity by pinching skin - slow return indicates dehydration.",
+    "Step 4: Check for delayed capillary refill in fingernail beds (press nail, release, time return to pink).",
+    "Step 5: Look for advanced signs: trench line down center of tongue, extreme thirst.",
+    "Step 6: Remember that thirst appears when you're already 2% dehydrated."
+  ],
+  "warnings": [
+    "5% fluid loss causes weakness and nausea; 10% causes inability to walk; 15% can cause death.",
+    "Don't wait for thirst - it's not an accurate indicator of hydration needs."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 4)"
+}

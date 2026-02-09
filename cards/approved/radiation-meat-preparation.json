@@ -1,0 +1,29 @@
+{
+  "id": "radiation-meat-preparation",
+  "title": "Preparing Animal Meat in Radioactive Areas",
+  "icon": "🥩",
+  "category": "food",
+  "brief": "How to safely prepare and cook meat from animals in radioactive fallout areas.",
+  "tags": [
+    "radiation",
+    "nuclear",
+    "fallout",
+    "meat-preparation",
+    "emergency"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Reject any animal that appears sick or diseased - it may have bacterial infection from radiation.",
+    "Step 2: Carefully skin the animal to prevent radioactive particles on fur from entering the body.",
+    "Step 3: Cut meat away from bones, leaving at least 3 millimeters of meat on the bone - discard the bone.",
+    "Step 4: Remove and discard all internal organs (heart, liver, kidneys) as they concentrate radiation.",
+    "Step 5: Cut meat into pieces less than 13 millimeters thick for thorough cooking.",
+    "Step 6: Cook meat until very well done to ensure all portions reach safe temperature."
+  ],
+  "warnings": [
+    "Do not eat contaminated meat even if cooked - it can cause severe illness or death",
+    "Animal skeletons contain over 90% of radioactivity - never eat meat close to bones",
+    "Internal organs concentrate beta and gamma radiation - always discard them"
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "camouflage-eliminate-shine",
+  "title": "Eliminating Reflective Surfaces",
+  "icon": "✨",
+  "category": "camouflage",
+  "brief": "Remove or cover all shiny surfaces that could reflect light and reveal your position.",
+  "tags": [
+    "camouflage",
+    "reflection",
+    "shine",
+    "concealment"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Cover shiny equipment spots with mud, paint, cloth, or tape.",
+    "Step 2: Pay special attention to boot eyelets, buckles, watches, jewelry, zippers, insignia.",
+    "Step 3: Apply thin layer of dust to outside of eyeglass lenses to reduce reflection.",
+    "Step 4: Carry signal mirror in pouch or pocket with mirror facing toward body.",
+    "Step 5: Cover glass objects like binoculars and telescopes when not in use.",
+    "Step 6: Wash oily skin frequently and reapply camouflage.",
+    "Step 7: Check all surfaces in buddy teams to identify missed shiny spots."
+  ],
+  "warnings": [
+    "Any shine automatically attracts attention and gives away location.",
+    "Skin oils increase shine - regular washing is essential.",
+    "Even painted smooth surfaces may reflect light.",
+    "Glass objects can be seen from great distances when they catch light."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter 21 - Camouflage)"
+}

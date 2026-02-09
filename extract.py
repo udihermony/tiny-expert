@@ -56,6 +56,25 @@ Rules:
 Respond with ONLY the JSON array, no other text."""
 
 
+def read_source(path):
+    """Read text from a source file (txt, md, or pdf)."""
+    path = Path(path)
+    if path.suffix.lower() == ".pdf":
+        try:
+            import pymupdf
+        except ImportError:
+            print("Error: pymupdf is required for PDF support. Install with: pip install pymupdf")
+            sys.exit(1)
+        doc = pymupdf.open(str(path))
+        pages = []
+        for page in doc:
+            pages.append(page.get_text())
+        doc.close()
+        return "\n\n".join(pages)
+    else:
+        return path.read_text(encoding="utf-8")
+
+
 def count_words(text):
     return len(text.split())
 
@@ -145,7 +164,7 @@ def extract_cards(source_path, dry_run=False):
         print(f"Error: File not found: {source_path}")
         sys.exit(1)
 
-    text = source_path.read_text(encoding="utf-8")
+    text = read_source(source_path)
     filename = source_path.name
 
     if not text.strip():
@@ -231,7 +250,7 @@ def main():
 
     if args.all:
         source_files = sorted(SOURCES_DIR.glob("*"))
-        source_files = [f for f in source_files if f.is_file() and f.suffix in (".txt", ".md", ".text")]
+        source_files = [f for f in source_files if f.is_file() and f.suffix in (".txt", ".md", ".text", ".pdf")]
         if not source_files:
             print(f"No source files found in {SOURCES_DIR}/")
             sys.exit(1)

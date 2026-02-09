@@ -1,0 +1,30 @@
+{
+  "id": "navigation-jungle-movement-technique",
+  "title": "Move Efficiently Through Dense Jungle",
+  "icon": "🌳",
+  "category": "navigation",
+  "brief": "Develop 'jungle eye' and proper movement techniques for efficient jungle travel.",
+  "tags": [
+    "tropical",
+    "jungle",
+    "movement",
+    "machete"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Always wear long sleeves to prevent cuts and scratches.",
+    "Step 2: Focus vision on jungle further out, not immediate front vegetation.",
+    "Step 3: Look for natural breaks in foliage rather than cutting through everything.",
+    "Step 4: Stop and crouch occasionally to look along jungle floor for game trails.",
+    "Step 5: Move slowly and steadily, stopping periodically to listen and take bearings.",
+    "Step 6: When using machete, stroke upward when cutting vines to reduce noise.",
+    "Step 7: Use stick to part vegetation and dislodge dangerous creatures.",
+    "Step 8: Turn shoulders, shift hips, bend body to slide between undergrowth."
+  ],
+  "warnings": [
+    "Do not grasp at brush or vines when climbing - they may have sharp thorns or spines.",
+    "Sound carries long distances in jungle - minimize cutting noise.",
+    "Do not cut unnecessarily or you will exhaust yourself quickly."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Army (Chapter 14)"
+}

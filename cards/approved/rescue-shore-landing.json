@@ -1,0 +1,32 @@
+{
+  "id": "rescue-shore-landing",
+  "title": "Land Safely Through Surf Using Proper Raft Technique",
+  "icon": "🏖️",
+  "category": "rescue",
+  "brief": "Navigate through dangerous surf to reach shore safely while avoiding capsizing and injury.",
+  "tags": [
+    "surf",
+    "landing",
+    "raft",
+    "shore"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Select landing point carefully - avoid coral reefs, rocky cliffs, and strong currents.",
+    "Step 2: Look for gaps in surf line and head for them, preferably on lee side of island.",
+    "Step 3: Take down mast and keep clothes/shoes on to avoid cuts.",
+    "Step 4: Trail sea anchor over stern using maximum line available.",
+    "Step 5: Use oars/paddles and adjust sea anchor to keep strain on line and raft pointed toward shore.",
+    "Step 6: In medium surf, have half crew face seaward, half shoreward - alternate rowing as waves approach.",
+    "Step 7: Ride in on crest of large wave, paddle hard to beach as far as possible.",
+    "Step 8: Do not jump out until raft has grounded, then quickly exit and beach it."
+  ],
+  "warnings": [
+    "Do not land when sun is low and straight ahead - impairs vision.",
+    "Against strong wind/heavy surf, raft needs maximum speed to avoid being turned broadside.",
+    "Avoid meeting large wave at moment it breaks.",
+    "If raft turns over in surf, grab hold and ride it in.",
+    "Do not land at night if avoidable."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

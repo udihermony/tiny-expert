@@ -1,0 +1,30 @@
+{
+  "id": "camouflage-face-pattern-application",
+  "title": "Proper Face Camouflage Application",
+  "icon": "🎭",
+  "category": "camouflage",
+  "brief": "Apply camouflage paint or natural materials to break up facial features and reduce detection.",
+  "tags": [
+    "camouflage",
+    "face-paint",
+    "concealment",
+    "pattern"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Cover all exposed skin including face, hands, neck, and ears.",
+    "Step 2: Use darker colors on areas that stick out and catch light - forehead, nose, cheekbones, chin, ears.",
+    "Step 3: Use lighter colors on recessed or shaded areas - around eyes and under chin.",
+    "Step 4: Apply colors in irregular blotch or slash patterns, not geometric shapes.",
+    "Step 5: Use camouflage paint, charcoal from burned wood, or mud as coloring agents.",
+    "Step 6: Have buddy check completeness of camouflage application.",
+    "Step 7: Reapply frequently as skin oils will wash off camouflage."
+  ],
+  "warnings": [
+    "Oily skin becomes shiny and attracts attention - wash and reapply camouflage regularly.",
+    "Avoid regular geometric patterns that look artificial.",
+    "Change camouflage colors as you move through different terrain types.",
+    "Do not forget easily missed areas like ears and back of neck."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter 21 - Camouflage)"
+}

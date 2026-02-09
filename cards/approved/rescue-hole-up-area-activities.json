@@ -1,0 +1,30 @@
+{
+  "id": "rescue-hole-up-area-activities",
+  "title": "Hole-Up Area Operations",
+  "icon": "⛺",
+  "category": "rescue",
+  "brief": "Establish longer-term rest areas for food gathering and recuperation during extended evasion.",
+  "tags": [
+    "evasion",
+    "food-gathering",
+    "water",
+    "long-term"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Move to hole-up area after 3-4 days of hide-and-move operations.",
+    "Step 2: Choose location near water source but position hide site well away from water.",
+    "Step 3: Set clandestine fishing devices below water surface to avoid detection.",
+    "Step 4: Gather food (nuts, berries, vegetables) while maintaining security and avoiding tracks.",
+    "Step 5: Locate fire site well away from hide site for food preparation and water boiling.",
+    "Step 6: Set traps and snares in well-camouflaged areas away from human travel routes.",
+    "Step 7: Limit occupation to maximum 72 hours."
+  ],
+  "warnings": [
+    "Water sources are lines of communication - expect human traffic near them.",
+    "Move on hard rocks or logs along water banks to reduce track signs.",
+    "Camouflage and sterilize fire site after each use to prevent detection.",
+    "Keep traps away from areas where local population might discover them."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter on Movement and Avoidance)"
+}

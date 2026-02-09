@@ -1,0 +1,29 @@
+{
+  "id": "shelter-desert-belowground",
+  "title": "Build Belowground Desert Shelter",
+  "icon": "🏜️",
+  "category": "shelter",
+  "brief": "Construct a belowground shelter in desert conditions to reduce midday temperatures by 16-22°C (30-40°F).",
+  "tags": [
+    "desert",
+    "hot-weather",
+    "temperature-reduction",
+    "digging"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Find a low spot or depression between dunes or rocks for your shelter location.",
+    "Step 2: Dig a trench 45-60 centimeters deep, long and wide enough to lie in comfortably.",
+    "Step 3: Pile sand from the trench to form a mound around three sides of the opening.",
+    "Step 4: Dig out additional sand on the open end to create easy entrance/exit access.",
+    "Step 5: Cover the trench with available material (poncho, canvas, parachute).",
+    "Step 6: Secure covering material using sand, rocks, or other weights.",
+    "Step 7: If extra material available, create second layer 30-45 centimeters above first cover for additional 11-22°C temperature reduction."
+  ],
+  "warnings": [
+    "Build this shelter before the heat of day as physical effort increases dehydration.",
+    "Ensure adequate ventilation to prevent suffocation.",
+    "Double-layer construction significantly improves temperature reduction but requires more materials."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 5 - Shelters)"
+}

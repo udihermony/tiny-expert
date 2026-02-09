@@ -1,0 +1,28 @@
+{
+  "id": "navigation-watch-method-direction",
+  "title": "Using Analog Watch for Direction Finding",
+  "icon": "⌚",
+  "category": "navigation",
+  "brief": "Method for determining north-south direction using analog watch and sun position.",
+  "tags": [
+    "watch",
+    "direction-finding",
+    "sun",
+    "navigation",
+    "analog"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Ensure you are using true local time without daylight savings adjustments for accuracy.",
+    "Step 2: In northern hemisphere: Hold watch horizontal and point hour hand at the sun.",
+    "Step 3: In northern hemisphere: Bisect angle between hour hand and 12 o'clock mark to get north-south line.",
+    "Step 4: In southern hemisphere: Point 12 o'clock mark toward sun and find midpoint between 12 and hour hand for north-south line.",
+    "Step 5: Remember sun rises in east, sets in west, and is due south at noon (northern hemisphere) to identify which end is north."
+  ],
+  "warnings": [
+    "If watch is on daylight savings time, use midpoint between hour hand and 1 o'clock instead of 12 o'clock.",
+    "Method becomes more accurate the further you are from the equator.",
+    "For digital watch users, draw analog watch face on paper with correct time to use this method."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}

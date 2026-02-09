@@ -1,0 +1,29 @@
+{
+  "id": "tools-figure-4-deadfall",
+  "title": "Constructing a Figure 4 Deadfall Trap",
+  "icon": "🪨",
+  "category": "tools",
+  "brief": "Build a trigger system that drops a heavy weight to crush prey instantly.",
+  "tags": [
+    "deadfall",
+    "crushing",
+    "trigger",
+    "notched-sticks"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Select three straight sticks and carve precise notches to hold them in figure-4 pattern under tension.",
+    "Step 2: Practice the trigger assembly beforehand - it requires close tolerances and precise angles.",
+    "Step 3: Position a heavy weight (rock or log) above the trigger that will kill or incapacitate prey immediately.",
+    "Step 4: Set the vertical stick into the ground with notch facing the direction prey will approach from.",
+    "Step 5: Balance the horizontal stick in the vertical stick's notch, supporting the diagonal stick.",
+    "Step 6: Position the diagonal stick to hold the weight, with its notch catching on the horizontal stick.",
+    "Step 7: Place bait on or near the horizontal trigger stick."
+  ],
+  "warnings": [
+    "Weight must be heavy enough to kill immediately - wounded animals may escape.",
+    "Requires precise construction and practice to set reliably.",
+    "Trigger is sensitive and may go off accidentally during setup."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

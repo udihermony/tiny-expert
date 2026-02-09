@@ -1,0 +1,28 @@
+{
+  "id": "carbon-monoxide-recognition",
+  "title": "Recognize and Avoid Carbon Monoxide Poisoning",
+  "icon": "☠️",
+  "category": "first-aid",
+  "brief": "Identify carbon monoxide poisoning symptoms and ensure proper shelter ventilation.",
+  "tags": [
+    "carbon-monoxide",
+    "poisoning",
+    "ventilation",
+    "shelter-safety"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Always check ventilation when using any open flame in enclosed spaces.",
+    "Step 2: Never sleep without turning out stove or lamp.",
+    "Step 3: Watch for symptoms: temple pressure, burning eyes, headache, pounding pulse, drowsiness, nausea.",
+    "Step 4: Look for cherry red coloring in lips, mouth, and inside eyelids - visible sign of poisoning.",
+    "Step 5: Get into fresh air immediately if any symptoms appear."
+  ],
+  "warnings": [
+    "Carbon monoxide is colorless and odorless - often no warning.",
+    "Unconsciousness and death can occur without symptoms.",
+    "Any open flame can generate carbon monoxide, even in ventilated shelters.",
+    "Incomplete combustion increases carbon monoxide risk."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

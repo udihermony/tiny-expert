@@ -1,0 +1,28 @@
+{
+  "id": "rescue-smoke-signals",
+  "title": "Creating Effective Smoke Signals",
+  "icon": "💨",
+  "category": "rescue",
+  "brief": "Generate smoke signals with contrasting colors for maximum visibility during daylight rescue.",
+  "tags": [
+    "smoke",
+    "daytime",
+    "contrast",
+    "visibility"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Build a large fire as your base.",
+    "Step 2: Create color contrast - dark smoke against light background, white smoke against dark.",
+    "Step 3: For white smoke: smother fire with green leaves, moss, or small amount of water.",
+    "Step 4: For black smoke: add rubber or oil-soaked rags to the fire.",
+    "Step 5: Create three columns of smoke for international distress signal.",
+    "Step 6: Use only on calm, clear days for maximum effectiveness."
+  ],
+  "warnings": [
+    "High winds, rain, or snow will disperse smoke and reduce visibility.",
+    "In desert environments, smoke hangs close to ground but is still visible to pilots.",
+    "Don't create smoke in dry conditions where it might start wildfires."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

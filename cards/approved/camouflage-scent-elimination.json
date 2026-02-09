@@ -1,0 +1,30 @@
+{
+  "id": "camouflage-scent-elimination",
+  "title": "Human Scent Camouflage",
+  "icon": "👃",
+  "category": "camouflage",
+  "brief": "Mask human odors to avoid detection by animals and enemy trackers.",
+  "tags": [
+    "scent",
+    "odor",
+    "aromatic-plants",
+    "tracking-avoidance"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Wash yourself and clothes without soap to remove soap and body odors.",
+    "Step 2: Avoid strong smelling foods like garlic that increase body odors.",
+    "Step 3: Do not use tobacco, candy, gum, or cosmetics.",
+    "Step 4: Use aromatic herbs or plants (pine needles, mint) to wash body and clothing.",
+    "Step 5: Rub aromatic plants on body and clothing for scent camouflage.",
+    "Step 6: Chew aromatic plants to camouflage breath odor.",
+    "Step 7: Stand in older smoke from fires to mask scent - avoid fresh smoke."
+  ],
+  "warnings": [
+    "Animals are afraid of fresh fire smoke but accept older smoke scents as natural.",
+    "Strong human odors can be detected from great distances depending on wind.",
+    "Soap and cosmetic odors are distinctly human and will alert both animals and people.",
+    "Consider wind direction when approaching humans or animals."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter 21 - Camouflage)"
+}

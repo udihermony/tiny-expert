@@ -1,0 +1,26 @@
+{
+  "id": "food-reptile-identification-safe",
+  "title": "Identifying Safe Reptiles for Food",
+  "icon": "🦎",
+  "category": "food",
+  "brief": "Learn which reptiles are safe to eat and which to avoid for survival nutrition.",
+  "tags": [
+    "reptiles",
+    "protein",
+    "safety",
+    "toxic-species"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Cook all reptiles thoroughly, though they can be eaten raw in emergencies without risk of blood diseases (being cold-blooded).",
+    "Step 2: Avoid box turtles completely - they feed on poisonous mushrooms and build up highly toxic poison in their flesh that cooking cannot destroy.",
+    "Step 3: Avoid hawksbill turtles found in the Atlantic Ocean due to their poisonous thorax gland.",
+    "Step 4: Exercise extreme caution around poisonous snakes, alligators, crocodiles, and large sea turtles."
+  ],
+  "warnings": [
+    "Box turtle toxin cannot be destroyed by cooking and can be fatal.",
+    "Raw reptile flesh may transmit parasites.",
+    "Large reptiles and venomous species pose obvious physical dangers."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

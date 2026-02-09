@@ -1,0 +1,28 @@
+{
+  "id": "radiation-plant-selection",
+  "title": "Selecting Safe Plants in Radioactive Areas",
+  "icon": "🥕",
+  "category": "food",
+  "brief": "Priority order for selecting and preparing plant foods in fallout-contaminated areas.",
+  "tags": [
+    "radiation",
+    "nuclear",
+    "fallout",
+    "plants",
+    "decontamination"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: First choice - underground vegetables (potatoes, turnips, carrots). Scrub thoroughly and remove all skin.",
+    "Step 2: Second choice - fruits/vegetables you can wash and peel (bananas, apples, tomatoes, prickly pears).",
+    "Step 3: Third choice - smooth-skinned plants that cannot be peeled. Wash thoroughly (removes 90% contamination).",
+    "Step 4: Last resort only - rough-surfaced plants (lettuce, dried fruits). Washing removes only 50% contamination.",
+    "Step 5: Avoid growing plants that may have absorbed radioactive materials through leaves and roots."
+  ],
+  "warnings": [
+    "Never eat rough-surfaced plants unless facing starvation",
+    "Avoid plants that were growing during or after fallout period",
+    "Cannot effectively decontaminate dried fruits or soya beans"
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

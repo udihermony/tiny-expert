@@ -1,0 +1,28 @@
+{
+  "id": "water-dew-collection",
+  "title": "Collect Water from Morning Dew",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Gather significant amounts of drinking water by absorbing dew with cloth rags before sunrise.",
+  "tags": [
+    "dew",
+    "morning",
+    "cloth",
+    "water-collection",
+    "desert"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Tie rags or tufts of fine grass around your ankles before sunrise while dew is present.",
+    "Step 2: Walk through dew-covered grass, allowing the rags or grass tufts to absorb moisture.",
+    "Step 3: When rags become saturated, wring the water into a container.",
+    "Step 4: Repeat the process until you have adequate water supply or until dew disappears.",
+    "Step 5: Continue process systematically - Australian natives can collect up to 1 liter per hour this way."
+  ],
+  "warnings": [
+    "Must be done before sunrise while dew is still present.",
+    "Purify collected water before drinking.",
+    "Be aware of poisonous plants in the grass you're walking through."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 6 - Water Procurement)"
+}

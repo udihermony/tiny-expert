@@ -1,0 +1,32 @@
+{
+  "id": "rescue-border-crossing-procedure",
+  "title": "Safe Border Crossing to Friendly Territory",
+  "icon": "🚪",
+  "category": "rescue",
+  "brief": "Cross international borders safely when evading to friendly or neutral countries.",
+  "tags": [
+    "evasion",
+    "border-crossing",
+    "reconnaissance",
+    "international"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Establish hide site on near side of border.",
+    "Step 2: Send team to reconnoiter potential crossing site.",
+    "Step 3: Surveil crossing site for at least 24 hours, noting terrain, obstacles, guard routines.",
+    "Step 4: Make sketch of site including sensor devices and trip wires.",
+    "Step 5: Plan to cross border at night after reconnaissance is complete.",
+    "Step 6: After crossing, establish hide site on far side and locate friendly positions.",
+    "Step 7: Have two personnel surveil potential linkup site until satisfied forces are friendly.",
+    "Step 8: Make contact during daylight with unarmed person who looks least like enemy.",
+    "Step 9: Contact person approaches with positive identification readily available."
+  ],
+  "warnings": [
+    "Crossing into neutral country means surrendering and becoming a detained person.",
+    "Border areas typically have enhanced security and sensor devices.",
+    "Guard rotations and routines must be thoroughly understood before attempting crossing.",
+    "Have contingency plan for language problems or identity verification difficulties."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter on Movement and Avoidance)"
+}

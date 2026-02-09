@@ -1,0 +1,26 @@
+{
+  "id": "food-sea-ice-water",
+  "title": "Identify Safe Sea Ice for Drinking Water",
+  "icon": "🧊",
+  "category": "water",
+  "brief": "Distinguish between safe and dangerous sea ice to obtain freshwater in arctic waters.",
+  "tags": [
+    "arctic",
+    "sea-ice",
+    "freshwater",
+    "identification"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Look for old sea ice which is bluish in color, has rounded corners, and splinters easily.",
+    "Step 2: Confirm the ice is nearly free of salt content.",
+    "Step 3: Avoid new ice which is gray, milky, hard, and salty.",
+    "Step 4: Use icebergs only in emergencies - water is fresh but icebergs are dangerous to approach."
+  ],
+  "warnings": [
+    "New sea ice is salty and should not be used for drinking water.",
+    "Icebergs are extremely dangerous to approach and should only be used as emergency water source.",
+    "Always test small amounts first to verify low salt content."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

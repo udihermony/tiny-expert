@@ -1,0 +1,26 @@
+{
+  "id": "navigation-weather-prediction",
+  "title": "Predict Weather Changes Using Natural Indicators",
+  "icon": "🌤️",
+  "category": "navigation",
+  "brief": "Use wind, clouds, smoke patterns, and animal behavior to predict incoming weather changes.",
+  "tags": [
+    "weather",
+    "observation",
+    "planning"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Determine wind direction by dropping leaves/grass or watching treetops.",
+    "Step 2: Watch for rapidly shifting winds which indicate unsettled atmosphere and likely weather changes.",
+    "Step 3: Observe smoke - rising in thin vertical column indicates fair weather, low rising or flattened smoke indicates storms.",
+    "Step 4: Watch birds and insects - they fly lower than normal in heavy, moisture-laden air before rain.",
+    "Step 5: Note bee activity increases before fair weather, while most other insect activity increases before storms.",
+    "Step 6: Recognize low-pressure fronts: slow/imperceptible winds, heavy humid air, more pronounced wilderness odors, sharper sounds that carry farther."
+  ],
+  "warnings": [
+    "Low-pressure fronts promise bad weather that will likely linger for several days.",
+    "Plan accordingly for extended poor weather when multiple indicators point to storms."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

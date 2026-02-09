@@ -1,0 +1,27 @@
+{
+  "id": "water-desert-intake-schedule",
+  "title": "Desert Water Intake Schedule",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Follow specific hourly water intake schedules based on temperature to prevent heat casualties.",
+  "tags": [
+    "desert",
+    "hot-weather",
+    "dehydration",
+    "schedule"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Check ambient temperature using thermometer or estimate based on conditions.",
+    "Step 2: If temperature is below 38°C (100°F), drink 0.5 liters of water every hour.",
+    "Step 3: If temperature is above 38°C (100°F), drink 1 liter of water every hour.",
+    "Step 4: Continue this schedule regardless of thirst levels - thirst is unreliable.",
+    "Step 5: Sip water constantly even when supply is low to maintain body cooling."
+  ],
+  "warnings": [
+    "Do not ration water - this leads to heat casualties.",
+    "Thirst only indicates two-thirds of actual water needs.",
+    "If water is scarce, do not eat - food requires water for digestion."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Army (Chapter 13)"
+}

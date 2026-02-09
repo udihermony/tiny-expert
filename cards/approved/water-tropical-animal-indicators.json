@@ -1,0 +1,28 @@
+{
+  "id": "water-tropical-animal-indicators",
+  "title": "Use Animals to Find Water",
+  "icon": "🦌",
+  "category": "water",
+  "brief": "Follow animal behavior patterns to locate water sources in tropical environments.",
+  "tags": [
+    "tropical",
+    "animal-tracking",
+    "water-location"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Look for grazing animals like deer - they drink at dawn and dusk and stay near water.",
+    "Step 2: Follow converging game trails which often lead to water sources.",
+    "Step 3: Watch grain-eating birds (finches, pigeons) - they fly straight and low toward water at dawn/dusk.",
+    "Step 4: Observe bees - they range within 6 kilometers of water sources.",
+    "Step 5: Follow ant columns marching up trees to find small water reservoirs.",
+    "Step 6: Look for flies, especially European mason flies with iridescent green bodies - they stay within 100 meters of water.",
+    "Step 7: Follow human tracks which usually lead to wells or water sources."
+  ],
+  "warnings": [
+    "Do not rely on carnivores - they get moisture from prey and can go long periods without water.",
+    "Water birds fly long distances - not reliable indicators.",
+    "Birds of prey get liquids from victims - cannot be used as water indicators."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Army (Chapter 14)"
+}

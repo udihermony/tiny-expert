@@ -1,0 +1,25 @@
+{
+  "id": "arctic-distance-estimation",
+  "title": "Adjusting for Arctic Distance Misjudgment",
+  "icon": "👁️",
+  "category": "navigation",
+  "brief": "How to account for the tendency to underestimate distances in clear arctic air.",
+  "tags": [
+    "arctic",
+    "visibility",
+    "navigation",
+    "planning"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Recognize that clear arctic air makes objects appear closer than they actually are.",
+    "Step 2: When estimating travel time or distance, assume your first estimate is too short.",
+    "Step 3: Add 50-100% more time/distance to your initial estimates.",
+    "Step 4: Use known reference objects to help calibrate distance judgments when possible."
+  ],
+  "warnings": [
+    "Underestimating distances can lead to being caught in the open without shelter.",
+    "Poor distance judgment can result in inadequate food/water planning for travel."
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "food-snake-skinning",
+  "title": "Skinning and Preparing Snakes",
+  "icon": "🐍",
+  "category": "food",
+  "brief": "Safely skin and prepare snakes for cooking while avoiding the dangerous head.",
+  "tags": [
+    "snake-preparation",
+    "reptile-cooking",
+    "skinning"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Cut off the snake's head immediately and bury it deeply.",
+    "Step 2: Make a cut through the skin 15-20 centimeters down from where the head was.",
+    "Step 3: Peel the skin back from the cut.",
+    "Step 4: Grasp the skin in one hand and the body in the other, then pull apart.",
+    "Step 5: For large snakes, slit the belly skin if needed to complete skinning.",
+    "Step 6: Remove entrails and discard them.",
+    "Step 7: Cut snake into small sections for cooking."
+  ],
+  "warnings": [
+    "Always bury the head deeply - snake heads can remain venomous even after death.",
+    "Handle snake heads with extreme caution or use tools.",
+    "Remove all entrails as they can contain parasites."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

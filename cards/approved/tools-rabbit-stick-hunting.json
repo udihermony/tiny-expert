@@ -1,0 +1,28 @@
+{
+  "id": "tools-rabbit-stick-hunting",
+  "title": "Making and Using a Rabbit Stick",
+  "icon": "🥖",
+  "category": "tools",
+  "brief": "Create and use a throwing stick for hunting small game that freezes when threatened.",
+  "tags": [
+    "rabbit-stick",
+    "throwing",
+    "small-game",
+    "hunting"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Select a stout stick as long as your arm from fingertip to shoulder.",
+    "Step 2: Ensure the stick is well-balanced and free of knots or weak points.",
+    "Step 3: Practice throwing both overhand and sidearm to develop accuracy and force.",
+    "Step 4: Target small game that stops and freezes as a defense mechanism rather than running.",
+    "Step 5: Throw with considerable force at the target's center mass.",
+    "Step 6: Retrieve stick immediately after throwing for follow-up throws if needed."
+  ],
+  "warnings": [
+    "Most effective against animals that freeze rather than flee when threatened.",
+    "Practice is essential for accuracy and effectiveness.",
+    "Have backup plan if first throw misses and animal flees."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

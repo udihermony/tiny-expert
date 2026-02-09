@@ -1,0 +1,31 @@
+{
+  "id": "water-aboveground-still-2",
+  "title": "Building an Aboveground Solar Still",
+  "icon": "🌞",
+  "category": "water",
+  "brief": "Construct a solar still using vegetation to extract moisture from plants through condensation.",
+  "tags": [
+    "solar-still",
+    "desert",
+    "sunny-weather",
+    "condensation"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find a sunny slope and gather a clear plastic bag, green leafy vegetation, and a small rock.",
+    "Step 2: Fill the bag with air by scooping air into it or turning the opening into the breeze.",
+    "Step 3: Fill the bag half to three-fourths full with green leafy vegetation, removing all sharp sticks or spines.",
+    "Step 4: Place a small rock inside the bag to create a low point.",
+    "Step 5: Close and tie the bag mouth securely as close to the end as possible to maximize air space.",
+    "Step 6: If available, insert tubing into the mouth before tying, then plug the tube end.",
+    "Step 7: Place the bag mouth-downhill on the sunny slope with the mouth slightly higher than the low point.",
+    "Step 8: Position so the rock settles into the lowest point of the bag.",
+    "Step 9: After 24 hours, collect water by loosening the tie and draining water around the rock."
+  ],
+  "warnings": [
+    "Never use poisonous vegetation - it will produce poisonous liquid.",
+    "Remove all sharp objects that could puncture the bag.",
+    "Change vegetation after extracting most water to ensure continued production."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

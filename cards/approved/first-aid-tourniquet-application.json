@@ -1,0 +1,29 @@
+{
+  "id": "first-aid-tourniquet-application",
+  "title": "Applying a Tourniquet for Severe Bleeding",
+  "icon": "🩹",
+  "category": "first-aid",
+  "brief": "How to properly apply a tourniquet to stop life-threatening bleeding from extremities.",
+  "tags": [
+    "bleeding",
+    "trauma",
+    "emergency",
+    "extremities"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Place tourniquet around the extremity between the wound and the heart, 5 to 10 centimeters above the wound site.",
+    "Never place directly over the wound or a fracture.",
+    "Use a stick as a handle to tighten the tourniquet.",
+    "Tighten only enough to stop blood flow completely.",
+    "Bind the free end of the stick to the limb to prevent unwinding.",
+    "Clean and bandage the wound after securing the tourniquet."
+  ],
+  "warnings": [
+    "Leaving a tourniquet too long can cause gangrene and limb loss",
+    "Improper application can cause permanent nerve and tissue damage",
+    "Lone survivors should never remove an applied tourniquet",
+    "In buddy system, release pressure every 10-15 minutes for 1-2 minutes to prevent limb loss"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 4)"
+}

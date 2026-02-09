@@ -1,0 +1,26 @@
+{
+  "id": "weather-animal-behavior-signs",
+  "title": "Reading Weather Signs from Animal Behavior",
+  "icon": "🐦",
+  "category": "navigation",
+  "brief": "How to predict weather changes by observing bird and insect behavior patterns.",
+  "tags": [
+    "weather",
+    "animals",
+    "insects",
+    "prediction"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Observe the flight patterns of birds and insects in your area.",
+    "Step 2: Note if they are flying lower to the ground than usual - this indicates heavy, moisture-laden air and likely rain.",
+    "Step 3: Watch for increased insect activity, which typically occurs before storms.",
+    "Step 4: Exception: Increased bee activity indicates fair weather approaching.",
+    "Step 5: Combine these observations with other weather signs for better prediction accuracy."
+  ],
+  "warnings": [
+    "Animal behavior can be affected by factors other than weather.",
+    "Don't rely solely on animal signs - use multiple weather indicators together."
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "arctic-stream-crossing-timing",
+  "title": "Timing Arctic Stream Crossings",
+  "icon": "🌊",
+  "category": "navigation",
+  "brief": "How to time stream crossings when water levels fluctuate dramatically due to glacial melt.",
+  "tags": [
+    "arctic",
+    "glacier",
+    "stream",
+    "timing"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Observe the stream for several hours to identify the lowest water level period.",
+    "Step 2: Cross during the lowest water level, which varies based on distance from glacier and temperature.",
+    "Step 3: Account for water level variance of 2 to 2.5 meters per day when timing your crossing.",
+    "Step 4: Plan your campsite location considering this daily water level fluctuation."
+  ],
+  "warnings": [
+    "Water levels can change dramatically and unpredictably throughout the day.",
+    "Being caught in rising water can trap you on the wrong side or sweep you away."
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

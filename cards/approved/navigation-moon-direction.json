@@ -1,0 +1,23 @@
+{
+  "id": "navigation-moon-direction",
+  "title": "Using Moon Phases for East-West Direction",
+  "icon": "🌙",
+  "category": "navigation",
+  "brief": "Determine east-west direction at night using the illuminated side of the moon.",
+  "tags": [
+    "nighttime",
+    "moon",
+    "rough-estimate"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Observe when the moon rises relative to sunset and midnight.",
+    "Step 2: If moon rises before sunset, the illuminated side points west.",
+    "Step 3: If moon rises after midnight, the illuminated side points east."
+  ],
+  "warnings": [
+    "This provides only a rough east-west reference, not precise navigation.",
+    "Requires clear sky to see moon phases."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

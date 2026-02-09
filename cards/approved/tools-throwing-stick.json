@@ -1,0 +1,28 @@
+{
+  "id": "tools-throwing-stick",
+  "title": "Make and Use a Rabbit Stick",
+  "icon": "🪃",
+  "category": "tools",
+  "brief": "Create and use a curved throwing stick effective against small game like rabbits and squirrels.",
+  "tags": [
+    "hunting",
+    "small-game",
+    "throwing-weapon",
+    "hardwood"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Select a stick naturally curved at about 45 degrees from heavy hardwood like oak.",
+    "Step 2: Shave off two opposite sides so the stick is flat like a boomerang.",
+    "Step 3: To throw: align target by extending non-throwing arm toward mid-to-lower section of target.",
+    "Step 4: Raise throwing arm up and back until stick crosses your back at 45 degrees or aligns with non-throwing hip.",
+    "Step 5: Bring throwing arm forward until slightly above and parallel to non-throwing arm - this is the release point.",
+    "Step 6: Practice the motion slowly and repeatedly to develop accuracy."
+  ],
+  "warnings": [
+    "Requires extensive practice to achieve accuracy and speed.",
+    "Only effective against small game - not suitable for larger animals.",
+    "Practice in a safe area away from people and property."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

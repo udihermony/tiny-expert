@@ -1,0 +1,28 @@
+{
+  "id": "food-fish-spoilage-signs",
+  "title": "Identifying Spoiled Fish",
+  "icon": "🐟",
+  "category": "food",
+  "brief": "Recognize the signs of spoiled fish to avoid food poisoning in survival situations.",
+  "tags": [
+    "food-safety",
+    "fish-inspection",
+    "spoilage-prevention"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Check the eyes - reject fish with sunken eyes.",
+    "Step 2: Smell the fish - avoid any with peculiar or off odors.",
+    "Step 3: Examine color - gills should be red to pink, scales should be pronounced gray (not faded).",
+    "Step 4: Press the flesh with your thumb - reject if dents remain in the flesh.",
+    "Step 5: Feel the body texture - reject if slimy rather than moist or wet.",
+    "Step 6: Taste a small piece if unsure - reject if sharp or peppery taste."
+  ],
+  "warnings": [
+    "Cooking does not make spoiled fish safe to eat.",
+    "Eating spoiled fish causes diarrhea, nausea, cramps, vomiting, itching, paralysis, or metallic taste within 1-6 hours.",
+    "Induce vomiting immediately if poisoning symptoms appear.",
+    "Fish spoils quickly in hot weather - process as soon as possible after catching."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

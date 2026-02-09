@@ -1,0 +1,30 @@
+{
+  "id": "tools-bow-trap-construction",
+  "title": "Building a Bow Trap",
+  "icon": "🏹",
+  "category": "tools",
+  "brief": "Construct a lethal trap that shoots arrows at prey using a triggered bow mechanism.",
+  "tags": [
+    "bow-trap",
+    "arrow",
+    "lethal",
+    "trip-wire"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Build a functional bow and anchor it securely to the ground using stakes or pegs.",
+    "Step 2: Adjust aiming point carefully while anchoring the bow to ensure accurate shot placement.",
+    "Step 3: Lash a toggle stick to a trigger stick, position between two upright stakes driven into ground.",
+    "Step 4: Pull bowstring back and engage it with the toggle stick when trigger is in firing position.",
+    "Step 5: Place a catch stick between toggle stick and a ground stake.",
+    "Step 6: Run trip wire from catch stick around stakes and across game trail, tie off securely.",
+    "Step 7: Cut aiming notch in bow to help direct arrow toward target area."
+  ],
+  "warnings": [
+    "This is a lethal trap - approach with extreme caution and only from the rear!",
+    "Extremely dangerous to humans - mark location clearly if in group survival situation.",
+    "Arrow will fire with lethal force when trip wire is disturbed.",
+    "Test trigger mechanism thoroughly before setting in active area."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

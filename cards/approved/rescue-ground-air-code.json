@@ -1,0 +1,28 @@
+{
+  "id": "rescue-ground-air-code",
+  "title": "Creating Ground-to-Air Emergency Symbols",
+  "icon": "📐",
+  "category": "rescue",
+  "brief": "Make standardized ground symbols that pilots can easily recognize and understand.",
+  "tags": [
+    "symbols",
+    "ground-signals",
+    "pilot-recognition",
+    "emergency"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Make symbols minimum 1 meter wide and 6 meters long.",
+    "Step 2: For larger symbols, maintain the same 1:6 width-to-length ratio.",
+    "Step 3: Ensure symbol contrasts greatly with the ground background.",
+    "Step 4: Place in open area easily spotted from air.",
+    "Step 5: Use materials like rocks, logs, clothing, or dig trenches to form symbols.",
+    "Step 6: Learn the 5 standard symbols: I (need doctor), II (need medical supplies), X (unable to proceed), F (need food and water), arrow (proceeding in this direction)."
+  ],
+  "warnings": [
+    "Symbols must have high contrast to be visible from aircraft altitude.",
+    "Don't make symbols in areas where enemy can easily observe them.",
+    "Symbols are meaningless if not made to proper proportions."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

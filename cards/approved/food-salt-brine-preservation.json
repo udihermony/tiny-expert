@@ -1,0 +1,26 @@
+{
+  "id": "food-salt-brine-preservation",
+  "title": "Salt and Brine Meat Preservation",
+  "icon": "🧂",
+  "category": "food",
+  "brief": "Use salt or saltwater solution to preserve meat when other methods aren't available.",
+  "tags": [
+    "salt-preservation",
+    "brine",
+    "coastal-areas"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: For brine method: create saltwater solution strong enough to preserve meat.",
+    "Step 2: Completely submerge meat in brine solution - solution must cover all meat.",
+    "Step 3: For dry salt method: thoroughly coat meat with salt on all surfaces.",
+    "Step 4: Keep salted meat in container to catch moisture drawn out.",
+    "Step 5: Before cooking, wash off salt thoroughly with clean water."
+  ],
+  "warnings": [
+    "This is preservation only - meat must still be cooked before eating.",
+    "Wash salt off completely before cooking to avoid oversalting.",
+    "Ensure meat is completely covered by brine or salt for effective preservation."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

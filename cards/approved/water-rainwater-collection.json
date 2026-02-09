@@ -1,0 +1,28 @@
+{
+  "id": "water-rainwater-collection",
+  "title": "Collect Rainwater and Dew at Sea",
+  "icon": "🌧️",
+  "category": "water",
+  "brief": "Maximize freshwater collection from rain and dew using tarps and available materials.",
+  "tags": [
+    "rainwater",
+    "dew",
+    "water-collection",
+    "ocean"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Watch clouds continuously and keep tarpaulin ready for catching water.",
+    "Step 2: If tarp is encrusted with dried salt, wash it in seawater before rain collection.",
+    "Step 3: When it rains, drink as much as you can hold immediately.",
+    "Step 4: At night, secure tarpaulin like sunshade with edges turned up to collect dew.",
+    "Step 5: Collect dew along raft sides using sponge or cloth.",
+    "Step 6: Accept that small amounts of seawater mixed with rain are hardly noticeable and won't cause harm."
+  ],
+  "warnings": [
+    "In rough seas you cannot get uncontaminated fresh water.",
+    "Normal small amount of seawater mixed with rain will not cause physical reaction.",
+    "Be careful not to get bottom of raft wet during collection process."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

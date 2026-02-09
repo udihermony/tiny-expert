@@ -1,0 +1,28 @@
+{
+  "id": "frostbite-prevention-techniques",
+  "title": "Prevent Frostbite Through Movement and Monitoring",
+  "icon": "🧤",
+  "category": "first-aid",
+  "brief": "Specific exercises and checks to maintain circulation and prevent frostbite in extremities.",
+  "tags": [
+    "frostbite",
+    "prevention",
+    "circulation",
+    "cold-weather"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: For face - twitch and wrinkle facial skin, make faces to maintain circulation, warm with mittened hands.",
+    "Step 2: For ears - wiggle and move ears, warm with hands.",
+    "Step 3: For hands - move hands inside gloves, warm by placing close to body under armpits.",
+    "Step 4: For feet - move feet and wiggle toes inside boots.",
+    "Step 5: Use buddy system - check partner's face often and have them check yours.",
+    "Step 6: If alone, periodically cover nose and lower face with mittened hand."
+  ],
+  "warnings": [
+    "Loss of feeling for a short time indicates light frostbite; longer loss suggests deep frostbite.",
+    "Deep frostbite that is thawed and refrozen causes more damage than untrained people can handle.",
+    "Face and extremities are most vulnerable to frostbite."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

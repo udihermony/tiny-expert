@@ -1,0 +1,29 @@
+{
+  "id": "shelter-radiation-shielding-materials",
+  "title": "Radiation Shielding Materials and Effectiveness",
+  "icon": "🛡️",
+  "category": "shelter",
+  "brief": "Understanding which materials provide effective protection from nuclear radiation.",
+  "tags": [
+    "nuclear",
+    "radiation",
+    "shielding",
+    "materials",
+    "protection"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Use the densest materials available - lead, iron, concrete, and water are most effective.",
+    "Step 2: Apply the half-value layer principle: each additional layer of the same thickness cuts radiation by half.",
+    "Step 3: Use 1 meter of dirt to reduce 1,000 cgys per hour to about 0.5 cgy per hour inside shelter.",
+    "Step 4: Stack materials in layers - 5cm of brick reduces radiation by half, 10cm reduces to one-fourth.",
+    "Step 5: Prioritize underground shelters with 1+ meters of earth coverage.",
+    "Step 6: Seek caves, storm cellars, culverts, or basements of stone/mud buildings if available."
+  ],
+  "warnings": [
+    "Thin roofing provides very little shielding benefit.",
+    "Time spent gathering shielding materials must be weighed against radiation exposure.",
+    "The denser the material, the better - but any shielding is better than none."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 23 - Survival in Man-Made Hazards)"
+}

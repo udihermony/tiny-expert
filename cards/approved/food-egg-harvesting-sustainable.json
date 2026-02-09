@@ -1,0 +1,28 @@
+{
+  "id": "food-egg-harvesting-sustainable",
+  "title": "Sustainable Egg Harvesting from Bird Nests",
+  "icon": "🥚",
+  "category": "food",
+  "brief": "Harvest eggs continuously from nesting birds without depleting the source.",
+  "tags": [
+    "eggs",
+    "birds",
+    "sustainable",
+    "nesting-season"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Locate bird nests during nesting season when birds are actively laying.",
+    "Step 2: Remove all but 2-3 eggs from the clutch initially.",
+    "Step 3: Mark the 2-3 eggs you leave behind (use charcoal, mud, or scratch marks).",
+    "Step 4: The bird will continue laying more eggs to fill the complete clutch.",
+    "Step 5: Return periodically to remove only the fresh, unmarked eggs.",
+    "Step 6: Always leave the original marked eggs to maintain the bird's laying cycle."
+  ],
+  "warnings": [
+    "Do not take all eggs or the bird will abandon the nest.",
+    "Parent birds may aggressively defend their nests.",
+    "Some bird species are protected by law in non-survival situations."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

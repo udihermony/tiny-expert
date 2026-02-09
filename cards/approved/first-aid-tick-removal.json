@@ -1,0 +1,29 @@
+{
+  "id": "first-aid-tick-removal",
+  "title": "Safe Tick Removal Technique",
+  "icon": "🕷️",
+  "category": "first-aid",
+  "brief": "How to safely remove attached ticks to prevent disease transmission.",
+  "tags": [
+    "ticks",
+    "disease-prevention",
+    "removal",
+    "insects"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Cover attached tick with substance that cuts off air supply: Vaseline, heavy oil, or tree sap.",
+    "Wait for tick to release its hold without air supply.",
+    "Use tweezers if available to grasp tick where mouth parts attach to skin.",
+    "Do not squeeze the tick's body during removal.",
+    "Remove the whole tick carefully.",
+    "Wash hands thoroughly after touching the tick.",
+    "Clean the tick wound daily until healed."
+  ],
+  "warnings": [
+    "Do not squeeze tick's body as this can inject more disease-causing organisms",
+    "Ensure complete removal - leaving mouth parts can cause infection",
+    "Inspect body daily for attached ticks"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 4)"
+}

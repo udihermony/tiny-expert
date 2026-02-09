@@ -1,0 +1,29 @@
+{
+  "id": "biological-agent-detection",
+  "title": "Detecting Biological Agent Attacks",
+  "icon": "🔍",
+  "category": "rescue",
+  "brief": "How to recognize the signs of biological warfare agent deployment and contamination.",
+  "tags": [
+    "biological",
+    "chemical",
+    "warfare",
+    "detection",
+    "symptoms"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Watch for unusual munitions with minimal blast damage but small liquid/powder clouds.",
+    "Step 2: Look for aircraft or vehicle spray tanks creating aerosol clouds.",
+    "Step 3: Check for large infestations of insects (mosquitoes, fleas, lice, ticks) that may be vectors.",
+    "Step 4: Observe for unusual substances on ground or vegetation, or sick-looking plants/animals.",
+    "Step 5: Monitor for symptoms in people: dizziness, confusion, blurred vision, numbness, paralysis.",
+    "Step 6: Note that aerosol sprays concentrate in low terrain areas like morning mist."
+  ],
+  "warnings": [
+    "Biological agents cannot be detected by the five senses",
+    "Symptoms may not appear for hours to months due to incubation period",
+    "Buildings and bunkers can trap agents at higher concentrations"
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "first-aid-shock-treatment",
+  "title": "Prevent and Treat Shock",
+  "icon": "🏥",
+  "category": "first-aid",
+  "brief": "Position and care for injured persons to prevent shock and maintain circulation.",
+  "tags": [
+    "emergency",
+    "trauma-care",
+    "circulation",
+    "body-positioning"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: If victim is conscious, place on level surface with legs elevated 15-20 centimeters.",
+    "Step 2: If unconscious, place on side or abdomen with head turned to prevent choking.",
+    "Step 3: If unsure of best position, place victim perfectly flat and do not move.",
+    "Step 4: Remove all wet clothing immediately and replace with dry clothing.",
+    "Step 5: Maintain body heat by insulating from ground and surroundings.",
+    "Step 6: Provide external warmth: warm liquids, prewarmed sleeping bag, another person's body heat.",
+    "Step 7: Use warmed water in canteens, hot rocks wrapped in clothing, or fires on both sides.",
+    "Step 8: If conscious, slowly give small doses of warm salt or sugar solution.",
+    "Step 9: If unconscious or has abdominal wounds, give no fluids by mouth.",
+    "Step 10: Have victim rest for at least 24 hours."
+  ],
+  "warnings": [
+    "Never give oral fluids to unconscious victims or those with abdominal wounds.",
+    "Too much pressure on neck pressure points can cause unconsciousness or death.",
+    "Once positioned for shock, do not move the victim."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 4)"
+}

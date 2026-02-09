@@ -1,0 +1,29 @@
+{
+  "id": "food-fish-safety-freshwater",
+  "title": "Freshwater Fish Safety and Preparation",
+  "icon": "🐟",
+  "category": "food",
+  "brief": "Safely catch and prepare freshwater fish while avoiding injury from defensive spines.",
+  "tags": [
+    "freshwater",
+    "fish",
+    "parasites",
+    "catfish",
+    "cooking-required"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Know that there are no poisonous freshwater fish species.",
+    "Step 2: Handle catfish carefully - they have sharp, needlelike protrusions on dorsal fins and barbels.",
+    "Step 3: Always cook all freshwater fish thoroughly to kill parasites.",
+    "Step 4: Look for fish in eddies near rocks, deep pools, under overhanging brush, and around submerged objects.",
+    "Step 5: Fish heavily before storms when they feed actively.",
+    "Step 6: Avoid fishing after storms when water is muddy and swollen."
+  ],
+  "warnings": [
+    "Catfish spines can inflict painful puncture wounds that quickly become infected.",
+    "All freshwater fish must be cooked to eliminate parasites - never eat raw.",
+    "Handle fish carefully to avoid cuts from fins and gill covers."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army (Chapter 8)"
+}

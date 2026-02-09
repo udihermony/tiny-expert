@@ -1,0 +1,28 @@
+{
+  "id": "tools-trap-baiting-strategy",
+  "title": "Effective Trap Baiting Techniques",
+  "icon": "🧀",
+  "category": "tools",
+  "brief": "Use proper bait selection and placement to attract animals to traps.",
+  "tags": [
+    "trapping",
+    "bait",
+    "animal-behavior",
+    "attraction"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Choose bait the animal recognizes but cannot easily find nearby (avoid baiting with corn in a corn field).",
+    "Step 2: Avoid exotic baits that may make animals curious but cautious of strange food.",
+    "Step 3: Use peanut butter from MREs or salt as effective baits for small mammals.",
+    "Step 4: Scatter small bits of bait around the trap area to let animals sample and develop craving.",
+    "Step 5: If wrong species takes bait without being caught, identify the animal and set appropriate trap for that species using same bait.",
+    "Step 6: Use successful catches to bait multiple additional traps."
+  ],
+  "warnings": [
+    "Bait that's too readily available nearby will not attract animals to traps.",
+    "Unknown or exotic baits may increase animal wariness rather than attraction.",
+    "Successfully trapped animals provide excellent bait for additional traps."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

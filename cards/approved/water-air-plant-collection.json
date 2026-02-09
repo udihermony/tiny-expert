@@ -1,0 +1,25 @@
+{
+  "id": "water-air-plant-collection",
+  "title": "Collecting Rainwater from Air Plants",
+  "icon": "🌿",
+  "category": "water",
+  "brief": "Harvest rainwater trapped in air plants growing on tree branches in tropical areas.",
+  "tags": [
+    "tropical",
+    "rainwater",
+    "air-plants",
+    "natural-collection"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Look for large trees in American tropics with air plants growing on branches.",
+    "Step 2: Locate air plants with overlapping, thickly growing leaves that form natural cups.",
+    "Step 3: Carefully pour water from the leaf cups into your container.",
+    "Step 4: Strain the collected water through a cloth to remove insects and debris."
+  ],
+  "warnings": [
+    "Always strain the water to remove insects, larvae, and debris that may have accumulated.",
+    "Check that the plant leaves don't contain stagnant, foul-smelling water before collecting."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

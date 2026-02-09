@@ -1,0 +1,28 @@
+{
+  "id": "food-walnut-fish-poison",
+  "title": "Using Walnut Husks to Stun Fish",
+  "icon": "🐟",
+  "category": "food",
+  "brief": "Crush green husks from butternuts or black walnuts to create a natural fish poison.",
+  "tags": [
+    "temperate-regions",
+    "walnut-trees",
+    "natural-poison",
+    "fall-season"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Locate butternut or black walnut trees with green (unripe) husks.",
+    "Step 2: Collect green husks from the nuts - avoid dried or brown husks.",
+    "Step 3: Crush the green husks thoroughly to release the toxic compounds.",
+    "Step 4: Throw the crushed husks into a small area of quiet water.",
+    "Step 5: Wait for fish to become unable to breathe and rise to the surface.",
+    "Step 6: Collect all affected fish - they remain safe to eat."
+  ],
+  "warnings": [
+    "Only use green (fresh) husks - dried husks are less effective.",
+    "This method makes fish unable to breathe but doesn't affect their edibility.",
+    "Works best in quiet, confined water areas."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "shelter-poncho-lean-to",
+  "title": "Build a Poncho Lean-To Shelter",
+  "icon": "⛺",
+  "category": "shelter",
+  "brief": "Construct a quick, effective lean-to shelter using a poncho, rope, and stakes for protection from wind and rain.",
+  "tags": [
+    "poncho",
+    "quick-shelter",
+    "rain-protection",
+    "military-gear"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Check wind direction and position the shelter so the back faces into the wind.",
+    "Step 2: Tie off the poncho hood by pulling drawstring tight, rolling it lengthwise, folding in thirds, and tying off.",
+    "Step 3: Cut rope in half (1-1.5 meters each). Tie each half to corner grommets on one long side of poncho.",
+    "Step 4: Attach 10-centimeter drip sticks to each rope, 2.5 centimeters from the grommets to prevent water running down ropes.",
+    "Step 5: Tie ropes to trees at waist height using round turn and two half hitches with quick-release knot, 2-3 meters apart.",
+    "Step 6: Spread poncho and anchor to ground by pushing sharpened 30-centimeter stakes through grommets.",
+    "Step 7: Place insulating material (leaves, pine needles) inside the lean-to to reduce heat loss to ground."
+  ],
+  "warnings": [
+    "You lose up to 80% of body heat to the ground when at rest - insulation underneath is critical.",
+    "Ensure drip sticks are properly positioned or rainwater will run into your shelter.",
+    "Make sure the back of the lean-to faces into the wind direction."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 5 - Shelters)"
+}

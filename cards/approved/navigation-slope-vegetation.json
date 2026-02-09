@@ -1,0 +1,27 @@
+{
+  "id": "navigation-slope-vegetation",
+  "title": "Using Slope Vegetation for Direction Finding",
+  "icon": "🏔️",
+  "category": "navigation",
+  "brief": "Determine direction by observing vegetation and moisture differences on north vs south-facing slopes.",
+  "tags": [
+    "slopes",
+    "vegetation",
+    "moisture",
+    "seasonal"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Identify slopes that face different directions.",
+    "Step 2: In Northern Hemisphere, observe that north-facing slopes are cooler and damper.",
+    "Step 3: In summer, look for patches of snow remaining on north-facing slopes.",
+    "Step 4: In winter, observe that south-facing slopes lose snow first and have shallower snowpack.",
+    "Step 5: Note that vegetation is typically more lush on south-facing slopes in Northern Hemisphere."
+  ],
+  "warnings": [
+    "Works opposite in Southern Hemisphere - south-facing slopes are cooler and damper.",
+    "Local weather patterns and terrain can create exceptions to these rules.",
+    "Most reliable when comparing multiple slopes in the same area."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

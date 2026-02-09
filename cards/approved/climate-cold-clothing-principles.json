@@ -1,0 +1,28 @@
+{
+  "id": "climate-cold-clothing-principles",
+  "title": "Apply COLD Principle for Winter Clothing",
+  "icon": "🧥",
+  "category": "climate",
+  "brief": "Follow the COLD acronym (Clean, avoid Overheating, Loose layers, Dry) to maximize clothing warmth.",
+  "tags": [
+    "cold-weather",
+    "clothing",
+    "layering",
+    "hypothermia-prevention"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Keep clothing CLEAN - dirt and grease reduce insulation by crushing air pockets.",
+    "Step 2: Avoid OVERHEATING - adjust clothing to prevent sweating by opening parka, removing layers, or changing headgear.",
+    "Step 3: Wear clothes LOOSE and in LAYERS - tight clothing restricts circulation and reduces air insulation.",
+    "Step 4: Keep clothing DRY - wear water repellent outer layer and brush off snow before entering shelter.",
+    "Step 5: Always keep head covered - you lose 40-45% of body heat through unprotected head.",
+    "Step 6: Protect neck, wrists, and ankles which are efficient heat radiators."
+  ],
+  "warnings": [
+    "Wet clothing loses insulation value and causes cooling as moisture evaporates.",
+    "Tight clothing and footwear restrict blood circulation and invite cold injury.",
+    "The brain is very susceptible to cold and needs protection."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Army (Chapter 15)"
+}

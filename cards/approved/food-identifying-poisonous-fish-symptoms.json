@@ -1,0 +1,30 @@
+{
+  "id": "food-identifying-poisonous-fish-symptoms",
+  "title": "Recognizing Fish Poisoning Symptoms",
+  "icon": "🐟",
+  "category": "first-aid",
+  "brief": "How to identify symptoms of fish toxin poisoning and understand the risks.",
+  "tags": [
+    "fish-poisoning",
+    "toxins",
+    "symptoms",
+    "reef-fish",
+    "tropical"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Watch for numbness of lips, tongue, toes, and fingertips after eating fish.",
+    "Step 2: Note any severe itching or unusual skin sensations.",
+    "Step 3: Check for temperature sensation reversal - cold items feeling hot and hot items feeling cold.",
+    "Step 4: Monitor for nausea, vomiting, and dizziness.",
+    "Step 5: Be alert for loss of speech or progressive paralysis.",
+    "Step 6: Seek immediate help if symptoms appear - paralysis can lead to death."
+  ],
+  "warnings": [
+    "Fish toxins are water-soluble and cannot be neutralized by cooking.",
+    "Toxins are tasteless - standard edibility tests will not detect them.",
+    "Birds can eat poisonous fish safely - do not use bird consumption as a safety indicator.",
+    "Progressive paralysis from fish toxins can be fatal."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}

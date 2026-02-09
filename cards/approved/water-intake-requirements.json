@@ -1,0 +1,26 @@
+{
+  "id": "water-intake-requirements",
+  "title": "Calculate Proper Water Intake",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Determine how much water to drink based on conditions and activity level.",
+  "tags": [
+    "hydration",
+    "climate-specific",
+    "activity-based"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Drink 2-3 liters daily under normal conditions at 20°C (68°F).",
+    "Step 2: Increase to 6-8 liters daily when food intake is low.",
+    "Step 3: In extreme heat, drink 14-30 liters daily (body can lose 2.5-3.5 liters per hour).",
+    "Step 4: Maintain urine output of at least 0.5 liters every 24 hours as a minimum.",
+    "Step 5: Drink small amounts regularly each hour rather than large amounts at once.",
+    "Step 6: Never drink more than 1 liter at a time for comfort."
+  ],
+  "warnings": [
+    "In arid climates, the average person can lose 2.5-3.5 liters per hour.",
+    "Always drink water when eating - digestion requires water and can cause dehydration."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 4)"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "tools-basic-survival-kit",
+  "title": "Assemble Essential Survival Kit Items",
+  "icon": "🔧",
+  "category": "tools",
+  "brief": "Build a functional survival kit with specific items covering all basic survival needs.",
+  "tags": [
+    "equipment",
+    "preparation",
+    "multi-use",
+    "compact"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Include fire starting: lighter, metal match, waterproof matches, and candle.",
+    "Step 2: Add water purification: purification tablets and a small hand lens.",
+    "Step 3: Pack first aid: oxytetracycline tablets, surgical blades, butterfly sutures, needle and thread.",
+    "Step 4: Include signaling: signaling mirror and whistle.",
+    "Step 5: Add food procurement: snare wire, fish and snare line, fishhooks.",
+    "Step 6: Pack shelter items: solar blanket and knife.",
+    "Step 7: Include navigation: wrist compass.",
+    "Step 8: Add miscellaneous: condoms for water storage, chap stick."
+  ],
+  "warnings": [
+    "Include a weapon only if the situation specifically requires it.",
+    "Test all equipment before depending on it in an emergency."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 3)"
+}

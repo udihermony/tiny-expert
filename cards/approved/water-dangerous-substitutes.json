@@ -1,0 +1,28 @@
+{
+  "id": "water-dangerous-substitutes",
+  "title": "Avoid Dangerous Water Substitutes",
+  "icon": "⚠️",
+  "category": "water",
+  "brief": "Recognize liquids that should never be substituted for water as they can worsen dehydration or cause harm.",
+  "tags": [
+    "dehydration",
+    "dangerous-fluids",
+    "safety",
+    "medical"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Never drink urine as a water substitute - it concentrates body waste products.",
+    "Step 2: Avoid drinking blood which contains high salt content that increases dehydration.",
+    "Step 3: Do not drink seawater - the salt content will rapidly worsen dehydration.",
+    "Step 4: Avoid alcoholic beverages which act as diuretics and increase water loss.",
+    "Step 5: Do not drink fish juices or other body fluids from animals.",
+    "Step 6: Stick to clear, fresh water sources or properly distilled/purified water."
+  ],
+  "warnings": [
+    "These fluids will worsen dehydration rather than help it.",
+    "Drinking urine, blood, or seawater can cause kidney damage.",
+    "Alcohol increases water loss through increased urination."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 6 - Water Procurement)"
+}

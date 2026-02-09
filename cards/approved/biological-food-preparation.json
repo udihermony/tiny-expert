@@ -1,0 +1,30 @@
+{
+  "id": "biological-food-preparation",
+  "title": "Food Preparation in Biological Contaminated Areas",
+  "icon": "🍳",
+  "category": "food",
+  "brief": "How to safely prepare local food sources when biological contamination is present.",
+  "tags": [
+    "biological",
+    "food",
+    "cooking",
+    "boiling",
+    "safety"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Use only as last resort - sealed combat rations and processed food in containers are safer.",
+    "Step 2: Select only healthy-looking plants and animals. Avoid known vector carriers like rats.",
+    "Step 3: Always wear gloves and protective clothing when handling any local food sources.",
+    "Step 4: Prepare plants using same methods as for radioactive areas (wash, peel, scrub).",
+    "Step 5: Cook all food by boiling only - boil for at least 10 minutes to kill all pathogens.",
+    "Step 6: Never fry, bake, or roast local food - no guarantee all portions reach killing temperature."
+  ],
+  "warnings": [
+    "No guarantee that cooking kills all biological agents",
+    "Use local food only in life or death situations",
+    "You can survive longer without food than you can survive eating contaminated food",
+    "Never eat any raw food in biological contamination areas"
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

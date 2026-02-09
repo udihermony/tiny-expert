@@ -1,0 +1,29 @@
+{
+  "id": "first-aid-tick-removal-inspection",
+  "title": "Daily Tick Inspection and Safe Removal",
+  "icon": "🔍",
+  "category": "first-aid",
+  "brief": "Prevent tick-borne diseases through daily inspection and proper removal techniques.",
+  "tags": [
+    "ticks",
+    "disease-prevention",
+    "lyme-disease",
+    "inspection"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Inspect entire body thoroughly every day, paying attention to hair, armpits, and groin.",
+    "Step 2: Check clothing, bedding, and shelter materials for ticks before use.",
+    "Step 3: Remove ticks within 6 hours of attachment to prevent disease transmission.",
+    "Step 4: Use tweezers or small tools to grasp tick close to skin surface.",
+    "Step 5: Pull straight up with steady pressure - do not twist or jerk.",
+    "Step 6: Clean bite area with soap and water or antiseptic after removal."
+  ],
+  "warnings": [
+    "Disease transmission typically requires 6+ hours of attachment.",
+    "Avoid crushing tick body during removal.",
+    "Do not use heat, petroleum jelly, or other folk remedies.",
+    "Monitor bite site for rash or symptoms in following days/weeks."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army"
+}

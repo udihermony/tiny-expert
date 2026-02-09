@@ -1,0 +1,29 @@
+{
+  "id": "cold-weather-fire-safety",
+  "title": "Build Safe Fires in Cold Weather",
+  "icon": "🔥",
+  "category": "fire",
+  "brief": "Avoid fire hazards specific to cold weather environments and snow shelters.",
+  "tags": [
+    "fire-safety",
+    "cold-weather",
+    "carbon-monoxide",
+    "shelter-fire"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Never build fire too close to shelter - fires can burn underground and resurface nearby.",
+    "Step 2: In snow shelters, control heat to avoid melting insulating snow layer.",
+    "Step 3: Ensure adequate ventilation in any enclosed shelter with fire.",
+    "Step 4: Position yourself to avoid scorching clothes while warming or drying gear.",
+    "Step 5: Build windbreaks to prevent melting overhead snow from extinguishing fire.",
+    "Step 6: Use small fires and stove combinations for cooking - more efficient fuel use."
+  ],
+  "warnings": [
+    "Carbon monoxide poisoning can occur in poorly ventilated shelters with fires.",
+    "Excessive heat in snow shelters melts insulation and camouflage.",
+    "Underground fires can travel and emerge unexpectedly near shelters.",
+    "Melting overhead snow can bury you, your equipment, and extinguish your fire."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

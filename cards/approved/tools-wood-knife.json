@@ -1,0 +1,28 @@
+{
+  "id": "tools-wood-knife",
+  "title": "Make a Fire-Hardened Wood Knife",
+  "icon": "🌿",
+  "category": "tools",
+  "brief": "Create a puncturing tool from hardwood using fire-hardening techniques.",
+  "tags": [
+    "wood-tools",
+    "fire-hardening",
+    "bamboo",
+    "puncturing"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Select a straight-grained piece of hardwood about 30cm long and 2.5cm in diameter.",
+    "Step 2: Fashion a blade about 15cm long, shaving it down to a point.",
+    "Step 3: Use only straight-grained portions, avoiding the core or pith.",
+    "Step 4: Slowly dry the blade portion over a fire until lightly charred (the drier, the harder).",
+    "Step 5: After charring, sharpen the point on a coarse stone.",
+    "Step 6: For bamboo: remove inner wood to make blade thinner, keeping the hard outer layer intact."
+  ],
+  "warnings": [
+    "Use only for puncturing - wood knives cannot hold a cutting edge.",
+    "When charring bamboo, char only the inside wood, not the outside layer.",
+    "Avoid resinous woods which will taint food and leave an aftertaste."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

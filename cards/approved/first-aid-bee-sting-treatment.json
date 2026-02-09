@@ -1,0 +1,27 @@
+{
+  "id": "first-aid-bee-sting-treatment",
+  "title": "Treating Bee and Wasp Stings",
+  "icon": "🐝",
+  "category": "first-aid",
+  "brief": "How to properly treat bee stings and reduce reaction symptoms.",
+  "tags": [
+    "bee-sting",
+    "wasp",
+    "venom",
+    "allergic-reaction"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Immediately remove stinger and venom sac by scraping with fingernail or knife blade.",
+    "Do not squeeze or grasp the stinger or venom sac.",
+    "Wash sting site thoroughly with soap and water.",
+    "Apply cold compresses to reduce swelling and pain.",
+    "For itching relief, apply cooling paste of mud and ashes, dandelion sap, coconut meat, crushed garlic, or onion."
+  ],
+  "warnings": [
+    "Never squeeze stinger or venom sac as this forces more venom into wound",
+    "Carry insect sting kit if known to be allergic to stings",
+    "Watch for signs of severe allergic reaction"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 4)"
+}

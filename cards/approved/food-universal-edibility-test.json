@@ -1,0 +1,33 @@
+{
+  "id": "food-universal-edibility-test",
+  "title": "Universal Plant Edibility Test",
+  "icon": "🌿",
+  "category": "food",
+  "brief": "Systematic 24+ hour process to test unknown plants for safe consumption when you can't identify them.",
+  "tags": [
+    "plant-testing",
+    "unknown-plants",
+    "safety-protocol",
+    "24-hour-test"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Test only abundant plants - ensure enough to make testing worthwhile.",
+    "Step 2: Separate plant into parts (roots, leaves, flowers, etc.) - each part requires separate 24+ hour testing.",
+    "Step 3: Smell the plant part - avoid if it has strong or acid odors.",
+    "Step 4: Place small amount on inside of wrist for 15 minutes - test for irritation.",
+    "Step 5: If no irritation, place on corner of mouth for 15 minutes.",
+    "Step 6: If no irritation, place on tip of tongue for 15 minutes - don't swallow.",
+    "Step 7: If no irritation, chew and hold in mouth for 15 minutes - don't swallow.",
+    "Step 8: If no ill effects, swallow small amount and wait 8 hours.",
+    "Step 9: If no ill effects after 8 hours, eat 1/4 cup and wait another 8 hours.",
+    "Step 10: If no ill effects, plant part is safe to eat in normal quantities."
+  ],
+  "warnings": [
+    "Each plant PART requires the full 24+ hour test - roots, leaves, berries are all separate.",
+    "Don't eat any other food during the 8-hour waiting periods.",
+    "Stop immediately and induce vomiting if any ill effects occur.",
+    "Even after testing, eat new plant foods in moderation at first."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

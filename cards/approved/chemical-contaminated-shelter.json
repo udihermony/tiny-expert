@@ -1,0 +1,29 @@
+{
+  "id": "chemical-contaminated-shelter",
+  "title": "Building Shelter in Chemical Contaminated Areas",
+  "icon": "🏠",
+  "category": "shelter",
+  "brief": "How to construct and position emergency shelter to minimize chemical agent exposure.",
+  "tags": [
+    "chemical",
+    "shelter",
+    "contamination",
+    "decontamination",
+    "wind"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: If possible, move crosswind or upwind to exit contaminated area quickly.",
+    "Step 2: Build shelter in a clearing, completely away from all vegetation.",
+    "Step 3: Remove all topsoil in the shelter area to decontaminate the ground.",
+    "Step 4: Position shelter entrance at 90-degree angle to prevailing wind direction.",
+    "Step 5: Keep entrance closed at all times to prevent agent entry.",
+    "Step 6: Use extreme caution entering shelter to avoid bringing contamination inside."
+  ],
+  "warnings": [
+    "Do not build fires with contaminated wood - smoke will be toxic",
+    "Never build shelter in low areas where chemical agents concentrate",
+    "Vegetation can harbor and protect chemical agents from breakdown"
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

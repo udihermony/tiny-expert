@@ -1,0 +1,31 @@
+{
+  "id": "rescue-rocky-shore-landing",
+  "title": "Landing on Rocky Shore Through Waves",
+  "icon": "🪨",
+  "category": "rescue",
+  "brief": "Safe technique for reaching shore when only rocky coastline is available.",
+  "tags": [
+    "rocky-shore",
+    "waves",
+    "landing",
+    "ocean",
+    "surf"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Look for areas where waves rush up onto rocks, avoid places where waves explode with high white spray.",
+    "Step 2: Stay fully clothed and keep shoes on to reduce injury from rocks.",
+    "Step 3: Swim slowly on approach to conserve strength for holding onto rocks.",
+    "Step 4: Advance behind a large wave into the breakers.",
+    "Step 5: Face toward shore and take sitting position with feet in front, 60-90 centimeters (2-3 feet) lower than your head.",
+    "Step 6: Let your feet absorb shock when you strike submerged rocks or reefs.",
+    "Step 7: If you don't reach shore behind first wave, swim with hands only until next wave approaches.",
+    "Step 8: Repeat sitting position with feet forward for each wave until you land."
+  ],
+  "warnings": [
+    "Rocky shores can cause severe injuries - proper body position is critical for safety.",
+    "Never approach areas where waves create high white spray - indicates dangerous rock formations.",
+    "Keep feet positioned to absorb impact - landing head-first can cause fatal injuries."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}

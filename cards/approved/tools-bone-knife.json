@@ -1,0 +1,26 @@
+{
+  "id": "tools-bone-knife",
+  "title": "Make a Bone Knife",
+  "icon": "🦴",
+  "category": "tools",
+  "brief": "Create a puncturing tool from animal bone by shattering and shaping bone splinters.",
+  "tags": [
+    "bone-tools",
+    "animal-remains",
+    "puncturing"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Select a large bone such as a leg bone from a deer or medium-sized animal.",
+    "Step 2: Place the bone on a hard surface and shatter it by hitting with a heavy rock.",
+    "Step 3: Select a suitable pointed splinter from the pieces.",
+    "Step 4: Shape and sharpen the splinter by rubbing it on a rough-surfaced rock.",
+    "Step 5: If the piece is too small to handle safely, lash it securely to a hardwood handle."
+  ],
+  "warnings": [
+    "Use bone knives ONLY for puncturing - they will not hold an edge.",
+    "Bone may flake or break if used for slashing or chopping.",
+    "Handle carefully as bone splinters can be very sharp but brittle."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

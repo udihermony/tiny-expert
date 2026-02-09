@@ -1,0 +1,28 @@
+{
+  "id": "water-palm-tree-collection",
+  "title": "Extract Water from Palm Trees",
+  "icon": "🌴",
+  "category": "water",
+  "brief": "Collect sugary fluid from palm flowering stalks for up to 1 liter per day.",
+  "tags": [
+    "tropical",
+    "palm-trees",
+    "renewable-water"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Locate buri, coconut, or nipa palm with flowering stalk.",
+    "Step 2: Bend flowering stalk downward carefully.",
+    "Step 3: Cut off the tip of the bent stalk cleanly.",
+    "Step 4: Collect the flowing sugary fluid in container.",
+    "Step 5: Every 12 hours, cut a thin slice off the stalk end to renew flow.",
+    "Step 6: For nipa palms, work at ground level with shoots growing from base.",
+    "Step 7: For other species, climb tree to reach flowering stalk."
+  ],
+  "warnings": [
+    "Ripe coconut milk contains strong laxatives - drinking too much causes fluid loss.",
+    "Climbing tall palms is dangerous - ensure secure footing.",
+    "Cut thin slices only - cutting too much stops the flow."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Army (Chapter 14)"
+}

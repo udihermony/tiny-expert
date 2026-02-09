@@ -1,0 +1,30 @@
+{
+  "id": "tools-fish-trap-construction",
+  "title": "Building Fish Basket Traps",
+  "icon": "🧺",
+  "category": "tools",
+  "brief": "Construct funnel-shaped fish traps using sticks and vines for passive fish catching.",
+  "tags": [
+    "fishing",
+    "traps",
+    "baskets",
+    "funnel",
+    "passive"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Collect several straight sticks of similar length and flexible vines for lashing.",
+    "Step 2: Lash sticks together with vines to form a funnel shape with the wide opening for fish entry.",
+    "Step 3: Close the narrow top of the funnel, leaving a hole just large enough for target fish to swim through.",
+    "Step 4: Ensure the funnel narrows consistently from opening to the small entry hole.",
+    "Step 5: For saltwater use: build trap at low tide in location scouted at high tide.",
+    "Step 6: On rocky shores, use natural rock pools; on coral reefs, block pool openings as tide recedes.",
+    "Step 7: On sandy shores, use sandbars and enclosed ditches with low stone walls angled toward shore."
+  ],
+  "warnings": [
+    "Entry hole must be sized for target fish - too large allows easy escape, too small prevents entry.",
+    "Position traps where fish naturally travel - schools move with tides and along shores.",
+    "Check local regulations regarding fish trapping in non-survival situations."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

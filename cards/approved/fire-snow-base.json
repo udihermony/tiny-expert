@@ -1,0 +1,27 @@
+{
+  "id": "fire-snow-base",
+  "title": "Building a Fire Base in Snow",
+  "icon": "❄️",
+  "category": "fire",
+  "brief": "Create a stable platform for fire in snow-covered areas using green logs.",
+  "tags": [
+    "snow",
+    "cold-weather",
+    "winter",
+    "log-platform"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Cut or break several green logs with wrist-sized trunks (trees break easier in extreme cold).",
+    "Step 2: Lay the first layer of logs side by side on top of the snow.",
+    "Step 3: Add a second layer of logs on top of the first layer.",
+    "Step 4: Lay the top layer of logs perpendicular (at right angles) to the layer below.",
+    "Step 5: Build your fire on top of this dry log platform."
+  ],
+  "warnings": [
+    "Use only green (living) logs as they won't burn as quickly and provide a stable platform.",
+    "Ensure the platform is large enough that burning materials won't fall through to the snow.",
+    "Dead or dry logs will burn and collapse, dropping your fire into the snow."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army (Chapter 7)"
+}

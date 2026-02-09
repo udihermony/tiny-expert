@@ -1,0 +1,30 @@
+{
+  "id": "food-fish-poison-rotenone",
+  "title": "Using Rotenone Plants for Fish Stunning",
+  "icon": "🌿",
+  "category": "food",
+  "brief": "Identify and use plants containing rotenone to stun fish in warm water environments.",
+  "tags": [
+    "fish-poison",
+    "rotenone",
+    "tropical-plants",
+    "warm-water"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Use only in water 21°C (70°F) or above for quick effectiveness - works slowly 10-21°C, ineffective below 10°C.",
+    "Step 2: Target ponds or headwaters of small streams rather than large flowing rivers.",
+    "Step 3: Crush Anamirta cocculus bean-shaped seeds (South Asia/South Pacific vines) and throw in water.",
+    "Step 4: Crush Croton tiglium seeds from three-angled capsules (South Pacific waste areas) into water.",
+    "Step 5: Crush Barringtonia seeds and bark (large trees near sea in Malaya/Polynesia) and use in water.",
+    "Step 6: Grind Derris eliptica roots to powder, mix with water, throw large quantity into fishing area.",
+    "Step 7: Collect all affected fish immediately as they rise helplessly to surface."
+  ],
+  "warnings": [
+    "Gather all dead fish quickly - many floating downstream could arouse enemy suspicion.",
+    "Only effective in warm water temperatures above 21°C (70°F).",
+    "Ensure positive plant identification before use - some tropical plants are toxic to humans.",
+    "Rotenone is safe for humans eating the fish but lethal to cold-blooded animals."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

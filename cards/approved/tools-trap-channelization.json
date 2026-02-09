@@ -1,0 +1,28 @@
+{
+  "id": "tools-trap-channelization",
+  "title": "Building Trap Channelization",
+  "icon": "🛤️",
+  "category": "tools",
+  "brief": "Create funnel-shaped barriers to guide animals directly into traps.",
+  "tags": [
+    "trapping",
+    "channelization",
+    "animal-behavior",
+    "construction"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Build a funnel-shaped barrier extending from both sides of the animal trail toward the trap.",
+    "Step 2: Make the narrowest part of the funnel nearest to the trap location.",
+    "Step 3: Reduce the trail width to just slightly wider than the target animal's body.",
+    "Step 4: Maintain this narrow constriction for at least one animal body length back from the trap.",
+    "Step 5: Begin widening toward the mouth of the funnel beyond this point.",
+    "Step 6: Make barriers inconspicuous but inconvenient to go over or through - they don't need to be impassable."
+  ],
+  "warnings": [
+    "Channelization must look natural or animals will become suspicious.",
+    "Wild animals rarely back up - they prefer to continue forward into traps.",
+    "Barriers that are too obvious will alert prey and cause avoidance."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

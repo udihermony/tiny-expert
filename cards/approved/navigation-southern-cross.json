@@ -1,0 +1,29 @@
+{
+  "id": "navigation-southern-cross",
+  "title": "Finding South Using Southern Cross Constellation",
+  "icon": "✨",
+  "category": "navigation",
+  "brief": "Use the Southern Cross constellation to determine south direction in the southern hemisphere.",
+  "tags": [
+    "nighttime",
+    "southern-hemisphere",
+    "stars",
+    "clear-sky"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Locate the Southern Cross - 5 stars with 4 bright stars forming a tilted cross.",
+    "Step 2: Identify the two stars that make up the cross's long axis (pointer stars).",
+    "Step 3: Measure the distance between these two pointer stars.",
+    "Step 4: Extend an imaginary line from the cross 5 times this distance.",
+    "Step 5: The end of this line points toward south.",
+    "Step 6: Look down to the horizon from this point and select a landmark.",
+    "Step 7: In static situations, drive stakes in ground at night to mark direction for daylight use."
+  ],
+  "warnings": [
+    "Only works in southern hemisphere.",
+    "Requires clear night sky with visible stars.",
+    "No bright star marks south pole - this gives general south direction only."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

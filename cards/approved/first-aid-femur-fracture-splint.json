@@ -1,0 +1,33 @@
+{
+  "id": "first-aid-femur-fracture-splint",
+  "title": "Creating Improvised Traction Splint for Thigh Fractures",
+  "icon": "🦴",
+  "category": "first-aid",
+  "brief": "How to make a traction splint from natural materials to treat broken thighbone (femur).",
+  "tags": [
+    "fracture",
+    "splinting",
+    "femur",
+    "traction",
+    "improvised"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Get two forked branches or saplings at least 5 centimeters in diameter.",
+    "Measure one from patient's armpit to 20-30 centimeters past unbroken leg.",
+    "Measure other from groin to 20-30 centimeters past unbroken leg.",
+    "Pad both splints and notch the ends without forks.",
+    "Lash a 20-30 centimeter cross member between the splints using 5-centimeter diameter branch.",
+    "Tie splint around upper body and down length of broken leg.",
+    "Fashion ankle wrap with two free ends tied to cross member.",
+    "Place 10 x 2.5 centimeter stick between cross member and foot in middle of ankle wrap.",
+    "Twist stick to create traction until broken leg equals or slightly exceeds unbroken leg length.",
+    "Lash stick to maintain traction."
+  ],
+  "warnings": [
+    "Check traction periodically as materials may weaken over time",
+    "Maintain manual traction if splint needs repair or adjustment",
+    "Watch for signs of circulation problems below the fracture"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 4)"
+}

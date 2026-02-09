@@ -1,0 +1,27 @@
+{
+  "id": "navigation-snow-travel",
+  "title": "Travel Safely in Deep Snow Without Snowshoes",
+  "icon": "❄️",
+  "category": "navigation",
+  "brief": "Improvise snowshoes and navigate safely through snow 30+ cm deep to avoid leaving obvious trails.",
+  "tags": [
+    "snow",
+    "winter",
+    "cold-weather",
+    "improvised-gear"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Make improvised snowshoes using willow branches, strips of cloth, leather, or similar materials when snow is 30+ cm deep.",
+    "Step 2: Avoid snow-covered streams as snow insulation may prevent ice formation over water.",
+    "Step 3: In hilly terrain, avoid areas where avalanches appear possible.",
+    "Step 4: Travel in early morning hours in avalanche-prone areas when snow is most stable.",
+    "Step 5: On ridges, stay away from cornices (overhanging snow piles on lee side) that extend far from the ridge."
+  ],
+  "warnings": [
+    "Do not travel in deep snow without snowshoes or skis - it's almost impossible and leaves obvious trails for pursuers.",
+    "Never step on cornices - they can break loose and cause falls or avalanches.",
+    "Avoid snow-covered streams as the water underneath may not be frozen."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

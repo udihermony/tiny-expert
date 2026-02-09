@@ -1,0 +1,27 @@
+{
+  "id": "tools-survival-kit-planning",
+  "title": "Plan and Layer Your Survival Kit",
+  "icon": "🎒",
+  "category": "tools",
+  "brief": "Organize survival equipment in layers based on importance and carrying capacity.",
+  "tags": [
+    "equipment",
+    "planning",
+    "organization",
+    "priorities"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Keep the most critical items (map, compass) on your body at all times.",
+    "Step 2: Place moderately important items on your load-bearing equipment or vest.",
+    "Step 3: Store bulky, less critical items in your rucksack or vehicle.",
+    "Step 4: Select multi-purpose items whenever possible to reduce weight and space.",
+    "Step 5: Avoid duplicating items that serve the same single function.",
+    "Step 6: Choose a container that is waterproof, durable, easily carried, and fits various sized components."
+  ],
+  "warnings": [
+    "Putting critical items only in a pack you might lose could leave you without essential tools.",
+    "Overloading yourself with duplicate items reduces mobility and energy."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 3)"
+}

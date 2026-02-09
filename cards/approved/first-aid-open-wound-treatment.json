@@ -1,0 +1,31 @@
+{
+  "id": "first-aid-open-wound-treatment",
+  "title": "Open Wound Treatment and Cleaning",
+  "icon": "🩸",
+  "category": "first-aid",
+  "brief": "How to clean and dress open wounds to prevent infection in survival situations.",
+  "tags": [
+    "wounds",
+    "cleaning",
+    "infection-prevention",
+    "dressing"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Remove or cut clothing away from the wound.",
+    "Look for exit wound if caused by sharp object, gunshot, or projectile.",
+    "Thoroughly clean skin around the wound.",
+    "Rinse (do not scrub) wound with large amounts of water under pressure.",
+    "Use fresh urine if water is not available for rinsing.",
+    "Leave wound open for drainage - do not attempt to suture closed.",
+    "Cover with clean dressing and secure with bandage.",
+    "Change dressing daily to check for infection.",
+    "For gaping wounds, bring edges together with butterfly-shaped adhesive tape."
+  ],
+  "warnings": [
+    "Never try to close wounds by suturing in survival situations",
+    "Open treatment allows drainage and prevents life-threatening infections",
+    "Always check for exit wounds with penetrating injuries"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 4)"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "water-plant-sap-collection",
+  "title": "Collecting Water from Plant Sap",
+  "icon": "🌱",
+  "category": "water",
+  "brief": "Extract drinkable water from plants with moist pulpy centers or roots.",
+  "tags": [
+    "tropical",
+    "emergency-water",
+    "plant-identification",
+    "no-tools"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Identify plants with thick, moist, pulpy centers (like bamboo or thick-stemmed plants).",
+    "Step 2: Cut off a section of the plant stem or stalk at the base of a joint.",
+    "Step 3: Squeeze or smash the pulp firmly to extract moisture.",
+    "Step 4: Catch the liquid in a container or directly in your mouth.",
+    "Step 5: For plant roots, dig them out, cut into short pieces, and smash to extract water."
+  ],
+  "warnings": [
+    "Do not drink liquid that is sticky, milky, or bitter tasting - it may be poisonous.",
+    "Do not keep plant sap longer than 24 hours as it begins fermenting and becomes dangerous.",
+    "Avoid plants you cannot positively identify as safe."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

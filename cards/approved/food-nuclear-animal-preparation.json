@@ -1,0 +1,31 @@
+{
+  "id": "food-nuclear-animal-preparation",
+  "title": "Safe Animal Food Preparation in Fallout Areas",
+  "icon": "🥩",
+  "category": "food",
+  "brief": "How to safely prepare animal meat for consumption in radioactive environments.",
+  "tags": [
+    "nuclear",
+    "fallout",
+    "meat",
+    "preparation",
+    "decontamination"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Never eat animals that appear sick - they may have bacterial infections from radiation poisoning.",
+    "Step 2: Carefully skin all animals to prevent radioactive particles from entering the body.",
+    "Step 3: Cut meat away from bones, leaving at least 3mm thickness of meat on the bone.",
+    "Step 4: Discard all internal organs (heart, liver, kidneys) as they concentrate radioactivity.",
+    "Step 5: Cut meat into pieces less than 13mm thick before cooking.",
+    "Step 6: Cook all meat until very well done to ensure safety.",
+    "Step 7: Eggs are safe to eat even if laid during fallout period.",
+    "Step 8: Avoid all milk from fallout area animals."
+  ],
+  "warnings": [
+    "Animal skeletons contain over 90% of radioactivity - stay away from bones and joints.",
+    "Fish and aquatic animals have much greater contamination - use only in extreme emergency.",
+    "Contaminated meat can cause severe illness or death even if thoroughly cooked."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 23 - Survival in Man-Made Hazards)"
+}

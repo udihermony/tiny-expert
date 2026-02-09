@@ -1,0 +1,29 @@
+{
+  "id": "first-aid-plant-ingestion-poisoning",
+  "title": "Emergency Treatment for Plant Poisoning",
+  "icon": "🤮",
+  "category": "first-aid",
+  "brief": "Emergency first aid for suspected plant ingestion poisoning.",
+  "tags": [
+    "poisoning",
+    "vomiting",
+    "plant-toxins",
+    "emergency"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Remove any remaining plant material from victim's mouth immediately.",
+    "Step 2: If victim is conscious, induce vomiting by tickling back of throat.",
+    "Step 3: Alternatively, give warm salt water to conscious victim to induce vomiting.",
+    "Step 4: Dilute the poison by giving large quantities of water or milk to conscious victim.",
+    "Step 5: Keep victim awake and monitor breathing and heart rate.",
+    "Step 6: Maintain detailed log of all symptoms and timeline."
+  ],
+  "warnings": [
+    "Only induce vomiting if victim is fully conscious.",
+    "Do not give liquids to unconscious victims - they may aspirate.",
+    "Symptoms can include nausea, vomiting, diarrhea, unconsciousness, coma, and death.",
+    "Some plant poisons can kill very quickly - seek immediate help if possible."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army"
+}

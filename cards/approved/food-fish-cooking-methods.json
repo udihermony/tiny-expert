@@ -1,0 +1,27 @@
+{
+  "id": "food-fish-cooking-methods",
+  "title": "Cooking Fish in Survival Situations",
+  "icon": "🔥",
+  "category": "food",
+  "brief": "Learn multiple methods to cook fish effectively using available materials.",
+  "tags": [
+    "cooking",
+    "fire-cooking",
+    "clay-cooking",
+    "smoking"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: For whole fish: impale on a stick and cook over open fire, turning frequently.",
+    "Step 2: For boiling: cook fish with skin on to save fats and oils for nutritious broth.",
+    "Step 3: For clay cooking: pack whole fish in clay ball and bury in fire coals until clay hardens, then break open.",
+    "Step 4: Test doneness - fish is cooked when meat flakes off easily.",
+    "Step 5: For preservation: smoke or fry the fish if keeping for later use."
+  ],
+  "warnings": [
+    "Ensure fish is fully cooked - raw fish can carry parasites.",
+    "Don't overcook as this reduces nutritional value.",
+    "Save cooking liquids for additional nutrition."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

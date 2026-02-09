@@ -1,0 +1,26 @@
+{
+  "id": "psychology-stress-management",
+  "title": "Apply Stress Management Techniques",
+  "icon": "🧠",
+  "category": "psychology",
+  "brief": "Use specific psychological techniques to maintain calm focus and prevent panic in survival situations.",
+  "tags": [
+    "stress-relief",
+    "mental-health",
+    "panic-prevention",
+    "focus"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Practice relaxation skills regularly - deep breathing, muscle relaxation, or meditation.",
+    "Step 2: Develop time management skills to prioritize survival tasks effectively.",
+    "Step 3: Build assertiveness skills to make clear decisions under pressure.",
+    "Step 4: Practice cognitive restructuring - consciously control how you view and interpret situations.",
+    "Step 5: Remember that survival is about 'refusing to give up' rather than just enduring."
+  ],
+  "warnings": [
+    "Unmanaged stress can lead to panic, poor decision-making, and potentially fatal mistakes.",
+    "People under extreme stress may make irrational choices if not psychologically prepared."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 2)"
+}

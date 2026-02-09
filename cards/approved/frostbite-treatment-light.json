@@ -1,0 +1,26 @@
+{
+  "id": "frostbite-treatment-light",
+  "title": "Treat Light Frostbite",
+  "icon": "🤲",
+  "category": "first-aid",
+  "brief": "Safe rewarming techniques for light frostbite using body heat.",
+  "tags": [
+    "frostbite",
+    "treatment",
+    "rewarming",
+    "body-heat"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Use hands or mittens to warm frostbitten face and ears.",
+    "Step 2: Place frostbitten hands under your armpits for rewarming.",
+    "Step 3: Place frostbitten feet next to your buddy's stomach for warming.",
+    "Step 4: Assess severity - if feeling lost for only a short time, likely light frostbite."
+  ],
+  "warnings": [
+    "If feeling has been lost for an extended time, assume deep frostbite.",
+    "Do not attempt to treat deep frostbite in field conditions.",
+    "Avoid thawing deep frostbite if there's risk of refreezing."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

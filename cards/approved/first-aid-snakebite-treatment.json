@@ -1,0 +1,34 @@
+{
+  "id": "first-aid-snakebite-treatment",
+  "title": "Emergency Snakebite Treatment Protocol",
+  "icon": "🐍",
+  "category": "first-aid",
+  "brief": "Step-by-step treatment for poisonous snakebites in survival situations.",
+  "tags": [
+    "snakebite",
+    "venom",
+    "emergency",
+    "suction"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Reassure victim and keep them still to slow circulation.",
+    "Set up for shock treatment and force fluids or give IV.",
+    "Remove watches, rings, bracelets, or other constricting items.",
+    "Clean the bite area thoroughly.",
+    "Maintain airway and be prepared for mouth-to-mouth resuscitation.",
+    "Use constricting band between wound and heart.",
+    "Immobilize the bite site completely.",
+    "If medical treatment over 1 hour away: make incision 6mm long, 3mm deep over each puncture.",
+    "Use suction cup 3-4 times, or mouth suction as last resort if no mouth sores.",
+    "Apply heat after 24-48 hours to prevent local infection spread."
+  ],
+  "warnings": [
+    "Do not give alcohol, tobacco, or CNS depressants",
+    "Do not make deep cuts - opens direct route for venom into bloodstream",
+    "If using mouth suction, spit out blood and rinse mouth with water",
+    "Do not put hands on face or rub eyes after handling venom",
+    "Do not break open large blisters around bite site"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 4)"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "trench-foot-prevention",
+  "title": "Prevent Trench Foot and Immersion Foot",
+  "icon": "🦶",
+  "category": "first-aid",
+  "brief": "Keep feet dry to prevent painful cold-wet injury that can lead to gangrene.",
+  "tags": [
+    "trench-foot",
+    "prevention",
+    "foot-care",
+    "wet-conditions"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Keep feet dry at all times - this is the primary prevention.",
+    "Step 2: Carry extra socks in a waterproof packet.",
+    "Step 3: Dry wet socks against your torso (back or chest).",
+    "Step 4: Wash feet and put on dry socks daily.",
+    "Step 5: Recognize early symptoms: pins and needles sensation, tingling, numbness, then pain."
+  ],
+  "warnings": [
+    "Results from hours or days of exposure to wet conditions just above freezing.",
+    "Progressive damage: skin appears wet, white, shriveled, then red, then bluish-black.",
+    "Can lead to gangrene and may require amputation in extreme cases.",
+    "Nerves and muscles sustain the main damage."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

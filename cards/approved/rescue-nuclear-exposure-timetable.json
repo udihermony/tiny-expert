@@ -1,0 +1,31 @@
+{
+  "id": "rescue-nuclear-exposure-timetable",
+  "title": "Nuclear Fallout Exposure Safety Timetable",
+  "icon": "⏰",
+  "category": "rescue",
+  "brief": "Precise timing schedule for safe movement and exposure in nuclear fallout areas.",
+  "tags": [
+    "nuclear",
+    "fallout",
+    "timing",
+    "exposure",
+    "safety"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Complete isolation for 4-6 days following delivery of last nuclear weapon.",
+    "Step 2: Day 3: One brief exposure up to 30 minutes maximum to procure water only.",
+    "Step 3: Day 7: One exposure not exceeding 30 minutes for essential tasks.",
+    "Step 4: Day 8: One exposure not exceeding 1 hour for necessary activities.",
+    "Step 5: Days 9-12: Exposure of 2-4 hours maximum for essential survival tasks.",
+    "Step 6: Day 13 onward: Normal operation followed by rest in protected shelter.",
+    "Step 7: Decontaminate at every stop outside shelter.",
+    "Step 8: Consider only mandatory requirements as valid reasons for exposure."
+  ],
+  "warnings": [
+    "These times are conservative - forced movement after day 1-2 is possible but dangerous.",
+    "Make all exposures as brief as absolutely necessary.",
+    "Extended exposure during early days can result in lethal radiation doses."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 23 - Survival in Man-Made Hazards)"
+}

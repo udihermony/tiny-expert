@@ -1,0 +1,29 @@
+{
+  "id": "fire-convex-lens",
+  "title": "Starting Fire with a Convex Lens",
+  "icon": "🔍",
+  "category": "fire",
+  "brief": "Use sunlight focused through a lens to ignite tinder on bright, sunny days.",
+  "tags": [
+    "sunny-weather",
+    "lens",
+    "solar-ignition",
+    "modern-method"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Gather a convex lens from binoculars, camera, telescopic sight, or magnifying glass.",
+    "Step 2: Prepare very dry, fine tinder in your fire lay.",
+    "Step 3: Angle the lens to concentrate the sun's rays into a small, bright spot on the tinder.",
+    "Step 4: Hold the lens steady over the same spot until the tinder begins to smoke and smolder.",
+    "Step 5: Once smoldering starts, gently blow or fan the tinder to encourage flame.",
+    "Step 6: Quickly apply the flaming tinder to your prepared fire lay."
+  ],
+  "warnings": [
+    "Only works on bright, sunny days with direct sunlight.",
+    "Do not look directly at the concentrated light beam as it can damage your eyes.",
+    "Keep the focused beam steady - moving it around will prevent ignition.",
+    "Have your fire lay completely prepared before attempting ignition."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army (Chapter 7)"
+}

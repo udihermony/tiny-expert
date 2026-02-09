@@ -1,0 +1,32 @@
+{
+  "id": "first-aid-radiation-sickness-recognition",
+  "title": "Recognizing and Managing Radiation Sickness",
+  "icon": "🤒",
+  "category": "first-aid",
+  "brief": "How to identify and manage symptoms of acute radiation exposure.",
+  "tags": [
+    "nuclear",
+    "radiation",
+    "sickness",
+    "symptoms",
+    "treatment"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Recognize symptoms: nausea, diarrhea, vomiting, fatigue, weakness, and hair loss.",
+    "Step 2: Do not panic if you experience these symptoms - small doses can cause them temporarily.",
+    "Step 3: Rest as much as possible while in shelter to aid recovery.",
+    "Step 4: Maintain fluid intake to prevent dehydration from vomiting and diarrhea.",
+    "Step 5: Take any available medicine that prevents vomiting.",
+    "Step 6: Maintain food intake when possible to support recovery.",
+    "Step 7: Practice rigorous personal hygiene to prevent infections.",
+    "Step 8: Cover eyes with improvised goggles to prevent particle entry."
+  ],
+  "warnings": [
+    "There is no first aid treatment for radiation sickness itself.",
+    "Main danger is secondary infection due to compromised immune system.",
+    "Severity and speed of symptom onset indicates degree of radiation damage.",
+    "Body becomes extremely sensitive to infections due to blood chemistry changes."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 23 - Survival in Man-Made Hazards)"
+}

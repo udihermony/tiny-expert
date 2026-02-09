@@ -1,0 +1,28 @@
+{
+  "id": "water-green-bamboo",
+  "title": "Extract Water from Green Bamboo",
+  "icon": "🎋",
+  "category": "water",
+  "brief": "Obtain clear, odorless fresh water from green bamboo stalks using a simple cutting technique.",
+  "tags": [
+    "bamboo",
+    "tropical",
+    "plant-water",
+    "clear-water"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Locate green bamboo thickets with fresh, living stalks.",
+    "Step 2: Bend a green bamboo stalk down and tie it in the bent position.",
+    "Step 3: Cut off the top of the bent stalk cleanly.",
+    "Step 4: Position a container under the cut end to catch dripping water.",
+    "Step 5: Allow water to drip freely during the night - it will flow continuously.",
+    "Step 6: Check old, cracked bamboo stalks as they may also contain water reserves."
+  ],
+  "warnings": [
+    "Only use green (living) bamboo - dead bamboo will not produce water.",
+    "Purify the water before drinking even though it appears clear.",
+    "Water from green bamboo is clear and odorless when fresh."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 6 - Water Procurement)"
+}

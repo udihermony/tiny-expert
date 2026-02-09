@@ -1,0 +1,29 @@
+{
+  "id": "rescue-snake-safety-movement",
+  "title": "Safe Movement in Snake Territory",
+  "icon": "🐍",
+  "category": "rescue",
+  "brief": "Move safely through areas with venomous snakes to avoid dangerous encounters.",
+  "tags": [
+    "snakes",
+    "movement",
+    "venomous",
+    "safety"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Walk carefully and watch where you step at all times.",
+    "Step 2: Step onto logs rather than over them, looking before moving on.",
+    "Step 3: Look closely around fruit trees and water sources before approaching.",
+    "Step 4: Use sticks to turn logs and rocks, never use hands.",
+    "Step 5: Wear proper footgear, especially important during night movement.",
+    "Step 6: Carefully check bedding, shelter, and clothing before use."
+  ],
+  "warnings": [
+    "Snakes cannot close their eyes, so you cannot tell if they are sleeping.",
+    "Some species like mambas, cobras, and bushmasters will attack aggressively when cornered.",
+    "Never tease, molest, or harass snakes even if they appear dead.",
+    "Warm sleeping bodies can occasionally attract snakes seeking heat."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army"
+}

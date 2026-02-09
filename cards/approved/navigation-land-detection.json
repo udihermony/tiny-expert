@@ -1,0 +1,29 @@
+{
+  "id": "navigation-land-detection",
+  "title": "Detect Nearby Land from Ocean Using Natural Indicators",
+  "icon": "🏝️",
+  "category": "navigation",
+  "brief": "Recognize clouds, water color, sounds, and other signs that indicate land is near while at sea.",
+  "tags": [
+    "navigation",
+    "ocean",
+    "land-detection",
+    "observation"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Look for fixed cumulus clouds in clear sky - often hover over or downwind from islands.",
+    "Step 2: In tropics, watch for greenish tint in sky from sunlight reflecting off shallow lagoons/coral reefs.",
+    "Step 3: In arctic, look for light-colored cloud reflections indicating ice fields or snow-covered land.",
+    "Step 4: Note water color changes - deep water is dark green/blue, lighter color indicates shallow water near land.",
+    "Step 5: Listen for roar of surf, especially at night or in fog.",
+    "Step 6: Smell for musty odor of mangrove swamps and mud flats.",
+    "Step 7: Watch bird flight patterns - more birds near land, flocks fly toward land at dusk, away at dawn."
+  ],
+  "warnings": [
+    "Mirages are common in tropics during midday - they disappear when viewed from different heights.",
+    "Bird flight direction during day has no significance as they search for food.",
+    "Deep water waves refract as they approach land - travel parallel to turbulent areas to reach shore."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — U.S. Department of the Army"
+}

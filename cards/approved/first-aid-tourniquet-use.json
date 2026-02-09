@@ -1,0 +1,31 @@
+{
+  "id": "first-aid-tourniquet-use",
+  "title": "Apply Emergency Tourniquet",
+  "icon": "🩸",
+  "category": "first-aid",
+  "brief": "Use a tourniquet as last resort when other bleeding control methods fail.",
+  "tags": [
+    "emergency",
+    "severe-trauma",
+    "last-resort",
+    "limb-threatening"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Only use when direct pressure and all other methods have failed to control bleeding.",
+    "Step 2: Place tourniquet 5-10 centimeters above wound site, between wound and heart.",
+    "Step 3: Never place directly over the wound or a fracture.",
+    "Step 4: Use a stick as handle to tighten the tourniquet.",
+    "Step 5: Tighten only enough to stop blood flow - no more.",
+    "Step 6: Bind the free end of stick to limb to prevent unwinding.",
+    "Step 7: Clean and bandage the wound after securing tourniquet.",
+    "Step 8: If alone, do not remove tourniquet.",
+    "Step 9: With a buddy, release pressure every 10-15 minutes for 1-2 minutes to allow blood flow."
+  ],
+  "warnings": [
+    "Leaving tourniquet too long can cause gangrene and limb loss.",
+    "Improper application can cause permanent nerve and tissue damage.",
+    "Use only as absolute last resort when victim will die without it."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 4)"
+}

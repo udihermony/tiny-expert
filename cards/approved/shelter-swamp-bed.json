@@ -1,0 +1,30 @@
+{
+  "id": "shelter-swamp-bed",
+  "title": "Build a Swamp Bed Shelter",
+  "icon": "🌊",
+  "category": "shelter",
+  "brief": "Construct an elevated sleeping platform to stay dry in marshes, swamps, or areas with standing water.",
+  "tags": [
+    "swamp",
+    "wetland",
+    "elevated",
+    "water-protection"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find four trees in rectangular formation or cut four poles (bamboo ideal) and drive firmly into ground.",
+    "Step 2: Ensure poles are far enough apart and strong enough to support your height, weight, and equipment.",
+    "Step 3: Cut two poles that span the rectangle width, strong enough to support your weight.",
+    "Step 4: Secure these poles to the trees/uprights high enough above ground to account for tides and high water.",
+    "Step 5: Cut additional poles spanning the rectangle length and lay across the two side poles.",
+    "Step 6: Secure the length-spanning poles in place.",
+    "Step 7: Cover the bed frame top with broad leaves or grass for comfortable sleeping surface.",
+    "Step 8: Build a fire pad by laying clay, silt, or mud on one corner and allow to dry."
+  ],
+  "warnings": [
+    "Platform must be high enough above water to account for tides and water level changes.",
+    "Ensure all poles are strong enough to support your full weight plus equipment.",
+    "Consider weather conditions, wind, and tides when selecting the site."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 5 - Shelters)"
+}

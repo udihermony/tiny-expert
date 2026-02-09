@@ -1,0 +1,26 @@
+{
+  "id": "arctic-whiteout-conditions",
+  "title": "Recognizing and Avoiding Whiteout Travel",
+  "icon": "🌫️",
+  "category": "navigation",
+  "brief": "How to identify whiteout conditions and why travel should be avoided.",
+  "tags": [
+    "arctic",
+    "visibility",
+    "weather",
+    "safety"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Recognize whiteout conditions by the lack of contrasting colors in your field of vision.",
+    "Step 2: Test terrain visibility by looking for shadows, depth perception, and ground features.",
+    "Step 3: If you cannot judge the nature of the terrain ahead, stop travel immediately.",
+    "Step 4: Wait in shelter until visibility improves before continuing travel."
+  ],
+  "warnings": [
+    "Whiteout conditions make it impossible to see obstacles, cliffs, or dangerous terrain.",
+    "Continuing travel in whiteout can lead to falls, getting lost, or walking into hazards.",
+    "Depth perception is completely compromised in whiteout conditions."
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

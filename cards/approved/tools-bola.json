@@ -1,0 +1,28 @@
+{
+  "id": "tools-bola",
+  "title": "Make and Use a Bola",
+  "icon": "🕸️",
+  "category": "tools",
+  "brief": "Create a weighted cord weapon effective for capturing running game or low-flying birds.",
+  "tags": [
+    "hunting",
+    "birds",
+    "running-game",
+    "weighted-cords"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Create three cords of equal length with weights attached to each end.",
+    "Step 2: Tie the three cords together at their center points with a strong knot.",
+    "Step 3: To use: hold the bola by the center knot.",
+    "Step 4: Twirl it above your head to build momentum.",
+    "Step 5: Release the center knot so the bola flies toward your target.",
+    "Step 6: The weighted cords will separate and wrap around the target to immobilize it."
+  ],
+  "warnings": [
+    "Practice in an open area away from people - the weights can cause injury.",
+    "Ensure all knots are secure before use to prevent weights from flying loose.",
+    "Most effective against flocks of birds or small running animals."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

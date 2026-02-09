@@ -1,0 +1,28 @@
+{
+  "id": "tools-weighted-club-construction",
+  "title": "Making a Weighted Club with Stone Head",
+  "icon": "🔨",
+  "category": "tools",
+  "brief": "Construct an effective weighted club by lashing a stone to a wooden handle.",
+  "tags": [
+    "weapons",
+    "weighted-club",
+    "lashing",
+    "stone-tools"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find a stone with slight hourglass shape that allows secure lashing.",
+    "Step 2: If no suitable stone exists, create groove by 'pecking' with smaller hard stone.",
+    "Step 3: Select straight-grained hardwood handle of comfortable length for stone weight.",
+    "Step 4: Choose lashing method: split handle, forked branch, or wrapped handle technique.",
+    "Step 5: Secure stone tightly using strong cordage, plant fibers, or improvised rope.",
+    "Step 6: Test balance and security of attachment before use."
+  ],
+  "warnings": [
+    "Stone must be securely attached - loose head can injure user or break at critical moment.",
+    "Balance the weight - too heavy makes club unwieldy, too light reduces effectiveness.",
+    "Check lashing regularly for wear and retighten as needed."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army"
+}

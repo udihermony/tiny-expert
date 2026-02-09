@@ -1,0 +1,28 @@
+{
+  "id": "tools-simple-snare-construction",
+  "title": "Building a Simple Noose Snare",
+  "icon": "🪢",
+  "category": "tools",
+  "brief": "Construct a basic snare using a noose over animal trails or den holes.",
+  "tags": [
+    "snaring",
+    "construction",
+    "wire",
+    "cordage"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Create a noose from wire (preferred) or strong cordage.",
+    "Step 2: Position noose upright over a game trail or den hole entrance.",
+    "Step 3: Use small twigs, grass blades, or spider web filaments to hold the noose open and in position.",
+    "Step 4: Make the noose large enough for the animal's head to pass through freely.",
+    "Step 5: Attach the other end of the snare line to a firmly planted stake.",
+    "Step 6: Position at head height - never low enough for the animal to step into with a foot."
+  ],
+  "warnings": [
+    "Wire is preferred over cordage as it won't loosen and allow escape.",
+    "Noose must be sized correctly - too small won't let head through, too large won't tighten properly.",
+    "This type of snare usually doesn't kill the animal immediately."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

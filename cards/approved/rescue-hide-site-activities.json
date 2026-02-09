@@ -1,0 +1,28 @@
+{
+  "id": "rescue-hide-site-activities",
+  "title": "Essential Hide Site Activities",
+  "icon": "🏕️",
+  "category": "rescue",
+  "brief": "Limit activities in hide sites to essential tasks that don't compromise your position.",
+  "tags": [
+    "evasion",
+    "hide-sites",
+    "security",
+    "concealment"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Maintain security through continuous visual scanning and listening.",
+    "Step 2: Rest in rotation so all team members can sleep while maintaining watch.",
+    "Step 3: Apply and maintain camouflage using buddy system to ensure completeness.",
+    "Step 4: Plan your next movement using map reconnaissance and route selection.",
+    "Step 5: Treat all injuries immediately, no matter how minor."
+  ],
+  "warnings": [
+    "Do not build fires or prepare food - smoke and food odors will reveal your location.",
+    "Never sacrifice security for rest - always maintain watch.",
+    "Do not occupy hide site longer than 24 hours maximum.",
+    "Sterilize the hide site before leaving to prevent tracking."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter on Movement and Avoidance)"
+}

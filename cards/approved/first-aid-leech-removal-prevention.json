@@ -1,0 +1,29 @@
+{
+  "id": "first-aid-leech-removal-prevention",
+  "title": "Leech Prevention and Safe Removal",
+  "icon": "🪱",
+  "category": "first-aid",
+  "brief": "Prevent leech attachment and safely remove leeches without causing injury.",
+  "tags": [
+    "leeches",
+    "water-safety",
+    "tropical",
+    "prevention"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Tuck trouser legs into boots when traveling through leech habitats.",
+    "Step 2: Check body frequently for leeches, especially after water crossings.",
+    "Step 3: To remove attached leech, use fingernail or tool to break suction at narrow end.",
+    "Step 4: Work tool around leech's mouth to release grip completely.",
+    "Step 5: Clean wound area thoroughly after removal.",
+    "Step 6: Apply pressure to control bleeding from anticoagulant effects."
+  ],
+  "warnings": [
+    "Never pull leech off forcefully - mouth parts may remain embedded.",
+    "Swallowed leeches can attach inside throat or nose causing severe infections.",
+    "Always treat water from questionable sources to kill leeches.",
+    "Avoid camping directly in swampy areas when possible."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army"
+}

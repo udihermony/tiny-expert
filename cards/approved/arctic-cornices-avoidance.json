@@ -1,0 +1,26 @@
+{
+  "id": "arctic-cornices-avoidance",
+  "title": "Avoiding Dangerous Snow Cornices",
+  "icon": "⛰️",
+  "category": "navigation",
+  "brief": "How to identify and avoid snow cornices that can break away from ridges.",
+  "tags": [
+    "arctic",
+    "mountain",
+    "ridge",
+    "avalanche"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Identify cornices as overhanging piles of snow on the lee side of ridges.",
+    "Step 2: Stay well back from ridge edges where cornices may extend far out.",
+    "Step 3: Approach ridges from the windward side when possible.",
+    "Step 4: If you must cross near cornices, stay as far from the edge as terrain allows."
+  ],
+  "warnings": [
+    "Cornices can extend much farther from the ridge than they appear.",
+    "Stepping on a cornice can cause it to break away, taking you with it.",
+    "The break line may be farther back from the visible edge than expected."
+  ],
+  "source": "FM21-76 US Army Survival Manual"
+}

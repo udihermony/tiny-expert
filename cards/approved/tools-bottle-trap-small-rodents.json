@@ -1,0 +1,28 @@
+{
+  "id": "tools-bottle-trap-small-rodents",
+  "title": "Building a Bottle Trap for Mice and Voles",
+  "icon": "🐭",
+  "category": "tools",
+  "brief": "Create a simple pitfall trap for small rodents using natural digging and camouflage.",
+  "tags": [
+    "mice",
+    "voles",
+    "pitfall",
+    "small-rodents"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Dig a hole 30-45 cm deep that is wider at the bottom than at the top.",
+    "Step 2: Make the top opening as small as possible while still allowing target animals to fall through.",
+    "Step 3: Ensure the walls slope backward so animals cannot climb out once they fall in.",
+    "Step 4: Place a piece of bark or wood over the hole as cover.",
+    "Step 5: Support the cover 2.5-5 cm off the ground using small stones as props.",
+    "Step 6: Position near areas where mice and voles are active."
+  ],
+  "warnings": [
+    "Check trap with extreme caution - it makes an excellent hiding place for snakes.",
+    "Backward-sloping walls are essential or animals will climb out easily.",
+    "Cover must be stable enough not to collapse but light enough for animals to hide under."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

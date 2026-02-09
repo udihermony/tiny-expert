@@ -1,0 +1,31 @@
+{
+  "id": "psychology-cultural-behavior-guidelines",
+  "title": "Cultural Interaction Guidelines",
+  "icon": "🤲",
+  "category": "psychology",
+  "brief": "Follow essential behavioral rules when interacting with local populations to maintain safety and gain help.",
+  "tags": [
+    "cultural-respect",
+    "behavior",
+    "customs",
+    "safety"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Accept what people offer and share equally with all present.",
+    "Step 2: Eat in the same way they eat and try to eat everything offered.",
+    "Step 3: Make payment of some kind for food, supplies, or help received.",
+    "Step 4: Keep any promises you make to local people.",
+    "Step 5: Respect personal property and do not enter houses unless invited.",
+    "Step 6: Build separate shelter if possible to avoid contagious diseases.",
+    "Step 7: Prepare your own food and drink when possible without giving offense.",
+    "Step 8: Avoid physical contact and sexual contact - many consider touching taboo."
+  ],
+  "warnings": [
+    "Be very cautious when touching people - it may be dangerous in some cultures.",
+    "Local people may seriously reduce their own supplies to feed strangers.",
+    "Use 'personal or religious custom' to explain isolationist behavior if needed.",
+    "Do not bully, laugh at, or show disrespect to local people."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual (Chapter 22 - Contact with People)"
+}

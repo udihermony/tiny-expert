@@ -1,0 +1,28 @@
+{
+  "id": "psychology-stress-recognition",
+  "title": "Recognize Signs of Survival Stress and Distress",
+  "icon": "⚠️",
+  "category": "psychology",
+  "brief": "Identify physical and mental warning signs of excessive stress that can impair survival decision-making.",
+  "tags": [
+    "stress-management",
+    "self-assessment",
+    "mental-health"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Monitor yourself and others for difficulty making decisions or angry outbursts.",
+    "Watch for forgetfulness, low energy levels, and constant worrying.",
+    "Identify propensity for mistakes and trouble getting along with others.",
+    "Notice withdrawal from responsibilities or other people.",
+    "Check for carelessness in critical survival tasks.",
+    "Be alert for thoughts about death or suicide in yourself or team members.",
+    "Take immediate action to address stress through rest, food, or task reorganization when signs appear."
+  ],
+  "warnings": [
+    "Excessive stress can cause panic and make you forget all survival training.",
+    "Cumulative minor stressors can create major distress if they occur close together.",
+    "Thoughts of suicide indicate critical stress requiring immediate intervention."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — US Department of the Army (Chapter 2)"
+}

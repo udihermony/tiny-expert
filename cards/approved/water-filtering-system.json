@@ -1,0 +1,29 @@
+{
+  "id": "water-filtering-system",
+  "title": "Building a Water Filter",
+  "icon": "🥤",
+  "category": "water",
+  "brief": "Clear muddy or debris-filled water using improvised filtering materials.",
+  "tags": [
+    "water-filtering",
+    "improvised-tools",
+    "muddy-water",
+    "debris-removal"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find a container like bamboo, hollow log, or piece of clothing.",
+    "Step 2: Place several centimeters of sand in the bottom layer.",
+    "Step 3: Add a layer of crushed rock above the sand.",
+    "Step 4: Add a layer of charcoal above the crushed rock.",
+    "Step 5: Top with a layer of cloth as the final filter.",
+    "Step 6: Pour water slowly through the top, allowing it to filter through each layer.",
+    "Step 7: Collect filtered water from the bottom."
+  ],
+  "warnings": [
+    "Filtering only removes debris and improves taste - you must still purify the water.",
+    "This method does NOT kill harmful organisms or remove chemical contamination.",
+    "Always boil or chemically treat filtered water before drinking."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

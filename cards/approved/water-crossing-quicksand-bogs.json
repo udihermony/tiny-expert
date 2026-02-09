@@ -1,0 +1,30 @@
+{
+  "id": "water-crossing-quicksand-bogs",
+  "title": "Crossing Quicksand and Bog Safely",
+  "icon": "🕳️",
+  "category": "water",
+  "brief": "Technique for safely traversing quicksand, bogs, and similar unstable terrain.",
+  "tags": [
+    "quicksand",
+    "bog",
+    "muskeg",
+    "unstable-terrain",
+    "crossing"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Test questionable sandy areas by tossing a small stone - it will sink in quicksand.",
+    "Step 2: Lie face down with arms and legs spread wide to distribute weight.",
+    "Step 3: Use flotation device or create air pockets in clothing for additional buoyancy.",
+    "Step 4: Swim or pull your way across using slow, deliberate movements.",
+    "Step 5: Keep body horizontal and avoid trying to lift feet while standing upright.",
+    "Step 6: Move slowly and maintain calm - do not thrash about."
+  ],
+  "warnings": [
+    "Never try to walk upright across quicksand or bogs - this will make you sink deeper.",
+    "Do not panic or make rapid movements - this increases sinking risk.",
+    "Quicksand commonly occurs on flat shores, silt-choked rivers, and near large river mouths.",
+    "Attempting to lift feet while upright will cause you to sink deeper quickly."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "rescue-signal-fire-triangle",
+  "title": "Building Triangle Signal Fire Pattern",
+  "icon": "🔥",
+  "category": "rescue",
+  "brief": "Create the international distress signal using three fires arranged in a triangle pattern.",
+  "tags": [
+    "fire",
+    "distress",
+    "international-signal",
+    "nighttime"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Select a clear, flat area on the highest available terrain.",
+    "Step 2: Build three separate fires in a triangle pattern with about 25 meters between each fire.",
+    "Step 3: Alternatively, arrange fires in a straight line with 25 meters spacing.",
+    "Step 4: Build and protect the fires as soon as time and situation permit.",
+    "Step 5: If alone and cannot maintain three fires, maintain one large signal fire.",
+    "Step 6: In jungle, find natural clearing or stream edge where foliage won't hide fires.",
+    "Step 7: In snow, clear ground or build platform to prevent melting snow from extinguishing fire."
+  ],
+  "warnings": [
+    "Select isolated trees for tree torches to avoid starting forest fires.",
+    "In combat situations, ensure signal location has nearby hiding places.",
+    "Position signal where enemy cannot observe it but aircraft can."
+  ],
+  "source": "FM 21-76 US Army Survival Manual"
+}

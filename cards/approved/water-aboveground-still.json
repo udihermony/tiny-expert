@@ -1,0 +1,30 @@
+{
+  "id": "water-aboveground-still",
+  "title": "Build Aboveground Solar Still",
+  "icon": "☀️",
+  "category": "water",
+  "brief": "Construct a solar still using plastic bag and vegetation to extract moisture, producing 0.5-1 liter in 24 hours.",
+  "tags": [
+    "solar-still",
+    "plastic-bag",
+    "vegetation",
+    "distillation"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Find a sunny slope location for optimal solar heating of the still.",
+    "Step 2: Obtain a clear plastic bag, green leafy vegetation, and a small rock.",
+    "Step 3: Fill the plastic bag with air by turning opening into breeze or scooping air into bag.",
+    "Step 4: Fill the bag half to three-fourths full with green leafy vegetation.",
+    "Step 5: Remove all hard sticks or sharp spines that might puncture the plastic bag.",
+    "Step 6: Place small rock in bottom corner of bag to create collection point.",
+    "Step 7: Seal the bag tightly and place on sunny slope.",
+    "Step 8: Allow 24 hours for water collection - expect 0.5 to 1 liter output."
+  ],
+  "warnings": [
+    "Requires full 24 hours to produce adequate water - plan accordingly.",
+    "Remove all sharp objects that could puncture the bag.",
+    "Only use non-poisonous vegetation in the still."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 6 - Water Procurement)"
+}

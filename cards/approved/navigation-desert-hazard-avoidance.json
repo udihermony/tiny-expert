@@ -1,0 +1,29 @@
+{
+  "id": "navigation-desert-hazard-avoidance",
+  "title": "Desert Hazard Avoidance Techniques",
+  "icon": "🏜️",
+  "category": "navigation",
+  "brief": "Avoid dangerous desert hazards including venomous creatures and hazardous locations.",
+  "tags": [
+    "desert",
+    "snakes",
+    "insects",
+    "hazard-avoidance"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Always wear gloves when in desert environment.",
+    "Step 2: Visually inspect any area before sitting or lying down.",
+    "Step 3: Look carefully before placing hands anywhere.",
+    "Step 4: When getting up, shake out and inspect boots and clothing.",
+    "Step 5: Avoid ruins, caves, garbage dumps, and rock outcroppings where snakes shelter.",
+    "Step 6: Never walk barefoot or through snake habitat without careful inspection.",
+    "Step 7: Give snakes wide berth when encountered - do not attempt to handle."
+  ],
+  "warnings": [
+    "Most snakebites result from stepping on or handling snakes.",
+    "Old buildings and caves harbor spiders, scorpions, and other dangerous creatures.",
+    "All desert areas have snakes that seek shade during day."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Army (Chapter 13)"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "hypothermia-recognition-stages",
+  "title": "Recognize Hypothermia Stages and Symptoms",
+  "icon": "🥶",
+  "category": "first-aid",
+  "brief": "Identify the progressive stages of hypothermia by core body temperature and symptoms.",
+  "tags": [
+    "hypothermia",
+    "medical-emergency",
+    "cold-weather",
+    "temperature"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Watch for initial shivering when core temperature drops to 35.5°C (96°F).",
+    "Step 2: Monitor for uncontrollable shivering that interferes with self-care ability.",
+    "Step 3: At 35-32°C (95-90°F), look for sluggish thinking, irrational reasoning, and false feelings of warmth.",
+    "Step 4: At 32-30°C (90-86°F), expect muscle rigidity, unconsciousness, and barely detectable vital signs.",
+    "Step 5: Recognize that core temperatures below 25°C (77°F) are almost always fatal."
+  ],
+  "warnings": [
+    "Hypothermia can be caused by general exposure or sudden wetting from falling into water or fuel spills.",
+    "False feelings of warmth are dangerous - victims may remove protective clothing.",
+    "Death is almost certain if core temperature falls below 25°C (77°F)."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

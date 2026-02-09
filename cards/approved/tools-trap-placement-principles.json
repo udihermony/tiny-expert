@@ -1,0 +1,28 @@
+{
+  "id": "tools-trap-placement-principles",
+  "title": "Effective Trap and Snare Placement",
+  "icon": "🪤",
+  "category": "tools",
+  "brief": "Learn where and how to position traps for maximum effectiveness.",
+  "tags": [
+    "trapping",
+    "animal-behavior",
+    "placement",
+    "tracking"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Look for animal runs (single species, small, less distinct) versus trails (multiple species, distinct).",
+    "Step 2: Search for tracks, droppings, chewed vegetation, and rubbed areas to confirm animal presence.",
+    "Step 3: Identify nesting sites, roosting sites, feeding areas, and watering holes.",
+    "Step 4: Place traps along trails connecting bedding areas to water and feeding areas.",
+    "Step 5: Position traps where there is definitive proof of regular animal passage.",
+    "Step 6: Avoid placing traps randomly in woods without evidence of animal activity."
+  ],
+  "warnings": [
+    "A perfect trap in the wrong location will catch nothing.",
+    "Multiple species trails may indicate competition or danger for target animals.",
+    "Weather and seasonal changes affect animal movement patterns."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 8)"
+}

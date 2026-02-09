@@ -1,0 +1,28 @@
+{
+  "id": "tools-simple-club-construction",
+  "title": "Constructing a Simple Survival Club",
+  "icon": "🏏",
+  "category": "tools",
+  "brief": "Create a basic club weapon from natural materials for defense and hunting.",
+  "tags": [
+    "weapons",
+    "club",
+    "self-defense",
+    "hunting"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Find a straight branch or staff of straight-grained hardwood if possible.",
+    "Step 2: Ensure length allows easy swinging while providing good reach.",
+    "Step 3: Select diameter that fits comfortably in palm without being too thin.",
+    "Step 4: Test thickness by checking that it won't break easily on impact.",
+    "Step 5: Remove any protruding knots or branches that could interfere with grip.",
+    "Step 6: Sand or scrape grip area smooth to prevent splinters."
+  ],
+  "warnings": [
+    "Clubs are close-contact weapons that don't protect against firearms.",
+    "Choose wood that won't shatter on impact - avoid brittle or rotted wood.",
+    "Test swing weight before relying on weapon in dangerous situation."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army"
+}

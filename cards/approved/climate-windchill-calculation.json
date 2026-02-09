@@ -1,0 +1,28 @@
+{
+  "id": "climate-windchill-calculation",
+  "title": "Calculate Windchill Danger",
+  "icon": "🌬️",
+  "category": "climate",
+  "brief": "Understand how wind speed dramatically increases cold weather danger through windchill effect.",
+  "tags": [
+    "cold-weather",
+    "windchill",
+    "temperature",
+    "danger-assessment"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Measure or estimate current air temperature.",
+    "Step 2: Measure or estimate wind speed in kilometers per hour.",
+    "Step 3: Apply windchill calculation - example: -10°C with 27.8 kph (15 knot) wind equals -23°C windchill.",
+    "Step 4: Remember you create wind by moving - skiing, running, or working around aircraft.",
+    "Step 5: Plan activities considering windchill, not just air temperature.",
+    "Step 6: Seek wind protection when possible to reduce effective temperature."
+  ],
+  "warnings": [
+    "Windchill can make survivable temperatures deadly.",
+    "Movement creates additional wind even in still air.",
+    "Extremely hazardous conditions exist when wind and low temperature combine."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Army (Chapter 15)"
+}

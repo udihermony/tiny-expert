@@ -1,0 +1,31 @@
+{
+  "id": "first-aid-nuclear-wound-treatment",
+  "title": "Treating Wounds in Radioactive Environments",
+  "icon": "🩹",
+  "category": "first-aid",
+  "brief": "Special procedures for treating injuries in nuclear fallout conditions.",
+  "tags": [
+    "nuclear",
+    "wounds",
+    "contamination",
+    "burns",
+    "treatment"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Cover all wounds immediately to prevent contamination and entry of radioactive particles.",
+    "Step 2: For beta radiation burns, wash thoroughly first, then treat as ordinary burns.",
+    "Step 3: Take extra measures to prevent infection in all wounds.",
+    "Step 4: Practice rigorous personal hygiene to prevent respiratory infections and colds.",
+    "Step 5: Clean shelter site using a branch or disposable object to remove contaminated materials.",
+    "Step 6: Extend cleaned area at least 1.5 meters beyond your shelter area.",
+    "Step 7: Wash body thoroughly with soap and water, even if water may be contaminated.",
+    "Step 8: If no water available, wipe exposed skin with clean cloth or uncontaminated dirt from below surface."
+  ],
+  "warnings": [
+    "Body will be extremely sensitive to infections due to radiation effects on blood chemistry.",
+    "Beta burns appear similar to fire burns but result from penetrating radiation.",
+    "Even contaminated water is better than no cleaning for removing radioactive particles."
+  ],
+  "source": "FM 21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 23 - Survival in Man-Made Hazards)"
+}

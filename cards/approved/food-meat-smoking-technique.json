@@ -1,0 +1,29 @@
+{
+  "id": "food-meat-smoking-technique",
+  "title": "Smoking Meat for Preservation",
+  "icon": "🔥",
+  "category": "food",
+  "brief": "Create a smoking enclosure to preserve meat for days or weeks without refrigeration.",
+  "tags": [
+    "meat-preservation",
+    "smoking",
+    "long-term-storage"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Create enclosure around fire using two ponchos snapped together or similar material.",
+    "Step 2: Build small fire focused on producing smoke, not heat.",
+    "Step 3: Use hardwood (not resinous wood) that is somewhat green or soaked if too dry.",
+    "Step 4: Cut meat into thin slices no more than 6 centimeters thick.",
+    "Step 5: Drape meat over framework ensuring pieces don't touch each other.",
+    "Step 6: Maintain smoke for 8+ hours for 1 week preservation, 48 hours for 2-4 week preservation.",
+    "Step 7: Properly smoked meat will look dark, curled, and brittle."
+  ],
+  "warnings": [
+    "Never use resinous wood - it will ruin the meat.",
+    "Don't let fire get too hot - you want smoke, not cooking heat.",
+    "Keep close watch on fire to maintain consistent smoke.",
+    "Ensure meat pieces don't touch to allow proper air circulation."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army"
+}

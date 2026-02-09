@@ -1,0 +1,29 @@
+{
+  "id": "tools-horseshoe-pack",
+  "title": "Make a Horseshoe Pack",
+  "icon": "🎒",
+  "category": "tools",
+  "brief": "Create a simple over-the-shoulder pack using square material like a poncho or blanket.",
+  "tags": [
+    "pack",
+    "carrying",
+    "poncho",
+    "simple-construction"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Lay square material (poncho, blanket, or canvas) flat on the ground.",
+    "Step 2: Place items along one edge of the material, padding any hard items.",
+    "Step 3: Roll the material with items toward the opposite edge.",
+    "Step 4: Tie both ends of the roll securely.",
+    "Step 5: Add extra ties along the length of the bundle for security.",
+    "Step 6: Connect the two ends with a line to create a shoulder strap.",
+    "Step 7: Drape over one shoulder for carrying."
+  ],
+  "warnings": [
+    "Pad hard items to prevent them from poking through the material.",
+    "Ensure all ties are secure to prevent items from falling out.",
+    "Balance weight distribution to prevent shoulder strain during long carries."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

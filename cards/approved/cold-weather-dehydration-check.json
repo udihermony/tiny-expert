@@ -1,0 +1,27 @@
+{
+  "id": "cold-weather-dehydration-check",
+  "title": "Monitor Dehydration in Cold Weather",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Use urine color on snow to check hydration levels in cold environments.",
+  "tags": [
+    "dehydration",
+    "hydration",
+    "urine-test",
+    "cold-weather"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Urinate on white snow to check hydration status.",
+    "Step 2: If urine makes snow dark yellow, you are becoming dehydrated and need fluids.",
+    "Step 3: If urine makes snow light yellow to no color, fluid balance is normal.",
+    "Step 4: Drink water regularly - need for water is as great in cold as warm environments.",
+    "Step 5: Be aware that heavy clothing absorbs moisture you lose, masking dehydration."
+  ],
+  "warnings": [
+    "Cold weather can mask dehydration symptoms.",
+    "Exposure to cold increases urine output, further depleting body fluids.",
+    "Bundled clothing absorbs evaporated moisture, making water loss less obvious."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army (Chapter 15)"
+}

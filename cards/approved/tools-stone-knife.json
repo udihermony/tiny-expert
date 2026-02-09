@@ -1,0 +1,29 @@
+{
+  "id": "tools-stone-knife",
+  "title": "Make a Stone Knife",
+  "icon": "🔪",
+  "category": "tools",
+  "brief": "Create a sharp-edged knife from stone using chipping and flaking techniques.",
+  "tags": [
+    "stone-tools",
+    "knapping",
+    "chert",
+    "flint"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Step 1: Find a sharp-edged piece of stone, preferably chert or flint.",
+    "Step 2: Make a chipping tool from wood, bone, or metal for breaking off small stone pieces.",
+    "Step 3: Make a flaking tool from bone, antler tines, or soft iron for creating thin flakes.",
+    "Step 4: Rough out the desired knife shape using the chipping tool, keeping it fairly thin.",
+    "Step 5: Use the flaking tool along the entire edge, pressing against it to create flakes on the opposite side.",
+    "Step 6: Continue flaking until you have a razor-sharp cutting edge.",
+    "Step 7: Lash the blade to a suitable handle for safe use."
+  ],
+  "warnings": [
+    "Stone knives are excellent for puncturing and chopping but won't hold a fine edge for long.",
+    "Work carefully - stone flakes are extremely sharp and can cause serious cuts.",
+    "Some stones like chert or flint can achieve very fine edges, others cannot."
+  ],
+  "source": "FM21-76 US Army Survival Manual — US Department of the Army"
+}

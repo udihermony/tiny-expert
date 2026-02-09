@@ -1,0 +1,30 @@
+{
+  "id": "shelter-debris-hut",
+  "title": "Build a Debris Hut Shelter",
+  "icon": "🏚️",
+  "category": "shelter",
+  "brief": "Construct a highly effective insulated shelter using natural materials for maximum warmth retention.",
+  "tags": [
+    "natural-materials",
+    "cold-weather",
+    "insulation",
+    "no-tools"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Step 1: Create a ridgepole by making a tripod with two short stakes and one long pole, or anchor one end to a tree at waist height.",
+    "Step 2: Prop large sticks along both sides of ridgepole to create wedge-shaped ribbing wide enough for your body.",
+    "Step 3: Ensure ribbing is steep enough to shed moisture effectively.",
+    "Step 4: Place finer sticks and brush crosswise on the ribbing to create latticework preventing debris from falling through.",
+    "Step 5: Add light, dry debris (grass, pine needles, leaves) over ribbing until at least 1 meter thick - thicker is better.",
+    "Step 6: Place 30-centimeter layer of insulating material inside the shelter for bedding.",
+    "Step 7: Pile insulating material at entrance that can be dragged inside to close the opening.",
+    "Step 8: Add shingling material or branches on top to prevent debris from blowing away in storms."
+  ],
+  "warnings": [
+    "Debris layer must be at least 1 meter thick for adequate insulation.",
+    "Ensure ribbing is steep enough or shelter will not shed water properly.",
+    "Check overhead for loose branches or dead trees that could fall on shelter."
+  ],
+  "source": "FM21-76 US Army Survival Manual — U.S. Department of the Army (Chapter 5 - Shelters)"
+}

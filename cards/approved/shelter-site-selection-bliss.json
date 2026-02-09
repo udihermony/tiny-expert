@@ -1,0 +1,28 @@
+{
+  "id": "shelter-site-selection-bliss",
+  "title": "BLISS Method for Shelter Site Selection",
+  "icon": "🏕️",
+  "category": "shelter",
+  "brief": "Using the BLISS acronym to choose optimal shelter locations for concealment and safety.",
+  "tags": [
+    "site-selection",
+    "concealment",
+    "tactical",
+    "location"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "B - Blend in with surroundings: choose sites that match natural environment.",
+    "L - Low silhouette: avoid hilltops and exposed ridgelines.",
+    "I - Irregular shape: avoid geometric patterns that stand out.",
+    "S - Small: keep shelter size minimal to reduce visibility.",
+    "S - Secluded location: choose hidden areas away from travel routes."
+  ],
+  "warnings": [
+    "Avoid flash flood areas in foothills",
+    "Avoid avalanche or rockslide areas in mountains",
+    "Stay away from sites below high water marks near bodies of water",
+    "Consider seasonal changes in site requirements"
+  ],
+  "source": "FM21-76 US Army Survival Manual (Chapter 5)"
+}

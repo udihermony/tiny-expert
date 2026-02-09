@@ -1,0 +1,26 @@
+{
+  "id": "food-avoid-mushrooms-rule",
+  "title": "Universal Mushroom Avoidance Rule",
+  "icon": "🍄",
+  "category": "food",
+  "brief": "Avoid all mushrooms in survival situations due to identification difficulties and fatal risks.",
+  "tags": [
+    "mushrooms",
+    "poisonous-plants",
+    "foraging",
+    "safety"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Never eat any mushroom, regardless of appearance or local advice.",
+    "Step 2: Understand that mushroom identification requires precise expertise impossible in field conditions.",
+    "Step 3: Remember that some mushrooms cause death very quickly with no known antidote.",
+    "Step 4: Focus foraging efforts on other plant foods with clearer identification markers."
+  ],
+  "warnings": [
+    "Some mushrooms kill within hours with no antidote available.",
+    "Even expert identification can be wrong without laboratory analysis.",
+    "Death from mushroom poisoning can occur from a single small bite."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army"
+}

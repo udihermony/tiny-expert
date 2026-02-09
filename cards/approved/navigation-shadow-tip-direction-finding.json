@@ -1,0 +1,28 @@
+{
+  "id": "navigation-shadow-tip-direction-finding",
+  "title": "Finding Direction Using Shadow-Tip Method",
+  "icon": "🧭",
+  "category": "navigation",
+  "brief": "Accurate method for determining cardinal directions using stick shadows and the sun.",
+  "tags": [
+    "direction-finding",
+    "sun",
+    "shadows",
+    "navigation",
+    "compass"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Step 1: Find straight stick 1 meter long and level spot free of brush where stick casts clear shadow.",
+    "Step 2: Place stick in ground and mark shadow tip with stone or twig - this mark is always west.",
+    "Step 3: Wait 10-15 minutes until shadow tip moves a few centimeters and mark new position.",
+    "Step 4: Draw straight line through the two marks to get east-west line.",
+    "Step 5: Stand with first mark (west) to your left and second mark to your right - you are now facing north."
+  ],
+  "warnings": [
+    "This method works everywhere on Earth regardless of hemisphere or season.",
+    "Ensure stick is planted vertically for accurate shadow casting.",
+    "Use level ground to avoid shadow distortion that could affect accuracy."
+  ],
+  "source": "FM21-76_SurvivalManual.pdf — US Army Survival Manual"
+}
