@@ -1,0 +1,48 @@
+Essential Knot Tying for Survival — Field Manual Excerpt
+
+Chapter 4: Critical Knots
+
+BOWLINE KNOT
+The bowline creates a fixed loop at the end of a rope that will not slip or bind under load. It is considered the most useful rescue knot.
+
+To tie a bowline:
+1. Form a small loop (the "rabbit hole") about 12 inches from the rope's end, with the working end on top.
+2. Pass the working end up through the loop from underneath.
+3. Wrap the working end behind the standing part of the rope.
+4. Pass the working end back down through the small loop.
+5. Pull both the working end and standing part to tighten.
+
+The bowline holds securely under load but can be untied easily even after bearing heavy weight. It is ideal for rescue harnesses, securing boats, and tying around a person's waist. However, the bowline can work loose when not under load — add a stopper knot to the free end for critical applications. Never use a bowline with slippery synthetic ropes (dyneema, spectra) as it will slip. Test: you should be able to fit two fingers between the loop and the knot when properly tied.
+
+CLOVE HITCH
+The clove hitch is a quick binding knot used to attach a rope to a post, tree, or pole. It is the fastest knot to tie and adjust but should not be trusted for life-safety applications.
+
+To tie a clove hitch:
+1. Wrap the rope around the post or tree.
+2. Cross the rope over itself, creating an X pattern.
+3. Wrap around the post again, tucking the working end under the last wrap.
+4. Pull both ends to tighten.
+
+The clove hitch is excellent for starting lashings, hanging bear bags, and securing tarps to trees. It can be adjusted by loosening and sliding along the post. Warning: the clove hitch can slip under variable or rotating loads. Never use it as your sole attachment point when life is at risk. For critical applications, follow the clove hitch with two half hitches as a backup.
+
+TAUT-LINE HITCH
+The taut-line hitch creates an adjustable loop that grips under tension but can be slid to adjust length when slack. It is essential for tensioning guy lines on tarps and tents.
+
+To tie:
+1. Pass the rope around an anchor point (stake, tree, branch).
+2. Bring the working end inside the loop and wrap it twice around the standing part, moving toward the anchor.
+3. Continue the working end outside the loop and make one more wrap around the standing part above the coils.
+4. Pull tight.
+
+To adjust tension, simply slide the knot along the standing part while the rope is slack, then apply tension to lock it. This knot replaces commercial tensioners and ratchets in the field. Warning: the taut-line hitch does not work well on wet or icy ropes — the wraps will not grip. Use a trucker's hitch instead in wet conditions. Works best on natural fiber or standard nylon rope.
+
+WATER KNOT (RING BEND)
+The water knot is the only reliable knot for joining flat webbing (seatbelt material, tubular nylon). Standard knots will slip out of flat webbing, potentially causing fatal falls.
+
+To tie:
+1. Tie a loose overhand knot in one end of the webbing.
+2. Thread the second piece of webbing through the knot in reverse, following the exact path of the first overhand knot but in the opposite direction.
+3. Pull all four tails to tighten evenly.
+4. Leave at least 3 inches of tail on each side.
+
+Check the water knot before every use — it loosens over time and must be retightened regularly. This knot is critical for building improvised harnesses, anchor slings, and load-bearing connections from webbing. Never use a square knot or sheet bend with flat webbing — they will fail under load.

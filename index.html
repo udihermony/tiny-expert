@@ -658,7 +658,7 @@ body {
 
 <div class="offline-badge">
   <span class="offline-dot"></span>
-  Works offline · 20 cards loaded
+  Works offline · 19 cards loaded
 </div>
 
 <script type="module">
@@ -666,382 +666,477 @@ body {
 // KNOWLEDGE CARDS DATABASE
 // ─────────────────────────────────────────
 const CARDS = [
-  // ── WATER ──
   {
-    id: "water-solar-still",
-    title: "Build a Solar Still",
-    icon: "💧",
-    category: "water",
-    brief: "Extract drinkable water from the ground using sunlight and a plastic sheet.",
-    tags: ["no-tools", "desert", "tropical"],
-    difficulty: "easy",
-    steps: [
-      "Dig a bowl-shaped hole about 3 feet wide and 2 feet deep in a sunny spot.",
-      "Place a clean container (cup, bottle, etc.) at the center bottom of the hole.",
-      "If available, place green vegetation or wet material around the container (not in it) to increase moisture.",
-      "Cover the hole with a clear plastic sheet and seal the edges with rocks and soil.",
-      "Place a small stone on the plastic directly above the container to create a low point.",
-      "Wait 4–8 hours. Condensation will form on the underside of the plastic and drip into the container."
-    ],
-    warnings: ["Produces only 1–2 cups per day — supplement with other water sources. Not sufficient as your sole water supply."],
-    source: "US Army FM 21-76 Survival Manual"
-  },
+  "id": "fire-tinder-selection",
+  "title": "Best Natural Tinder Materials",
+  "icon": "🔥",
+  "category": "fire",
+  "brief": "What to gather first when starting a fire — the most important step most people skip.",
+  "tags": [
+    "no-tools",
+    "universal",
+    "forest"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Gather dry, fine materials FIRST. You need a golf-ball-sized bundle minimum.",
+    "Best natural tinders: birch bark (curls of thin bark), dry grass bundled tightly, cattail fluff, cedar bark shredded finely, pine resin, dry dead leaves (crumbled).",
+    "In wet conditions: look INSIDE standing dead wood — the interior is often dry. Scrape fine shavings from the dry inner wood.",
+    "Prepare your tinder into a loose \"bird's nest\" shape to allow airflow.",
+    "Layer your fire setup: tinder (finest) → kindling (pencil-thin sticks) → fuel (wrist-thick wood).",
+    "Always collect 3x more tinder than you think you need."
+  ],
+  "warnings": [
+    "Never use damp or green materials for tinder — they produce smoke but no flame. If everything is wet, look for resinous wood (pine, spruce) which burns even when damp."
+  ],
+  "source": "Bushcraft 101 — Dave Canterbury"
+},
   {
-    id: "water-boiling",
-    title: "Purify Water by Boiling",
-    icon: "💧",
-    category: "water",
-    brief: "The most reliable field method to make water safe to drink.",
-    tags: ["fire-required", "universal"],
-    difficulty: "easy",
-    steps: [
-      "Collect water from the clearest source available. Flowing water is preferable to stagnant.",
-      "If the water is visibly dirty, filter it first through cloth, sand, or a layered filter.",
-      "Bring the water to a full rolling boil using any heat-safe container.",
-      "Maintain the rolling boil for at least 1 minute (3 minutes above 6,500 ft / 2,000 m elevation).",
-      "Let the water cool before drinking. Do not add anything to it.",
-      "Store purified water in clean, covered containers."
-    ],
-    warnings: ["Boiling does NOT remove chemical pollutants, heavy metals, or salt. Only use with freshwater sources."],
-    source: "WHO Guidelines for Drinking-water Quality"
-  },
+  "id": "fire-safety-signal",
+  "title": "Build a Signal Fire",
+  "icon": "🔥",
+  "category": "fire",
+  "brief": "How to make a fire visible to search-and-rescue from a distance.",
+  "tags": [
+    "rescue",
+    "open-area"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Choose a highly visible location: hilltop, clearing, or shoreline.",
+    "Build three fires in a triangle pattern, spaced about 100 feet apart — this is the international distress signal.",
+    "Build each fire normally, but keep green branches, wet leaves, or rubber/plastic nearby.",
+    "When you hear or see aircraft, light all three fires quickly.",
+    "Add green branches and wet material on top to generate thick white smoke (against dark background) or use oily materials for black smoke (against snow/sand).",
+    "If you only have one fire, create intermittent smoke by covering and uncovering the fire with a wet blanket."
+  ],
+  "warnings": [
+    "Be extremely careful with signal fires in dry conditions — you don't want to start a wildfire. Clear the area around each fire down to bare soil."
+  ],
+  "source": "US Army FM 21-76 Survival Manual"
+},
   {
-    id: "water-find-sources",
-    title: "Finding Water in the Wild",
-    icon: "💧",
-    category: "water",
-    brief: "How to locate water sources when none are immediately visible.",
-    tags: ["no-tools", "universal"],
-    difficulty: "medium",
-    steps: [
-      "Move downhill — water flows to low points. Follow valleys, ravines, and dry streambeds.",
-      "Look for green vegetation, especially in arid areas. Lush plants indicate underground water.",
-      "Listen for running water — even faint sounds can lead you to a stream.",
-      "Watch animal behavior: birds flying low at dawn/dusk often head toward water. Insect swarms can indicate nearby water.",
-      "Check rock crevices and depressions after rain — they collect water naturally.",
-      "In the morning, collect dew from grass and leaves by dragging a cloth through vegetation, then wring it out."
-    ],
-    warnings: ["Always purify any water you find before drinking, regardless of how clean it looks."],
-    source: "SAS Survival Handbook — John Wiseman"
-  },
-  // ── FIRE ──
+  "id": "fire-bow-drill",
+  "title": "Start a Fire with a Bow Drill",
+  "icon": "🔥",
+  "category": "fire",
+  "brief": "A friction-based fire-starting method using a simple bow mechanism.",
+  "tags": [
+    "no-modern-tools",
+    "forest"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Carve a spindle: a straight, dry, softwood stick about 8 inches long and thumb-width thick.",
+    "Make a fireboard: a flat, dry piece of the same softwood. Carve a small depression and cut a V-notch from the edge to the depression.",
+    "Build a bow: a slightly curved stick about arm's length with a cord (shoelace, paracord, or plant fiber) tied taut between both ends.",
+    "Find a handhold: a hard piece of wood, rock, or shell with a depression to hold the top of the spindle.",
+    "Loop the bow string once around the spindle. Place the spindle on the fireboard depression.",
+    "Press down on the handhold and saw the bow back and forth rapidly. Hot dust will collect in the V-notch.",
+    "When you see smoke and a glowing ember in the notch, gently transfer the ember to a tinder bundle.",
+    "Blow gently on the tinder bundle until it catches flame."
+  ],
+  "warnings": [
+    "This technique requires practice. Attempt it BEFORE an emergency. Wood selection is critical — both pieces must be dry softwood (willow, cedar, cottonwood)."
+  ],
+  "source": "Bushcraft 101 — Dave Canterbury"
+},
   {
-    id: "fire-bow-drill",
-    title: "Start a Fire with a Bow Drill",
-    icon: "🔥",
-    category: "fire",
-    brief: "A friction-based fire-starting method using a simple bow mechanism.",
-    tags: ["no-modern-tools", "forest"],
-    difficulty: "hard",
-    steps: [
-      "Carve a spindle: a straight, dry, softwood stick about 8 inches long and thumb-width thick.",
-      "Make a fireboard: a flat, dry piece of the same softwood. Carve a small depression and cut a V-notch from the edge to the depression.",
-      "Build a bow: a slightly curved stick about arm's length with a cord (shoelace, paracord, or plant fiber) tied taut between both ends.",
-      "Find a handhold: a hard piece of wood, rock, or shell with a depression to hold the top of the spindle.",
-      "Loop the bow string once around the spindle. Place the spindle on the fireboard depression.",
-      "Press down on the handhold and saw the bow back and forth rapidly. Hot dust will collect in the V-notch.",
-      "When you see smoke and a glowing ember in the notch, gently transfer the ember to a tinder bundle.",
-      "Blow gently on the tinder bundle until it catches flame."
-    ],
-    warnings: ["This technique requires practice. Attempt it BEFORE an emergency. Wood selection is critical — both pieces must be dry softwood (willow, cedar, cottonwood)."],
-    source: "Bushcraft 101 — Dave Canterbury"
-  },
+  "id": "aid-bleeding-control",
+  "title": "Control Severe Bleeding",
+  "icon": "🩹",
+  "category": "first-aid",
+  "brief": "Immediate steps to stop life-threatening blood loss in the field.",
+  "tags": [
+    "critical",
+    "no-tools",
+    "universal"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Apply direct pressure immediately — use any clean cloth, clothing, or even your bare hand.",
+    "Press HARD and do not lift to check. Maintain constant, firm pressure for at least 10 minutes.",
+    "If blood soaks through, add more material on top. Do NOT remove the original layer.",
+    "If the wound is on a limb and direct pressure fails after 10 minutes, apply a tourniquet 2–3 inches above the wound (between the wound and the heart).",
+    "Improvised tourniquet: use a belt, strip of cloth, or strap. Tighten by twisting with a stick (windlass) until bleeding stops.",
+    "Note the time the tourniquet was applied. Do NOT remove it — let medical professionals handle this.",
+    "Keep the person warm, calm, and lying down. Elevate legs if possible to prevent shock."
+  ],
+  "warnings": [
+    "A tourniquet is painful and can damage the limb — only use it when direct pressure fails and bleeding is life-threatening. Once applied, do not remove or loosen."
+  ],
+  "source": "TCCC Guidelines / Red Cross First Aid"
+},
   {
-    id: "fire-tinder-selection",
-    title: "Best Natural Tinder Materials",
-    icon: "🔥",
-    category: "fire",
-    brief: "What to gather first when starting a fire — the most important step most people skip.",
-    tags: ["no-tools", "universal", "forest"],
-    difficulty: "easy",
-    steps: [
-      "Gather dry, fine materials FIRST. You need a golf-ball-sized bundle minimum.",
-      "Best natural tinders: birch bark (curls of thin bark), dry grass bundled tightly, cattail fluff, cedar bark shredded finely, pine resin, dry dead leaves (crumbled).",
-      "In wet conditions: look INSIDE standing dead wood — the interior is often dry. Scrape fine shavings from the dry inner wood.",
-      "Prepare your tinder into a loose \"bird's nest\" shape to allow airflow.",
-      "Layer your fire setup: tinder (finest) → kindling (pencil-thin sticks) → fuel (wrist-thick wood).",
-      "Always collect 3x more tinder than you think you need."
-    ],
-    warnings: ["Never use damp or green materials for tinder — they produce smoke but no flame. If everything is wet, look for resinous wood (pine, spruce) which burns even when damp."],
-    source: "Bushcraft 101 — Dave Canterbury"
-  },
+  "id": "aid-sprains-fractures",
+  "title": "Splinting Sprains & Fractures",
+  "icon": "🩹",
+  "category": "first-aid",
+  "brief": "Immobilize injured limbs when you can't get to medical care.",
+  "tags": [
+    "injury",
+    "universal"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Assess: Can they move the limb? Is there obvious deformity? Assume fracture if unsure.",
+    "Do NOT try to straighten or realign a deformed limb.",
+    "Find rigid splint material: straight sticks, trekking poles, rolled-up magazine or newspaper, SAM splint from first aid kit.",
+    "Pad the splint with cloth or soft material to prevent pressure sores.",
+    "Immobilize the joint ABOVE and BELOW the injury. For a forearm fracture, immobilize wrist and elbow.",
+    "Secure the splint with strips of cloth, tape, belts, or cordage. Firm but not tight enough to cut off circulation.",
+    "Check fingers/toes every 30 minutes: if they're blue, cold, or numb, loosen the bindings."
+  ],
+  "warnings": [
+    "Check for circulation (pulse, warmth, color) below the splint regularly. If circulation is compromised, loosen immediately."
+  ],
+  "source": "Red Cross Wilderness First Aid"
+},
   {
-    id: "fire-safety-signal",
-    title: "Build a Signal Fire",
-    icon: "🔥",
-    category: "fire",
-    brief: "How to make a fire visible to search-and-rescue from a distance.",
-    tags: ["rescue", "open-area"],
-    difficulty: "medium",
-    steps: [
-      "Choose a highly visible location: hilltop, clearing, or shoreline.",
-      "Build three fires in a triangle pattern, spaced about 100 feet apart — this is the international distress signal.",
-      "Build each fire normally, but keep green branches, wet leaves, or rubber/plastic nearby.",
-      "When you hear or see aircraft, light all three fires quickly.",
-      "Add green branches and wet material on top to generate thick white smoke (against dark background) or use oily materials for black smoke (against snow/sand).",
-      "If you only have one fire, create intermittent smoke by covering and uncovering the fire with a wet blanket."
-    ],
-    warnings: ["Be extremely careful with signal fires in dry conditions — you don't want to start a wildfire. Clear the area around each fire down to bare soil."],
-    source: "US Army FM 21-76 Survival Manual"
-  },
-  // ── SHELTER ──
+  "id": "aid-hypothermia",
+  "title": "Treating Hypothermia",
+  "icon": "🩹",
+  "category": "first-aid",
+  "brief": "Recognize and treat dangerous body temperature loss in the field.",
+  "tags": [
+    "cold-weather",
+    "critical"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Recognize the signs: shivering (early), confusion, slurred speech, clumsiness, drowsiness. If shivering STOPS in cold conditions, this is a medical emergency.",
+    "Get the person out of the cold, wind, and wet immediately. Move to shelter.",
+    "Remove all wet clothing. Replace with dry layers or wrap in blankets, sleeping bags, or dry materials.",
+    "Insulate from the ground — this is critical. Place them on a pad, branches, or dry leaves.",
+    "Apply warmth to the core first: armpits, neck, groin. Use warm water bottles, heated rocks wrapped in cloth, or body-to-body heat.",
+    "Give warm, sweet drinks if the person is conscious and able to swallow. No alcohol or caffeine.",
+    "Handle gently — rough movement can cause cardiac arrest in severely hypothermic people."
+  ],
+  "warnings": [
+    "Do NOT rub the skin, immerse in hot water, or apply direct heat to the extremities. This can cause dangerous heart rhythms. Warm the core first, slowly."
+  ],
+  "source": "Wilderness Medical Society Guidelines"
+},
   {
-    id: "shelter-debris-hut",
-    title: "Build a Debris Hut",
-    icon: "🏕️",
-    category: "shelter",
-    brief: "A warm, insulated shelter built entirely from forest materials — no tools needed.",
-    tags: ["no-tools", "cold-weather", "forest"],
-    difficulty: "medium",
-    steps: [
-      "Find a sturdy ridgepole: a fallen branch about 9–12 feet long that can support weight.",
-      "Prop one end of the ridgepole on a stump, rock, or forked tree about 3 feet high. The other end rests on the ground.",
-      "Lean sticks along both sides of the ridgepole at 45° angles, creating a ribcage frame. Space them 6–8 inches apart.",
-      "Layer smaller sticks and brush across the ribs horizontally to create a lattice.",
-      "Pile leaves, pine needles, grass, and debris over the lattice — at least 2–3 feet thick. This is your insulation.",
-      "Fill the inside floor with a thick layer of dry leaves or grass for insulation from the ground.",
-      "Make the entrance small and consider blocking it with a stuff sack or more debris."
-    ],
-    warnings: ["Ground insulation is critical — the cold ground steals more body heat than cold air. Use at least 6 inches of dry material under you."],
-    source: "SAS Survival Handbook — John Wiseman"
-  },
+  "id": "food-insects",
+  "title": "Eating Insects for Survival",
+  "icon": "🌿",
+  "category": "food",
+  "brief": "Insects are the most accessible high-protein survival food almost everywhere.",
+  "tags": [
+    "no-tools",
+    "universal"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Safe and common edible insects: crickets, grasshoppers, ants, termites, grubs (beetle larvae), earthworms.",
+    "AVOID brightly colored insects, hairy insects, insects with strong odors, and any insect you cannot identify.",
+    "Always cook insects when possible — roast on a hot rock or boil. This kills parasites and improves taste.",
+    "Remove legs and wings from crickets and grasshoppers before eating (they can irritate the throat).",
+    "Find them: look under rocks and logs (grubs, ants), in dead wood (termites, larvae), and in grass at dawn when they're sluggish.",
+    "Ants can be collected by placing a stick near their trail and shaking them into water."
+  ],
+  "warnings": [
+    "Never eat ticks, flies, mosquitoes, or insects that feed on carrion or dung — they carry disease. When in doubt, stick to grubs and crickets, which are safe almost universally."
+  ],
+  "source": "US Army FM 21-76 Survival Manual"
+},
   {
-    id: "shelter-tarp-configs",
-    title: "Tarp Shelter Configurations",
-    icon: "🏕️",
-    category: "shelter",
-    brief: "Four ways to set up a tarp for protection from rain, wind, and sun.",
-    tags: ["tarp-required", "universal"],
-    difficulty: "easy",
-    steps: [
-      "A-Frame: Run a ridgeline between two trees. Drape tarp over it and stake both sides to the ground. Best all-around setup for rain.",
-      "Lean-To: Tie one edge of the tarp high between two trees. Stake the opposite edge to the ground at an angle. Good for reflecting fire heat toward you.",
-      "C-Fly: Stake the rear edge to the ground, angle the tarp up and over using a ridgeline, and leave the front open. Good wind protection with fire access.",
-      "Burrito: In heavy rain with no stakes, lay on one half of the tarp and fold the other half over you like a wrap. Emergency only — no ventilation."
-    ],
-    warnings: ["Always pitch tarps at an angle so rain runs off. A flat tarp will pool water and eventually collapse."],
-    source: "Bushcraft 101 — Dave Canterbury"
-  },
-  // ── FIRST AID ──
+  "id": "food-trapping-basics",
+  "title": "Simple Snare Trap",
+  "icon": "🌿",
+  "category": "food",
+  "brief": "Build a basic snare to catch small game like rabbits and squirrels.",
+  "tags": [
+    "wire-or-cord",
+    "forest"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Make a snare loop from wire, paracord, or strong plant fiber. The loop should be about fist-sized (4–5 inches diameter) for rabbits.",
+    "Tie a strong knot that creates a free-sliding loop — when the animal pushes through, the loop tightens.",
+    "Find an active game trail: look for tracks, droppings, compressed grass, or small tunnels through brush.",
+    "Secure the free end of the snare firmly to a stake, tree, or heavy drag stick.",
+    "Position the loop 3–4 inches off the ground for rabbits, at head height for the target animal.",
+    "Place natural guides (sticks, rocks) to funnel the animal into the snare.",
+    "Set 10–12 snares along trails to increase your odds. Check every 12–24 hours."
+  ],
+  "warnings": [
+    "Snares are indiscriminate — check them frequently to minimize animal suffering. Be aware of local laws; snares may be illegal outside of survival emergencies. Setting many snares greatly increases success."
+  ],
+  "source": "SAS Survival Handbook — John Wiseman"
+},
   {
-    id: "aid-bleeding-control",
-    title: "Control Severe Bleeding",
-    icon: "🩹",
-    category: "first-aid",
-    brief: "Immediate steps to stop life-threatening blood loss in the field.",
-    tags: ["critical", "no-tools", "universal"],
-    difficulty: "medium",
-    steps: [
-      "Apply direct pressure immediately — use any clean cloth, clothing, or even your bare hand.",
-      "Press HARD and do not lift to check. Maintain constant, firm pressure for at least 10 minutes.",
-      "If blood soaks through, add more material on top. Do NOT remove the original layer.",
-      "If the wound is on a limb and direct pressure fails after 10 minutes, apply a tourniquet 2–3 inches above the wound (between the wound and the heart).",
-      "Improvised tourniquet: use a belt, strip of cloth, or strap. Tighten by twisting with a stick (windlass) until bleeding stops.",
-      "Note the time the tourniquet was applied. Do NOT remove it — let medical professionals handle this.",
-      "Keep the person warm, calm, and lying down. Elevate legs if possible to prevent shock."
-    ],
-    warnings: ["A tourniquet is painful and can damage the limb — only use it when direct pressure fails and bleeding is life-threatening. Once applied, do not remove or loosen."],
-    source: "TCCC Guidelines / Red Cross First Aid"
-  },
+  "id": "food-universal-edibility",
+  "title": "Universal Edibility Test",
+  "icon": "🌿",
+  "category": "food",
+  "brief": "A systematic method to test whether an unknown plant is safe to eat.",
+  "tags": [
+    "no-tools",
+    "universal",
+    "plants"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Test only one plant part at a time (leaf, stem, root, etc.). Fast for 8 hours before starting.",
+    "Check for obvious danger signs: milky sap, thorns, almond smell, beans/bulbs, shiny leaves, umbrella-shaped flowers. Avoid these.",
+    "Rub the plant part on your inner wrist. Wait 15 minutes. If irritation occurs, discard.",
+    "Touch a small piece to the corner of your lip. Wait 15 minutes.",
+    "Place a small piece on your tongue. Wait 15 minutes. Spit it out.",
+    "Chew a small piece but do NOT swallow. Wait 15 minutes. If any burning, numbness, or bad reaction, spit out and rinse.",
+    "Swallow a small amount. Wait 8 hours. If no ill effects, eat a small handful and wait another 8 hours.",
+    "If still no reaction, this part of this plant is likely safe to eat in moderate amounts."
+  ],
+  "warnings": [
+    "This test takes 24+ hours. It is a LAST RESORT. Never use it on mushrooms — many deadly mushrooms pass initial tests. Focus energy on trapping, fishing, or known-safe plants instead."
+  ],
+  "source": "US Army FM 21-76 Survival Manual"
+},
   {
-    id: "aid-hypothermia",
-    title: "Treating Hypothermia",
-    icon: "🩹",
-    category: "first-aid",
-    brief: "Recognize and treat dangerous body temperature loss in the field.",
-    tags: ["cold-weather", "critical"],
-    difficulty: "medium",
-    steps: [
-      "Recognize the signs: shivering (early), confusion, slurred speech, clumsiness, drowsiness. If shivering STOPS in cold conditions, this is a medical emergency.",
-      "Get the person out of the cold, wind, and wet immediately. Move to shelter.",
-      "Remove all wet clothing. Replace with dry layers or wrap in blankets, sleeping bags, or dry materials.",
-      "Insulate from the ground — this is critical. Place them on a pad, branches, or dry leaves.",
-      "Apply warmth to the core first: armpits, neck, groin. Use warm water bottles, heated rocks wrapped in cloth, or body-to-body heat.",
-      "Give warm, sweet drinks if the person is conscious and able to swallow. No alcohol or caffeine.",
-      "Handle gently — rough movement can cause cardiac arrest in severely hypothermic people."
-    ],
-    warnings: ["Do NOT rub the skin, immerse in hot water, or apply direct heat to the extremities. This can cause dangerous heart rhythms. Warm the core first, slowly."],
-    source: "Wilderness Medical Society Guidelines"
-  },
+  "id": "nav-stay-or-go",
+  "title": "Lost: Should You Stay or Move?",
+  "icon": "🧭",
+  "category": "navigation",
+  "brief": "The most critical decision when you realize you're lost.",
+  "tags": [
+    "universal",
+    "critical",
+    "no-tools"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "STOP: Sit down. Do not panic. Do not keep walking hoping to find the way.",
+    "STAY if: someone knows where you are and when you're expected back, you're near your vehicle or camp, terrain is dangerous or visibility is low, you're injured.",
+    "GO if: no one knows your location, you have no chance of rescue, you are certain of a direction to safety, you have water and energy to travel.",
+    "If you stay: make yourself visible. Lay out bright clothing, build a signal fire, use a whistle (3 blasts = distress). Stay near an open area where searchers can spot you.",
+    "If you go: leave a note with your plan, date, direction, and condition. Mark your trail as you walk (stacked rocks, broken branches, arrows in dirt).",
+    "In most cases, STAYING PUT is the safer choice if anyone knows your approximate location."
+  ],
+  "warnings": [
+    "The #1 cause of death in lost-person scenarios is continued movement in the wrong direction. When in doubt, stay and wait for rescue."
+  ],
+  "source": "National Park Service SAR Guidelines"
+},
   {
-    id: "aid-sprains-fractures",
-    title: "Splinting Sprains & Fractures",
-    icon: "🩹",
-    category: "first-aid",
-    brief: "Immobilize injured limbs when you can't get to medical care.",
-    tags: ["injury", "universal"],
-    difficulty: "medium",
-    steps: [
-      "Assess: Can they move the limb? Is there obvious deformity? Assume fracture if unsure.",
-      "Do NOT try to straighten or realign a deformed limb.",
-      "Find rigid splint material: straight sticks, trekking poles, rolled-up magazine or newspaper, SAM splint from first aid kit.",
-      "Pad the splint with cloth or soft material to prevent pressure sores.",
-      "Immobilize the joint ABOVE and BELOW the injury. For a forearm fracture, immobilize wrist and elbow.",
-      "Secure the splint with strips of cloth, tape, belts, or cordage. Firm but not tight enough to cut off circulation.",
-      "Check fingers/toes every 30 minutes: if they're blue, cold, or numb, loosen the bindings."
-    ],
-    warnings: ["Check for circulation (pulse, warmth, color) below the splint regularly. If circulation is compromised, loosen immediately."],
-    source: "Red Cross Wilderness First Aid"
-  },
-  // ── FOOD ──
+  "id": "nav-no-compass",
+  "title": "Navigate Without a Compass",
+  "icon": "🧭",
+  "category": "navigation",
+  "brief": "Multiple methods to determine direction using nature and the sky.",
+  "tags": [
+    "no-tools",
+    "universal"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Shadow stick method: Place a stick upright in the ground. Mark the tip of its shadow. Wait 15–30 minutes. Mark the new tip. A line between the marks runs roughly east–west (first mark is west).",
+    "Sun direction: The sun rises roughly east and sets roughly west. At midday in the northern hemisphere, it's due south; in the southern hemisphere, due north.",
+    "Stars (Northern Hemisphere): Find the Big Dipper. The two stars at the end of the 'bowl' point toward Polaris (North Star). Walk toward it to go north.",
+    "Stars (Southern Hemisphere): Find the Southern Cross. Extend the long axis 4.5 times its length downward. That point is roughly due south.",
+    "Tree indicators (unreliable but useful in combination): moss tends to grow on the shadier side, branches may be fuller on the sunnier side.",
+    "Wind patterns: In many regions, prevailing wind direction is consistent. Snow or sand dunes can indicate persistent wind direction."
+  ],
+  "warnings": [
+    "No single natural method is perfectly accurate. Use multiple methods together to confirm direction. Tree/moss indicators are the least reliable — use only to supplement other methods."
+  ],
+  "source": "SAS Survival Handbook — John Wiseman"
+},
   {
-    id: "food-universal-edibility",
-    title: "Universal Edibility Test",
-    icon: "🌿",
-    category: "food",
-    brief: "A systematic method to test whether an unknown plant is safe to eat.",
-    tags: ["no-tools", "universal", "plants"],
-    difficulty: "hard",
-    steps: [
-      "Test only one plant part at a time (leaf, stem, root, etc.). Fast for 8 hours before starting.",
-      "Check for obvious danger signs: milky sap, thorns, almond smell, beans/bulbs, shiny leaves, umbrella-shaped flowers. Avoid these.",
-      "Rub the plant part on your inner wrist. Wait 15 minutes. If irritation occurs, discard.",
-      "Touch a small piece to the corner of your lip. Wait 15 minutes.",
-      "Place a small piece on your tongue. Wait 15 minutes. Spit it out.",
-      "Chew a small piece but do NOT swallow. Wait 15 minutes. If any burning, numbness, or bad reaction, spit out and rinse.",
-      "Swallow a small amount. Wait 8 hours. If no ill effects, eat a small handful and wait another 8 hours.",
-      "If still no reaction, this part of this plant is likely safe to eat in moderate amounts."
-    ],
-    warnings: ["This test takes 24+ hours. It is a LAST RESORT. Never use it on mushrooms — many deadly mushrooms pass initial tests. Focus energy on trapping, fishing, or known-safe plants instead."],
-    source: "US Army FM 21-76 Survival Manual"
-  },
+  "id": "aid-water-crossing",
+  "title": "Safe River & Stream Crossing",
+  "icon": "🧭",
+  "category": "navigation",
+  "brief": "How to cross moving water without being swept away.",
+  "tags": [
+    "river",
+    "travel",
+    "universal"
+  ],
+  "difficulty": "hard",
+  "steps": [
+    "Scout first: walk along the bank to find the widest, shallowest point. Fast and narrow is more dangerous than slow and wide.",
+    "Unbuckle your pack's hip belt and sternum strap so you can ditch it if you fall.",
+    "Use a sturdy stick (trekking pole) as a third point of contact, planted upstream.",
+    "Face upstream at a slight angle. Move one foot at a time — never have both feet moving.",
+    "Shuffle sideways across the current. Do not cross your feet.",
+    "In groups: link arms in a line perpendicular to the current, with the strongest person upstream.",
+    "If swept off your feet: ditch your pack, roll onto your back, feet downstream to fend off rocks, and swim diagonally toward shore."
+  ],
+  "warnings": [
+    "Never cross water above knee-deep if the current is strong. Water only 6 inches deep moving fast can knock you down. If in doubt, find another crossing point or wait for water levels to drop."
+  ],
+  "source": "Mountaineering: Freedom of the Hills"
+},
   {
-    id: "food-trapping-basics",
-    title: "Simple Snare Trap",
-    icon: "🌿",
-    category: "food",
-    brief: "Build a basic snare to catch small game like rabbits and squirrels.",
-    tags: ["wire-or-cord", "forest"],
-    difficulty: "medium",
-    steps: [
-      "Make a snare loop from wire, paracord, or strong plant fiber. The loop should be about fist-sized (4–5 inches diameter) for rabbits.",
-      "Tie a strong knot that creates a free-sliding loop — when the animal pushes through, the loop tightens.",
-      "Find an active game trail: look for tracks, droppings, compressed grass, or small tunnels through brush.",
-      "Secure the free end of the snare firmly to a stake, tree, or heavy drag stick.",
-      "Position the loop 3–4 inches off the ground for rabbits, at head height for the target animal.",
-      "Place natural guides (sticks, rocks) to funnel the animal into the snare.",
-      "Set 10–12 snares along trails to increase your odds. Check every 12–24 hours."
-    ],
-    warnings: ["Snares are indiscriminate — check them frequently to minimize animal suffering. Be aware of local laws; snares may be illegal outside of survival emergencies. Setting many snares greatly increases success."],
-    source: "SAS Survival Handbook — John Wiseman"
-  },
+  "id": "rescue-whistle-signals",
+  "title": "Distress Whistle Signals",
+  "icon": "📡",
+  "category": "rescue",
+  "brief": "How to use sound to signal for rescue — much more effective than shouting.",
+  "tags": [
+    "whistle",
+    "universal"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "The international distress signal is 3 short blasts, pause, 3 short blasts. Repeat regularly.",
+    "A whistle carries much further than the human voice — up to a mile in good conditions vs. a few hundred yards for shouting.",
+    "Blow in sets of three: 3 blasts, then pause 1 minute, then 3 more blasts.",
+    "If you hear 2 blasts in response, rescuers have heard you and are coming.",
+    "If you don't have a whistle, bang rocks together, strike a hollow log, or use any loud noise-maker in sets of three.",
+    "Sound carries best across water and open terrain. Use elevated positions when possible."
+  ],
+  "warnings": [
+    "Conserve your energy — blow the whistle rather than shouting, and rest between signal sets. Dehydration and exhaustion from yelling can worsen your situation."
+  ],
+  "source": "International Mountain Rescue Guidelines"
+},
   {
-    id: "food-insects",
-    title: "Eating Insects for Survival",
-    icon: "🌿",
-    category: "food",
-    brief: "Insects are the most accessible high-protein survival food almost everywhere.",
-    tags: ["no-tools", "universal"],
-    difficulty: "easy",
-    steps: [
-      "Safe and common edible insects: crickets, grasshoppers, ants, termites, grubs (beetle larvae), earthworms.",
-      "AVOID brightly colored insects, hairy insects, insects with strong odors, and any insect you cannot identify.",
-      "Always cook insects when possible — roast on a hot rock or boil. This kills parasites and improves taste.",
-      "Remove legs and wings from crickets and grasshoppers before eating (they can irritate the throat).",
-      "Find them: look under rocks and logs (grubs, ants), in dead wood (termites, larvae), and in grass at dawn when they're sluggish.",
-      "Ants can be collected by placing a stick near their trail and shaking them into water."
-    ],
-    warnings: ["Never eat ticks, flies, mosquitoes, or insects that feed on carrion or dung — they carry disease. When in doubt, stick to grubs and crickets, which are safe almost universally."],
-    source: "US Army FM 21-76 Survival Manual"
-  },
-  // ── NAVIGATION ──
+  "id": "rescue-ground-signals",
+  "title": "Ground-to-Air Rescue Signals",
+  "icon": "📡",
+  "category": "rescue",
+  "brief": "Standard symbols that search aircraft will recognize from the air.",
+  "tags": [
+    "rescue",
+    "open-area"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Make signals as LARGE as possible — at least 10 feet long, ideally 30+ feet. They must be visible from altitude.",
+    "Use contrast: dark materials on light ground (rocks on sand), or trample/dig into snow.",
+    "Standard ICAO ground-to-air signals: V = Need assistance. X = Need medical help. → (arrow) = Traveling this direction. □ (square) = Need supplies. Y = Yes/affirmative. N = No/negative.",
+    "The most important signal: a large X in an open area means 'need help' and is universally recognized.",
+    "Use three of anything as a distress signal: three fires, three whistle blasts, three gunshots.",
+    "Reflective signaling: use a mirror, phone screen, or any shiny surface to flash toward aircraft. Sweep the horizon regularly."
+  ],
+  "warnings": [
+    "Signals only work in open areas. Under tree canopy, focus on smoke, sound (whistle), and getting to a clearing."
+  ],
+  "source": "ICAO Annex 12 / US Army FM 21-76"
+},
   {
-    id: "nav-no-compass",
-    title: "Navigate Without a Compass",
-    icon: "🧭",
-    category: "navigation",
-    brief: "Multiple methods to determine direction using nature and the sky.",
-    tags: ["no-tools", "universal"],
-    difficulty: "medium",
-    steps: [
-      "Shadow stick method: Place a stick upright in the ground. Mark the tip of its shadow. Wait 15–30 minutes. Mark the new tip. A line between the marks runs roughly east–west (first mark is west).",
-      "Sun direction: The sun rises roughly east and sets roughly west. At midday in the northern hemisphere, it's due south; in the southern hemisphere, due north.",
-      "Stars (Northern Hemisphere): Find the Big Dipper. The two stars at the end of the 'bowl' point toward Polaris (North Star). Walk toward it to go north.",
-      "Stars (Southern Hemisphere): Find the Southern Cross. Extend the long axis 4.5 times its length downward. That point is roughly due south.",
-      "Tree indicators (unreliable but useful in combination): moss tends to grow on the shadier side, branches may be fuller on the sunnier side.",
-      "Wind patterns: In many regions, prevailing wind direction is consistent. Snow or sand dunes can indicate persistent wind direction."
-    ],
-    warnings: ["No single natural method is perfectly accurate. Use multiple methods together to confirm direction. Tree/moss indicators are the least reliable — use only to supplement other methods."],
-    source: "SAS Survival Handbook — John Wiseman"
-  },
+  "id": "shelter-debris-hut",
+  "title": "Build a Debris Hut",
+  "icon": "🏕️",
+  "category": "shelter",
+  "brief": "A warm, insulated shelter built entirely from forest materials — no tools needed.",
+  "tags": [
+    "no-tools",
+    "cold-weather",
+    "forest"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Find a sturdy ridgepole: a fallen branch about 9–12 feet long that can support weight.",
+    "Prop one end of the ridgepole on a stump, rock, or forked tree about 3 feet high. The other end rests on the ground.",
+    "Lean sticks along both sides of the ridgepole at 45° angles, creating a ribcage frame. Space them 6–8 inches apart.",
+    "Layer smaller sticks and brush across the ribs horizontally to create a lattice.",
+    "Pile leaves, pine needles, grass, and debris over the lattice — at least 2–3 feet thick. This is your insulation.",
+    "Fill the inside floor with a thick layer of dry leaves or grass for insulation from the ground.",
+    "Make the entrance small and consider blocking it with a stuff sack or more debris."
+  ],
+  "warnings": [
+    "Ground insulation is critical — the cold ground steals more body heat than cold air. Use at least 6 inches of dry material under you."
+  ],
+  "source": "SAS Survival Handbook — John Wiseman"
+},
   {
-    id: "nav-stay-or-go",
-    title: "Lost: Should You Stay or Move?",
-    icon: "🧭",
-    category: "navigation",
-    brief: "The most critical decision when you realize you're lost.",
-    tags: ["universal", "critical", "no-tools"],
-    difficulty: "easy",
-    steps: [
-      "STOP: Sit down. Do not panic. Do not keep walking hoping to find the way.",
-      "STAY if: someone knows where you are and when you're expected back, you're near your vehicle or camp, terrain is dangerous or visibility is low, you're injured.",
-      "GO if: no one knows your location, you have no chance of rescue, you are certain of a direction to safety, you have water and energy to travel.",
-      "If you stay: make yourself visible. Lay out bright clothing, build a signal fire, use a whistle (3 blasts = distress). Stay near an open area where searchers can spot you.",
-      "If you go: leave a note with your plan, date, direction, and condition. Mark your trail as you walk (stacked rocks, broken branches, arrows in dirt).",
-      "In most cases, STAYING PUT is the safer choice if anyone knows your approximate location."
-    ],
-    warnings: ["The #1 cause of death in lost-person scenarios is continued movement in the wrong direction. When in doubt, stay and wait for rescue."],
-    source: "National Park Service SAR Guidelines"
-  },
-  // ── RESCUE ──
+  "id": "shelter-tarp-configs",
+  "title": "Tarp Shelter Configurations",
+  "icon": "🏕️",
+  "category": "shelter",
+  "brief": "Four ways to set up a tarp for protection from rain, wind, and sun.",
+  "tags": [
+    "tarp-required",
+    "universal"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "A-Frame: Run a ridgeline between two trees. Drape tarp over it and stake both sides to the ground. Best all-around setup for rain.",
+    "Lean-To: Tie one edge of the tarp high between two trees. Stake the opposite edge to the ground at an angle. Good for reflecting fire heat toward you.",
+    "C-Fly: Stake the rear edge to the ground, angle the tarp up and over using a ridgeline, and leave the front open. Good wind protection with fire access.",
+    "Burrito: In heavy rain with no stakes, lay on one half of the tarp and fold the other half over you like a wrap. Emergency only — no ventilation."
+  ],
+  "warnings": [
+    "Always pitch tarps at an angle so rain runs off. A flat tarp will pool water and eventually collapse."
+  ],
+  "source": "Bushcraft 101 — Dave Canterbury"
+},
   {
-    id: "rescue-ground-signals",
-    title: "Ground-to-Air Rescue Signals",
-    icon: "📡",
-    category: "rescue",
-    brief: "Standard symbols that search aircraft will recognize from the air.",
-    tags: ["rescue", "open-area"],
-    difficulty: "easy",
-    steps: [
-      "Make signals as LARGE as possible — at least 10 feet long, ideally 30+ feet. They must be visible from altitude.",
-      "Use contrast: dark materials on light ground (rocks on sand), or trample/dig into snow.",
-      "Standard ICAO ground-to-air signals: V = Need assistance. X = Need medical help. → (arrow) = Traveling this direction. □ (square) = Need supplies. Y = Yes/affirmative. N = No/negative.",
-      "The most important signal: a large X in an open area means 'need help' and is universally recognized.",
-      "Use three of anything as a distress signal: three fires, three whistle blasts, three gunshots.",
-      "Reflective signaling: use a mirror, phone screen, or any shiny surface to flash toward aircraft. Sweep the horizon regularly."
-    ],
-    warnings: ["Signals only work in open areas. Under tree canopy, focus on smoke, sound (whistle), and getting to a clearing."],
-    source: "ICAO Annex 12 / US Army FM 21-76"
-  },
+  "id": "water-solar-still",
+  "title": "Build a Solar Still",
+  "icon": "💧",
+  "category": "water",
+  "brief": "Extract drinkable water from the ground using sunlight and a plastic sheet.",
+  "tags": [
+    "no-tools",
+    "desert",
+    "tropical"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Dig a bowl-shaped hole about 3 feet wide and 2 feet deep in a sunny spot.",
+    "Place a clean container (cup, bottle, etc.) at the center bottom of the hole.",
+    "If available, place green vegetation or wet material around the container (not in it) to increase moisture.",
+    "Cover the hole with a clear plastic sheet and seal the edges with rocks and soil.",
+    "Place a small stone on the plastic directly above the container to create a low point.",
+    "Wait 4–8 hours. Condensation will form on the underside of the plastic and drip into the container."
+  ],
+  "warnings": [
+    "Produces only 1–2 cups per day — supplement with other water sources. Not sufficient as your sole water supply."
+  ],
+  "source": "US Army FM 21-76 Survival Manual"
+},
   {
-    id: "rescue-whistle-signals",
-    title: "Distress Whistle Signals",
-    icon: "📡",
-    category: "rescue",
-    brief: "How to use sound to signal for rescue — much more effective than shouting.",
-    tags: ["whistle", "universal"],
-    difficulty: "easy",
-    steps: [
-      "The international distress signal is 3 short blasts, pause, 3 short blasts. Repeat regularly.",
-      "A whistle carries much further than the human voice — up to a mile in good conditions vs. a few hundred yards for shouting.",
-      "Blow in sets of three: 3 blasts, then pause 1 minute, then 3 more blasts.",
-      "If you hear 2 blasts in response, rescuers have heard you and are coming.",
-      "If you don't have a whistle, bang rocks together, strike a hollow log, or use any loud noise-maker in sets of three.",
-      "Sound carries best across water and open terrain. Use elevated positions when possible."
-    ],
-    warnings: ["Conserve your energy — blow the whistle rather than shouting, and rest between signal sets. Dehydration and exhaustion from yelling can worsen your situation."],
-    source: "International Mountain Rescue Guidelines"
-  },
+  "id": "water-find-sources",
+  "title": "Finding Water in the Wild",
+  "icon": "💧",
+  "category": "water",
+  "brief": "How to locate water sources when none are immediately visible.",
+  "tags": [
+    "no-tools",
+    "universal"
+  ],
+  "difficulty": "medium",
+  "steps": [
+    "Move downhill — water flows to low points. Follow valleys, ravines, and dry streambeds.",
+    "Look for green vegetation, especially in arid areas. Lush plants indicate underground water.",
+    "Listen for running water — even faint sounds can lead you to a stream.",
+    "Watch animal behavior: birds flying low at dawn/dusk often head toward water. Insect swarms can indicate nearby water.",
+    "Check rock crevices and depressions after rain — they collect water naturally.",
+    "In the morning, collect dew from grass and leaves by dragging a cloth through vegetation, then wring it out."
+  ],
+  "warnings": [
+    "Always purify any water you find before drinking, regardless of how clean it looks."
+  ],
+  "source": "SAS Survival Handbook — John Wiseman"
+},
   {
-    id: "aid-water-crossing",
-    title: "Safe River & Stream Crossing",
-    icon: "🧭",
-    category: "navigation",
-    brief: "How to cross moving water without being swept away.",
-    tags: ["river", "travel", "universal"],
-    difficulty: "hard",
-    steps: [
-      "Scout first: walk along the bank to find the widest, shallowest point. Fast and narrow is more dangerous than slow and wide.",
-      "Unbuckle your pack's hip belt and sternum strap so you can ditch it if you fall.",
-      "Use a sturdy stick (trekking pole) as a third point of contact, planted upstream.",
-      "Face upstream at a slight angle. Move one foot at a time — never have both feet moving.",
-      "Shuffle sideways across the current. Do not cross your feet.",
-      "In groups: link arms in a line perpendicular to the current, with the strongest person upstream.",
-      "If swept off your feet: ditch your pack, roll onto your back, feet downstream to fend off rocks, and swim diagonally toward shore."
-    ],
-    warnings: ["Never cross water above knee-deep if the current is strong. Water only 6 inches deep moving fast can knock you down. If in doubt, find another crossing point or wait for water levels to drop."],
-    source: "Mountaineering: Freedom of the Hills"
-  }
+  "id": "water-boiling",
+  "title": "Purify Water by Boiling",
+  "icon": "💧",
+  "category": "water",
+  "brief": "The most reliable field method to make water safe to drink.",
+  "tags": [
+    "fire-required",
+    "universal"
+  ],
+  "difficulty": "easy",
+  "steps": [
+    "Collect water from the clearest source available. Flowing water is preferable to stagnant.",
+    "If the water is visibly dirty, filter it first through cloth, sand, or a layered filter.",
+    "Bring the water to a full rolling boil using any heat-safe container.",
+    "Maintain the rolling boil for at least 1 minute (3 minutes above 6,500 ft / 2,000 m elevation).",
+    "Let the water cool before drinking. Do not add anything to it.",
+    "Store purified water in clean, covered containers."
+  ],
+  "warnings": [
+    "Boiling does NOT remove chemical pollutants, heavy metals, or salt. Only use with freshwater sources."
+  ],
+  "source": "WHO Guidelines for Drinking-water Quality"
+}
 ];
 
 // ─────────────────────────────────────────
