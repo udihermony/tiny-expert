@@ -131,3 +131,7 @@ def build():
 
 if __name__ == "__main__":
     build()
+    # Also regenerate embeddings
+    import subprocess
+    print()
+    subprocess.run([sys.executable, str(SCRIPT_DIR / "embed.py")])
