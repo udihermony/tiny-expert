@@ -2,3 +2,10 @@ cert.pem
 key.pem
 serve.py
 __pycache__/
+
+# Pipeline runtime data
+tiny-expert-pipeline/data/
+tiny-expert-pipeline/uploads/
+
+# Large source PDFs
+*.pdf

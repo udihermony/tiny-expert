@@ -1,0 +1,30 @@
+You are a survival knowledge expert. Given the following text from a source document, generate questions that a person might ask which can be FULLY ANSWERED using ONLY the information in this text.
+
+CRITICAL RULES:
+- ONLY generate questions whose answers are contained in the provided text
+- Do NOT invent questions about topics not covered in the text
+- Do NOT generate generic survival questions unrelated to the content
+- Every question must be answerable from the source text alone
+
+Generate 5-20 questions covering these types where applicable:
+- **direct**: Straightforward how-to questions
+- **situational**: Context-specific scenarios described in the text
+- **myth**: Common misconceptions that the text addresses or corrects
+- **decision**: Choice-point questions the text helps resolve
+- **edge_case**: Unusual scenarios the text specifically covers
+- **urgency**: Time-critical situations described in the text
+
+For each question, assign the most fitting category from: water, fire, shelter, first-aid, food, navigation, rescue, tools, climate, psychology, camouflage
+
+Respond with a JSON array of objects, each with:
+- "question": the question text
+- "type": one of direct, situational, myth, decision, edge_case, urgency
+- "category": one of the categories listed above
+
+SOURCE TEXT:
+{text}
+
+CHAPTER: {chapter}
+SECTION: {section}
+
+Respond ONLY with the JSON array, no other text.

@@ -636,6 +636,220 @@ body {
 .results::-webkit-scrollbar { width: 4px; }
 .results::-webkit-scrollbar-track { background: transparent; }
 .results::-webkit-scrollbar-thumb { background: var(--surface-3); border-radius: 2px; }
+
+/* ── Mode Tabs ── */
+.mode-tabs {
+  display: flex;
+  gap: 0;
+  padding: 0 20px;
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.mode-tab {
+  flex: 1;
+  padding: 10px 16px;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  color: var(--text-dim);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+}
+
+.mode-tab.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ── Ask Me Panel ── */
+.askme-panel {
+  display: none;
+  flex: 1;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.askme-panel.visible {
+  display: flex;
+}
+
+.askme-chat {
+  flex: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: 16px 16px 12px;
+}
+
+.askme-welcome {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-dim);
+}
+
+.askme-welcome-icon {
+  font-size: 40px;
+  margin-bottom: 12px;
+  opacity: 0.5;
+}
+
+.askme-welcome-text {
+  font-family: var(--font-display);
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.askme-welcome-sub {
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.askme-bubble {
+  margin-bottom: 12px;
+  padding: 12px 14px;
+  border-radius: var(--radius);
+  font-size: 13px;
+  line-height: 1.6;
+  animation: fadeUp 0.3s ease;
+}
+
+.askme-bubble.user {
+  background: var(--tag-bg);
+  border: 1px solid var(--accent-dim);
+  color: var(--accent);
+  margin-left: 40px;
+}
+
+.askme-bubble.assistant {
+  background: var(--surface-2);
+  border-left: 3px solid var(--accent);
+  color: var(--text);
+  margin-right: 20px;
+}
+
+.askme-bubble.thinking {
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.askme-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 8px;
+  animation: fadeUp 0.3s ease;
+}
+
+.askme-option-btn {
+  width: 100%;
+  padding: 12px 16px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.askme-option-btn:active {
+  border-color: var(--accent);
+  background: var(--tag-bg);
+}
+
+.askme-cards {
+  margin-top: 12px;
+}
+
+.askme-reset {
+  display: block;
+  margin: 16px auto;
+  padding: 8px 20px;
+  background: none;
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--text-dim);
+  font-family: var(--font-mono);
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.askme-reset:active {
+  border-color: var(--accent-dim);
+  color: var(--accent);
+}
+
+.askme-load-btn {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background: var(--accent-dim);
+  border: none;
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.askme-load-btn:active {
+  background: var(--accent);
+}
+
+.askme-input-wrap {
+  padding: 12px 16px;
+  border-top: 1px solid var(--border);
+  flex-shrink: 0;
+  display: flex;
+  gap: 8px;
+}
+
+.askme-input {
+  flex: 1;
+  padding: 10px 14px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  color: var(--text);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  outline: none;
+}
+
+.askme-input:focus {
+  border-color: var(--accent-dim);
+}
+
+.askme-submit {
+  padding: 10px 16px;
+  background: var(--accent-dim);
+  border: none;
+  border-radius: var(--radius);
+  color: var(--text);
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.askme-submit:active {
+  background: var(--accent);
+}
+
+.browse-panel {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  overflow: hidden;
+}
+
+.browse-panel.hidden {
+  display: none;
+}
 </style>
 </head>
 <body>
@@ -662,8 +876,29 @@ body {
   <button class="ai-eject-btn" id="aiEjectBtn" style="display:none">eject</button>
   <div class="ai-status-progress"><div class="ai-status-progress-bar" id="aiProgressBar"></div></div>
 </div>
-<div class="categories" id="categories"></div>
-<div class="results" id="results"></div>
+<div class="mode-tabs">
+  <button class="mode-tab active" id="tabBrowse" data-mode="browse">Browse</button>
+  <button class="mode-tab" id="tabAskMe" data-mode="askme">🧠 Ask Me</button>
+</div>
+
+<div class="browse-panel" id="browsePanel">
+  <div class="categories" id="categories"></div>
+  <div class="results" id="results"></div>
+</div>
+
+<div class="askme-panel" id="askmePanel">
+  <div class="askme-chat" id="askmeChat">
+    <div class="askme-welcome" id="askmeWelcome">
+      <div class="askme-welcome-icon">💬</div>
+      <div class="askme-welcome-text">What do you need help with?</div>
+      <div class="askme-welcome-sub">Describe your situation and I'll find the right survival guides</div>
+    </div>
+  </div>
+  <div class="askme-input-wrap" id="askmeInputWrap">
+    <input type="text" class="askme-input" id="askmeInput" placeholder="Describe your situation..." autocomplete="off" />
+    <button class="askme-submit" id="askmeSubmit">▶</button>
+  </div>
+</div>
 
 <div class="offline-badge">
   <span class="offline-dot"></span>
@@ -8447,7 +8682,7 @@ let aiLoading = false;
 let aiReady = false;
 let aiAbort = false;
 
-const AI_MODEL = 'Phi-3.5-mini-instruct-q4f16_1-MLC';
+const AI_MODEL = 'Qwen2-1.5B-Instruct-q4f16_1-MLC';
 
 function updateSendBtn() {
   const query = document.getElementById('searchInput').value.trim();
@@ -8498,6 +8733,17 @@ async function loadModel() {
     progressBar.style.width = '100%';
     document.getElementById('aiEjectBtn').style.display = '';
     updateSendBtn();
+    // If in Ask Me mode, refresh the welcome screen
+    if (currentMode === 'askme') {
+      const welcome = document.getElementById('askmeWelcome');
+      if (welcome) {
+        welcome.innerHTML = `
+          <div class="askme-welcome-icon">💬</div>
+          <div class="askme-welcome-text">What do you need help with?</div>
+          <div class="askme-welcome-sub">Describe your situation and I'll find the right survival guides</div>
+        `;
+      }
+    }
   } catch (err) {
     aiLoading = false;
     statusText.textContent = 'Failed to load model: ' + err.message;
@@ -8655,6 +8901,368 @@ async function sendToAI() {
   }
 }
 
+// ─────────────────────────────────────────
+// MODE SWITCHING (Browse / Ask Me)
+// ─────────────────────────────────────────
+let currentMode = 'browse';
+
+function setMode(mode) {
+  currentMode = mode;
+  document.getElementById('tabBrowse').classList.toggle('active', mode === 'browse');
+  document.getElementById('tabAskMe').classList.toggle('active', mode === 'askme');
+  document.getElementById('browsePanel').classList.toggle('hidden', mode !== 'browse');
+  document.getElementById('askmePanel').classList.toggle('visible', mode === 'askme');
+
+  // Show/hide browse-specific header elements
+  const searchWrap = document.querySelector('.search-wrap');
+  const aiToggleWrap = document.querySelector('.ai-toggle-wrap');
+  searchWrap.style.display = mode === 'browse' ? '' : 'none';
+  aiToggleWrap.style.display = mode === 'browse' ? '' : 'none';
+
+  if (mode === 'askme') {
+    // Check if model is loaded
+    if (!aiReady && !aiLoading) {
+      showAskMeLoadPrompt();
+    } else if (aiLoading) {
+      // Model is loading, will be ready soon
+    }
+    document.getElementById('askmeInput').focus();
+  }
+}
+
+// ─────────────────────────────────────────
+// ASK ME — Triage Agent
+// ─────────────────────────────────────────
+let askMeState = {
+  originalQuery: '',
+  round: 0,
+  candidateCards: [],
+};
+
+const TRIAGE_SYSTEM = `You are a survival triage assistant. The user needs help with a survival situation. You have a set of knowledge cards available. Your job is to either:
+
+1. CLARIFY: If the query is broad or ambiguous and multiple different cards could apply, present 2-4 focused options for the user to choose from. Each option should group related cards.
+2. ANSWER: If the query is specific enough that you can identify the right 1-3 cards, go directly to answering.
+3. NO_MATCH: If none of the available cards are relevant to the query.
+
+Respond with ONLY a JSON object, no other text. The JSON must follow one of these formats:
+
+For CLARIFY:
+{"action":"clarify","message":"A short question to help narrow down (under 15 words)","options":[{"label":"Short descriptive label (under 8 words)","card_ids":["id1","id2"]},{"label":"Another option","card_ids":["id3"]}]}
+
+For ANSWER:
+{"action":"answer","card_ids":["id1","id2"],"summary":"A concise 2-3 sentence answer synthesizing the relevant cards. Mention key warnings."}
+
+For NO_MATCH:
+{"action":"no_match","message":"I don't have reliable information about this topic in my knowledge base."}
+
+Rules:
+- Maximum 4 options for clarify
+- card_ids must only reference IDs from the provided card list
+- For ANSWER, include at most 3 card_ids
+- If only 1-2 cards match well AND the query is very specific, go straight to ANSWER.
+- For short or broad queries (1-2 words like "water", "fire", "food", "shelter", "cold"), ALWAYS use CLARIFY. These are ambiguous.
+- Prefer CLARIFY when more than 3 different cards could apply. Only use ANSWER when the query clearly points to 1-3 specific cards.
+- Respond with ONLY the JSON object, nothing else.`;
+
+function showAskMeLoadPrompt() {
+  const chat = document.getElementById('askmeChat');
+  const welcome = document.getElementById('askmeWelcome');
+  if (welcome) {
+    welcome.innerHTML = `
+      <div class="askme-welcome-icon">🧠</div>
+      <div class="askme-welcome-text">AI Model Required</div>
+      <div class="askme-welcome-sub">The Ask Me mode needs an AI model to work</div>
+      <button class="askme-load-btn" id="askmeLoadBtn">Load AI Model</button>
+    `;
+    document.getElementById('askmeLoadBtn').addEventListener('click', () => {
+      loadModel();
+      welcome.innerHTML = `
+        <div class="askme-welcome-icon">💬</div>
+        <div class="askme-welcome-text">Loading model...</div>
+        <div class="askme-welcome-sub">This may take a moment on first load</div>
+      `;
+    });
+  }
+}
+
+function resetAskMe() {
+  askMeState = { originalQuery: '', round: 0, candidateCards: [] };
+  const chat = document.getElementById('askmeChat');
+  chat.innerHTML = `
+    <div class="askme-welcome" id="askmeWelcome">
+      <div class="askme-welcome-icon">💬</div>
+      <div class="askme-welcome-text">What do you need help with?</div>
+      <div class="askme-welcome-sub">Describe your situation and I'll find the right survival guides</div>
+    </div>
+  `;
+  document.getElementById('askmeInput').value = '';
+  document.getElementById('askmeInput').focus();
+}
+
+function addBubble(role, text) {
+  const chat = document.getElementById('askmeChat');
+  // Remove welcome if present
+  const welcome = document.getElementById('askmeWelcome');
+  if (welcome) welcome.remove();
+
+  const bubble = document.createElement('div');
+  bubble.className = `askme-bubble ${role}`;
+  bubble.textContent = text;
+  chat.appendChild(bubble);
+  chat.scrollTop = chat.scrollHeight;
+  return bubble;
+}
+
+function addThinking() {
+  return addBubble('assistant thinking', 'Thinking...');
+}
+
+function removeThinking() {
+  const thinking = document.querySelector('.askme-bubble.thinking');
+  if (thinking) thinking.remove();
+}
+
+function parseTriageJSON(text) {
+  text = text.trim();
+  // Strip markdown code blocks
+  if (text.startsWith('```')) {
+    text = text.replace(/^```(?:json)?\s*\n?/, '').replace(/\n?```\s*$/, '');
+  }
+  // Extract JSON object
+  const firstBrace = text.indexOf('{');
+  const lastBrace = text.lastIndexOf('}');
+  if (firstBrace !== -1 && lastBrace !== -1) {
+    text = text.substring(firstBrace, lastBrace + 1);
+  }
+  try {
+    return JSON.parse(text);
+  } catch (e) {
+    // Fix common issues
+    try {
+      let fixed = text;
+      fixed = fixed.replace(/,\s*([}\]])/g, '$1'); // trailing commas
+      fixed = fixed.replace(/'/g, '"'); // single quotes
+      return JSON.parse(fixed);
+    } catch (e2) {
+      console.error('Failed to parse triage JSON:', text);
+      return null;
+    }
+  }
+}
+
+function renderAskMeCards(cardIds) {
+  const container = document.createElement('div');
+  container.className = 'askme-cards';
+
+  for (const id of cardIds) {
+    const card = CARDS.find(c => c.id === id);
+    if (!card) continue;
+
+    const cardEl = document.createElement('div');
+    cardEl.className = 'card';
+    cardEl.innerHTML = `
+      <div class="card-header">
+        <div class="card-icon">${card.icon}</div>
+        <div class="card-meta">
+          <div class="card-title">${card.title}</div>
+          <div class="card-brief">${card.brief}</div>
+        </div>
+        <div class="card-expand-icon">▾</div>
+      </div>
+      <div class="card-tags">
+        <span class="tag difficulty-${card.difficulty}">${card.difficulty}</span>
+        ${card.tags.map(t => `<span class="tag">${t}</span>`).join('')}
+      </div>
+      <div class="card-body">
+        <div class="card-content">
+          <div class="card-section-title">Steps</div>
+          <ol class="card-steps">
+            ${card.steps.map(s => `<li>${s}</li>`).join('')}
+          </ol>
+          ${card.warnings.map(w => `<div class="card-warning">${w}</div>`).join('')}
+          <div class="card-source">Source: ${card.source}</div>
+        </div>
+      </div>
+    `;
+    cardEl.querySelector('.card-header').addEventListener('click', () => {
+      cardEl.classList.toggle('expanded');
+    });
+    container.appendChild(cardEl);
+  }
+  return container;
+}
+
+function addResetButton() {
+  const chat = document.getElementById('askmeChat');
+  const btn = document.createElement('button');
+  btn.className = 'askme-reset';
+  btn.textContent = 'Ask another question';
+  btn.addEventListener('click', resetAskMe);
+  chat.appendChild(btn);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+function renderClarifyOptions(options) {
+  const chat = document.getElementById('askmeChat');
+  const optionsDiv = document.createElement('div');
+  optionsDiv.className = 'askme-options';
+
+  for (const opt of options) {
+    const btn = document.createElement('button');
+    btn.className = 'askme-option-btn';
+    btn.textContent = opt.label;
+    btn.addEventListener('click', () => handleOptionSelect(opt));
+    optionsDiv.appendChild(btn);
+  }
+
+  chat.appendChild(optionsDiv);
+  chat.scrollTop = chat.scrollHeight;
+}
+
+async function handleOptionSelect(option) {
+  // Remove the options
+  const opts = document.querySelector('.askme-options');
+  if (opts) opts.remove();
+
+  addBubble('user', option.label);
+
+  askMeState.round++;
+  askMeState.candidateCards = option.card_ids;
+
+  // Get full card info for narrowed set
+  const cardList = option.card_ids
+    .map(id => CARDS.find(c => c.id === id))
+    .filter(Boolean)
+    .map(c => `- ID: ${c.id} | Title: ${c.title} | About: ${c.brief} | Tags: ${c.tags.join(', ')}`)
+    .join('\n');
+
+  if (askMeState.round >= 2) {
+    // Max rounds reached — show cards directly
+    removeThinking();
+    addBubble('assistant', 'Here are the most relevant guides I found.');
+    const chat = document.getElementById('askmeChat');
+    chat.appendChild(renderAskMeCards(option.card_ids));
+    addResetButton();
+    chat.scrollTop = chat.scrollHeight;
+    return;
+  }
+
+  const thinking = addThinking();
+
+  const messages = [
+    { role: 'system', content: TRIAGE_SYSTEM },
+    { role: 'user', content: `ORIGINAL QUESTION: ${askMeState.originalQuery}\nUSER SELECTED: "${option.label}"\n\nAVAILABLE CARDS (narrowed):\n${cardList}\n\nThe user has narrowed their question. Now provide an answer using these cards.` }
+  ];
+
+  await callTriageLLM(messages);
+}
+
+async function callTriageLLM(messages) {
+  if (!aiReady || !aiEngine) {
+    removeThinking();
+    addBubble('assistant', 'AI model is not loaded.');
+    return;
+  }
+
+  try {
+    const response = await aiEngine.chat.completions.create({
+      messages,
+      stream: false,
+      max_tokens: 400,
+      temperature: 0.2,
+    });
+
+    removeThinking();
+
+    const text = response.choices[0]?.message?.content || '';
+    const parsed = parseTriageJSON(text);
+
+    if (!parsed) {
+      // Fallback: show search results directly
+      addBubble('assistant', 'Showing best matches for your question.');
+      const cards = await search(askMeState.originalQuery, 'all');
+      const topIds = cards.slice(0, 3).map(c => c.id);
+      const chat = document.getElementById('askmeChat');
+      chat.appendChild(renderAskMeCards(topIds));
+      addResetButton();
+      chat.scrollTop = chat.scrollHeight;
+      return;
+    }
+
+    if (parsed.action === 'clarify') {
+      addBubble('assistant', parsed.message);
+      renderClarifyOptions(parsed.options || []);
+    } else if (parsed.action === 'answer') {
+      addBubble('assistant', parsed.summary);
+      const cardIds = parsed.card_ids || [];
+      const chat = document.getElementById('askmeChat');
+      chat.appendChild(renderAskMeCards(cardIds));
+      addResetButton();
+      chat.scrollTop = chat.scrollHeight;
+    } else if (parsed.action === 'no_match') {
+      addBubble('assistant', parsed.message || "I don't have reliable information about this topic.");
+      addResetButton();
+    } else {
+      // Unknown action — fallback
+      addBubble('assistant', text);
+      addResetButton();
+    }
+  } catch (err) {
+    removeThinking();
+    addBubble('assistant', 'Error: ' + err.message);
+    addResetButton();
+    console.error('Triage LLM error:', err);
+  }
+}
+
+async function submitAskMe() {
+  const input = document.getElementById('askmeInput');
+  const query = input.value.trim();
+  if (!query) return;
+  if (!aiReady) {
+    if (!aiLoading) loadModel();
+    return;
+  }
+
+  input.value = '';
+
+  // Reset state for new question
+  askMeState = { originalQuery: query, round: 0, candidateCards: [] };
+
+  // Clear previous conversation
+  const chat = document.getElementById('askmeChat');
+  const welcome = document.getElementById('askmeWelcome');
+  if (welcome) welcome.remove();
+  // Remove all previous content
+  chat.innerHTML = '';
+
+  addBubble('user', query);
+  const thinking = addThinking();
+
+  // Retrieve top 10 candidate cards
+  const results = await search(query, 'all');
+  const top10 = results.slice(0, 10);
+
+  if (top10.length === 0) {
+    removeThinking();
+    addBubble('assistant', "I don't have any relevant information in my knowledge base for this question.");
+    addResetButton();
+    return;
+  }
+
+  const cardList = top10
+    .map(c => `- ID: ${c.id} | Title: ${c.title} | About: ${c.brief} | Tags: ${c.tags.join(', ')}`)
+    .join('\n');
+
+  const messages = [
+    { role: 'system', content: TRIAGE_SYSTEM },
+    { role: 'user', content: `QUESTION: ${query}\n\nAVAILABLE CARDS:\n${cardList}\n\nDecide: should you clarify or answer?` }
+  ];
+
+  await callTriageLLM(messages);
+}
+
 // ── Init ──
 document.getElementById('searchInput').addEventListener('input', handleSearch);
 document.getElementById('searchInput').addEventListener('keydown', (e) => {
@@ -8664,6 +9272,16 @@ document.getElementById('clearBtn').addEventListener('click', clearSearch);
 document.getElementById('aiToggle').addEventListener('click', toggleAI);
 document.getElementById('sendBtn').addEventListener('click', sendToAI);
 document.getElementById('aiEjectBtn').addEventListener('click', ejectModel);
+
+// Mode tabs
+document.getElementById('tabBrowse').addEventListener('click', () => setMode('browse'));
+document.getElementById('tabAskMe').addEventListener('click', () => setMode('askme'));
+
+// Ask Me input
+document.getElementById('askmeSubmit').addEventListener('click', submitAskMe);
+document.getElementById('askmeInput').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter') submitAskMe();
+});
 
 renderCategories();
 refresh();

@@ -1,0 +1,1397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tiny Expert Pipeline</title>
+<style>
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: #0f1117; color: #e0e0e0; }
+
+/* Layout */
+.app { display: flex; min-height: 100vh; }
+.sidebar { width: 220px; background: #161822; border-right: 1px solid #2a2d3a; padding: 16px 0; flex-shrink: 0; }
+.sidebar h1 { font-size: 16px; padding: 0 16px 16px; color: #7ec8e3; border-bottom: 1px solid #2a2d3a; margin-bottom: 8px; }
+.nav-item { padding: 10px 16px; cursor: pointer; color: #999; font-size: 14px; transition: all 0.15s; }
+.nav-item:hover { background: #1e2030; color: #e0e0e0; }
+.nav-item.active { background: #1e2030; color: #7ec8e3; border-left: 3px solid #7ec8e3; }
+.nav-badge { float: right; background: #2a2d3a; border-radius: 10px; padding: 1px 8px; font-size: 12px; }
+
+.main { flex: 1; padding: 24px 32px; max-width: 960px; }
+.main h2 { color: #7ec8e3; margin-bottom: 16px; font-size: 20px; }
+
+/* Upload area */
+.upload-area { border: 2px dashed #2a2d3a; border-radius: 8px; padding: 32px; text-align: center; margin-bottom: 24px; transition: all 0.2s; cursor: pointer; }
+.upload-area:hover, .upload-area.dragover { border-color: #7ec8e3; background: #1a1c2a; }
+.upload-area p { color: #888; margin-bottom: 8px; }
+.upload-area .hint { font-size: 12px; color: #666; }
+input[type="file"] { display: none; }
+
+/* Forms */
+.form-row { display: flex; gap: 12px; margin-bottom: 16px; }
+.form-row input, .form-row select { flex: 1; padding: 8px 12px; background: #1e2030; border: 1px solid #2a2d3a; border-radius: 6px; color: #e0e0e0; font-size: 14px; }
+.form-row input:focus { outline: none; border-color: #7ec8e3; }
+
+/* Buttons */
+.btn { padding: 8px 16px; border-radius: 6px; border: none; cursor: pointer; font-size: 14px; transition: all 0.15s; }
+.btn-primary { background: #7ec8e3; color: #0f1117; font-weight: 600; }
+.btn-primary:hover { background: #9ad8ef; }
+.btn-primary:disabled { background: #3a3d4a; color: #666; cursor: not-allowed; }
+.btn-danger { background: #e74c3c; color: #fff; }
+.btn-danger:hover { background: #c0392b; }
+.btn-sm { padding: 4px 10px; font-size: 12px; }
+.btn-outline { background: transparent; border: 1px solid #2a2d3a; color: #999; }
+.btn-outline:hover { border-color: #7ec8e3; color: #7ec8e3; }
+
+/* Source list */
+.source-list { display: flex; flex-direction: column; gap: 8px; }
+.source-card { background: #161822; border: 1px solid #2a2d3a; border-radius: 8px; padding: 16px; }
+.source-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.source-title { font-weight: 600; font-size: 15px; }
+.source-meta { font-size: 13px; color: #888; }
+.source-actions { display: flex; gap: 8px; margin-top: 12px; }
+
+/* Status badges */
+.status { display: inline-block; padding: 2px 8px; border-radius: 10px; font-size: 11px; font-weight: 600; text-transform: uppercase; }
+.status-uploaded { background: #2a2d3a; color: #999; }
+.status-parsing { background: #2c3e50; color: #3498db; }
+.status-indexed { background: #1a3a2a; color: #2ecc71; }
+.status-error { background: #3a1a1a; color: #e74c3c; }
+
+/* Chunks view */
+.chunks-panel { background: #161822; border: 1px solid #2a2d3a; border-radius: 8px; padding: 16px; margin-top: 12px; max-height: 400px; overflow-y: auto; }
+.chunk-item { border-bottom: 1px solid #2a2d3a; padding: 12px 0; }
+.chunk-item:last-child { border-bottom: none; }
+.chunk-meta { font-size: 12px; color: #7ec8e3; margin-bottom: 4px; }
+.chunk-text { font-size: 13px; color: #ccc; white-space: pre-wrap; max-height: 120px; overflow: hidden; cursor: pointer; }
+.chunk-text.expanded { max-height: none; }
+
+/* Stats bar */
+.stats-bar { display: flex; gap: 24px; margin-bottom: 24px; padding: 16px; background: #161822; border-radius: 8px; border: 1px solid #2a2d3a; }
+.stat { text-align: center; }
+.stat-value { font-size: 24px; font-weight: 700; color: #7ec8e3; }
+.stat-label { font-size: 12px; color: #888; margin-top: 2px; }
+
+/* Progress */
+.progress { width: 100%; background: #2a2d3a; border-radius: 4px; height: 6px; margin-top: 8px; }
+.progress-bar { height: 100%; background: #7ec8e3; border-radius: 4px; transition: width 0.3s; }
+
+/* Toast */
+.toast { position: fixed; top: 20px; right: 20px; padding: 12px 20px; border-radius: 8px; font-size: 14px; z-index: 1000; animation: slideIn 0.3s ease; }
+.toast-success { background: #1a3a2a; color: #2ecc71; border: 1px solid #2ecc71; }
+.toast-error { background: #3a1a1a; color: #e74c3c; border: 1px solid #e74c3c; }
+@keyframes slideIn { from { transform: translateX(100%); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+
+/* Empty state */
+.empty { text-align: center; padding: 48px; color: #666; }
+.empty p { margin-bottom: 8px; }
+
+/* Placeholder pages */
+.placeholder { text-align: center; padding: 64px 32px; }
+.placeholder h3 { color: #555; margin-bottom: 8px; }
+.placeholder p { color: #444; font-size: 14px; }
+
+/* Question generation */
+.source-select { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 16px; }
+.source-chip { padding: 6px 14px; background: #1e2030; border: 1px solid #2a2d3a; border-radius: 20px; cursor: pointer; font-size: 13px; color: #999; transition: all 0.15s; }
+.source-chip.selected { border-color: #7ec8e3; color: #7ec8e3; background: #1a2535; }
+.source-chip:hover { border-color: #555; }
+
+.prompt-editor { width: 100%; min-height: 180px; padding: 12px; background: #1e2030; border: 1px solid #2a2d3a; border-radius: 8px; color: #ccc; font-family: monospace; font-size: 12px; resize: vertical; margin-bottom: 12px; }
+.prompt-editor:focus { outline: none; border-color: #7ec8e3; }
+
+.gen-controls { display: flex; gap: 12px; align-items: center; margin-bottom: 16px; flex-wrap: wrap; }
+.gen-controls .cost-est { font-size: 13px; color: #888; }
+
+.progress-panel { background: #161822; border: 1px solid #2a2d3a; border-radius: 8px; padding: 16px; margin-bottom: 16px; }
+.progress-text { font-size: 13px; color: #999; margin-bottom: 6px; }
+
+/* Question list */
+.q-filters { display: flex; gap: 8px; margin-bottom: 16px; flex-wrap: wrap; }
+.q-filter { padding: 4px 12px; border-radius: 14px; background: #1e2030; border: 1px solid #2a2d3a; color: #999; cursor: pointer; font-size: 12px; }
+.q-filter.active { border-color: #7ec8e3; color: #7ec8e3; }
+
+.q-list { display: flex; flex-direction: column; gap: 6px; }
+.q-item { background: #161822; border: 1px solid #2a2d3a; border-radius: 8px; padding: 12px 14px; }
+.q-item-header { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+.q-text { flex: 1; font-size: 14px; cursor: pointer; }
+.q-text:hover { color: #7ec8e3; }
+.q-badges { display: flex; gap: 6px; align-items: center; flex-shrink: 0; }
+.q-type { font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #2a2d3a; color: #999; }
+.q-type-situational { background: #2c3520; color: #8bc34a; }
+.q-type-myth { background: #3a2a1a; color: #ff9800; }
+.q-type-decision { background: #2a2040; color: #9c27b0; }
+.q-type-edge_case { background: #1a2a3a; color: #03a9f4; }
+.q-type-urgency { background: #3a1a1a; color: #f44336; }
+.q-category { font-size: 11px; padding: 2px 8px; border-radius: 10px; background: #1a3a2a; color: #2ecc71; }
+.q-edit-form { margin-top: 10px; display: flex; flex-direction: column; gap: 8px; }
+.q-edit-form input, .q-edit-form select { padding: 6px 10px; background: #1e2030; border: 1px solid #2a2d3a; border-radius: 6px; color: #e0e0e0; font-size: 13px; }
+.q-edit-form .q-edit-actions { display: flex; gap: 8px; }
+
+/* API key input */
+.api-key-row { display: flex; gap: 12px; margin-bottom: 16px; align-items: center; }
+.api-key-row input { flex: 1; padding: 8px 12px; background: #1e2030; border: 1px solid #2a2d3a; border-radius: 6px; color: #e0e0e0; font-size: 13px; font-family: monospace; }
+.api-key-row label { font-size: 13px; color: #888; white-space: nowrap; }
+
+/* Answer cards */
+.answer-card { background: #161822; border: 1px solid #2a2d3a; border-radius: 8px; padding: 16px; margin-bottom: 8px; }
+.answer-question { font-weight: 600; font-size: 14px; margin-bottom: 8px; color: #7ec8e3; }
+.answer-short { font-size: 13px; color: #ccc; margin-bottom: 8px; }
+.answer-full { font-size: 13px; color: #aaa; white-space: pre-wrap; max-height: 0; overflow: hidden; transition: max-height 0.3s; }
+.answer-full.expanded { max-height: 2000px; }
+.answer-meta { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; align-items: center; }
+.answer-toggle { font-size: 12px; color: #7ec8e3; cursor: pointer; }
+.answer-sources { font-size: 12px; color: #666; margin-top: 6px; }
+
+/* Review cards */
+.review-card { background: #161822; border: 1px solid #2a2d3a; border-radius: 8px; padding: 16px; margin-bottom: 10px; }
+.review-card.approved { border-left: 3px solid #2ecc71; }
+.review-card.discarded { border-left: 3px solid #e74c3c; opacity: 0.6; }
+.review-question { font-weight: 600; font-size: 15px; margin-bottom: 6px; color: #7ec8e3; }
+.review-answer-short { font-size: 13px; color: #ccc; margin-bottom: 6px; }
+.review-answer { font-size: 13px; color: #aaa; white-space: pre-wrap; max-height: 0; overflow: hidden; transition: max-height 0.3s; margin-bottom: 8px; }
+.review-answer.expanded { max-height: 3000px; }
+.review-meta { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+.review-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.review-edit { margin-top: 12px; }
+.review-edit textarea { width: 100%; min-height: 100px; padding: 10px; background: #1e2030; border: 1px solid #2a2d3a; border-radius: 6px; color: #e0e0e0; font-size: 13px; resize: vertical; margin-bottom: 8px; }
+.review-edit input { width: 100%; padding: 8px 10px; background: #1e2030; border: 1px solid #2a2d3a; border-radius: 6px; color: #e0e0e0; font-size: 13px; margin-bottom: 8px; }
+.review-edit select { padding: 6px 10px; background: #1e2030; border: 1px solid #2a2d3a; border-radius: 6px; color: #e0e0e0; font-size: 13px; }
+
+/* Export page */
+.export-preview { background: #161822; border: 1px solid #2a2d3a; border-radius: 8px; padding: 16px; margin-top: 16px; max-height: 400px; overflow-y: auto; }
+.export-preview pre { font-size: 12px; color: #aaa; white-space: pre-wrap; }
+.cat-bar { display: flex; gap: 12px; flex-wrap: wrap; margin: 16px 0; }
+.cat-item { background: #1e2030; border: 1px solid #2a2d3a; border-radius: 8px; padding: 10px 16px; text-align: center; }
+.cat-count { font-size: 20px; font-weight: 700; color: #7ec8e3; }
+.cat-name { font-size: 11px; color: #888; text-transform: capitalize; }
+</style>
+</head>
+<body>
+<div class="app">
+  <nav class="sidebar">
+    <h1>Tiny Expert<br>Pipeline</h1>
+    <div class="nav-item active" data-page="sources">Sources <span class="nav-badge" id="badge-sources">0</span></div>
+    <div class="nav-item" data-page="questions">Questions <span class="nav-badge" id="badge-questions">0</span></div>
+    <div class="nav-item" data-page="answers">Answers <span class="nav-badge" id="badge-answers">0</span></div>
+    <div class="nav-item" data-page="review">Review <span class="nav-badge" id="badge-review">0</span></div>
+    <div class="nav-item" data-page="export">Export <span class="nav-badge" id="badge-export">0</span></div>
+  </nav>
+
+  <div class="main">
+    <!-- Sources Page -->
+    <div id="page-sources" class="page">
+      <h2>Source Documents</h2>
+
+      <div class="stats-bar">
+        <div class="stat"><div class="stat-value" id="stat-sources">0</div><div class="stat-label">Sources</div></div>
+        <div class="stat"><div class="stat-value" id="stat-indexed">0</div><div class="stat-label">Indexed</div></div>
+        <div class="stat"><div class="stat-value" id="stat-chunks">0</div><div class="stat-label">Chunks</div></div>
+      </div>
+
+      <div class="upload-area" id="upload-area">
+        <p>Drop files here or click to upload</p>
+        <p class="hint">Supports PDF, TXT, MD</p>
+        <input type="file" id="file-input" accept=".pdf,.txt,.md,.text,.markdown" multiple>
+      </div>
+
+      <div class="form-row" id="upload-form" style="display:none;">
+        <input type="text" id="source-title" placeholder="Title (auto-detected)">
+        <input type="text" id="source-author" placeholder="Author (optional)">
+        <select id="source-type">
+          <option value="unknown">Type...</option>
+          <option value="military-manual">Military Manual</option>
+          <option value="survival-guide">Survival Guide</option>
+          <option value="field-guide">Field Guide</option>
+          <option value="textbook">Textbook</option>
+          <option value="article">Article</option>
+        </select>
+        <button class="btn btn-primary" id="btn-upload">Upload</button>
+      </div>
+
+      <div class="source-list" id="source-list"></div>
+    </div>
+
+    <!-- Questions Page -->
+    <div id="page-questions" class="page" style="display:none;">
+      <h2>Generate Questions</h2>
+
+      <div class="stats-bar">
+        <div class="stat"><div class="stat-value" id="stat-q-total">0</div><div class="stat-label">Questions</div></div>
+        <div class="stat"><div class="stat-value" id="stat-q-pending">0</div><div class="stat-label">Pending</div></div>
+        <div class="stat"><div class="stat-value" id="stat-q-answered">0</div><div class="stat-label">Answered</div></div>
+      </div>
+
+      <!-- API Key -->
+      <div class="api-key-row">
+        <label>API Key</label>
+        <input type="password" id="api-key" placeholder="sk-ant-..." value="">
+      </div>
+
+      <!-- Source selection -->
+      <div style="margin-bottom:8px;font-size:13px;color:#888;">Select sources to generate from:</div>
+      <div class="source-select" id="source-select"></div>
+
+      <!-- Prompt editor (collapsible) -->
+      <div style="margin-bottom:12px;">
+        <button class="btn btn-outline btn-sm" id="toggle-prompt" style="display:flex;align-items:center;gap:6px;">
+          <span id="toggle-prompt-arrow">&#9654;</span> Question Generation Prompt
+        </button>
+      </div>
+      <div id="prompt-section" style="display:none;">
+        <textarea class="prompt-editor" id="prompt-editor"></textarea>
+        <div style="display:flex;gap:8px;margin-bottom:16px;">
+          <button class="btn btn-primary btn-sm" id="btn-save-prompt">Save Prompt</button>
+          <button class="btn btn-outline btn-sm" id="btn-reset-prompt">Reset</button>
+        </div>
+      </div>
+
+      <!-- Generate controls -->
+      <div class="gen-controls">
+        <button class="btn btn-primary" id="btn-estimate">Estimate Cost</button>
+        <button class="btn btn-primary" id="btn-generate" disabled>Generate Questions</button>
+        <span class="cost-est" id="cost-estimate"></span>
+      </div>
+
+      <!-- Progress -->
+      <div class="progress-panel" id="gen-progress" style="display:none;">
+        <div class="progress-text" id="gen-progress-text">Starting...</div>
+        <div class="progress"><div class="progress-bar" id="gen-progress-bar" style="width:0%"></div></div>
+      </div>
+
+      <!-- Bulk actions -->
+      <div style="display:flex;gap:8px;margin-bottom:12px;">
+        <button class="btn btn-danger btn-sm" id="btn-delete-all-questions">Delete All Questions</button>
+      </div>
+
+      <!-- Filters -->
+      <div class="q-filters" id="q-filters">
+        <span class="q-filter active" data-filter="all">All</span>
+        <span class="q-filter" data-filter="pending_answer">Pending</span>
+        <span class="q-filter" data-filter="answered">Answered</span>
+        <span class="q-filter" data-filter="discarded">Discarded</span>
+      </div>
+
+      <!-- Question list -->
+      <div class="q-list" id="q-list"></div>
+    </div>
+
+    <!-- Answers Page -->
+    <div id="page-answers" class="page" style="display:none;">
+      <h2>Answer Builder</h2>
+
+      <div class="stats-bar">
+        <div class="stat"><div class="stat-value" id="stat-a-pending">0</div><div class="stat-label">Pending Questions</div></div>
+        <div class="stat"><div class="stat-value" id="stat-a-answered">0</div><div class="stat-label">Answers Generated</div></div>
+        <div class="stat"><div class="stat-value" id="stat-a-review">0</div><div class="stat-label">Pending Review</div></div>
+      </div>
+
+      <!-- API Key (shared) -->
+      <div class="api-key-row">
+        <label>API Key</label>
+        <input type="password" id="api-key-answers" placeholder="sk-ant-..." value="">
+      </div>
+
+      <!-- Prompt editor -->
+      <div style="margin-bottom:12px;">
+        <button class="btn btn-outline btn-sm" id="toggle-answer-prompt" style="display:flex;align-items:center;gap:6px;">
+          <span id="toggle-answer-prompt-arrow">&#9654;</span> Answer Generation Prompt
+        </button>
+      </div>
+      <div id="answer-prompt-section" style="display:none;">
+        <textarea class="prompt-editor" id="answer-prompt-editor"></textarea>
+        <div style="display:flex;gap:8px;margin-bottom:16px;">
+          <button class="btn btn-primary btn-sm" id="btn-save-answer-prompt">Save Prompt</button>
+        </div>
+      </div>
+
+      <!-- Batch controls -->
+      <div class="gen-controls">
+        <button class="btn btn-primary" id="btn-estimate-answers">Estimate Cost</button>
+        <button class="btn btn-primary" id="btn-generate-answers">Generate All Answers</button>
+        <span class="cost-est" id="answer-cost-estimate"></span>
+      </div>
+
+      <!-- Progress -->
+      <div class="progress-panel" id="answer-progress" style="display:none;">
+        <div class="progress-text" id="answer-progress-text">Starting...</div>
+        <div class="progress"><div class="progress-bar" id="answer-progress-bar" style="width:0%"></div></div>
+      </div>
+
+      <!-- Bulk actions -->
+      <div style="display:flex;gap:8px;margin-bottom:12px;">
+        <button class="btn btn-danger btn-sm" id="btn-delete-all-answers">Delete All Answers</button>
+      </div>
+
+      <!-- Pending questions list -->
+      <div style="margin-bottom:8px;font-size:13px;color:#888;">Unanswered Questions:</div>
+      <div class="q-list" id="answer-q-list"></div>
+
+      <!-- Generated answers -->
+      <div style="margin-top:24px;margin-bottom:8px;font-size:13px;color:#888;" id="answers-header" style="display:none;">Generated Answers:</div>
+      <div class="q-list" id="answers-list"></div>
+    </div>
+
+    <!-- Review Page -->
+    <div id="page-review" class="page" style="display:none;">
+      <h2>Review & Approval</h2>
+
+      <div class="stats-bar">
+        <div class="stat"><div class="stat-value" id="stat-r-pending">0</div><div class="stat-label">Pending</div></div>
+        <div class="stat"><div class="stat-value" id="stat-r-approved">0</div><div class="stat-label">Approved</div></div>
+        <div class="stat"><div class="stat-value" id="stat-r-discarded">0</div><div class="stat-label">Discarded</div></div>
+        <div class="stat"><div class="stat-value" id="stat-r-total">0</div><div class="stat-label">Total</div></div>
+      </div>
+
+      <!-- Filters -->
+      <div class="q-filters" id="review-filters">
+        <span class="q-filter active" data-rfilter="pending_review">Pending</span>
+        <span class="q-filter" data-rfilter="approved">Approved</span>
+        <span class="q-filter" data-rfilter="discarded">Discarded</span>
+        <span class="q-filter" data-rfilter="all">All</span>
+      </div>
+
+      <!-- Bulk actions -->
+      <div style="display:flex;gap:8px;margin-bottom:16px;">
+        <button class="btn btn-primary btn-sm" id="btn-bulk-approve">Approve All Pending</button>
+      </div>
+
+      <!-- Review list -->
+      <div id="review-list"></div>
+    </div>
+
+    <!-- Export Page -->
+    <div id="page-export" class="page" style="display:none;">
+      <h2>Export</h2>
+
+      <div class="stats-bar">
+        <div class="stat"><div class="stat-value" id="stat-e-approved">0</div><div class="stat-label">Approved</div></div>
+        <div class="stat"><div class="stat-value" id="stat-e-sources">0</div><div class="stat-label">Sources Used</div></div>
+      </div>
+
+      <!-- Category breakdown -->
+      <div style="font-size:13px;color:#888;margin-bottom:4px;">By Category:</div>
+      <div class="cat-bar" id="export-categories"></div>
+
+      <!-- Export actions -->
+      <div style="display:flex;gap:12px;margin-bottom:16px;">
+        <button class="btn btn-primary" id="btn-export-preview">Preview Export</button>
+        <button class="btn btn-primary" id="btn-export-download">Download JSON</button>
+        <button class="btn btn-outline" id="btn-export-copy">Copy to App Folder</button>
+      </div>
+
+      <!-- Preview -->
+      <div class="export-preview" id="export-preview" style="display:none;">
+        <pre id="export-preview-content"></pre>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+// ============ State ============
+let currentPage = 'sources';
+let selectedFile = null;
+let stats = {};
+
+// ============ Navigation ============
+document.querySelectorAll('.nav-item').forEach(item => {
+  item.addEventListener('click', () => {
+    const page = item.dataset.page;
+    showPage(page);
+  });
+});
+
+function showPage(page) {
+  currentPage = page;
+  document.querySelectorAll('.page').forEach(p => p.style.display = 'none');
+  document.getElementById('page-' + page).style.display = '';
+  document.querySelectorAll('.nav-item').forEach(n => n.classList.remove('active'));
+  document.querySelector(`.nav-item[data-page="${page}"]`).classList.add('active');
+
+  if (page === 'sources') loadSources();
+  if (page === 'questions') loadQuestionsPage();
+  if (page === 'answers') loadAnswersPage();
+  if (page === 'review') loadReviewPage();
+  if (page === 'export') loadExportPage();
+}
+
+// ============ Upload ============
+const uploadArea = document.getElementById('upload-area');
+const fileInput = document.getElementById('file-input');
+const uploadForm = document.getElementById('upload-form');
+
+uploadArea.addEventListener('click', () => fileInput.click());
+uploadArea.addEventListener('dragover', e => { e.preventDefault(); uploadArea.classList.add('dragover'); });
+uploadArea.addEventListener('dragleave', () => uploadArea.classList.remove('dragover'));
+uploadArea.addEventListener('drop', e => {
+  e.preventDefault();
+  uploadArea.classList.remove('dragover');
+  if (e.dataTransfer.files.length) handleFileSelect(e.dataTransfer.files[0]);
+});
+fileInput.addEventListener('change', () => {
+  if (fileInput.files.length) handleFileSelect(fileInput.files[0]);
+});
+
+function handleFileSelect(file) {
+  selectedFile = file;
+  const name = file.name.replace(/\.[^.]+$/, '').replace(/[-_]/g, ' ');
+  document.getElementById('source-title').value = name.charAt(0).toUpperCase() + name.slice(1);
+  uploadForm.style.display = 'flex';
+  uploadArea.innerHTML = `<p>Selected: <strong>${file.name}</strong> (${(file.size/1024/1024).toFixed(1)} MB)</p><p class="hint">Fill in details below and click Upload</p>`;
+}
+
+document.getElementById('btn-upload').addEventListener('click', async () => {
+  if (!selectedFile) return;
+
+  const btn = document.getElementById('btn-upload');
+  btn.disabled = true;
+  btn.textContent = 'Uploading...';
+
+  const formData = new FormData();
+  formData.append('file', selectedFile);
+  formData.append('title', document.getElementById('source-title').value);
+  formData.append('author', document.getElementById('source-author').value);
+  formData.append('source_type', document.getElementById('source-type').value);
+
+  try {
+    const res = await fetch('/api/sources/upload', { method: 'POST', body: formData });
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err.detail || 'Upload failed');
+    }
+    const data = await res.json();
+    toast(`Uploaded: ${data.title}`, 'success');
+    resetUpload();
+    loadSources();
+  } catch (e) {
+    toast(e.message, 'error');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Upload';
+  }
+});
+
+function resetUpload() {
+  selectedFile = null;
+  fileInput.value = '';
+  uploadForm.style.display = 'none';
+  uploadArea.innerHTML = '<p>Drop files here or click to upload</p><p class="hint">Supports PDF, TXT, MD</p>';
+}
+
+// ============ Sources List ============
+async function loadSources() {
+  try {
+    const [sourcesRes, statsRes] = await Promise.all([
+      fetch('/api/sources'),
+      fetch('/api/stats')
+    ]);
+    const sources = await sourcesRes.json();
+    stats = await statsRes.json();
+    updateStats();
+    renderSources(sources);
+  } catch (e) {
+    toast('Failed to load sources', 'error');
+  }
+}
+
+function updateStats() {
+  document.getElementById('stat-sources').textContent = stats.sources || 0;
+  document.getElementById('stat-indexed').textContent = stats.sources_indexed || 0;
+  document.getElementById('stat-chunks').textContent = stats.chunks || 0;
+  document.getElementById('badge-sources').textContent = stats.sources || 0;
+  document.getElementById('badge-questions').textContent = stats.questions || 0;
+  document.getElementById('badge-answers').textContent = stats.qa_pairs || 0;
+  document.getElementById('badge-review').textContent = stats.qa_pending || 0;
+  document.getElementById('badge-export').textContent = stats.qa_approved || 0;
+}
+
+function renderSources(sources) {
+  const list = document.getElementById('source-list');
+
+  if (!sources.length) {
+    list.innerHTML = '<div class="empty"><p>No sources yet</p><p>Upload a PDF, TXT, or MD file to get started.</p></div>';
+    return;
+  }
+
+  list.innerHTML = sources.map(s => `
+    <div class="source-card" id="source-${s.id}">
+      <div class="source-header">
+        <span class="source-title">${esc(s.title)}</span>
+        <span class="status status-${s.status}">${s.status}</span>
+      </div>
+      <div class="source-meta">
+        ${s.author ? esc(s.author) + ' · ' : ''}${esc(s.filename)} · ${s.chunk_count || 0} chunks · ${s.date_added.split('T')[0]}
+      </div>
+      <div class="source-actions">
+        ${s.status === 'uploaded' ? `<button class="btn btn-primary btn-sm" onclick="parseSource('${s.id}')">Parse & Index</button>` : ''}
+        ${s.status === 'indexed' ? `<button class="btn btn-outline btn-sm" onclick="viewChunks('${s.id}')">View Chunks</button>` : ''}
+        ${s.status === 'parsing' ? '<span style="color:#3498db;font-size:13px;">Parsing...</span>' : ''}
+        ${s.status === 'error' ? `<button class="btn btn-primary btn-sm" onclick="parseSource('${s.id}')">Retry</button>` : ''}
+        <button class="btn btn-danger btn-sm" onclick="deleteSource('${s.id}')">Delete</button>
+      </div>
+      <div id="chunks-${s.id}"></div>
+    </div>
+  `).join('');
+}
+
+async function parseSource(sourceId) {
+  const card = document.getElementById('source-' + sourceId);
+  const actionsDiv = card.querySelector('.source-actions');
+  actionsDiv.innerHTML = '<span style="color:#3498db;font-size:13px;">Parsing & embedding... (this may take a minute)</span>';
+
+  try {
+    const res = await fetch(`/api/sources/${sourceId}/parse`, { method: 'POST' });
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err.detail || 'Parse failed');
+    }
+    const data = await res.json();
+    toast(`Indexed: ${data.chunks} chunks`, 'success');
+    loadSources();
+  } catch (e) {
+    toast(e.message, 'error');
+    loadSources();
+  }
+}
+
+async function viewChunks(sourceId) {
+  const container = document.getElementById('chunks-' + sourceId);
+  if (container.innerHTML) {
+    container.innerHTML = '';
+    return;
+  }
+
+  try {
+    const res = await fetch(`/api/sources/${sourceId}/chunks`);
+    const chunks = await res.json();
+    container.innerHTML = `
+      <div class="chunks-panel">
+        <div style="margin-bottom:8px;font-size:13px;color:#888;">${chunks.length} chunks</div>
+        ${chunks.map(c => `
+          <div class="chunk-item">
+            <div class="chunk-meta">#${c.chunk_index} · ${c.chapter ? esc(c.chapter) : 'No chapter'}${c.section ? ' > ' + esc(c.section) : ''} · ${c.token_count} tokens</div>
+            <div class="chunk-text" onclick="this.classList.toggle('expanded')">${esc(c.text)}</div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  } catch (e) {
+    toast('Failed to load chunks', 'error');
+  }
+}
+
+async function deleteSource(sourceId) {
+  if (!confirm('Delete this source and all its chunks?')) return;
+
+  try {
+    const res = await fetch(`/api/sources/${sourceId}`, { method: 'DELETE' });
+    if (!res.ok) throw new Error('Delete failed');
+    toast('Source deleted', 'success');
+    loadSources();
+  } catch (e) {
+    toast(e.message, 'error');
+  }
+}
+
+// ============ Questions Page ============
+let selectedSources = new Set();
+let allQuestions = [];
+let questionFilter = 'all';
+let originalPrompt = '';
+
+async function loadQuestionsPage() {
+  // Load stats
+  const statsRes = await fetch('/api/stats');
+  stats = await statsRes.json();
+  updateStats();
+  document.getElementById('stat-q-total').textContent = stats.questions || 0;
+  document.getElementById('stat-q-pending').textContent = stats.questions_pending || 0;
+  document.getElementById('stat-q-answered').textContent = stats.questions_answered || 0;
+
+  // Load indexed sources for selection
+  const sourcesRes = await fetch('/api/sources');
+  const sources = await sourcesRes.json();
+  const indexed = sources.filter(s => s.status === 'indexed');
+  const selectDiv = document.getElementById('source-select');
+
+  if (!indexed.length) {
+    selectDiv.innerHTML = '<span style="color:#666;font-size:13px;">No indexed sources. Upload and parse sources first.</span>';
+  } else {
+    selectDiv.innerHTML = indexed.map(s => `
+      <span class="source-chip ${selectedSources.has(s.id) ? 'selected' : ''}"
+            data-id="${s.id}" onclick="toggleSource('${s.id}', this)">
+        ${esc(s.title)} (${s.chunk_count} chunks)
+      </span>
+    `).join('');
+  }
+
+  // Load prompt
+  const promptRes = await fetch('/api/questions/prompt');
+  const { prompt } = await promptRes.json();
+  document.getElementById('prompt-editor').value = prompt;
+  originalPrompt = prompt;
+
+  // Load questions
+  await loadQuestions();
+}
+
+function toggleSource(id, el) {
+  if (selectedSources.has(id)) {
+    selectedSources.delete(id);
+    el.classList.remove('selected');
+  } else {
+    selectedSources.add(id);
+    el.classList.add('selected');
+  }
+  document.getElementById('cost-estimate').textContent = '';
+  document.getElementById('btn-generate').disabled = selectedSources.size === 0;
+}
+
+// Prompt editor toggle
+document.getElementById('toggle-prompt').addEventListener('click', () => {
+  const sec = document.getElementById('prompt-section');
+  const open = sec.style.display === 'none';
+  sec.style.display = open ? '' : 'none';
+  document.getElementById('toggle-prompt-arrow').innerHTML = open ? '&#9660;' : '&#9654;';
+});
+
+document.getElementById('btn-save-prompt').addEventListener('click', async () => {
+  const prompt = document.getElementById('prompt-editor').value;
+  await fetch('/api/questions/prompt', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt })
+  });
+  originalPrompt = prompt;
+  toast('Prompt saved', 'success');
+});
+
+document.getElementById('btn-reset-prompt').addEventListener('click', () => {
+  document.getElementById('prompt-editor').value = originalPrompt;
+});
+
+// Estimate cost
+document.getElementById('btn-estimate').addEventListener('click', async () => {
+  if (selectedSources.size === 0) {
+    toast('Select at least one source', 'error');
+    return;
+  }
+  try {
+    const res = await fetch('/api/questions/estimate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ source_ids: [...selectedSources] })
+    });
+    const est = await res.json();
+    document.getElementById('cost-estimate').textContent =
+      `${est.chunks} chunks ~ $${est.estimated_cost_usd.toFixed(4)} · ~${Math.ceil(est.estimated_time_seconds/60)} min`;
+    document.getElementById('btn-generate').disabled = false;
+  } catch (e) {
+    toast('Estimate failed', 'error');
+  }
+});
+
+// Generate questions
+document.getElementById('btn-generate').addEventListener('click', async () => {
+  const apiKey = document.getElementById('api-key').value.trim();
+  if (!apiKey) {
+    toast('Enter your Anthropic API key', 'error');
+    return;
+  }
+  if (selectedSources.size === 0) {
+    toast('Select at least one source', 'error');
+    return;
+  }
+
+  const btn = document.getElementById('btn-generate');
+  btn.disabled = true;
+  btn.textContent = 'Generating...';
+  const progressPanel = document.getElementById('gen-progress');
+  progressPanel.style.display = '';
+
+  try {
+    const res = await fetch('/api/questions/generate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ source_ids: [...selectedSources], api_key: apiKey })
+    });
+
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+
+      const lines = buffer.split('\n');
+      buffer = lines.pop();
+
+      for (const line of lines) {
+        if (!line.startsWith('data: ')) continue;
+        try {
+          const data = JSON.parse(line.slice(6));
+          if (data.type === 'progress') {
+            const pct = Math.round((data.current / data.total) * 100);
+            document.getElementById('gen-progress-bar').style.width = pct + '%';
+            document.getElementById('gen-progress-text').textContent =
+              `Chunk ${data.current}/${data.total} · ${data.questions_generated} questions · $${data.cost_so_far} total`;
+          } else if (data.type === 'error') {
+            document.getElementById('gen-progress-text').textContent =
+              `Chunk ${data.current}/${data.total} · Error: ${data.error}`;
+          } else if (data.type === 'done') {
+            toast(`Generated ${data.total_questions} questions ($${data.total_cost})`, 'success');
+            document.getElementById('gen-progress-text').textContent =
+              `Done: ${data.total_questions} questions · $${data.total_cost} · ${data.errors} errors`;
+          }
+        } catch (e) {}
+      }
+    }
+  } catch (e) {
+    toast('Generation failed: ' + e.message, 'error');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Generate Questions';
+    loadQuestionsPage();
+  }
+});
+
+// Question filters
+document.querySelectorAll('.q-filter').forEach(f => {
+  f.addEventListener('click', () => {
+    document.querySelectorAll('.q-filter').forEach(x => x.classList.remove('active'));
+    f.classList.add('active');
+    questionFilter = f.dataset.filter;
+    renderQuestions();
+  });
+});
+
+async function loadQuestions() {
+  const res = await fetch('/api/questions');
+  allQuestions = await res.json();
+  renderQuestions();
+}
+
+function renderQuestions() {
+  const list = document.getElementById('q-list');
+  let filtered = allQuestions;
+  if (questionFilter !== 'all') {
+    filtered = allQuestions.filter(q => q.status === questionFilter);
+  }
+
+  if (!filtered.length) {
+    list.innerHTML = '<div class="empty"><p>No questions yet</p><p>Select sources and generate questions above.</p></div>';
+    return;
+  }
+
+  list.innerHTML = filtered.map(q => `
+    <div class="q-item" id="q-${q.id}">
+      <div class="q-item-header">
+        <span class="q-text" onclick="toggleEditQuestion('${q.id}')">${esc(q.text)}</span>
+        <div class="q-badges">
+          <span class="q-type q-type-${q.question_type}">${q.question_type}</span>
+          <span class="q-category">${q.category}</span>
+          <button class="btn btn-danger btn-sm" onclick="deleteQuestion('${q.id}')" title="Delete">x</button>
+        </div>
+      </div>
+      <div id="q-edit-${q.id}" style="display:none;"></div>
+    </div>
+  `).join('');
+}
+
+function toggleEditQuestion(qId) {
+  const editDiv = document.getElementById('q-edit-' + qId);
+  if (editDiv.innerHTML) {
+    editDiv.innerHTML = '';
+    editDiv.style.display = 'none';
+    return;
+  }
+
+  const q = allQuestions.find(x => x.id === qId);
+  if (!q) return;
+
+  editDiv.style.display = '';
+  editDiv.innerHTML = `
+    <div class="q-edit-form">
+      <input type="text" id="q-edit-text-${qId}" value="${esc(q.text)}" style="width:100%;">
+      <div style="display:flex;gap:8px;">
+        <select id="q-edit-type-${qId}">
+          ${['direct','situational','myth','decision','edge_case','urgency'].map(t =>
+            `<option value="${t}" ${q.question_type===t?'selected':''}>${t}</option>`
+          ).join('')}
+        </select>
+        <select id="q-edit-cat-${qId}">
+          ${['water','fire','shelter','first-aid','food','navigation','rescue','tools','climate','psychology','camouflage'].map(c =>
+            `<option value="${c}" ${q.category===c?'selected':''}>${c}</option>`
+          ).join('')}
+        </select>
+        <select id="q-edit-status-${qId}">
+          ${['pending_answer','answered','discarded'].map(s =>
+            `<option value="${s}" ${q.status===s?'selected':''}>${s}</option>`
+          ).join('')}
+        </select>
+        <button class="btn btn-primary btn-sm" onclick="saveQuestion('${qId}')">Save</button>
+      </div>
+    </div>
+  `;
+}
+
+async function saveQuestion(qId) {
+  const text = document.getElementById('q-edit-text-' + qId).value;
+  const question_type = document.getElementById('q-edit-type-' + qId).value;
+  const category = document.getElementById('q-edit-cat-' + qId).value;
+  const status = document.getElementById('q-edit-status-' + qId).value;
+
+  try {
+    await fetch(`/api/questions/${qId}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ text, question_type, category, status })
+    });
+    toast('Question updated', 'success');
+    await loadQuestions();
+  } catch (e) {
+    toast('Update failed', 'error');
+  }
+}
+
+async function deleteQuestion(qId) {
+  if (!confirm('Delete this question?')) return;
+  try {
+    await fetch(`/api/questions/${qId}`, { method: 'DELETE' });
+    allQuestions = allQuestions.filter(q => q.id !== qId);
+    renderQuestions();
+    toast('Deleted', 'success');
+  } catch (e) {
+    toast('Delete failed', 'error');
+  }
+}
+
+document.getElementById('btn-delete-all-questions').addEventListener('click', async () => {
+  if (!confirm('Delete ALL questions? This cannot be undone.')) return;
+  try {
+    await fetch('/api/questions', { method: 'DELETE' });
+    toast('All questions deleted', 'success');
+    loadQuestionsPage();
+  } catch (e) {
+    toast('Failed', 'error');
+  }
+});
+
+// ============ Answers Page ============
+
+async function loadAnswersPage() {
+  // Sync API key from questions page
+  const qKey = document.getElementById('api-key').value;
+  if (qKey) document.getElementById('api-key-answers').value = qKey;
+
+  const statsRes = await fetch('/api/stats');
+  stats = await statsRes.json();
+  updateStats();
+  document.getElementById('stat-a-pending').textContent = stats.questions_pending || 0;
+  document.getElementById('stat-a-answered').textContent = stats.qa_pairs || 0;
+  document.getElementById('stat-a-review').textContent = stats.qa_pending || 0;
+
+  // Load answer prompt
+  const promptRes = await fetch('/api/answers/prompt');
+  const { prompt } = await promptRes.json();
+  document.getElementById('answer-prompt-editor').value = prompt;
+
+  // Load pending questions
+  const pendingRes = await fetch('/api/questions?status=pending_answer');
+  const pending = await pendingRes.json();
+  renderPendingForAnswers(pending);
+
+  // Load existing answers
+  const answersRes = await fetch('/api/answers');
+  const answers = await answersRes.json();
+  renderAnswers(answers);
+}
+
+function renderPendingForAnswers(questions) {
+  const list = document.getElementById('answer-q-list');
+  if (!questions.length) {
+    list.innerHTML = '<div class="empty"><p>No pending questions</p><p>Generate questions first on the Questions page.</p></div>';
+    return;
+  }
+
+  list.innerHTML = questions.map(q => `
+    <div class="q-item">
+      <div class="q-item-header">
+        <span class="q-text">${esc(q.text)}</span>
+        <div class="q-badges">
+          <span class="q-type q-type-${q.question_type}">${q.question_type}</span>
+          <span class="q-category">${q.category}</span>
+          <button class="btn btn-outline btn-sm" onclick="previewChunks('${q.id}')">Preview Chunks</button>
+          <button class="btn btn-primary btn-sm" onclick="generateSingleAnswer('${q.id}')">Generate</button>
+        </div>
+      </div>
+      <div id="preview-${q.id}" style="display:none;"></div>
+    </div>
+  `).join('');
+}
+
+function renderAnswers(answers) {
+  const list = document.getElementById('answers-list');
+  if (!answers.length) {
+    list.innerHTML = '';
+    return;
+  }
+
+  list.innerHTML = answers.map(a => `
+    <div class="answer-card">
+      <div class="answer-question">${esc(a.question)}</div>
+      <div class="answer-short">${esc(a.answer_short)}</div>
+      <div class="answer-meta">
+        <span class="q-type q-type-${a.question_type}">${a.question_type}</span>
+        <span class="q-category">${a.category}</span>
+        <span class="status status-${a.status === 'pending_review' ? 'uploaded' : 'indexed'}">${a.status}</span>
+        ${(a.tags || []).map(t => `<span style="font-size:11px;color:#666;">#${t}</span>`).join(' ')}
+        <span class="answer-toggle" onclick="this.parentElement.previousElementSibling.previousElementSibling.classList.toggle('expanded');this.textContent=this.textContent==='Show full answer'?'Hide':'Show full answer'">Show full answer</span>
+      </div>
+      <div class="answer-full">${esc(a.answer)}</div>
+      <div class="answer-sources">Confidence: ${a.confidence} · Urgency: ${a.urgency} · Sources: ${(a.sources_used||[]).length}</div>
+    </div>
+  `).join('');
+}
+
+async function previewChunks(qId) {
+  const el = document.getElementById('preview-' + qId);
+  if (el.style.display !== 'none') {
+    el.style.display = 'none';
+    el.innerHTML = '';
+    return;
+  }
+
+  el.style.display = '';
+  el.innerHTML = '<span style="color:#888;font-size:13px;">Loading chunks...</span>';
+
+  try {
+    const res = await fetch(`/api/answers/preview/${qId}`, { method: 'POST' });
+    const data = await res.json();
+    el.innerHTML = `
+      <div class="chunks-panel" style="margin-top:8px;">
+        <div style="margin-bottom:8px;font-size:13px;color:#888;">${data.chunks.length} relevant chunks</div>
+        ${data.chunks.map((c, i) => `
+          <div class="chunk-item">
+            <div class="chunk-meta">#${i+1} · ${c.chapter ? esc(c.chapter) : 'No chapter'}${c.section ? ' > ' + esc(c.section) : ''} · ${c.token_count} tokens · ${c.source_id}</div>
+            <div class="chunk-text" onclick="this.classList.toggle('expanded')">${esc(c.text)}</div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+  } catch (e) {
+    el.innerHTML = `<span style="color:#e74c3c;font-size:13px;">Failed to load: ${e.message}</span>`;
+  }
+}
+
+async function generateSingleAnswer(qId) {
+  const apiKey = document.getElementById('api-key-answers').value.trim();
+  if (!apiKey) {
+    toast('Enter your Anthropic API key', 'error');
+    return;
+  }
+
+  try {
+    toast('Generating answer...', 'success');
+    const res = await fetch(`/api/answers/generate-single/${qId}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ api_key: apiKey })
+    });
+    if (!res.ok) {
+      const err = await res.json();
+      throw new Error(err.detail || 'Generation failed');
+    }
+    const data = await res.json();
+    toast(`Answer generated ($${data.usage.cost_estimate.toFixed(4)})`, 'success');
+    loadAnswersPage();
+  } catch (e) {
+    toast(e.message, 'error');
+  }
+}
+
+document.getElementById('btn-delete-all-answers').addEventListener('click', async () => {
+  if (!confirm('Delete ALL answers? This cannot be undone.')) return;
+  try {
+    await fetch('/api/answers', { method: 'DELETE' });
+    toast('All answers deleted', 'success');
+    loadAnswersPage();
+  } catch (e) {
+    toast('Failed', 'error');
+  }
+});
+
+// Answer prompt toggle
+document.getElementById('toggle-answer-prompt').addEventListener('click', () => {
+  const sec = document.getElementById('answer-prompt-section');
+  const open = sec.style.display === 'none';
+  sec.style.display = open ? '' : 'none';
+  document.getElementById('toggle-answer-prompt-arrow').innerHTML = open ? '&#9660;' : '&#9654;';
+});
+
+document.getElementById('btn-save-answer-prompt').addEventListener('click', async () => {
+  const prompt = document.getElementById('answer-prompt-editor').value;
+  await fetch('/api/answers/prompt', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ prompt })
+  });
+  toast('Answer prompt saved', 'success');
+});
+
+// Estimate answers cost
+document.getElementById('btn-estimate-answers').addEventListener('click', async () => {
+  try {
+    const res = await fetch('/api/answers/estimate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({})
+    });
+    const est = await res.json();
+    document.getElementById('answer-cost-estimate').textContent =
+      `${est.questions} questions ~ $${est.estimated_cost_usd.toFixed(4)} · ~${Math.ceil(est.estimated_time_seconds/60)} min`;
+  } catch (e) {
+    toast('Estimate failed', 'error');
+  }
+});
+
+// Batch generate answers
+document.getElementById('btn-generate-answers').addEventListener('click', async () => {
+  const apiKey = document.getElementById('api-key-answers').value.trim();
+  if (!apiKey) {
+    toast('Enter your Anthropic API key', 'error');
+    return;
+  }
+
+  const btn = document.getElementById('btn-generate-answers');
+  btn.disabled = true;
+  btn.textContent = 'Generating...';
+  const progressPanel = document.getElementById('answer-progress');
+  progressPanel.style.display = '';
+
+  try {
+    const res = await fetch('/api/answers/generate', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ api_key: apiKey })
+    });
+
+    const reader = res.body.getReader();
+    const decoder = new TextDecoder();
+    let buffer = '';
+
+    while (true) {
+      const { done, value } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+
+      const lines = buffer.split('\n');
+      buffer = lines.pop();
+
+      for (const line of lines) {
+        if (!line.startsWith('data: ')) continue;
+        try {
+          const data = JSON.parse(line.slice(6));
+          if (data.type === 'progress') {
+            const pct = Math.round((data.current / data.total) * 100);
+            document.getElementById('answer-progress-bar').style.width = pct + '%';
+            document.getElementById('answer-progress-text').textContent =
+              `${data.current}/${data.total} · ${data.question.substring(0, 60)}... · $${data.cost_so_far}`;
+          } else if (data.type === 'error') {
+            document.getElementById('answer-progress-text').textContent =
+              `${data.current}/${data.total} · Error: ${data.error}`;
+          } else if (data.type === 'done') {
+            toast(`Generated ${data.total_answers} answers ($${data.total_cost})`, 'success');
+            document.getElementById('answer-progress-text').textContent =
+              `Done: ${data.total_answers} answers · $${data.total_cost} · ${data.errors} errors`;
+          }
+        } catch (e) {}
+      }
+    }
+  } catch (e) {
+    toast('Generation failed: ' + e.message, 'error');
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Generate All Answers';
+    loadAnswersPage();
+  }
+});
+
+// ============ Review Page ============
+let reviewFilter = 'pending_review';
+let allReviewItems = [];
+
+document.querySelectorAll('[data-rfilter]').forEach(f => {
+  f.addEventListener('click', () => {
+    document.querySelectorAll('[data-rfilter]').forEach(x => x.classList.remove('active'));
+    f.classList.add('active');
+    reviewFilter = f.dataset.rfilter;
+    renderReview();
+  });
+});
+
+async function loadReviewPage() {
+  const statsRes = await fetch('/api/stats');
+  stats = await statsRes.json();
+  updateStats();
+
+  const allRes = await fetch('/api/answers');
+  allReviewItems = await allRes.json();
+
+  const pending = allReviewItems.filter(q => q.status === 'pending_review').length;
+  const approved = allReviewItems.filter(q => q.status === 'approved').length;
+  const discarded = allReviewItems.filter(q => q.status === 'discarded').length;
+
+  document.getElementById('stat-r-pending').textContent = pending;
+  document.getElementById('stat-r-approved').textContent = approved;
+  document.getElementById('stat-r-discarded').textContent = discarded;
+  document.getElementById('stat-r-total').textContent = allReviewItems.length;
+
+  renderReview();
+}
+
+function renderReview() {
+  const list = document.getElementById('review-list');
+  let filtered = allReviewItems;
+  if (reviewFilter !== 'all') {
+    filtered = allReviewItems.filter(q => q.status === reviewFilter);
+  }
+
+  if (!filtered.length) {
+    list.innerHTML = '<div class="empty"><p>No Q&A pairs to review</p></div>';
+    return;
+  }
+
+  list.innerHTML = filtered.map(qa => `
+    <div class="review-card ${qa.status}" id="rv-${qa.id}">
+      <div class="review-question">${esc(qa.question)}</div>
+      <div class="review-answer-short">${esc(qa.answer_short)}</div>
+      <div class="review-meta">
+        <span class="q-type q-type-${qa.question_type}">${qa.question_type}</span>
+        <span class="q-category">${qa.category}</span>
+        <span class="status status-${qa.status === 'approved' ? 'indexed' : qa.status === 'discarded' ? 'error' : 'uploaded'}">${qa.status.replace('_', ' ')}</span>
+        <span style="font-size:11px;color:#666;">confidence: ${qa.confidence}</span>
+        <span style="font-size:11px;color:#666;">urgency: ${qa.urgency}</span>
+        ${(qa.tags || []).map(t => `<span style="font-size:11px;color:#555;">#${t}</span>`).join(' ')}
+        <span class="answer-toggle" onclick="toggleReviewAnswer('${qa.id}')">Show full answer</span>
+      </div>
+      <div class="review-answer" id="rv-answer-${qa.id}">${esc(qa.answer)}</div>
+      <div class="review-actions">
+        ${qa.status !== 'approved' ? `<button class="btn btn-primary btn-sm" onclick="reviewAction('${qa.id}','approved')">Approve</button>` : ''}
+        ${qa.status !== 'discarded' ? `<button class="btn btn-outline btn-sm" onclick="reviewAction('${qa.id}','discarded')">Discard</button>` : ''}
+        ${qa.status !== 'pending_review' ? `<button class="btn btn-outline btn-sm" onclick="reviewAction('${qa.id}','pending_review')">Back to Pending</button>` : ''}
+        <button class="btn btn-outline btn-sm" onclick="toggleEditQA('${qa.id}')">Edit</button>
+        <button class="btn btn-danger btn-sm" onclick="deleteQA('${qa.id}')">Delete</button>
+      </div>
+      <div id="rv-edit-${qa.id}" style="display:none;"></div>
+    </div>
+  `).join('');
+}
+
+function toggleReviewAnswer(qaId) {
+  const el = document.getElementById('rv-answer-' + qaId);
+  el.classList.toggle('expanded');
+}
+
+async function reviewAction(qaId, status) {
+  try {
+    await fetch(`/api/review/${qaId}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ status })
+    });
+    toast(`${status.replace('_', ' ')}`, 'success');
+    loadReviewPage();
+  } catch (e) {
+    toast('Action failed', 'error');
+  }
+}
+
+function toggleEditQA(qaId) {
+  const editDiv = document.getElementById('rv-edit-' + qaId);
+  if (editDiv.innerHTML) {
+    editDiv.innerHTML = '';
+    editDiv.style.display = 'none';
+    return;
+  }
+
+  const qa = allReviewItems.find(x => x.id === qaId);
+  if (!qa) return;
+
+  const cats = ['water','fire','shelter','first-aid','food','navigation','rescue','tools','climate','psychology','camouflage'];
+
+  editDiv.style.display = '';
+  editDiv.innerHTML = `
+    <div class="review-edit">
+      <label style="font-size:12px;color:#888;">Answer:</label>
+      <textarea id="rv-ed-answer-${qaId}">${esc(qa.answer)}</textarea>
+      <label style="font-size:12px;color:#888;">Short answer:</label>
+      <input id="rv-ed-short-${qaId}" value="${esc(qa.answer_short)}">
+      <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:8px;">
+        <select id="rv-ed-cat-${qaId}">
+          ${cats.map(c => `<option value="${c}" ${qa.category===c?'selected':''}>${c}</option>`).join('')}
+        </select>
+        <select id="rv-ed-urgency-${qaId}">
+          ${['low','medium','high'].map(u => `<option value="${u}" ${qa.urgency===u?'selected':''}>${u}</option>`).join('')}
+        </select>
+        <select id="rv-ed-confidence-${qaId}">
+          ${['low','medium','high'].map(c => `<option value="${c}" ${qa.confidence===c?'selected':''}>${c}</option>`).join('')}
+        </select>
+      </div>
+      <label style="font-size:12px;color:#888;">Tags (comma-separated):</label>
+      <input id="rv-ed-tags-${qaId}" value="${(qa.tags||[]).join(', ')}">
+      <div style="margin-top:8px;">
+        <button class="btn btn-primary btn-sm" onclick="saveEditQA('${qaId}')">Save Changes</button>
+      </div>
+    </div>
+  `;
+}
+
+async function saveEditQA(qaId) {
+  const answer = document.getElementById('rv-ed-answer-' + qaId).value;
+  const answer_short = document.getElementById('rv-ed-short-' + qaId).value;
+  const category = document.getElementById('rv-ed-cat-' + qaId).value;
+  const urgency = document.getElementById('rv-ed-urgency-' + qaId).value;
+  const confidence = document.getElementById('rv-ed-confidence-' + qaId).value;
+  const tagsStr = document.getElementById('rv-ed-tags-' + qaId).value;
+  const tags = tagsStr.split(',').map(t => t.trim()).filter(Boolean);
+
+  try {
+    await fetch(`/api/review/${qaId}`, {
+      method: 'PUT',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ answer, answer_short, category, urgency, confidence, tags })
+    });
+    toast('Saved', 'success');
+    loadReviewPage();
+  } catch (e) {
+    toast('Save failed', 'error');
+  }
+}
+
+async function deleteQA(qaId) {
+  if (!confirm('Delete this Q&A pair?')) return;
+  try {
+    await fetch(`/api/review/${qaId}`, { method: 'DELETE' });
+    toast('Deleted', 'success');
+    loadReviewPage();
+  } catch (e) {
+    toast('Delete failed', 'error');
+  }
+}
+
+document.getElementById('btn-bulk-approve').addEventListener('click', async () => {
+  if (!confirm('Approve all pending Q&A pairs?')) return;
+  try {
+    const res = await fetch('/api/review/bulk-approve', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({})
+    });
+    const data = await res.json();
+    toast(`Approved ${data.approved} pairs`, 'success');
+    loadReviewPage();
+  } catch (e) {
+    toast('Bulk approve failed', 'error');
+  }
+});
+
+// ============ Export Page ============
+
+async function loadExportPage() {
+  try {
+    const res = await fetch('/api/export/stats');
+    const exportStats = await res.json();
+
+    document.getElementById('stat-e-approved').textContent = exportStats.total_approved;
+    document.getElementById('stat-e-sources').textContent = exportStats.sources_used;
+
+    // Render category breakdown
+    const catBar = document.getElementById('export-categories');
+    const cats = exportStats.categories || {};
+    if (Object.keys(cats).length) {
+      catBar.innerHTML = Object.entries(cats)
+        .sort((a, b) => b[1] - a[1])
+        .map(([cat, count]) => `
+          <div class="cat-item">
+            <div class="cat-count">${count}</div>
+            <div class="cat-name">${cat}</div>
+          </div>
+        `).join('');
+    } else {
+      catBar.innerHTML = '<span style="color:#666;font-size:13px;">No approved Q&A pairs yet.</span>';
+    }
+
+    // Update nav badge
+    const statsRes = await fetch('/api/stats');
+    stats = await statsRes.json();
+    updateStats();
+  } catch (e) {
+    toast('Failed to load export stats', 'error');
+  }
+}
+
+document.getElementById('btn-export-preview').addEventListener('click', async () => {
+  try {
+    const res = await fetch('/api/export');
+    const data = await res.json();
+    const preview = document.getElementById('export-preview');
+    preview.style.display = '';
+    document.getElementById('export-preview-content').textContent =
+      JSON.stringify(data, null, 2);
+  } catch (e) {
+    toast('Preview failed', 'error');
+  }
+});
+
+document.getElementById('btn-export-download').addEventListener('click', async () => {
+  try {
+    const res = await fetch('/api/export/download', { method: 'POST' });
+    const blob = await res.blob();
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = 'tiny-expert-qa-export.json';
+    a.click();
+    URL.revokeObjectURL(url);
+    toast('Downloaded', 'success');
+  } catch (e) {
+    toast('Download failed', 'error');
+  }
+});
+
+document.getElementById('btn-export-copy').addEventListener('click', async () => {
+  try {
+    const res = await fetch('/api/export');
+    const data = await res.json();
+    const text = JSON.stringify(data, null, 2);
+    await navigator.clipboard.writeText(text);
+    toast('Copied to clipboard', 'success');
+  } catch (e) {
+    toast('Copy failed — use Download instead', 'error');
+  }
+});
+
+// ============ Utilities ============
+function esc(s) {
+  const d = document.createElement('div');
+  d.textContent = s || '';
+  return d.innerHTML;
+}
+
+function toast(msg, type = 'success') {
+  const t = document.createElement('div');
+  t.className = `toast toast-${type}`;
+  t.textContent = msg;
+  document.body.appendChild(t);
+  setTimeout(() => t.remove(), 4000);
+}
+
+// ============ Init ============
+loadSources();
+</script>
+</body>
+</html>
